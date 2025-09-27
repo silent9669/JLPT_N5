@@ -328,6 +328,9 @@ class JLPTApp {
             this.vocabData = data.vocabulary || [];
             this.filteredVocabData = [...this.vocabData];
             
+            console.log('Loaded vocabulary data:', this.vocabData.length, 'words');
+            console.log('First few words:', this.vocabData.slice(0, 3));
+            
             this.updateVocabStats();
             this.renderVocabularyTable();
         } catch (error) {
@@ -393,6 +396,8 @@ class JLPTApp {
     }
 
     renderVocabularyTable() {
+        console.log('renderVocabularyTable called - filteredVocabData length:', this.filteredVocabData.length);
+        
         // Try multiple containers
         let container = document.getElementById('vocabularyDatabase');
         if (!container) {
@@ -411,6 +416,8 @@ class JLPTApp {
             container.innerHTML = '<div class="loading-message">No vocabulary found matching your search criteria.</div>';
             return;
         }
+        
+        console.log('Rendering table with', this.filteredVocabData.length, 'words');
         
         // Create clean table with all words (unlimited scrolling)
         const tableHTML = `
@@ -443,6 +450,7 @@ class JLPTApp {
         `;
         
         container.innerHTML = tableHTML;
+        console.log('Table rendered with', container.querySelectorAll('tbody tr').length, 'rows');
     }
 
     // Quiz functionality (simplified)
