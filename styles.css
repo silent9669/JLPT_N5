@@ -915,50 +915,68 @@ body {
     padding: 2rem;
 }
 
-.vocab-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 1.5rem;
+.vocab-list {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
 
 .vocab-item {
-    background: #f8f9fa;
-    padding: 1.5rem;
-    border-radius: 12px;
-    border-left: 4px solid #4CAF50;
-    transition: transform 0.3s ease;
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid #e0e0e0;
+    transition: background-color 0.3s ease;
 }
 
 .vocab-item:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    background-color: #f8f9fa;
+}
+
+.vocab-item:last-child {
+    border-bottom: none;
+}
+
+.vocab-number {
+    width: 60px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #4CAF50;
+    text-align: center;
+    margin-right: 1rem;
+    flex-shrink: 0;
+}
+
+.vocab-content {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+    gap: 1rem;
+    align-items: center;
 }
 
 .vocab-kanji {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 600;
     color: #333;
-    margin-bottom: 0.5rem;
 }
 
 .vocab-hiragana {
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #666;
-    margin-bottom: 0.5rem;
 }
 
 .vocab-romaji {
     font-size: 0.9rem;
     color: #999;
     font-style: italic;
-    margin-bottom: 0.5rem;
 }
 
 .vocab-english {
     font-size: 1rem;
     color: #333;
     font-weight: 500;
-    margin-bottom: 0.5rem;
 }
 
 .vocab-level {
@@ -969,6 +987,33 @@ body {
     border-radius: 15px;
     font-size: 0.8rem;
     font-weight: 500;
+    margin-left: 1rem;
+    flex-shrink: 0;
+}
+
+/* Responsive adjustments for vocab list */
+@media (max-width: 768px) {
+    .vocab-content {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+    }
+    
+    .vocab-item {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem;
+    }
+    
+    .vocab-number {
+        width: auto;
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+    }
+    
+    .vocab-level {
+        margin-left: 0;
+        margin-top: 0.5rem;
+    }
 }
 
 /* Review Area */

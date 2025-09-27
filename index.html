@@ -167,16 +167,16 @@
                 </div>
             </section>
 
-            <!-- Vocabulary Database Section -->
+            <!-- N5 Vocab List Section -->
             <section id="vocabulary" class="section">
                 <div class="section-header">
-                    <h2>N5 Vocabulary Database</h2>
+                    <h2>N5 Vocab List</h2>
                     <div class="vocab-controls">
                         <div class="search-box">
-                            <input type="text" id="vocabSearch" placeholder="Search vocabulary..." />
+                            <input type="text" id="vocabSearch" placeholder="Search by word number or romaji..." />
                             <button class="btn secondary" id="searchBtn">Search</button>
                         </div>
-                        <button class="btn primary" id="loadAllVocabBtn">Load All N5 Words</button>
+                        <button class="btn primary" id="loadAllVocabBtn">Load N5 Vocab List</button>
                     </div>
                 </div>
 
@@ -187,36 +187,13 @@
                             <span class="stat-value" id="totalVocabCount">0</span>
                         </div>
                         <div class="stat-item">
-                            <span class="stat-label">Filtered:</span>
+                            <span class="stat-label">Showing:</span>
                             <span class="stat-value" id="filteredVocabCount">0</span>
                         </div>
                     </div>
 
-                    <div class="vocab-filters">
-                        <div class="filter-group">
-                            <label for="levelFilter">Level:</label>
-                            <select id="levelFilter">
-                                <option value="">All Levels</option>
-                                <option value="N5" selected>N5</option>
-                                <option value="N4">N4</option>
-                                <option value="N3">N3</option>
-                                <option value="N2">N2</option>
-                                <option value="N1">N1</option>
-                            </select>
-                        </div>
-                        <div class="filter-group">
-                            <label for="sortBy">Sort by:</label>
-                            <select id="sortBy">
-                                <option value="kanji">Kanji</option>
-                                <option value="hiragana">Hiragana</option>
-                                <option value="english">English</option>
-                                <option value="level">Level</option>
-                            </select>
-                        </div>
-                    </div>
-
                     <div id="vocabularyDatabase" class="vocab-database">
-                        <div class="loading-message">Click "Load All N5 Words" to start exploring the vocabulary database.</div>
+                        <div class="loading-message">Click "Load N5 Vocab List" to start exploring the vocabulary list.</div>
                     </div>
                 </div>
             </section>

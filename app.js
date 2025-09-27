@@ -90,13 +90,6 @@ class JLPTApp {
             }
         });
 
-        document.getElementById('levelFilter').addEventListener('change', () => {
-            this.filterVocabulary();
-        });
-
-        document.getElementById('sortBy').addEventListener('change', () => {
-            this.sortVocabulary();
-        });
 
         // Quick actions
         window.startDailyStudy = () => this.showSection('daily');
@@ -531,79 +524,110 @@ class JLPTApp {
         return shuffled;
     }
 
-    // Vocabulary API Integration
+    // N5 Vocabulary List Integration
     async loadVocabularyFromAPI() {
         try {
             document.getElementById('vocabularyDatabase').innerHTML = 
-                '<div class="loading-message">Loading vocabulary from API...</div>';
+                '<div class="loading-message">Loading N5 vocabulary list...</div>';
             
-            const response = await fetch(`${this.apiBaseUrl}/vocab?level=N5`);
-            const data = await response.json();
+            // Try multiple API endpoints
+            let response;
+            let data;
             
-            this.vocabData = data.data || data;
+            try {
+                // Try the main API endpoint
+                response = await fetch(`${this.apiBaseUrl}/vocab?level=N5`);
+                data = await response.json();
+            } catch (error) {
+                console.log('Main API failed, trying alternative endpoint...');
+                // Try alternative endpoint
+                response = await fetch(`${this.apiBaseUrl}/n5`);
+                data = await response.json();
+            }
+            
+            // Handle different response formats
+            if (data.data) {
+                this.vocabData = data.data;
+            } else if (Array.isArray(data)) {
+                this.vocabData = data;
+            } else {
+                throw new Error('Unexpected API response format');
+            }
+            
+            // Filter for N5 level if not already filtered
+            this.vocabData = this.vocabData.filter(word => 
+                !word.level || word.level === 'N5' || word.level === 'n5'
+            );
+            
+            // Add numbering to each word
+            this.vocabData = this.vocabData.map((word, index) => ({
+                ...word,
+                number: index + 1
+            }));
+            
             this.filteredVocabData = [...this.vocabData];
             
             this.updateVocabStats();
-            this.renderVocabularyDatabase();
+            this.renderVocabularyList();
         } catch (error) {
             console.error('Error loading vocabulary from API:', error);
-            document.getElementById('vocabularyDatabase').innerHTML = 
-                '<div class="loading-message">Error loading vocabulary. Please try again later.</div>';
+            // Fallback to local data if API fails
+            this.loadLocalVocabulary();
         }
     }
 
+    loadLocalVocabulary() {
+        // Fallback: Load from local JSON file
+        fetch('jlpt_n5_vocabulary_database.json')
+            .then(response => response.json())
+            .then(data => {
+                this.vocabData = data.vocabulary || [];
+                this.vocabData = this.vocabData.map((word, index) => ({
+                    ...word,
+                    number: index + 1
+                }));
+                this.filteredVocabData = [...this.vocabData];
+                this.updateVocabStats();
+                this.renderVocabularyList();
+            })
+            .catch(error => {
+                console.error('Error loading local vocabulary:', error);
+                document.getElementById('vocabularyDatabase').innerHTML = 
+                    '<div class="loading-message">Unable to load vocabulary data. Please check your internet connection and try again.</div>';
+            });
+    }
+
     searchVocabulary() {
-        const searchTerm = document.getElementById('vocabSearch').value.toLowerCase();
+        const searchTerm = document.getElementById('vocabSearch').value.toLowerCase().trim();
         
         if (!searchTerm) {
             this.filteredVocabData = [...this.vocabData];
         } else {
-            this.filteredVocabData = this.vocabData.filter(word => 
-                word.kanji.toLowerCase().includes(searchTerm) ||
-                word.hiragana.toLowerCase().includes(searchTerm) ||
-                word.romaji.toLowerCase().includes(searchTerm) ||
-                word.english.toLowerCase().includes(searchTerm)
-            );
+            this.filteredVocabData = this.vocabData.filter(word => {
+                // Search by word number
+                if (word.number && word.number.toString().includes(searchTerm)) {
+                    return true;
+                }
+                // Search by romaji
+                if (word.romaji && word.romaji.toLowerCase().includes(searchTerm)) {
+                    return true;
+                }
+                // Search by other fields as well
+                if (word.kanji && word.kanji.toLowerCase().includes(searchTerm)) {
+                    return true;
+                }
+                if (word.hiragana && word.hiragana.toLowerCase().includes(searchTerm)) {
+                    return true;
+                }
+                if (word.english && word.english.toLowerCase().includes(searchTerm)) {
+                    return true;
+                }
+                return false;
+            });
         }
         
         this.updateVocabStats();
-        this.renderVocabularyDatabase();
-    }
-
-    filterVocabulary() {
-        const level = document.getElementById('levelFilter').value;
-        
-        if (!level) {
-            this.filteredVocabData = [...this.vocabData];
-        } else {
-            this.filteredVocabData = this.vocabData.filter(word => 
-                word.level === level
-            );
-        }
-        
-        this.updateVocabStats();
-        this.renderVocabularyDatabase();
-    }
-
-    sortVocabulary() {
-        const sortBy = document.getElementById('sortBy').value;
-        
-        this.filteredVocabData.sort((a, b) => {
-            switch (sortBy) {
-                case 'kanji':
-                    return a.kanji.localeCompare(b.kanji);
-                case 'hiragana':
-                    return a.hiragana.localeCompare(b.hiragana);
-                case 'english':
-                    return a.english.localeCompare(b.english);
-                case 'level':
-                    return a.level.localeCompare(b.level);
-                default:
-                    return 0;
-            }
-        });
-        
-        this.renderVocabularyDatabase();
+        this.renderVocabularyList();
     }
 
     updateVocabStats() {
@@ -611,23 +635,26 @@ class JLPTApp {
         document.getElementById('filteredVocabCount').textContent = this.filteredVocabData.length;
     }
 
-    renderVocabularyDatabase() {
+    renderVocabularyList() {
         const container = document.getElementById('vocabularyDatabase');
         
         if (this.filteredVocabData.length === 0) {
-            container.innerHTML = '<div class="loading-message">No vocabulary found matching your criteria.</div>';
+            container.innerHTML = '<div class="loading-message">No vocabulary found matching your search criteria.</div>';
             return;
         }
         
         container.innerHTML = `
-            <div class="vocab-grid">
+            <div class="vocab-list">
                 ${this.filteredVocabData.map(word => `
                     <div class="vocab-item">
-                        <div class="vocab-kanji">${word.kanji || '-'}</div>
-                        <div class="vocab-hiragana">${word.hiragana || '-'}</div>
-                        <div class="vocab-romaji">${word.romaji || '-'}</div>
-                        <div class="vocab-english">${word.english || '-'}</div>
-                        <div class="vocab-level">${word.level || 'N5'}</div>
+                        <div class="vocab-number">${word.number}</div>
+                        <div class="vocab-content">
+                            <div class="vocab-kanji">${word.kanji || '-'}</div>
+                            <div class="vocab-hiragana">${word.hiragana || '-'}</div>
+                            <div class="vocab-romaji">${word.romaji || '-'}</div>
+                            <div class="vocab-english">${word.english || '-'}</div>
+                        </div>
+                        <div class="vocab-level">N5</div>
                     </div>
                 `).join('')}
             </div>
