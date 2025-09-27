@@ -16,8 +16,8 @@
                 <nav class="nav">
                     <button class="nav-btn active" data-section="dashboard">Dashboard</button>
                     <button class="nav-btn" data-section="daily">Daily Study</button>
+                    <button class="nav-btn" data-section="vocabulary">Vocabulary</button>
                     <button class="nav-btn" data-section="quiz">Quiz</button>
-                    <button class="nav-btn" data-section="progress">Progress</button>
                 </nav>
             </div>
         </header>
@@ -60,10 +60,6 @@
                         <button class="action-btn secondary" onclick="takeQuiz()">
                             <span class="btn-icon">📝</span>
                             Take Quiz
-                        </button>
-                        <button class="action-btn secondary" onclick="viewProgress()">
-                            <span class="btn-icon">📊</span>
-                            View Progress
                         </button>
                     </div>
                 </div>
@@ -133,10 +129,9 @@
                         <div id="vocabulary" class="tab-panel active">
                             <div class="study-header">
                                 <h3>Vocabulary</h3>
-                                <div class="study-stats">
-                                    <span class="stat">Words: <span id="vocabCount">0</span></span>
-                                    <span class="stat">Category: <span id="vocabCategory">-</span></span>
-                                </div>
+                            <div class="study-stats">
+                                <span class="stat">Words: <span id="vocabCount">0</span></span>
+                            </div>
                             </div>
                             <div id="vocabularyList" class="word-list">
                                 <!-- Vocabulary words will be loaded here -->
@@ -160,10 +155,9 @@
                         <div id="grammar" class="tab-panel">
                             <div class="study-header">
                                 <h3>Grammar</h3>
-                                <div class="study-stats">
-                                    <span class="stat">Points: <span id="grammarCount">0</span></span>
-                                    <span class="stat">Category: <span id="grammarCategory">-</span></span>
-                                </div>
+                            <div class="study-stats">
+                                <span class="stat">Points: <span id="grammarCount">0</span></span>
+                            </div>
                             </div>
                             <div id="grammarList" class="grammar-list">
                                 <!-- Grammar points will be loaded here -->
@@ -173,40 +167,72 @@
                 </div>
             </section>
 
+            <!-- Vocabulary Database Section -->
+            <section id="vocabulary" class="section">
+                <div class="section-header">
+                    <h2>N5 Vocabulary Database</h2>
+                    <div class="vocab-controls">
+                        <div class="search-box">
+                            <input type="text" id="vocabSearch" placeholder="Search vocabulary..." />
+                            <button class="btn secondary" id="searchBtn">Search</button>
+                        </div>
+                        <button class="btn primary" id="loadAllVocabBtn">Load All N5 Words</button>
+                    </div>
+                </div>
+
+                <div class="vocab-content">
+                    <div class="vocab-stats">
+                        <div class="stat-item">
+                            <span class="stat-label">Total Words:</span>
+                            <span class="stat-value" id="totalVocabCount">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Filtered:</span>
+                            <span class="stat-value" id="filteredVocabCount">0</span>
+                        </div>
+                    </div>
+
+                    <div class="vocab-filters">
+                        <div class="filter-group">
+                            <label for="levelFilter">Level:</label>
+                            <select id="levelFilter">
+                                <option value="">All Levels</option>
+                                <option value="N5" selected>N5</option>
+                                <option value="N4">N4</option>
+                                <option value="N3">N3</option>
+                                <option value="N2">N2</option>
+                                <option value="N1">N1</option>
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <label for="sortBy">Sort by:</label>
+                            <select id="sortBy">
+                                <option value="kanji">Kanji</option>
+                                <option value="hiragana">Hiragana</option>
+                                <option value="english">English</option>
+                                <option value="level">Level</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div id="vocabularyDatabase" class="vocab-database">
+                        <div class="loading-message">Click "Load All N5 Words" to start exploring the vocabulary database.</div>
+                    </div>
+                </div>
+            </section>
+
             <!-- Quiz Section -->
             <section id="quiz" class="section">
                 <div class="section-header">
                     <h2>Quiz</h2>
-                    <div class="quiz-controls">
-                        <button class="btn secondary" id="quizSettingsBtn">Settings</button>
-                        <button class="btn primary" id="startQuizBtn">Start Quiz</button>
-                    </div>
                 </div>
 
                 <div class="quiz-content">
                     <div id="quizSettings" class="quiz-settings">
-                        <h3>Quiz Settings</h3>
+                        <h3>Start Quiz</h3>
+                        <p>Choose a day to take a 30-question mixed quiz covering vocabulary, kanji, and grammar from that day's content.</p>
                         <div class="setting-group">
-                            <label for="quizType">Quiz Type:</label>
-                            <select id="quizType">
-                                <option value="daily">Daily Quiz</option>
-                                <option value="vocabulary">Vocabulary Only</option>
-                                <option value="kanji">Kanji Only</option>
-                                <option value="grammar">Grammar Only</option>
-                                <option value="mixed">Mixed Review</option>
-                            </select>
-                        </div>
-                        <div class="setting-group">
-                            <label for="questionCount">Number of Questions:</label>
-                            <select id="questionCount">
-                                <option value="10">10 Questions</option>
-                                <option value="20">20 Questions</option>
-                                <option value="30" selected>30 Questions</option>
-                                <option value="50">50 Questions</option>
-                            </select>
-                        </div>
-                        <div class="setting-group">
-                            <label for="quizDay">Day (for Daily Quiz):</label>
+                            <label for="quizDay">Select Day:</label>
                             <select id="quizDay">
                                 <option value="1">Day 1</option>
                                 <option value="2">Day 2</option>
@@ -240,6 +266,7 @@
                                 <option value="30">Day 30</option>
                             </select>
                         </div>
+                        <button class="btn primary" id="startQuizBtn">Start Quiz</button>
                     </div>
 
                     <div id="quizArea" class="quiz-area hidden">
@@ -289,67 +316,17 @@
                         </div>
                         <div class="result-actions">
                             <button class="btn primary" id="retakeQuizBtn">Retake Quiz</button>
-                            <button class="btn secondary" id="reviewAnswersBtn">Review Answers</button>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Progress Section -->
-            <section id="progress" class="section">
-                <div class="section-header">
-                    <h2>Progress</h2>
-                </div>
-                <div class="progress-content">
-                    <div class="progress-overview">
-                        <h3>Study Overview</h3>
-                        <div class="progress-stats">
-                            <div class="progress-stat">
-                                <div class="progress-circle">
-                                    <svg viewBox="0 0 100 100">
-                                        <circle cx="50" cy="50" r="45" fill="none" stroke="#e0e0e0" stroke-width="8"/>
-                                        <circle cx="50" cy="50" r="45" fill="none" stroke="#4CAF50" stroke-width="8" 
-                                                stroke-dasharray="283" stroke-dashoffset="226" id="vocabProgressCircle"/>
-                                    </svg>
-                                    <div class="progress-text">
-                                        <span class="progress-number" id="vocabProgressNumber">0</span>
-                                        <span class="progress-label">Vocabulary</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="progress-stat">
-                                <div class="progress-circle">
-                                    <svg viewBox="0 0 100 100">
-                                        <circle cx="50" cy="50" r="45" fill="none" stroke="#e0e0e0" stroke-width="8"/>
-                                        <circle cx="50" cy="50" r="45" fill="none" stroke="#2196F3" stroke-width="8" 
-                                                stroke-dasharray="283" stroke-dashoffset="226" id="kanjiProgressCircle"/>
-                                    </svg>
-                                    <div class="progress-text">
-                                        <span class="progress-number" id="kanjiProgressNumber">0</span>
-                                        <span class="progress-label">Kanji</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="progress-stat">
-                                <div class="progress-circle">
-                                    <svg viewBox="0 0 100 100">
-                                        <circle cx="50" cy="50" r="45" fill="none" stroke="#e0e0e0" stroke-width="8"/>
-                                        <circle cx="50" cy="50" r="45" fill="none" stroke="#FF9800" stroke-width="8" 
-                                                stroke-dasharray="283" stroke-dashoffset="226" id="grammarProgressCircle"/>
-                                    </svg>
-                                    <div class="progress-text">
-                                        <span class="progress-number" id="grammarProgressNumber">0</span>
-                                        <span class="progress-label">Grammar</span>
-                                    </div>
-                                </div>
-                            </div>
+                            <button class="btn secondary" id="reviewAnswersBtn">Review Wrong Answers</button>
                         </div>
                     </div>
 
-                    <div class="recent-activity">
-                        <h3>Recent Activity</h3>
-                        <div id="activityList" class="activity-list">
-                            <!-- Activity items will be loaded here -->
+                    <div id="reviewArea" class="review-area hidden">
+                        <div class="review-header">
+                            <h3>Review Wrong Answers</h3>
+                            <button class="btn secondary" id="backToResultsBtn">Back to Results</button>
+                        </div>
+                        <div id="reviewContent" class="review-content">
+                            <!-- Review content will be loaded here -->
                         </div>
                     </div>
                 </div>

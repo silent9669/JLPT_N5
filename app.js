@@ -9,6 +9,10 @@ class JLPTApp {
         this.quizAnswers = [];
         this.quizStartTime = null;
         this.quizTimer = null;
+        this.wrongAnswers = [];
+        this.apiBaseUrl = 'https://jlpt-vocab-api.vercel.app/api';
+        this.vocabData = [];
+        this.filteredVocabData = [];
         
         this.init();
     }
@@ -16,7 +20,6 @@ class JLPTApp {
     init() {
         this.setupEventListeners();
         this.loadDayData(this.currentDay);
-        this.updateProgress();
     }
 
     setupEventListeners() {
@@ -52,13 +55,52 @@ class JLPTApp {
         });
 
         document.getElementById('reviewAnswersBtn').addEventListener('click', () => {
-            this.reviewAnswers();
+            this.showReview();
+        });
+
+        document.getElementById('backToResultsBtn').addEventListener('click', () => {
+            this.hideReview();
+        });
+
+        // Quiz navigation
+        document.getElementById('nextQuestionBtn').addEventListener('click', () => {
+            this.nextQuestion();
+        });
+
+        document.getElementById('prevQuestionBtn').addEventListener('click', () => {
+            this.prevQuestion();
+        });
+
+        document.getElementById('submitQuizBtn').addEventListener('click', () => {
+            this.finishQuiz();
+        });
+
+        // Vocabulary database controls
+        document.getElementById('loadAllVocabBtn').addEventListener('click', () => {
+            this.loadVocabularyFromAPI();
+        });
+
+        document.getElementById('searchBtn').addEventListener('click', () => {
+            this.searchVocabulary();
+        });
+
+        document.getElementById('vocabSearch').addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                this.searchVocabulary();
+            }
+        });
+
+        document.getElementById('levelFilter').addEventListener('change', () => {
+            this.filterVocabulary();
+        });
+
+        document.getElementById('sortBy').addEventListener('change', () => {
+            this.sortVocabulary();
         });
 
         // Quick actions
         window.startDailyStudy = () => this.showSection('daily');
         window.takeQuiz = () => this.showSection('quiz');
-        window.viewProgress = () => this.showSection('progress');
     }
 
     showSection(sectionName) {
@@ -81,8 +123,9 @@ class JLPTApp {
         // Load section-specific data
         if (sectionName === 'daily') {
             this.loadDayData(this.currentDay);
-        } else if (sectionName === 'progress') {
-            this.updateProgress();
+        } else if (sectionName === 'vocabulary' && this.vocabData.length === 0) {
+            // Auto-load N5 vocabulary when first visiting the section
+            this.loadVocabularyFromAPI();
         }
     }
 
@@ -122,7 +165,6 @@ class JLPTApp {
     renderVocabulary(vocabulary) {
         const container = document.getElementById('vocabularyList');
         const countElement = document.getElementById('vocabCount');
-        const categoryElement = document.getElementById('vocabCategory');
 
         if (!vocabulary || !vocabulary.new_words) {
             container.innerHTML = '<p>No vocabulary data available for this day.</p>';
@@ -130,7 +172,6 @@ class JLPTApp {
         }
 
         countElement.textContent = vocabulary.total_learned || vocabulary.new_words.length;
-        categoryElement.textContent = vocabulary.category_focus || 'Mixed';
 
         container.innerHTML = vocabulary.new_words.map(word => `
             <div class="word-card">
@@ -138,7 +179,6 @@ class JLPTApp {
                 <div class="word-hiragana">${word.hiragana}</div>
                 <div class="word-romaji">${word.romaji}</div>
                 <div class="word-english">${word.english}</div>
-                <div class="word-category">${word.category}</div>
             </div>
         `).join('');
     }
@@ -173,7 +213,6 @@ class JLPTApp {
     renderGrammar(grammar) {
         const container = document.getElementById('grammarList');
         const countElement = document.getElementById('grammarCount');
-        const categoryElement = document.getElementById('grammarCategory');
 
         if (!grammar || !grammar.new_points) {
             container.innerHTML = '<p>No grammar data available for this day.</p>';
@@ -181,7 +220,6 @@ class JLPTApp {
         }
 
         countElement.textContent = grammar.total_learned || grammar.new_points.length;
-        categoryElement.textContent = grammar.focus_category || 'Mixed';
 
         container.innerHTML = grammar.new_points.map(point => `
             <div class="grammar-card">
@@ -192,20 +230,18 @@ class JLPTApp {
                     <div class="grammar-example-jp">${point.example_jp}</div>
                     <div class="grammar-example-en">${point.example_en}</div>
                 </div>
-                <div class="grammar-category">${point.category}</div>
             </div>
         `).join('');
     }
 
     async startQuiz() {
-        const quizType = document.getElementById('quizType').value;
-        const questionCount = parseInt(document.getElementById('questionCount').value);
         const quizDay = parseInt(document.getElementById('quizDay').value);
 
         try {
-            this.quizData = await this.generateQuiz(quizType, questionCount, quizDay);
+            this.quizData = await this.generateMixedQuiz(quizDay);
             this.currentQuestion = 0;
             this.quizAnswers = [];
+            this.wrongAnswers = [];
             this.quizStartTime = new Date();
             
             this.showQuizArea();
@@ -217,26 +253,108 @@ class JLPTApp {
         }
     }
 
-    async generateQuiz(type, count, day) {
-        let questions = [];
-
-        if (type === 'daily') {
+    async generateMixedQuiz(day) {
+        try {
+            // Load day data
             const dayData = await this.loadDayDataForQuiz(day);
-            questions = this.generateDailyQuiz(dayData, count);
-        } else if (type === 'vocabulary') {
-            const vocabData = await this.loadVocabularyDatabase();
-            questions = this.generateVocabularyQuiz(vocabData, count);
-        } else if (type === 'kanji') {
-            const kanjiData = await this.loadKanjiDatabase();
-            questions = this.generateKanjiQuiz(kanjiData, count);
-        } else if (type === 'grammar') {
-            const grammarData = await this.loadGrammarDatabase();
-            questions = this.generateGrammarQuiz(grammarData, count);
-        } else if (type === 'mixed') {
-            questions = await this.generateMixedQuiz(count);
+            const questions = [];
+
+            // Generate vocabulary questions (10 questions)
+            if (dayData.vocabulary && dayData.vocabulary.new_words) {
+                const vocabQuestions = this.generateVocabularyQuestions(dayData.vocabulary.new_words, 10);
+                questions.push(...vocabQuestions);
+            }
+
+            // Generate kanji questions (10 questions)
+            if (dayData.kanji && dayData.kanji.new_kanji) {
+                const kanjiQuestions = this.generateKanjiQuestions(dayData.kanji.new_kanji, 10);
+                questions.push(...kanjiQuestions);
+            }
+
+            // Generate grammar questions (10 questions)
+            if (dayData.grammar && dayData.grammar.new_points) {
+                const grammarQuestions = this.generateGrammarQuestions(dayData.grammar.new_points, 10);
+                questions.push(...grammarQuestions);
+            }
+
+            return this.shuffleArray(questions);
+        } catch (error) {
+            console.error('Error generating quiz:', error);
+            throw error;
         }
+    }
+
+    generateVocabularyQuestions(words, count) {
+        const questions = [];
+        const selectedWords = this.shuffleArray(words).slice(0, Math.min(count, words.length));
+
+        selectedWords.forEach(word => {
+            const otherWords = words.filter(w => w.english !== word.english);
+            const options = this.generateOptions(word.english, otherWords.map(w => w.english));
+            
+            questions.push({
+                type: 'vocabulary',
+                question: `What does "${word.kanji}" (${word.hiragana}) mean?`,
+                correct: word.english,
+                options: options,
+                data: word
+            });
+        });
 
         return questions;
+    }
+
+    generateKanjiQuestions(kanji, count) {
+        const questions = [];
+        const selectedKanji = this.shuffleArray(kanji).slice(0, Math.min(count, kanji.length));
+
+        selectedKanji.forEach(char => {
+            const otherKanji = kanji.filter(k => k.meaning !== char.meaning);
+            const options = this.generateOptions(char.meaning, otherKanji.map(k => k.meaning));
+            
+            questions.push({
+                type: 'kanji',
+                question: `What is the meaning of this kanji: ${char.kanji}?`,
+                correct: char.meaning,
+                options: options,
+                data: char
+            });
+        });
+
+        return questions;
+    }
+
+    generateGrammarQuestions(grammar, count) {
+        const questions = [];
+        const selectedGrammar = this.shuffleArray(grammar).slice(0, Math.min(count, grammar.length));
+
+        selectedGrammar.forEach(point => {
+            const otherGrammar = grammar.filter(g => g.meaning !== point.meaning);
+            const options = this.generateOptions(point.meaning, otherGrammar.map(g => g.meaning));
+            
+            questions.push({
+                type: 'grammar',
+                question: `What does "${point.grammar}" mean?`,
+                correct: point.meaning,
+                options: options,
+                data: point
+            });
+        });
+
+        return questions;
+    }
+
+    generateOptions(correct, otherOptions) {
+        const options = [correct];
+        const shuffledOthers = this.shuffleArray(otherOptions);
+        
+        for (let i = 0; i < Math.min(3, shuffledOthers.length); i++) {
+            if (!options.includes(shuffledOthers[i])) {
+                options.push(shuffledOthers[i]);
+            }
+        }
+        
+        return this.shuffleArray(options);
     }
 
     async loadDayDataForQuiz(day) {
@@ -244,180 +362,11 @@ class JLPTApp {
         return await response.json();
     }
 
-    async loadVocabularyDatabase() {
-        const response = await fetch('jlpt_n5_vocabulary_database.json');
-        return await response.json();
-    }
-
-    async loadKanjiDatabase() {
-        const response = await fetch('jlpt_n5_kanji_database.json');
-        return await response.json();
-    }
-
-    async loadGrammarDatabase() {
-        const response = await fetch('jlpt_n5_grammar_database.json');
-        return await response.json();
-    }
-
-    generateDailyQuiz(dayData, count) {
-        const questions = [];
-        const { vocabulary, kanji, grammar } = dayData;
-
-        // Vocabulary questions
-        if (vocabulary && vocabulary.new_words) {
-            vocabulary.new_words.forEach(word => {
-                questions.push({
-                    type: 'vocabulary',
-                    question: `What does "${word.kanji}" (${word.hiragana}) mean?`,
-                    correct: word.english,
-                    options: this.generateVocabularyOptions(word.english, vocabulary.new_words)
-                });
-            });
-        }
-
-        // Kanji questions
-        if (kanji && kanji.new_kanji) {
-            kanji.new_kanji.forEach(char => {
-                questions.push({
-                    type: 'kanji',
-                    question: `What is the meaning of this kanji: ${char.kanji}?`,
-                    correct: char.meaning,
-                    options: this.generateKanjiOptions(char.meaning, kanji.new_kanji)
-                });
-            });
-        }
-
-        // Grammar questions
-        if (grammar && grammar.new_points) {
-            grammar.new_points.forEach(point => {
-                questions.push({
-                    type: 'grammar',
-                    question: `What does "${point.grammar}" mean?`,
-                    correct: point.meaning,
-                    options: this.generateGrammarOptions(point.meaning, grammar.new_points)
-                });
-            });
-        }
-
-        return this.shuffleArray(questions).slice(0, count);
-    }
-
-    generateVocabularyOptions(correct, words) {
-        const options = [correct];
-        const otherWords = words.filter(w => w.english !== correct);
-        
-        while (options.length < 4 && otherWords.length > 0) {
-            const randomWord = otherWords[Math.floor(Math.random() * otherWords.length)];
-            if (!options.includes(randomWord.english)) {
-                options.push(randomWord.english);
-            }
-        }
-        
-        return this.shuffleArray(options);
-    }
-
-    generateKanjiOptions(correct, kanji) {
-        const options = [correct];
-        const otherKanji = kanji.filter(k => k.meaning !== correct);
-        
-        while (options.length < 4 && otherKanji.length > 0) {
-            const randomKanji = otherKanji[Math.floor(Math.random() * otherKanji.length)];
-            if (!options.includes(randomKanji.meaning)) {
-                options.push(randomKanji.meaning);
-            }
-        }
-        
-        return this.shuffleArray(options);
-    }
-
-    generateGrammarOptions(correct, grammar) {
-        const options = [correct];
-        const otherGrammar = grammar.filter(g => g.meaning !== correct);
-        
-        while (options.length < 4 && otherGrammar.length > 0) {
-            const randomGrammar = otherGrammar[Math.floor(Math.random() * otherGrammar.length)];
-            if (!options.includes(randomGrammar.meaning)) {
-                options.push(randomGrammar.meaning);
-            }
-        }
-        
-        return this.shuffleArray(options);
-    }
-
-    generateVocabularyQuiz(vocabData, count) {
-        const questions = [];
-        const words = vocabData.vocabulary || [];
-        
-        for (let i = 0; i < Math.min(count, words.length); i++) {
-            const word = words[i];
-            questions.push({
-                type: 'vocabulary',
-                question: `What does "${word.kanji}" (${word.hiragana}) mean?`,
-                correct: word.english,
-                options: this.generateVocabularyOptions(word.english, words)
-            });
-        }
-        
-        return this.shuffleArray(questions);
-    }
-
-    generateKanjiQuiz(kanjiData, count) {
-        const questions = [];
-        const kanji = kanjiData.kanji || [];
-        
-        for (let i = 0; i < Math.min(count, kanji.length); i++) {
-            const char = kanji[i];
-            questions.push({
-                type: 'kanji',
-                question: `What is the meaning of this kanji: ${char.kanji}?`,
-                correct: char.meaning,
-                options: this.generateKanjiOptions(char.meaning, kanji)
-            });
-        }
-        
-        return this.shuffleArray(questions);
-    }
-
-    generateGrammarQuiz(grammarData, count) {
-        const questions = [];
-        const grammar = grammarData.grammar_points || [];
-        
-        for (let i = 0; i < Math.min(count, grammar.length); i++) {
-            const point = grammar[i];
-            questions.push({
-                type: 'grammar',
-                question: `What does "${point.grammar}" mean?`,
-                correct: point.meaning,
-                options: this.generateGrammarOptions(point.meaning, grammar)
-            });
-        }
-        
-        return this.shuffleArray(questions);
-    }
-
-    async generateMixedQuiz(count) {
-        const [vocabData, kanjiData, grammarData] = await Promise.all([
-            this.loadVocabularyDatabase(),
-            this.loadKanjiDatabase(),
-            this.loadGrammarDatabase()
-        ]);
-
-        const questions = [];
-        const vocabCount = Math.ceil(count * 0.4);
-        const kanjiCount = Math.ceil(count * 0.3);
-        const grammarCount = count - vocabCount - kanjiCount;
-
-        questions.push(...this.generateVocabularyQuiz(vocabData, vocabCount));
-        questions.push(...this.generateKanjiQuiz(kanjiData, kanjiCount));
-        questions.push(...this.generateGrammarQuiz(grammarData, grammarCount));
-
-        return this.shuffleArray(questions).slice(0, count);
-    }
-
     showQuizArea() {
         document.getElementById('quizSettings').classList.add('hidden');
         document.getElementById('quizArea').classList.remove('hidden');
         document.getElementById('quizResults').classList.add('hidden');
+        document.getElementById('reviewArea').classList.add('hidden');
     }
 
     startQuizTimer() {
@@ -501,9 +450,22 @@ class JLPTApp {
     finishQuiz() {
         clearInterval(this.quizTimer);
         
+        // Calculate results
         const correctAnswers = this.quizData.filter((question, index) => 
             this.quizAnswers[index] === question.correct
         ).length;
+
+        // Store wrong answers for review
+        this.wrongAnswers = this.quizData.filter((question, index) => 
+            this.quizAnswers[index] !== question.correct
+        ).map((question, originalIndex) => {
+            const actualIndex = this.quizData.indexOf(question);
+            return {
+                ...question,
+                userAnswer: this.quizAnswers[actualIndex],
+                questionIndex: actualIndex
+            };
+        });
 
         const percentage = Math.round((correctAnswers / this.quizData.length) * 100);
         const timeElapsed = Math.floor((new Date() - this.quizStartTime) / 1000);
@@ -519,30 +481,45 @@ class JLPTApp {
         document.getElementById('quizResults').classList.remove('hidden');
     }
 
+    showReview() {
+        if (this.wrongAnswers.length === 0) {
+            alert('No wrong answers to review!');
+            return;
+        }
+
+        document.getElementById('quizResults').classList.add('hidden');
+        document.getElementById('reviewArea').classList.remove('hidden');
+        this.renderReview();
+    }
+
+    hideReview() {
+        document.getElementById('reviewArea').classList.add('hidden');
+        document.getElementById('quizResults').classList.remove('hidden');
+    }
+
+    renderReview() {
+        const container = document.getElementById('reviewContent');
+        
+        container.innerHTML = this.wrongAnswers.map((item, index) => `
+            <div class="review-item">
+                <div class="review-question">
+                    ${index + 1}. ${item.question}
+                </div>
+                <div class="review-answers">
+                    <div class="review-answer correct">
+                        ✓ Correct: ${item.correct}
+                    </div>
+                    <div class="review-answer user-answer">
+                        Your answer: ${item.userAnswer || 'No answer'}
+                    </div>
+                </div>
+            </div>
+        `).join('');
+    }
+
     retakeQuiz() {
         document.getElementById('quizResults').classList.add('hidden');
         document.getElementById('quizSettings').classList.remove('hidden');
-    }
-
-    reviewAnswers() {
-        // Implementation for reviewing answers
-        console.log('Review answers functionality to be implemented');
-    }
-
-    updateProgress() {
-        // Update progress circles
-        this.updateProgressCircle('vocabProgressCircle', 'vocabProgressNumber', 0, 591);
-        this.updateProgressCircle('kanjiProgressCircle', 'kanjiProgressNumber', 0, 205);
-        this.updateProgressCircle('grammarProgressCircle', 'grammarProgressNumber', 0, 80);
-    }
-
-    updateProgressCircle(circleId, numberId, current, total) {
-        const percentage = (current / total) * 100;
-        const circumference = 2 * Math.PI * 45; // radius = 45
-        const offset = circumference - (percentage / 100) * circumference;
-
-        document.getElementById(circleId).style.strokeDashoffset = offset;
-        document.getElementById(numberId).textContent = current;
     }
 
     shuffleArray(array) {
@@ -554,6 +531,109 @@ class JLPTApp {
         return shuffled;
     }
 
+    // Vocabulary API Integration
+    async loadVocabularyFromAPI() {
+        try {
+            document.getElementById('vocabularyDatabase').innerHTML = 
+                '<div class="loading-message">Loading vocabulary from API...</div>';
+            
+            const response = await fetch(`${this.apiBaseUrl}/vocab?level=N5`);
+            const data = await response.json();
+            
+            this.vocabData = data.data || data;
+            this.filteredVocabData = [...this.vocabData];
+            
+            this.updateVocabStats();
+            this.renderVocabularyDatabase();
+        } catch (error) {
+            console.error('Error loading vocabulary from API:', error);
+            document.getElementById('vocabularyDatabase').innerHTML = 
+                '<div class="loading-message">Error loading vocabulary. Please try again later.</div>';
+        }
+    }
+
+    searchVocabulary() {
+        const searchTerm = document.getElementById('vocabSearch').value.toLowerCase();
+        
+        if (!searchTerm) {
+            this.filteredVocabData = [...this.vocabData];
+        } else {
+            this.filteredVocabData = this.vocabData.filter(word => 
+                word.kanji.toLowerCase().includes(searchTerm) ||
+                word.hiragana.toLowerCase().includes(searchTerm) ||
+                word.romaji.toLowerCase().includes(searchTerm) ||
+                word.english.toLowerCase().includes(searchTerm)
+            );
+        }
+        
+        this.updateVocabStats();
+        this.renderVocabularyDatabase();
+    }
+
+    filterVocabulary() {
+        const level = document.getElementById('levelFilter').value;
+        
+        if (!level) {
+            this.filteredVocabData = [...this.vocabData];
+        } else {
+            this.filteredVocabData = this.vocabData.filter(word => 
+                word.level === level
+            );
+        }
+        
+        this.updateVocabStats();
+        this.renderVocabularyDatabase();
+    }
+
+    sortVocabulary() {
+        const sortBy = document.getElementById('sortBy').value;
+        
+        this.filteredVocabData.sort((a, b) => {
+            switch (sortBy) {
+                case 'kanji':
+                    return a.kanji.localeCompare(b.kanji);
+                case 'hiragana':
+                    return a.hiragana.localeCompare(b.hiragana);
+                case 'english':
+                    return a.english.localeCompare(b.english);
+                case 'level':
+                    return a.level.localeCompare(b.level);
+                default:
+                    return 0;
+            }
+        });
+        
+        this.renderVocabularyDatabase();
+    }
+
+    updateVocabStats() {
+        document.getElementById('totalVocabCount').textContent = this.vocabData.length;
+        document.getElementById('filteredVocabCount').textContent = this.filteredVocabData.length;
+    }
+
+    renderVocabularyDatabase() {
+        const container = document.getElementById('vocabularyDatabase');
+        
+        if (this.filteredVocabData.length === 0) {
+            container.innerHTML = '<div class="loading-message">No vocabulary found matching your criteria.</div>';
+            return;
+        }
+        
+        container.innerHTML = `
+            <div class="vocab-grid">
+                ${this.filteredVocabData.map(word => `
+                    <div class="vocab-item">
+                        <div class="vocab-kanji">${word.kanji || '-'}</div>
+                        <div class="vocab-hiragana">${word.hiragana || '-'}</div>
+                        <div class="vocab-romaji">${word.romaji || '-'}</div>
+                        <div class="vocab-english">${word.english || '-'}</div>
+                        <div class="vocab-level">${word.level || 'N5'}</div>
+                    </div>
+                `).join('')}
+            </div>
+        `;
+    }
+
     showError(message) {
         alert(message); // Simple error handling
     }
@@ -562,19 +642,4 @@ class JLPTApp {
 // Initialize the app when the page loads
 document.addEventListener('DOMContentLoaded', () => {
     window.jlptApp = new JLPTApp();
-});
-
-// Add event listeners for quiz navigation
-document.addEventListener('DOMContentLoaded', () => {
-    document.getElementById('nextQuestionBtn').addEventListener('click', () => {
-        window.jlptApp.nextQuestion();
-    });
-
-    document.getElementById('prevQuestionBtn').addEventListener('click', () => {
-        window.jlptApp.prevQuestion();
-    });
-
-    document.getElementById('submitQuizBtn').addEventListener('click', () => {
-        window.jlptApp.finishQuiz();
-    });
 });
