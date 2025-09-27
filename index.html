@@ -146,7 +146,7 @@
 
                     <div class="tab-content">
                         <!-- Vocabulary Tab -->
-                        <div id="vocabulary" class="tab-panel active">
+                        <div id="vocabulary-tab" class="tab-panel active">
                             <div class="study-header">
                                 <h3>Vocabulary</h3>
                             <div class="study-stats">
@@ -191,32 +191,20 @@
             <section id="vocabulary" class="section">
                 <div class="section-header">
                     <h2>N5 Vocab List</h2>
-                    <div class="vocab-controls">
-                        <div class="search-box">
-                            <input type="text" id="vocabSearch" placeholder="Search by word number or romaji..." />
-                            <button class="btn secondary" id="searchBtn">Search</button>
-                        </div>
-                        <button class="btn primary" id="loadAllVocabBtn">Load N5 Vocab List</button>
+                    <div class="search-container">
+                        <input type="text" id="vocabSearch" placeholder="Search by word number or romaji..." />
+                        <button class="btn secondary" id="searchBtn">Search</button>
                     </div>
                 </div>
 
-                <div class="vocab-content">
-                    <div class="vocab-stats">
-                        <div class="stat-item">
-                            <span class="stat-label">Total Words:</span>
-                            <span class="stat-value" id="totalVocabCount">0</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-label">Showing:</span>
-                            <span class="stat-value" id="filteredVocabCount">0</span>
-                        </div>
-                    </div>
+                <div class="vocab-stats">
+                    <span class="stat-text">Total: <span id="totalVocabCount">0</span> words</span>
+                    <span class="stat-text">Showing: <span id="filteredVocabCount">0</span> words</span>
+                </div>
 
-                    <div id="vocabularyDatabase" class="vocab-database">
-                        <div class="loading-message">
-                            <p>Click "Load N5 Vocab List" to start exploring the vocabulary list.</p>
-                            <button class="btn primary" onclick="window.jlptApp.loadVocabularyFromAPI()" style="margin-top: 1rem;">Load Vocabulary Now</button>
-                        </div>
+                <div id="vocabularyDatabase" class="vocab-scroll-container">
+                    <div class="loading-message">
+                        <p>Loading N5 vocabulary list...</p>
                     </div>
                 </div>
             </section>
