@@ -1,0 +1,807 @@
+{
+  "title": "JLPT N5 Vocabulary List",
+  "description": "Complete vocabulary list for JLPT N5 level",
+  "total_words": 100,
+  "vocabulary": [
+    {
+      "number": 1,
+      "kanji": "私",
+      "hiragana": "わたし",
+      "romaji": "watashi",
+      "english": "I, myself",
+      "level": "N5"
+    },
+    {
+      "number": 2,
+      "kanji": "あなた",
+      "hiragana": "あなた",
+      "romaji": "anata",
+      "english": "you",
+      "level": "N5"
+    },
+    {
+      "number": 3,
+      "kanji": "彼",
+      "hiragana": "かれ",
+      "romaji": "kare",
+      "english": "he",
+      "level": "N5"
+    },
+    {
+      "number": 4,
+      "kanji": "彼女",
+      "hiragana": "かのじょ",
+      "romaji": "kanojo",
+      "english": "she",
+      "level": "N5"
+    },
+    {
+      "number": 5,
+      "kanji": "これ",
+      "hiragana": "これ",
+      "romaji": "kore",
+      "english": "this",
+      "level": "N5"
+    },
+    {
+      "number": 6,
+      "kanji": "それ",
+      "hiragana": "それ",
+      "romaji": "sore",
+      "english": "that",
+      "level": "N5"
+    },
+    {
+      "number": 7,
+      "kanji": "あれ",
+      "hiragana": "あれ",
+      "romaji": "are",
+      "english": "that over there",
+      "level": "N5"
+    },
+    {
+      "number": 8,
+      "kanji": "どれ",
+      "hiragana": "どれ",
+      "romaji": "dore",
+      "english": "which",
+      "level": "N5"
+    },
+    {
+      "number": 9,
+      "kanji": "ここ",
+      "hiragana": "ここ",
+      "romaji": "koko",
+      "english": "here",
+      "level": "N5"
+    },
+    {
+      "number": 10,
+      "kanji": "そこ",
+      "hiragana": "そこ",
+      "romaji": "soko",
+      "english": "there",
+      "level": "N5"
+    },
+    {
+      "number": 11,
+      "kanji": "あそこ",
+      "hiragana": "あそこ",
+      "romaji": "asoko",
+      "english": "over there",
+      "level": "N5"
+    },
+    {
+      "number": 12,
+      "kanji": "どこ",
+      "hiragana": "どこ",
+      "romaji": "doko",
+      "english": "where",
+      "level": "N5"
+    },
+    {
+      "number": 13,
+      "kanji": "家",
+      "hiragana": "いえ",
+      "romaji": "ie",
+      "english": "house, home",
+      "level": "N5"
+    },
+    {
+      "number": 14,
+      "kanji": "学校",
+      "hiragana": "がっこう",
+      "romaji": "gakkou",
+      "english": "school",
+      "level": "N5"
+    },
+    {
+      "number": 15,
+      "kanji": "会社",
+      "hiragana": "かいしゃ",
+      "romaji": "kaisha",
+      "english": "company",
+      "level": "N5"
+    },
+    {
+      "number": 16,
+      "kanji": "駅",
+      "hiragana": "えき",
+      "romaji": "eki",
+      "english": "station",
+      "level": "N5"
+    },
+    {
+      "number": 17,
+      "kanji": "病院",
+      "hiragana": "びょういん",
+      "romaji": "byouin",
+      "english": "hospital",
+      "level": "N5"
+    },
+    {
+      "number": 18,
+      "kanji": "銀行",
+      "hiragana": "ぎんこう",
+      "romaji": "ginkou",
+      "english": "bank",
+      "level": "N5"
+    },
+    {
+      "number": 19,
+      "kanji": "郵便局",
+      "hiragana": "ゆうびんきょく",
+      "romaji": "yuubinkyoku",
+      "english": "post office",
+      "level": "N5"
+    },
+    {
+      "number": 20,
+      "kanji": "一",
+      "hiragana": "いち",
+      "romaji": "ichi",
+      "english": "one",
+      "level": "N5"
+    },
+    {
+      "number": 21,
+      "kanji": "二",
+      "hiragana": "に",
+      "romaji": "ni",
+      "english": "two",
+      "level": "N5"
+    },
+    {
+      "number": 22,
+      "kanji": "三",
+      "hiragana": "さん",
+      "romaji": "san",
+      "english": "three",
+      "level": "N5"
+    },
+    {
+      "number": 23,
+      "kanji": "四",
+      "hiragana": "よん",
+      "romaji": "yon",
+      "english": "four",
+      "level": "N5"
+    },
+    {
+      "number": 24,
+      "kanji": "五",
+      "hiragana": "ご",
+      "romaji": "go",
+      "english": "five",
+      "level": "N5"
+    },
+    {
+      "number": 25,
+      "kanji": "六",
+      "hiragana": "ろく",
+      "romaji": "roku",
+      "english": "six",
+      "level": "N5"
+    },
+    {
+      "number": 26,
+      "kanji": "七",
+      "hiragana": "なな",
+      "romaji": "nana",
+      "english": "seven",
+      "level": "N5"
+    },
+    {
+      "number": 27,
+      "kanji": "八",
+      "hiragana": "はち",
+      "romaji": "hachi",
+      "english": "eight",
+      "level": "N5"
+    },
+    {
+      "number": 28,
+      "kanji": "九",
+      "hiragana": "きゅう",
+      "romaji": "kyuu",
+      "english": "nine",
+      "level": "N5"
+    },
+    {
+      "number": 29,
+      "kanji": "十",
+      "hiragana": "じゅう",
+      "romaji": "juu",
+      "english": "ten",
+      "level": "N5"
+    },
+    {
+      "number": 30,
+      "kanji": "百",
+      "hiragana": "ひゃく",
+      "romaji": "hyaku",
+      "english": "hundred",
+      "level": "N5"
+    },
+    {
+      "number": 31,
+      "kanji": "千",
+      "hiragana": "せん",
+      "romaji": "sen",
+      "english": "thousand",
+      "level": "N5"
+    },
+    {
+      "number": 32,
+      "kanji": "万",
+      "hiragana": "まん",
+      "romaji": "man",
+      "english": "ten thousand",
+      "level": "N5"
+    },
+    {
+      "number": 33,
+      "kanji": "日",
+      "hiragana": "ひ",
+      "romaji": "hi",
+      "english": "day, sun",
+      "level": "N5"
+    },
+    {
+      "number": 34,
+      "kanji": "月",
+      "hiragana": "つき",
+      "romaji": "tsuki",
+      "english": "month, moon",
+      "level": "N5"
+    },
+    {
+      "number": 35,
+      "kanji": "年",
+      "hiragana": "とし",
+      "romaji": "toshi",
+      "english": "year",
+      "level": "N5"
+    },
+    {
+      "number": 36,
+      "kanji": "時",
+      "hiragana": "とき",
+      "romaji": "toki",
+      "english": "time",
+      "level": "N5"
+    },
+    {
+      "number": 37,
+      "kanji": "今",
+      "hiragana": "いま",
+      "romaji": "ima",
+      "english": "now",
+      "level": "N5"
+    },
+    {
+      "number": 38,
+      "kanji": "前",
+      "hiragana": "まえ",
+      "romaji": "mae",
+      "english": "before, front",
+      "level": "N5"
+    },
+    {
+      "number": 39,
+      "kanji": "後",
+      "hiragana": "あと",
+      "romaji": "ato",
+      "english": "after, behind",
+      "level": "N5"
+    },
+    {
+      "number": 40,
+      "kanji": "人",
+      "hiragana": "ひと",
+      "romaji": "hito",
+      "english": "person",
+      "level": "N5"
+    },
+    {
+      "number": 41,
+      "kanji": "父",
+      "hiragana": "ちち",
+      "romaji": "chichi",
+      "english": "father",
+      "level": "N5"
+    },
+    {
+      "number": 42,
+      "kanji": "母",
+      "hiragana": "はは",
+      "romaji": "haha",
+      "english": "mother",
+      "level": "N5"
+    },
+    {
+      "number": 43,
+      "kanji": "兄",
+      "hiragana": "あに",
+      "romaji": "ani",
+      "english": "older brother",
+      "level": "N5"
+    },
+    {
+      "number": 44,
+      "kanji": "姉",
+      "hiragana": "あね",
+      "romaji": "ane",
+      "english": "older sister",
+      "level": "N5"
+    },
+    {
+      "number": 45,
+      "kanji": "弟",
+      "hiragana": "おとうと",
+      "romaji": "otouto",
+      "english": "younger brother",
+      "level": "N5"
+    },
+    {
+      "number": 46,
+      "kanji": "妹",
+      "hiragana": "いもうと",
+      "romaji": "imouto",
+      "english": "younger sister",
+      "level": "N5"
+    },
+    {
+      "number": 47,
+      "kanji": "子",
+      "hiragana": "こ",
+      "romaji": "ko",
+      "english": "child",
+      "level": "N5"
+    },
+    {
+      "number": 48,
+      "kanji": "男",
+      "hiragana": "おとこ",
+      "romaji": "otoko",
+      "english": "man",
+      "level": "N5"
+    },
+    {
+      "number": 49,
+      "kanji": "女",
+      "hiragana": "おんな",
+      "romaji": "onna",
+      "english": "woman",
+      "level": "N5"
+    },
+    {
+      "number": 50,
+      "kanji": "友達",
+      "hiragana": "ともだち",
+      "romaji": "tomodachi",
+      "english": "friend",
+      "level": "N5"
+    },
+    {
+      "number": 51,
+      "kanji": "先生",
+      "hiragana": "せんせい",
+      "romaji": "sensei",
+      "english": "teacher",
+      "level": "N5"
+    },
+    {
+      "number": 52,
+      "kanji": "学生",
+      "hiragana": "がくせい",
+      "romaji": "gakusei",
+      "english": "student",
+      "level": "N5"
+    },
+    {
+      "number": 53,
+      "kanji": "日本語",
+      "hiragana": "にほんご",
+      "romaji": "nihongo",
+      "english": "Japanese language",
+      "level": "N5"
+    },
+    {
+      "number": 54,
+      "kanji": "英語",
+      "hiragana": "えいご",
+      "romaji": "eigo",
+      "english": "English language",
+      "level": "N5"
+    },
+    {
+      "number": 55,
+      "kanji": "国",
+      "hiragana": "くに",
+      "romaji": "kuni",
+      "english": "country",
+      "level": "N5"
+    },
+    {
+      "number": 56,
+      "kanji": "日本",
+      "hiragana": "にほん",
+      "romaji": "nihon",
+      "english": "Japan",
+      "level": "N5"
+    },
+    {
+      "number": 57,
+      "kanji": "本",
+      "hiragana": "ほん",
+      "romaji": "hon",
+      "english": "book",
+      "level": "N5"
+    },
+    {
+      "number": 58,
+      "kanji": "大",
+      "hiragana": "おお",
+      "romaji": "oo",
+      "english": "big, large",
+      "level": "N5"
+    },
+    {
+      "number": 59,
+      "kanji": "小",
+      "hiragana": "ちい",
+      "romaji": "chii",
+      "english": "small",
+      "level": "N5"
+    },
+    {
+      "number": 60,
+      "kanji": "高",
+      "hiragana": "たか",
+      "romaji": "taka",
+      "english": "high, expensive",
+      "level": "N5"
+    },
+    {
+      "number": 61,
+      "kanji": "安",
+      "hiragana": "やす",
+      "romaji": "yasu",
+      "english": "cheap, peaceful",
+      "level": "N5"
+    },
+    {
+      "number": 62,
+      "kanji": "新",
+      "hiragana": "あたら",
+      "romaji": "atara",
+      "english": "new",
+      "level": "N5"
+    },
+    {
+      "number": 63,
+      "kanji": "古",
+      "hiragana": "ふる",
+      "romaji": "furu",
+      "english": "old",
+      "level": "N5"
+    },
+    {
+      "number": 64,
+      "kanji": "長",
+      "hiragana": "なが",
+      "romaji": "naga",
+      "english": "long",
+      "level": "N5"
+    },
+    {
+      "number": 65,
+      "kanji": "短",
+      "hiragana": "みじか",
+      "romaji": "mijika",
+      "english": "short",
+      "level": "N5"
+    },
+    {
+      "number": 66,
+      "kanji": "多",
+      "hiragana": "おお",
+      "romaji": "oo",
+      "english": "many",
+      "level": "N5"
+    },
+    {
+      "number": 67,
+      "kanji": "少",
+      "hiragana": "すく",
+      "romaji": "suku",
+      "english": "few, little",
+      "level": "N5"
+    },
+    {
+      "number": 68,
+      "kanji": "早",
+      "hiragana": "はや",
+      "romaji": "haya",
+      "english": "early, fast",
+      "level": "N5"
+    },
+    {
+      "number": 69,
+      "kanji": "遅",
+      "hiragana": "おそ",
+      "romaji": "oso",
+      "english": "late, slow",
+      "level": "N5"
+    },
+    {
+      "number": 70,
+      "kanji": "好",
+      "hiragana": "す",
+      "romaji": "su",
+      "english": "like, good",
+      "level": "N5"
+    },
+    {
+      "number": 71,
+      "kanji": "嫌",
+      "hiragana": "きら",
+      "romaji": "kira",
+      "english": "dislike, hate",
+      "level": "N5"
+    },
+    {
+      "number": 72,
+      "kanji": "元気",
+      "hiragana": "げんき",
+      "romaji": "genki",
+      "english": "healthy, energetic",
+      "level": "N5"
+    },
+    {
+      "number": 73,
+      "kanji": "天気",
+      "hiragana": "てんき",
+      "romaji": "tenki",
+      "english": "weather",
+      "level": "N5"
+    },
+    {
+      "number": 74,
+      "kanji": "雨",
+      "hiragana": "あめ",
+      "romaji": "ame",
+      "english": "rain",
+      "level": "N5"
+    },
+    {
+      "number": 75,
+      "kanji": "雪",
+      "hiragana": "ゆき",
+      "romaji": "yuki",
+      "english": "snow",
+      "level": "N5"
+    },
+    {
+      "number": 76,
+      "kanji": "風",
+      "hiragana": "かぜ",
+      "romaji": "kaze",
+      "english": "wind",
+      "level": "N5"
+    },
+    {
+      "number": 77,
+      "kanji": "晴",
+      "hiragana": "は",
+      "romaji": "ha",
+      "english": "clear weather",
+      "level": "N5"
+    },
+    {
+      "number": 78,
+      "kanji": "曇",
+      "hiragana": "くも",
+      "romaji": "kumo",
+      "english": "cloudy",
+      "level": "N5"
+    },
+    {
+      "number": 79,
+      "kanji": "暑",
+      "hiragana": "あつ",
+      "romaji": "atsu",
+      "english": "hot",
+      "level": "N5"
+    },
+    {
+      "number": 80,
+      "kanji": "寒",
+      "hiragana": "さむ",
+      "romaji": "samu",
+      "english": "cold",
+      "level": "N5"
+    },
+    {
+      "number": 81,
+      "kanji": "暖",
+      "hiragana": "あたた",
+      "romaji": "atata",
+      "english": "warm",
+      "level": "N5"
+    },
+    {
+      "number": 82,
+      "kanji": "涼",
+      "hiragana": "すず",
+      "romaji": "suzu",
+      "english": "cool",
+      "level": "N5"
+    },
+    {
+      "number": 83,
+      "kanji": "春",
+      "hiragana": "はる",
+      "romaji": "haru",
+      "english": "spring",
+      "level": "N5"
+    },
+    {
+      "number": 84,
+      "kanji": "夏",
+      "hiragana": "なつ",
+      "romaji": "natsu",
+      "english": "summer",
+      "level": "N5"
+    },
+    {
+      "number": 85,
+      "kanji": "秋",
+      "hiragana": "あき",
+      "romaji": "aki",
+      "english": "autumn",
+      "level": "N5"
+    },
+    {
+      "number": 86,
+      "kanji": "冬",
+      "hiragana": "ふゆ",
+      "romaji": "fuyu",
+      "english": "winter",
+      "level": "N5"
+    },
+    {
+      "number": 87,
+      "kanji": "朝",
+      "hiragana": "あさ",
+      "romaji": "asa",
+      "english": "morning",
+      "level": "N5"
+    },
+    {
+      "number": 88,
+      "kanji": "昼",
+      "hiragana": "ひる",
+      "romaji": "hiru",
+      "english": "noon, daytime",
+      "level": "N5"
+    },
+    {
+      "number": 89,
+      "kanji": "夜",
+      "hiragana": "よる",
+      "romaji": "yoru",
+      "english": "night",
+      "level": "N5"
+    },
+    {
+      "number": 90,
+      "kanji": "午前",
+      "hiragana": "ごぜん",
+      "romaji": "gozen",
+      "english": "morning, AM",
+      "level": "N5"
+    },
+    {
+      "number": 91,
+      "kanji": "午後",
+      "hiragana": "ごご",
+      "romaji": "gogo",
+      "english": "afternoon, PM",
+      "level": "N5"
+    },
+    {
+      "number": 92,
+      "kanji": "毎日",
+      "hiragana": "まいにち",
+      "romaji": "mainichi",
+      "english": "every day",
+      "level": "N5"
+    },
+    {
+      "number": 93,
+      "kanji": "来年",
+      "hiragana": "らいねん",
+      "romaji": "rainen",
+      "english": "next year",
+      "level": "N5"
+    },
+    {
+      "number": 94,
+      "kanji": "去年",
+      "hiragana": "きょねん",
+      "romaji": "kyonen",
+      "english": "last year",
+      "level": "N5"
+    },
+    {
+      "number": 95,
+      "kanji": "今年",
+      "hiragana": "ことし",
+      "romaji": "kotoshi",
+      "english": "this year",
+      "level": "N5"
+    },
+    {
+      "number": 96,
+      "kanji": "今日",
+      "hiragana": "きょう",
+      "romaji": "kyou",
+      "english": "today",
+      "level": "N5"
+    },
+    {
+      "number": 97,
+      "kanji": "明日",
+      "hiragana": "あした",
+      "romaji": "ashita",
+      "english": "tomorrow",
+      "level": "N5"
+    },
+    {
+      "number": 98,
+      "kanji": "昨日",
+      "hiragana": "きのう",
+      "romaji": "kinou",
+      "english": "yesterday",
+      "level": "N5"
+    },
+    {
+      "number": 99,
+      "kanji": "今週",
+      "hiragana": "こんしゅう",
+      "romaji": "konshuu",
+      "english": "this week",
+      "level": "N5"
+    },
+    {
+      "number": 100,
+      "kanji": "来週",
+      "hiragana": "らいしゅう",
+      "romaji": "raishuu",
+      "english": "next week",
+      "level": "N5"
+    }
+  ]
+}

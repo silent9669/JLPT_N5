@@ -87,79 +87,65 @@ body {
 /* Dashboard */
 .dashboard-header {
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .dashboard-header h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 700;
     color: #333;
     margin-bottom: 0.5rem;
 }
 
 .subtitle {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #666;
     font-weight: 400;
 }
 
-.stats-grid {
+.app-info {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1.5rem;
-    margin-bottom: 3rem;
+    gap: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-.stat-card {
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+.info-card {
+    background: white;
     padding: 2rem;
     border-radius: 15px;
-    text-align: center;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-    transition: transform 0.3s ease;
+    border-left: 4px solid #4CAF50;
 }
 
-.stat-card:hover {
-    transform: translateY(-5px);
+.info-card h3 {
+    font-size: 1.3rem;
+    color: #333;
+    margin-bottom: 1rem;
+    font-weight: 600;
 }
 
-.stat-number {
-    font-size: 3rem;
-    font-weight: 700;
-    color: #4CAF50;
-    margin-bottom: 0.5rem;
-}
-
-.stat-label {
-    font-size: 1rem;
+.info-card p {
     color: #666;
-    font-weight: 500;
+    line-height: 1.6;
+    margin-bottom: 1rem;
 }
 
 .quick-actions {
-    margin-bottom: 3rem;
-}
-
-.quick-actions h3 {
-    font-size: 1.5rem;
-    margin-bottom: 1.5rem;
-    color: #333;
-}
-
-.action-buttons {
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .action-btn {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    padding: 1rem 2rem;
+    padding: 0.75rem 1.5rem;
     border: none;
-    border-radius: 12px;
-    font-size: 1rem;
+    border-radius: 8px;
+    font-size: 0.9rem;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -169,60 +155,70 @@ body {
 .action-btn.primary {
     background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
     color: white;
-    box-shadow: 0 4px 15px rgba(76, 175, 80, 0.3);
+    box-shadow: 0 2px 10px rgba(76, 175, 80, 0.3);
 }
 
 .action-btn.primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(76, 175, 80, 0.4);
+    box-shadow: 0 4px 15px rgba(76, 175, 80, 0.4);
 }
 
 .action-btn.secondary {
     background: linear-gradient(135deg, #2196F3 0%, #1976D2 100%);
     color: white;
-    box-shadow: 0 4px 15px rgba(33, 150, 243, 0.3);
+    box-shadow: 0 2px 10px rgba(33, 150, 243, 0.3);
 }
 
 .action-btn.secondary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(33, 150, 243, 0.4);
+    box-shadow: 0 4px 15px rgba(33, 150, 243, 0.4);
 }
 
 .btn-icon {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
-.study-tips {
-    background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
-    padding: 2rem;
-    border-radius: 15px;
-    border-left: 5px solid #FF9800;
+.github-info {
+    margin-top: 1rem;
 }
 
-.study-tips h3 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
+.github-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: #f8f9fa;
     color: #333;
+    text-decoration: none;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+    transition: all 0.3s ease;
 }
 
-.tips-list {
-    list-style: none;
-    padding: 0;
+.github-link:hover {
+    background: #e9ecef;
+    transform: translateY(-1px);
 }
 
-.tips-list li {
-    padding: 0.5rem 0;
+.disclaimer {
+    background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
+    padding: 1.5rem;
+    border-radius: 12px;
+    border-left: 4px solid #FF9800;
+    margin-top: 1rem;
+}
+
+.disclaimer h4 {
+    color: #333;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.disclaimer p {
     color: #666;
-    position: relative;
-    padding-left: 1.5rem;
-}
-
-.tips-list li::before {
-    content: "✓";
-    position: absolute;
-    left: 0;
-    color: #FF9800;
-    font-weight: bold;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin: 0;
 }
 
 /* Section Headers */
@@ -915,59 +911,61 @@ body {
     padding: 2rem;
 }
 
-.vocab-list {
+.vocab-table {
+    width: 100%;
+    border-collapse: collapse;
     background: white;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
 
-.vocab-item {
-    display: flex;
-    align-items: center;
-    padding: 1rem 1.5rem;
-    border-bottom: 1px solid #e0e0e0;
-    transition: background-color 0.3s ease;
+.vocab-table th {
+    background: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.9rem;
 }
 
-.vocab-item:hover {
+.vocab-table td {
+    padding: 1rem;
+    border-bottom: 1px solid #e0e0e0;
+    vertical-align: middle;
+}
+
+.vocab-table tr:hover {
     background-color: #f8f9fa;
 }
 
-.vocab-item:last-child {
+.vocab-table tr:last-child td {
     border-bottom: none;
 }
 
 .vocab-number {
-    width: 60px;
-    font-size: 1.1rem;
+    width: 80px;
+    text-align: center;
     font-weight: 600;
     color: #4CAF50;
-    text-align: center;
-    margin-right: 1rem;
-    flex-shrink: 0;
-}
-
-.vocab-content {
-    flex: 1;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 2fr;
-    gap: 1rem;
-    align-items: center;
+    font-size: 1.1rem;
 }
 
 .vocab-kanji {
+    width: 120px;
     font-size: 1.3rem;
     font-weight: 600;
     color: #333;
 }
 
 .vocab-hiragana {
+    width: 150px;
     font-size: 1rem;
     color: #666;
 }
 
 .vocab-romaji {
+    width: 150px;
     font-size: 0.9rem;
     color: #999;
     font-style: italic;
@@ -980,6 +978,11 @@ body {
 }
 
 .vocab-level {
+    width: 80px;
+    text-align: center;
+}
+
+.vocab-level-badge {
     display: inline-block;
     background: #e8f5e8;
     color: #4CAF50;
@@ -987,32 +990,35 @@ body {
     border-radius: 15px;
     font-size: 0.8rem;
     font-weight: 500;
-    margin-left: 1rem;
-    flex-shrink: 0;
 }
 
-/* Responsive adjustments for vocab list */
+/* Responsive adjustments for vocab table */
 @media (max-width: 768px) {
-    .vocab-content {
-        grid-template-columns: 1fr;
-        gap: 0.5rem;
+    .vocab-table {
+        font-size: 0.8rem;
     }
     
-    .vocab-item {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 1rem;
+    .vocab-table th,
+    .vocab-table td {
+        padding: 0.5rem;
     }
     
-    .vocab-number {
-        width: auto;
-        margin-right: 0;
-        margin-bottom: 0.5rem;
+    .vocab-kanji {
+        font-size: 1.1rem;
     }
     
-    .vocab-level {
-        margin-left: 0;
-        margin-top: 0.5rem;
+    .vocab-table th:nth-child(3),
+    .vocab-table td:nth-child(3),
+    .vocab-table th:nth-child(4),
+    .vocab-table td:nth-child(4) {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .vocab-table th:nth-child(2),
+    .vocab-table td:nth-child(2) {
+        display: none;
     }
 }
 

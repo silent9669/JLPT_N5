@@ -10,7 +10,6 @@ class JLPTApp {
         this.quizStartTime = null;
         this.quizTimer = null;
         this.wrongAnswers = [];
-        this.apiBaseUrl = 'https://jlpt-vocab-api.vercel.app/api';
         this.vocabData = [];
         this.filteredVocabData = [];
         
@@ -23,8 +22,20 @@ class JLPTApp {
     }
 
     setupEventListeners() {
+        // Wait for DOM to be fully loaded
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', () => {
+                this.attachEventListeners();
+            });
+        } else {
+            this.attachEventListeners();
+        }
+    }
+
+    attachEventListeners() {
         // Navigation
-        document.querySelectorAll('.nav-btn').forEach(btn => {
+        const navButtons = document.querySelectorAll('.nav-btn');
+        navButtons.forEach(btn => {
             btn.addEventListener('click', (e) => {
                 const section = e.target.dataset.section;
                 this.showSection(section);
@@ -32,13 +43,17 @@ class JLPTApp {
         });
 
         // Day selector
-        document.getElementById('daySelect').addEventListener('change', (e) => {
-            this.currentDay = parseInt(e.target.value);
-            this.loadDayData(this.currentDay);
-        });
+        const daySelect = document.getElementById('daySelect');
+        if (daySelect) {
+            daySelect.addEventListener('change', (e) => {
+                this.currentDay = parseInt(e.target.value);
+                this.loadDayData(this.currentDay);
+            });
+        }
 
         // Study tabs
-        document.querySelectorAll('.tab-btn').forEach(btn => {
+        const tabButtons = document.querySelectorAll('.tab-btn');
+        tabButtons.forEach(btn => {
             btn.addEventListener('click', (e) => {
                 const tab = e.target.dataset.tab;
                 this.showTab(tab);
@@ -46,54 +61,79 @@ class JLPTApp {
         });
 
         // Quiz controls
-        document.getElementById('startQuizBtn').addEventListener('click', () => {
-            this.startQuiz();
-        });
+        const startQuizBtn = document.getElementById('startQuizBtn');
+        if (startQuizBtn) {
+            startQuizBtn.addEventListener('click', () => {
+                this.startQuiz();
+            });
+        }
 
-        document.getElementById('retakeQuizBtn').addEventListener('click', () => {
-            this.retakeQuiz();
-        });
+        const retakeQuizBtn = document.getElementById('retakeQuizBtn');
+        if (retakeQuizBtn) {
+            retakeQuizBtn.addEventListener('click', () => {
+                this.retakeQuiz();
+            });
+        }
 
-        document.getElementById('reviewAnswersBtn').addEventListener('click', () => {
-            this.showReview();
-        });
+        const reviewAnswersBtn = document.getElementById('reviewAnswersBtn');
+        if (reviewAnswersBtn) {
+            reviewAnswersBtn.addEventListener('click', () => {
+                this.showReview();
+            });
+        }
 
-        document.getElementById('backToResultsBtn').addEventListener('click', () => {
-            this.hideReview();
-        });
+        const backToResultsBtn = document.getElementById('backToResultsBtn');
+        if (backToResultsBtn) {
+            backToResultsBtn.addEventListener('click', () => {
+                this.hideReview();
+            });
+        }
 
         // Quiz navigation
-        document.getElementById('nextQuestionBtn').addEventListener('click', () => {
-            this.nextQuestion();
-        });
+        const nextQuestionBtn = document.getElementById('nextQuestionBtn');
+        if (nextQuestionBtn) {
+            nextQuestionBtn.addEventListener('click', () => {
+                this.nextQuestion();
+            });
+        }
 
-        document.getElementById('prevQuestionBtn').addEventListener('click', () => {
-            this.prevQuestion();
-        });
+        const prevQuestionBtn = document.getElementById('prevQuestionBtn');
+        if (prevQuestionBtn) {
+            prevQuestionBtn.addEventListener('click', () => {
+                this.prevQuestion();
+            });
+        }
 
-        document.getElementById('submitQuizBtn').addEventListener('click', () => {
-            this.finishQuiz();
-        });
+        const submitQuizBtn = document.getElementById('submitQuizBtn');
+        if (submitQuizBtn) {
+            submitQuizBtn.addEventListener('click', () => {
+                this.finishQuiz();
+            });
+        }
 
-        // Vocabulary database controls
-        document.getElementById('loadAllVocabBtn').addEventListener('click', () => {
-            this.loadVocabularyFromAPI();
-        });
+        // Vocabulary controls
+        const loadAllVocabBtn = document.getElementById('loadAllVocabBtn');
+        if (loadAllVocabBtn) {
+            loadAllVocabBtn.addEventListener('click', () => {
+                this.loadVocabularyFromAPI();
+            });
+        }
 
-        document.getElementById('searchBtn').addEventListener('click', () => {
-            this.searchVocabulary();
-        });
-
-        document.getElementById('vocabSearch').addEventListener('keypress', (e) => {
-            if (e.key === 'Enter') {
+        const searchBtn = document.getElementById('searchBtn');
+        if (searchBtn) {
+            searchBtn.addEventListener('click', () => {
                 this.searchVocabulary();
-            }
-        });
+            });
+        }
 
-
-        // Quick actions
-        window.startDailyStudy = () => this.showSection('daily');
-        window.takeQuiz = () => this.showSection('quiz');
+        const vocabSearch = document.getElementById('vocabSearch');
+        if (vocabSearch) {
+            vocabSearch.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    this.searchVocabulary();
+                }
+            });
+        }
     }
 
     showSection(sectionName) {
@@ -103,13 +143,19 @@ class JLPTApp {
         });
 
         // Show selected section
-        document.getElementById(sectionName).classList.add('active');
+        const targetSection = document.getElementById(sectionName);
+        if (targetSection) {
+            targetSection.classList.add('active');
+        }
 
         // Update navigation
         document.querySelectorAll('.nav-btn').forEach(btn => {
             btn.classList.remove('active');
         });
-        document.querySelector(`[data-section="${sectionName}"]`).classList.add('active');
+        const activeBtn = document.querySelector(`[data-section="${sectionName}"]`);
+        if (activeBtn) {
+            activeBtn.classList.add('active');
+        }
 
         this.currentSection = sectionName;
 
@@ -129,13 +175,19 @@ class JLPTApp {
         });
 
         // Show selected tab
-        document.getElementById(tabName).classList.add('active');
+        const targetTab = document.getElementById(tabName);
+        if (targetTab) {
+            targetTab.classList.add('active');
+        }
 
         // Update tab buttons
         document.querySelectorAll('.tab-btn').forEach(btn => {
             btn.classList.remove('active');
         });
-        document.querySelector(`[data-tab="${tabName}"]`).classList.add('active');
+        const activeTabBtn = document.querySelector(`[data-tab="${tabName}"]`);
+        if (activeTabBtn) {
+            activeTabBtn.classList.add('active');
+        }
 
         this.currentTab = tabName;
     }
@@ -159,12 +211,16 @@ class JLPTApp {
         const container = document.getElementById('vocabularyList');
         const countElement = document.getElementById('vocabCount');
 
+        if (!container) return;
+
         if (!vocabulary || !vocabulary.new_words) {
             container.innerHTML = '<p>No vocabulary data available for this day.</p>';
             return;
         }
 
-        countElement.textContent = vocabulary.total_learned || vocabulary.new_words.length;
+        if (countElement) {
+            countElement.textContent = vocabulary.total_learned || vocabulary.new_words.length;
+        }
 
         container.innerHTML = vocabulary.new_words.map(word => `
             <div class="word-card">
@@ -180,12 +236,16 @@ class JLPTApp {
         const container = document.getElementById('kanjiList');
         const countElement = document.getElementById('kanjiCount');
 
+        if (!container) return;
+
         if (!kanji || !kanji.new_kanji) {
             container.innerHTML = '<p>No kanji data available for this day.</p>';
             return;
         }
 
-        countElement.textContent = kanji.total_learned || kanji.new_kanji.length;
+        if (countElement) {
+            countElement.textContent = kanji.total_learned || kanji.new_kanji.length;
+        }
 
         container.innerHTML = kanji.new_kanji.map(char => `
             <div class="kanji-card">
@@ -207,12 +267,16 @@ class JLPTApp {
         const container = document.getElementById('grammarList');
         const countElement = document.getElementById('grammarCount');
 
+        if (!container) return;
+
         if (!grammar || !grammar.new_points) {
             container.innerHTML = '<p>No grammar data available for this day.</p>';
             return;
         }
 
-        countElement.textContent = grammar.total_learned || grammar.new_points.length;
+        if (countElement) {
+            countElement.textContent = grammar.total_learned || grammar.new_points.length;
+        }
 
         container.innerHTML = grammar.new_points.map(point => `
             <div class="grammar-card">
@@ -227,6 +291,120 @@ class JLPTApp {
         `).join('');
     }
 
+    // N5 Vocabulary List Integration
+    async loadVocabularyFromAPI() {
+        try {
+            const container = document.getElementById('vocabularyDatabase');
+            if (!container) return;
+
+            container.innerHTML = '<div class="loading-message">Loading N5 vocabulary list...</div>';
+            
+            // Load from local JSON file for faster loading
+            const response = await fetch('n5_vocabulary.json');
+            const data = await response.json();
+            
+            this.vocabData = data.vocabulary || [];
+            this.filteredVocabData = [...this.vocabData];
+            
+            this.updateVocabStats();
+            this.renderVocabularyTable();
+        } catch (error) {
+            console.error('Error loading vocabulary:', error);
+            const container = document.getElementById('vocabularyDatabase');
+            if (container) {
+                container.innerHTML = '<div class="loading-message">Unable to load vocabulary data. Please check your internet connection and try again.</div>';
+            }
+        }
+    }
+
+    searchVocabulary() {
+        const searchInput = document.getElementById('vocabSearch');
+        if (!searchInput) return;
+
+        const searchTerm = searchInput.value.toLowerCase().trim();
+        
+        if (!searchTerm) {
+            this.filteredVocabData = [...this.vocabData];
+        } else {
+            this.filteredVocabData = this.vocabData.filter(word => {
+                // Search by word number
+                if (word.number && word.number.toString().includes(searchTerm)) {
+                    return true;
+                }
+                // Search by romaji
+                if (word.romaji && word.romaji.toLowerCase().includes(searchTerm)) {
+                    return true;
+                }
+                // Search by other fields as well
+                if (word.kanji && word.kanji.toLowerCase().includes(searchTerm)) {
+                    return true;
+                }
+                if (word.hiragana && word.hiragana.toLowerCase().includes(searchTerm)) {
+                    return true;
+                }
+                if (word.english && word.english.toLowerCase().includes(searchTerm)) {
+                    return true;
+                }
+                return false;
+            });
+        }
+        
+        this.updateVocabStats();
+        this.renderVocabularyTable();
+    }
+
+    updateVocabStats() {
+        const totalCount = document.getElementById('totalVocabCount');
+        const filteredCount = document.getElementById('filteredVocabCount');
+        
+        if (totalCount) {
+            totalCount.textContent = this.vocabData.length;
+        }
+        if (filteredCount) {
+            filteredCount.textContent = this.filteredVocabData.length;
+        }
+    }
+
+    renderVocabularyTable() {
+        const container = document.getElementById('vocabularyDatabase');
+        if (!container) return;
+        
+        if (this.filteredVocabData.length === 0) {
+            container.innerHTML = '<div class="loading-message">No vocabulary found matching your search criteria.</div>';
+            return;
+        }
+        
+        container.innerHTML = `
+            <table class="vocab-table">
+                <thead>
+                    <tr>
+                        <th class="vocab-number">#</th>
+                        <th class="vocab-kanji">Kanji</th>
+                        <th class="vocab-hiragana">Hiragana</th>
+                        <th class="vocab-romaji">Romaji</th>
+                        <th class="vocab-english">English</th>
+                        <th class="vocab-level">Level</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    ${this.filteredVocabData.map(word => `
+                        <tr>
+                            <td class="vocab-number">${word.number}</td>
+                            <td class="vocab-kanji">${word.kanji || '-'}</td>
+                            <td class="vocab-hiragana">${word.hiragana || '-'}</td>
+                            <td class="vocab-romaji">${word.romaji || '-'}</td>
+                            <td class="vocab-english">${word.english || '-'}</td>
+                            <td class="vocab-level">
+                                <span class="vocab-level-badge">${word.level || 'N5'}</span>
+                            </td>
+                        </tr>
+                    `).join('')}
+                </tbody>
+            </table>
+        `;
+    }
+
+    // Quiz functionality (simplified)
     async startQuiz() {
         const quizDay = parseInt(document.getElementById('quizDay').value);
 
@@ -248,7 +426,6 @@ class JLPTApp {
 
     async generateMixedQuiz(day) {
         try {
-            // Load day data
             const dayData = await this.loadDayDataForQuiz(day);
             const questions = [];
 
@@ -356,10 +533,15 @@ class JLPTApp {
     }
 
     showQuizArea() {
-        document.getElementById('quizSettings').classList.add('hidden');
-        document.getElementById('quizArea').classList.remove('hidden');
-        document.getElementById('quizResults').classList.add('hidden');
-        document.getElementById('reviewArea').classList.add('hidden');
+        const quizSettings = document.getElementById('quizSettings');
+        const quizArea = document.getElementById('quizArea');
+        const quizResults = document.getElementById('quizResults');
+        const reviewArea = document.getElementById('reviewArea');
+
+        if (quizSettings) quizSettings.classList.add('hidden');
+        if (quizArea) quizArea.classList.remove('hidden');
+        if (quizResults) quizResults.classList.add('hidden');
+        if (reviewArea) reviewArea.classList.add('hidden');
     }
 
     startQuizTimer() {
@@ -368,8 +550,11 @@ class JLPTApp {
             const elapsed = Math.floor((now - this.quizStartTime) / 1000);
             const minutes = Math.floor(elapsed / 60);
             const seconds = elapsed % 60;
-            document.getElementById('quizTimer').textContent = 
-                `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+            const timerElement = document.getElementById('quizTimer');
+            if (timerElement) {
+                timerElement.textContent = 
+                    `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+            }
         }, 1000);
     }
 
@@ -382,35 +567,48 @@ class JLPTApp {
         const question = this.quizData[this.currentQuestion];
         const progress = ((this.currentQuestion + 1) / this.quizData.length) * 100;
 
-        document.getElementById('quizProgress').textContent = 
-            `Question ${this.currentQuestion + 1} of ${this.quizData.length}`;
-        document.getElementById('progressFill').style.width = `${progress}%`;
+        const progressElement = document.getElementById('quizProgress');
+        if (progressElement) {
+            progressElement.textContent = `Question ${this.currentQuestion + 1} of ${this.quizData.length}`;
+        }
 
-        document.getElementById('questionContent').innerHTML = `
-            <div class="question-type">${question.type.toUpperCase()}</div>
-            <div class="question-text">${question.question}</div>
-        `;
+        const progressFill = document.getElementById('progressFill');
+        if (progressFill) {
+            progressFill.style.width = `${progress}%`;
+        }
+
+        const questionContent = document.getElementById('questionContent');
+        if (questionContent) {
+            questionContent.innerHTML = `
+                <div class="question-type">${question.type.toUpperCase()}</div>
+                <div class="question-text">${question.question}</div>
+            `;
+        }
 
         const optionsContainer = document.getElementById('answerOptions');
-        optionsContainer.innerHTML = question.options.map((option, index) => `
-            <div class="answer-option" data-answer="${option}">
-                ${String.fromCharCode(65 + index)}. ${option}
-            </div>
-        `).join('');
+        if (optionsContainer) {
+            optionsContainer.innerHTML = question.options.map((option, index) => `
+                <div class="answer-option" data-answer="${option}">
+                    ${String.fromCharCode(65 + index)}. ${option}
+                </div>
+            `).join('');
 
-        // Add click listeners to options
-        optionsContainer.querySelectorAll('.answer-option').forEach(option => {
-            option.addEventListener('click', (e) => {
-                this.selectAnswer(e.target.dataset.answer);
+            // Add click listeners to options
+            optionsContainer.querySelectorAll('.answer-option').forEach(option => {
+                option.addEventListener('click', (e) => {
+                    this.selectAnswer(e.target.dataset.answer);
+                });
             });
-        });
+        }
 
         // Update navigation buttons
-        document.getElementById('prevQuestionBtn').disabled = this.currentQuestion === 0;
-        document.getElementById('nextQuestionBtn').style.display = 
-            this.currentQuestion === this.quizData.length - 1 ? 'none' : 'inline-block';
-        document.getElementById('submitQuizBtn').style.display = 
-            this.currentQuestion === this.quizData.length - 1 ? 'inline-block' : 'none';
+        const prevBtn = document.getElementById('prevQuestionBtn');
+        const nextBtn = document.getElementById('nextQuestionBtn');
+        const submitBtn = document.getElementById('submitQuizBtn');
+
+        if (prevBtn) prevBtn.disabled = this.currentQuestion === 0;
+        if (nextBtn) nextBtn.style.display = this.currentQuestion === this.quizData.length - 1 ? 'none' : 'inline-block';
+        if (submitBtn) submitBtn.style.display = this.currentQuestion === this.quizData.length - 1 ? 'inline-block' : 'none';
     }
 
     selectAnswer(answer) {
@@ -420,7 +618,10 @@ class JLPTApp {
         });
 
         // Add selection to clicked option
-        document.querySelector(`[data-answer="${answer}"]`).classList.add('selected');
+        const selectedOption = document.querySelector(`[data-answer="${answer}"]`);
+        if (selectedOption) {
+            selectedOption.classList.add('selected');
+        }
 
         // Store answer
         this.quizAnswers[this.currentQuestion] = answer;
@@ -441,7 +642,9 @@ class JLPTApp {
     }
 
     finishQuiz() {
-        clearInterval(this.quizTimer);
+        if (this.quizTimer) {
+            clearInterval(this.quizTimer);
+        }
         
         // Calculate results
         const correctAnswers = this.quizData.filter((question, index) => 
@@ -465,13 +668,21 @@ class JLPTApp {
         const minutes = Math.floor(timeElapsed / 60);
         const seconds = timeElapsed % 60;
 
-        document.getElementById('quizScore').textContent = `${correctAnswers}/${this.quizData.length}`;
-        document.getElementById('quizPercentage').textContent = `${percentage}%`;
-        document.getElementById('quizTime').textContent = 
-            `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+        const scoreElement = document.getElementById('quizScore');
+        const percentageElement = document.getElementById('quizPercentage');
+        const timeElement = document.getElementById('quizTime');
 
-        document.getElementById('quizArea').classList.add('hidden');
-        document.getElementById('quizResults').classList.remove('hidden');
+        if (scoreElement) scoreElement.textContent = `${correctAnswers}/${this.quizData.length}`;
+        if (percentageElement) percentageElement.textContent = `${percentage}%`;
+        if (timeElement) {
+            timeElement.textContent = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+        }
+
+        const quizArea = document.getElementById('quizArea');
+        const quizResults = document.getElementById('quizResults');
+
+        if (quizArea) quizArea.classList.add('hidden');
+        if (quizResults) quizResults.classList.remove('hidden');
     }
 
     showReview() {
@@ -480,18 +691,25 @@ class JLPTApp {
             return;
         }
 
-        document.getElementById('quizResults').classList.add('hidden');
-        document.getElementById('reviewArea').classList.remove('hidden');
+        const quizResults = document.getElementById('quizResults');
+        const reviewArea = document.getElementById('reviewArea');
+
+        if (quizResults) quizResults.classList.add('hidden');
+        if (reviewArea) reviewArea.classList.remove('hidden');
         this.renderReview();
     }
 
     hideReview() {
-        document.getElementById('reviewArea').classList.add('hidden');
-        document.getElementById('quizResults').classList.remove('hidden');
+        const reviewArea = document.getElementById('reviewArea');
+        const quizResults = document.getElementById('quizResults');
+
+        if (reviewArea) reviewArea.classList.add('hidden');
+        if (quizResults) quizResults.classList.remove('hidden');
     }
 
     renderReview() {
         const container = document.getElementById('reviewContent');
+        if (!container) return;
         
         container.innerHTML = this.wrongAnswers.map((item, index) => `
             <div class="review-item">
@@ -511,8 +729,11 @@ class JLPTApp {
     }
 
     retakeQuiz() {
-        document.getElementById('quizResults').classList.add('hidden');
-        document.getElementById('quizSettings').classList.remove('hidden');
+        const quizResults = document.getElementById('quizResults');
+        const quizSettings = document.getElementById('quizSettings');
+
+        if (quizResults) quizResults.classList.add('hidden');
+        if (quizSettings) quizSettings.classList.remove('hidden');
     }
 
     shuffleArray(array) {
@@ -524,143 +745,6 @@ class JLPTApp {
         return shuffled;
     }
 
-    // N5 Vocabulary List Integration
-    async loadVocabularyFromAPI() {
-        try {
-            document.getElementById('vocabularyDatabase').innerHTML = 
-                '<div class="loading-message">Loading N5 vocabulary list...</div>';
-            
-            // Try multiple API endpoints
-            let response;
-            let data;
-            
-            try {
-                // Try the main API endpoint
-                response = await fetch(`${this.apiBaseUrl}/vocab?level=N5`);
-                data = await response.json();
-            } catch (error) {
-                console.log('Main API failed, trying alternative endpoint...');
-                // Try alternative endpoint
-                response = await fetch(`${this.apiBaseUrl}/n5`);
-                data = await response.json();
-            }
-            
-            // Handle different response formats
-            if (data.data) {
-                this.vocabData = data.data;
-            } else if (Array.isArray(data)) {
-                this.vocabData = data;
-            } else {
-                throw new Error('Unexpected API response format');
-            }
-            
-            // Filter for N5 level if not already filtered
-            this.vocabData = this.vocabData.filter(word => 
-                !word.level || word.level === 'N5' || word.level === 'n5'
-            );
-            
-            // Add numbering to each word
-            this.vocabData = this.vocabData.map((word, index) => ({
-                ...word,
-                number: index + 1
-            }));
-            
-            this.filteredVocabData = [...this.vocabData];
-            
-            this.updateVocabStats();
-            this.renderVocabularyList();
-        } catch (error) {
-            console.error('Error loading vocabulary from API:', error);
-            // Fallback to local data if API fails
-            this.loadLocalVocabulary();
-        }
-    }
-
-    loadLocalVocabulary() {
-        // Fallback: Load from local JSON file
-        fetch('jlpt_n5_vocabulary_database.json')
-            .then(response => response.json())
-            .then(data => {
-                this.vocabData = data.vocabulary || [];
-                this.vocabData = this.vocabData.map((word, index) => ({
-                    ...word,
-                    number: index + 1
-                }));
-                this.filteredVocabData = [...this.vocabData];
-                this.updateVocabStats();
-                this.renderVocabularyList();
-            })
-            .catch(error => {
-                console.error('Error loading local vocabulary:', error);
-                document.getElementById('vocabularyDatabase').innerHTML = 
-                    '<div class="loading-message">Unable to load vocabulary data. Please check your internet connection and try again.</div>';
-            });
-    }
-
-    searchVocabulary() {
-        const searchTerm = document.getElementById('vocabSearch').value.toLowerCase().trim();
-        
-        if (!searchTerm) {
-            this.filteredVocabData = [...this.vocabData];
-        } else {
-            this.filteredVocabData = this.vocabData.filter(word => {
-                // Search by word number
-                if (word.number && word.number.toString().includes(searchTerm)) {
-                    return true;
-                }
-                // Search by romaji
-                if (word.romaji && word.romaji.toLowerCase().includes(searchTerm)) {
-                    return true;
-                }
-                // Search by other fields as well
-                if (word.kanji && word.kanji.toLowerCase().includes(searchTerm)) {
-                    return true;
-                }
-                if (word.hiragana && word.hiragana.toLowerCase().includes(searchTerm)) {
-                    return true;
-                }
-                if (word.english && word.english.toLowerCase().includes(searchTerm)) {
-                    return true;
-                }
-                return false;
-            });
-        }
-        
-        this.updateVocabStats();
-        this.renderVocabularyList();
-    }
-
-    updateVocabStats() {
-        document.getElementById('totalVocabCount').textContent = this.vocabData.length;
-        document.getElementById('filteredVocabCount').textContent = this.filteredVocabData.length;
-    }
-
-    renderVocabularyList() {
-        const container = document.getElementById('vocabularyDatabase');
-        
-        if (this.filteredVocabData.length === 0) {
-            container.innerHTML = '<div class="loading-message">No vocabulary found matching your search criteria.</div>';
-            return;
-        }
-        
-        container.innerHTML = `
-            <div class="vocab-list">
-                ${this.filteredVocabData.map(word => `
-                    <div class="vocab-item">
-                        <div class="vocab-number">${word.number}</div>
-                        <div class="vocab-content">
-                            <div class="vocab-kanji">${word.kanji || '-'}</div>
-                            <div class="vocab-hiragana">${word.hiragana || '-'}</div>
-                            <div class="vocab-romaji">${word.romaji || '-'}</div>
-                            <div class="vocab-english">${word.english || '-'}</div>
-                        </div>
-                        <div class="vocab-level">N5</div>
-                    </div>
-                `).join('')}
-            </div>
-        `;
-    }
-
     showError(message) {
         alert(message); // Simple error handling
     }
@@ -670,3 +754,22 @@ class JLPTApp {
 document.addEventListener('DOMContentLoaded', () => {
     window.jlptApp = new JLPTApp();
 });
+
+// Global functions for onclick handlers
+window.startDailyStudy = () => {
+    if (window.jlptApp) {
+        window.jlptApp.showSection('daily');
+    }
+};
+
+window.showVocabList = () => {
+    if (window.jlptApp) {
+        window.jlptApp.showSection('vocabulary');
+    }
+};
+
+window.takeQuiz = () => {
+    if (window.jlptApp) {
+        window.jlptApp.showSection('quiz');
+    }
+};
