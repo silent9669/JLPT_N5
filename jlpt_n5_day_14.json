@@ -1,0 +1,651 @@
+{
+  "day": 14,
+  "date": "2025-01-14",
+  "title": "JLPT N5 Study Plan - Day 14",
+  "daily_goal": {
+    "vocabulary_words": 19,
+    "kanji_characters": 6,
+    "grammar_points": 2,
+    "study_time_minutes": 60
+  },
+  "vocabulary": {
+    "new_words": [
+      {
+        "kanji": "ラジオ",
+        "hiragana": "ラジオ",
+        "romaji": "rajio",
+        "english": "radio",
+        "category": "technology",
+        "level": "basic"
+      },
+      {
+        "kanji": "コンピューター",
+        "hiragana": "コンピューター",
+        "romaji": "konpyuutaa",
+        "english": "computer",
+        "category": "technology",
+        "level": "basic"
+      },
+      {
+        "kanji": "インターネット",
+        "hiragana": "インターネット",
+        "romaji": "intaanetto",
+        "english": "internet",
+        "category": "technology",
+        "level": "basic"
+      },
+      {
+        "kanji": "メール",
+        "hiragana": "メール",
+        "romaji": "meeru",
+        "english": "email",
+        "category": "technology",
+        "level": "basic"
+      },
+      {
+        "kanji": "写真",
+        "hiragana": "しゃしん",
+        "romaji": "shashin",
+        "english": "photograph",
+        "category": "technology",
+        "level": "basic"
+      },
+      {
+        "kanji": "カメラ",
+        "hiragana": "カメラ",
+        "romaji": "kamera",
+        "english": "camera",
+        "category": "technology",
+        "level": "basic"
+      },
+      {
+        "kanji": "音楽",
+        "hiragana": "おんがく",
+        "romaji": "ongaku",
+        "english": "music",
+        "category": "entertainment",
+        "level": "basic"
+      },
+      {
+        "kanji": "歌",
+        "hiragana": "うた",
+        "romaji": "uta",
+        "english": "song",
+        "category": "entertainment",
+        "level": "basic"
+      },
+      {
+        "kanji": "映画",
+        "hiragana": "えいが",
+        "romaji": "eiga",
+        "english": "movie",
+        "category": "entertainment",
+        "level": "basic"
+      },
+      {
+        "kanji": "ゲーム",
+        "hiragana": "ゲーム",
+        "romaji": "geemu",
+        "english": "game",
+        "category": "entertainment",
+        "level": "basic"
+      },
+      {
+        "kanji": "スポーツ",
+        "hiragana": "スポーツ",
+        "romaji": "supootsu",
+        "english": "sports",
+        "category": "entertainment",
+        "level": "basic"
+      },
+      {
+        "kanji": "旅行",
+        "hiragana": "りょこう",
+        "romaji": "ryokou",
+        "english": "travel",
+        "category": "entertainment",
+        "level": "basic"
+      },
+      {
+        "kanji": "休み",
+        "hiragana": "やすみ",
+        "romaji": "yasumi",
+        "english": "holiday, rest",
+        "category": "entertainment",
+        "level": "basic"
+      },
+      {
+        "kanji": "立つ",
+        "hiragana": "たつ",
+        "romaji": "tatsu",
+        "english": "to stand",
+        "category": "verbs",
+        "level": "basic"
+      },
+      {
+        "kanji": "座る",
+        "hiragana": "すわる",
+        "romaji": "suwaru",
+        "english": "to sit",
+        "category": "verbs",
+        "level": "basic"
+      },
+      {
+        "kanji": "寝る",
+        "hiragana": "ねる",
+        "romaji": "neru",
+        "english": "to sleep",
+        "category": "verbs",
+        "level": "basic"
+      },
+      {
+        "kanji": "起きる",
+        "hiragana": "おきる",
+        "romaji": "okiru",
+        "english": "to wake up",
+        "category": "verbs",
+        "level": "basic"
+      },
+      {
+        "kanji": "入る",
+        "hiragana": "はいる",
+        "romaji": "hairu",
+        "english": "to enter",
+        "category": "verbs",
+        "level": "basic"
+      },
+      {
+        "kanji": "出る",
+        "hiragana": "でる",
+        "romaji": "deru",
+        "english": "to exit",
+        "category": "verbs",
+        "level": "basic"
+      }
+    ],
+    "total_learned": 266,
+    "category_focus": "technology"
+  },
+  "kanji": {
+    "new_kanji": [
+      {
+        "kanji": "夜",
+        "onyomi": "ヤ",
+        "kunyomi": "よる",
+        "meaning": "night",
+        "vocabulary": [
+          "夜(よる)",
+          "夜中(よなか)"
+        ],
+        "strokes": 8
+      },
+      {
+        "kanji": "晩",
+        "onyomi": "バン",
+        "kunyomi": "",
+        "meaning": "evening",
+        "vocabulary": [
+          "晩(ばん)",
+          "今晩(こんばん)"
+        ],
+        "strokes": 12
+      },
+      {
+        "kanji": "午",
+        "onyomi": "ゴ",
+        "kunyomi": "",
+        "meaning": "noon",
+        "vocabulary": [
+          "午前(ごぜん)",
+          "午後(ごご)"
+        ],
+        "strokes": 4
+      },
+      {
+        "kanji": "毎",
+        "onyomi": "マイ",
+        "kunyomi": "",
+        "meaning": "every",
+        "vocabulary": [
+          "毎日(まいにち)",
+          "毎年(まいねん)"
+        ],
+        "strokes": 6
+      },
+      {
+        "kanji": "来",
+        "onyomi": "ライ",
+        "kunyomi": "くる",
+        "meaning": "come",
+        "vocabulary": [
+          "来る(くる)",
+          "来年(らいねん)"
+        ],
+        "strokes": 7
+      },
+      {
+        "kanji": "行",
+        "onyomi": "コウ、ギョウ",
+        "kunyomi": "いく、ゆく",
+        "meaning": "go",
+        "vocabulary": [
+          "行く(いく)",
+          "旅行(りょこう)"
+        ],
+        "strokes": 6
+      }
+    ],
+    "total_learned": 84,
+    "stroke_practice": [
+      "夜",
+      "晩",
+      "午",
+      "毎",
+      "来",
+      "行"
+    ]
+  },
+  "grammar": {
+    "new_points": [
+      {
+        "grammar": "いくら",
+        "meaning": "how much",
+        "formation": "いくら + ですか",
+        "example_jp": "これはいくらですか。",
+        "example_en": "How much is this?",
+        "level": "basic",
+        "category": "question"
+      },
+      {
+        "grammar": "いくつ",
+        "meaning": "how many",
+        "formation": "いくつ + ですか",
+        "example_jp": "りんごをいくつ買いますか。",
+        "example_en": "How many apples will you buy?",
+        "level": "basic",
+        "category": "question"
+      }
+    ],
+    "total_learned": 28,
+    "focus_category": "question"
+  },
+  "daily_quiz": {
+    "questions": [
+      {
+        "type": "vocabulary",
+        "question": "What does '母' mean?",
+        "question_jp": "母",
+        "question_hiragana": "はは",
+        "correct_answer": "mother (humble)",
+        "options": [
+          "mother (humble)",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "母 (はは) means mother (humble)"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '涼しい' mean?",
+        "question_jp": "涼しい",
+        "question_hiragana": "すずしい",
+        "correct_answer": "cool",
+        "options": [
+          "cool",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "涼しい (すずしい) means cool"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '西' mean?",
+        "question_jp": "西",
+        "question_hiragana": "にし",
+        "correct_answer": "west",
+        "options": [
+          "west",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "西 (にし) means west"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does 'お母さん' mean?",
+        "question_jp": "お母さん",
+        "question_hiragana": "おかあさん",
+        "correct_answer": "mother (polite)",
+        "options": [
+          "mother (polite)",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "お母さん (おかあさん) means mother (polite)"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '妹' mean?",
+        "question_jp": "妹",
+        "question_hiragana": "いもうと",
+        "correct_answer": "younger sister",
+        "options": [
+          "younger sister",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "妹 (いもうと) means younger sister"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '飲み物' mean?",
+        "question_jp": "飲み物",
+        "question_hiragana": "のみもの",
+        "correct_answer": "drink",
+        "options": [
+          "drink",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "飲み物 (のみもの) means drink"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does 'それ' mean?",
+        "question_jp": "それ",
+        "question_hiragana": "それ",
+        "correct_answer": "that",
+        "options": [
+          "that",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "それ (それ) means that"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '四' mean?",
+        "question_jp": "四",
+        "question_hiragana": "よん",
+        "correct_answer": "four",
+        "options": [
+          "four",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "四 (よん) means four"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '父' mean?",
+        "question_jp": "父",
+        "question_hiragana": "ちち",
+        "correct_answer": "father (humble)",
+        "options": [
+          "father (humble)",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "父 (ちち) means father (humble)"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does 'ここ' mean?",
+        "question_jp": "ここ",
+        "question_hiragana": "ここ",
+        "correct_answer": "here",
+        "options": [
+          "here",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "ここ (ここ) means here"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '先生' mean?",
+        "question_jp": "先生",
+        "question_hiragana": "せんせい",
+        "correct_answer": "teacher",
+        "options": [
+          "teacher",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "先生 (せんせい) means teacher"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '卵' mean?",
+        "question_jp": "卵",
+        "question_hiragana": "たまご",
+        "correct_answer": "egg",
+        "options": [
+          "egg",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "卵 (たまご) means egg"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '半'?",
+        "question_jp": "半",
+        "correct_answer": "ハン",
+        "options": [
+          "ハン",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "半 can be read as ハン (on'yomi) or なかば (kun'yomi). Meaning: half"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '六'?",
+        "question_jp": "六",
+        "correct_answer": "ロク",
+        "options": [
+          "ロク",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "六 can be read as ロク (on'yomi) or む、むっつ (kun'yomi). Meaning: six"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '少'?",
+        "question_jp": "少",
+        "correct_answer": "ショウ",
+        "options": [
+          "ショウ",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "少 can be read as ショウ (on'yomi) or すくない、すこし (kun'yomi). Meaning: few, little"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '前'?",
+        "question_jp": "前",
+        "correct_answer": "ゼン",
+        "options": [
+          "ゼン",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "前 can be read as ゼン (on'yomi) or まえ (kun'yomi). Meaning: before, front"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '涼'?",
+        "question_jp": "涼",
+        "correct_answer": "リョウ",
+        "options": [
+          "リョウ",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "涼 can be read as リョウ (on'yomi) or すずしい (kun'yomi). Meaning: cool"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '長'?",
+        "question_jp": "長",
+        "correct_answer": "チョウ",
+        "options": [
+          "チョウ",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "長 can be read as チョウ (on'yomi) or ながい (kun'yomi). Meaning: long"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '短'?",
+        "question_jp": "短",
+        "correct_answer": "タン",
+        "options": [
+          "タン",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "短 can be read as タン (on'yomi) or みじかい (kun'yomi). Meaning: short"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '昼'?",
+        "question_jp": "昼",
+        "correct_answer": "チュウ",
+        "options": [
+          "チュウ",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "昼 can be read as チュウ (on'yomi) or ひる (kun'yomi). Meaning: noon, daytime"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '小'?",
+        "question_jp": "小",
+        "correct_answer": "ショウ",
+        "options": [
+          "ショウ",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "小 can be read as ショウ (on'yomi) or ちいさい、こ (kun'yomi). Meaning: small"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'いつ':",
+        "question_jp": "いつ日本に行きますか。",
+        "correct_answer": "When do you go to Japan?",
+        "explanation": "いつ: when. Example: いつ日本に行きますか。 = When do you go to Japan?",
+        "grammar_point": "いつ",
+        "meaning": "when"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'じゃありません/ではありません':",
+        "question_jp": "私は学生じゃありません。",
+        "correct_answer": "I am not a student.",
+        "explanation": "じゃありません/ではありません: to not be (polite negative). Example: 私は学生じゃありません。 = I am not a student.",
+        "grammar_point": "じゃありません/ではありません",
+        "meaning": "to not be (polite negative)"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'に (ni)':",
+        "question_jp": "学校に行きます。",
+        "correct_answer": "I go to school.",
+        "explanation": "に (ni): location/time/direction particle. Example: 学校に行きます。 = I go to school.",
+        "grammar_point": "に (ni)",
+        "meaning": "location/time/direction particle"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'ました':",
+        "question_jp": "昨日映画を見ました。",
+        "correct_answer": "I watched a movie yesterday.",
+        "explanation": "ました: polite past tense. Example: 昨日映画を見ました。 = I watched a movie yesterday.",
+        "grammar_point": "ました",
+        "meaning": "polite past tense"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'ほしい':",
+        "question_jp": "新しい車がほしいです。",
+        "correct_answer": "I want a new car.",
+        "explanation": "ほしい: to want (object). Example: 新しい車がほしいです。 = I want a new car.",
+        "grammar_point": "ほしい",
+        "meaning": "to want (object)"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'い-adjectives':",
+        "question_jp": "この本は面白いです。",
+        "correct_answer": "This book is interesting.",
+        "explanation": "い-adjectives: i-adjectives conjugation. Example: この本は面白いです。 = This book is interesting.",
+        "grammar_point": "い-adjectives",
+        "meaning": "i-adjectives conjugation"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'どこ':",
+        "question_jp": "学校はどこですか。",
+        "correct_answer": "Where is the school?",
+        "explanation": "どこ: where. Example: 学校はどこですか。 = Where is the school?",
+        "grammar_point": "どこ",
+        "meaning": "where"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'だれ/誰':",
+        "question_jp": "あの人はだれですか。",
+        "correct_answer": "Who is that person?",
+        "explanation": "だれ/誰: who. Example: あの人はだれですか。 = Who is that person?",
+        "grammar_point": "だれ/誰",
+        "meaning": "who"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'たい':",
+        "question_jp": "日本に行きたいです。",
+        "correct_answer": "I want to go to Japan.",
+        "explanation": "たい: to want to do. Example: 日本に行きたいです。 = I want to go to Japan.",
+        "grammar_point": "たい",
+        "meaning": "to want to do"
+      }
+    ],
+    "total_questions": 30,
+    "estimated_time_minutes": 15,
+    "description": "Mixed review of vocabulary, kanji, and grammar from previous days"
+  },
+  "study_tips": {
+    "vocabulary": "Focus on memorizing kanji readings and English meanings. Use spaced repetition.",
+    "kanji": "Practice writing each kanji 5-10 times. Learn both on'yomi and kun'yomi readings.",
+    "grammar": "Create your own example sentences using new grammar patterns.",
+    "general": "Review previous days' content for 10-15 minutes before learning new material."
+  }
+}

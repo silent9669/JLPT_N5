@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JLPT N5 Study App - 30 Day Challenge</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1 class="logo">JLPT N5</h1>
+                <nav class="nav">
+                    <button class="nav-btn active" data-section="dashboard">Dashboard</button>
+                    <button class="nav-btn" data-section="daily">Daily Study</button>
+                    <button class="nav-btn" data-section="quiz">Quiz</button>
+                    <button class="nav-btn" data-section="progress">Progress</button>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Dashboard Section -->
+            <section id="dashboard" class="section active">
+                <div class="dashboard-header">
+                    <h2>30-Day JLPT N5 Challenge</h2>
+                    <p class="subtitle">Master Japanese vocabulary, kanji, and grammar in 30 days</p>
+                </div>
+                
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">591</div>
+                        <div class="stat-label">Vocabulary Words</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">205</div>
+                        <div class="stat-label">Kanji Characters</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">80</div>
+                        <div class="stat-label">Grammar Points</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">30</div>
+                        <div class="stat-label">Study Days</div>
+                    </div>
+                </div>
+
+                <div class="quick-actions">
+                    <h3>Quick Actions</h3>
+                    <div class="action-buttons">
+                        <button class="action-btn primary" onclick="startDailyStudy()">
+                            <span class="btn-icon">📚</span>
+                            Start Today's Study
+                        </button>
+                        <button class="action-btn secondary" onclick="takeQuiz()">
+                            <span class="btn-icon">📝</span>
+                            Take Quiz
+                        </button>
+                        <button class="action-btn secondary" onclick="viewProgress()">
+                            <span class="btn-icon">📊</span>
+                            View Progress
+                        </button>
+                    </div>
+                </div>
+
+                <div class="study-tips">
+                    <h3>Study Tips</h3>
+                    <ul class="tips-list">
+                        <li>Review previous day's content for 10-15 minutes</li>
+                        <li>Use spaced repetition for vocabulary review</li>
+                        <li>Practice writing kanji multiple times</li>
+                        <li>Create original sentences using new grammar</li>
+                        <li>Take breaks between study sessions</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Daily Study Section -->
+            <section id="daily" class="section">
+                <div class="section-header">
+                    <h2>Daily Study</h2>
+                    <div class="day-selector">
+                        <label for="daySelect">Select Day:</label>
+                        <select id="daySelect">
+                            <option value="1">Day 1</option>
+                            <option value="2">Day 2</option>
+                            <option value="3">Day 3</option>
+                            <option value="4">Day 4</option>
+                            <option value="5">Day 5</option>
+                            <option value="6">Day 6</option>
+                            <option value="7">Day 7</option>
+                            <option value="8">Day 8</option>
+                            <option value="9">Day 9</option>
+                            <option value="10">Day 10</option>
+                            <option value="11">Day 11</option>
+                            <option value="12">Day 12</option>
+                            <option value="13">Day 13</option>
+                            <option value="14">Day 14</option>
+                            <option value="15">Day 15</option>
+                            <option value="16">Day 16</option>
+                            <option value="17">Day 17</option>
+                            <option value="18">Day 18</option>
+                            <option value="19">Day 19</option>
+                            <option value="20">Day 20</option>
+                            <option value="21">Day 21</option>
+                            <option value="22">Day 22</option>
+                            <option value="23">Day 23</option>
+                            <option value="24">Day 24</option>
+                            <option value="25">Day 25</option>
+                            <option value="26">Day 26</option>
+                            <option value="27">Day 27</option>
+                            <option value="28">Day 28</option>
+                            <option value="29">Day 29</option>
+                            <option value="30">Day 30</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="study-content">
+                    <div class="study-tabs">
+                        <button class="tab-btn active" data-tab="vocabulary">Vocabulary</button>
+                        <button class="tab-btn" data-tab="kanji">Kanji</button>
+                        <button class="tab-btn" data-tab="grammar">Grammar</button>
+                    </div>
+
+                    <div class="tab-content">
+                        <!-- Vocabulary Tab -->
+                        <div id="vocabulary" class="tab-panel active">
+                            <div class="study-header">
+                                <h3>Vocabulary</h3>
+                                <div class="study-stats">
+                                    <span class="stat">Words: <span id="vocabCount">0</span></span>
+                                    <span class="stat">Category: <span id="vocabCategory">-</span></span>
+                                </div>
+                            </div>
+                            <div id="vocabularyList" class="word-list">
+                                <!-- Vocabulary words will be loaded here -->
+                            </div>
+                        </div>
+
+                        <!-- Kanji Tab -->
+                        <div id="kanji" class="tab-panel">
+                            <div class="study-header">
+                                <h3>Kanji</h3>
+                                <div class="study-stats">
+                                    <span class="stat">Characters: <span id="kanjiCount">0</span></span>
+                                </div>
+                            </div>
+                            <div id="kanjiList" class="kanji-list">
+                                <!-- Kanji characters will be loaded here -->
+                            </div>
+                        </div>
+
+                        <!-- Grammar Tab -->
+                        <div id="grammar" class="tab-panel">
+                            <div class="study-header">
+                                <h3>Grammar</h3>
+                                <div class="study-stats">
+                                    <span class="stat">Points: <span id="grammarCount">0</span></span>
+                                    <span class="stat">Category: <span id="grammarCategory">-</span></span>
+                                </div>
+                            </div>
+                            <div id="grammarList" class="grammar-list">
+                                <!-- Grammar points will be loaded here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Quiz Section -->
+            <section id="quiz" class="section">
+                <div class="section-header">
+                    <h2>Quiz</h2>
+                    <div class="quiz-controls">
+                        <button class="btn secondary" id="quizSettingsBtn">Settings</button>
+                        <button class="btn primary" id="startQuizBtn">Start Quiz</button>
+                    </div>
+                </div>
+
+                <div class="quiz-content">
+                    <div id="quizSettings" class="quiz-settings">
+                        <h3>Quiz Settings</h3>
+                        <div class="setting-group">
+                            <label for="quizType">Quiz Type:</label>
+                            <select id="quizType">
+                                <option value="daily">Daily Quiz</option>
+                                <option value="vocabulary">Vocabulary Only</option>
+                                <option value="kanji">Kanji Only</option>
+                                <option value="grammar">Grammar Only</option>
+                                <option value="mixed">Mixed Review</option>
+                            </select>
+                        </div>
+                        <div class="setting-group">
+                            <label for="questionCount">Number of Questions:</label>
+                            <select id="questionCount">
+                                <option value="10">10 Questions</option>
+                                <option value="20">20 Questions</option>
+                                <option value="30" selected>30 Questions</option>
+                                <option value="50">50 Questions</option>
+                            </select>
+                        </div>
+                        <div class="setting-group">
+                            <label for="quizDay">Day (for Daily Quiz):</label>
+                            <select id="quizDay">
+                                <option value="1">Day 1</option>
+                                <option value="2">Day 2</option>
+                                <option value="3">Day 3</option>
+                                <option value="4">Day 4</option>
+                                <option value="5">Day 5</option>
+                                <option value="6">Day 6</option>
+                                <option value="7">Day 7</option>
+                                <option value="8">Day 8</option>
+                                <option value="9">Day 9</option>
+                                <option value="10">Day 10</option>
+                                <option value="11">Day 11</option>
+                                <option value="12">Day 12</option>
+                                <option value="13">Day 13</option>
+                                <option value="14">Day 14</option>
+                                <option value="15">Day 15</option>
+                                <option value="16">Day 16</option>
+                                <option value="17">Day 17</option>
+                                <option value="18">Day 18</option>
+                                <option value="19">Day 19</option>
+                                <option value="20">Day 20</option>
+                                <option value="21">Day 21</option>
+                                <option value="22">Day 22</option>
+                                <option value="23">Day 23</option>
+                                <option value="24">Day 24</option>
+                                <option value="25">Day 25</option>
+                                <option value="26">Day 26</option>
+                                <option value="27">Day 27</option>
+                                <option value="28">Day 28</option>
+                                <option value="29">Day 29</option>
+                                <option value="30">Day 30</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div id="quizArea" class="quiz-area hidden">
+                        <div class="quiz-header">
+                            <div class="quiz-progress">
+                                <span id="quizProgress">Question 1 of 30</span>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" id="progressFill"></div>
+                                </div>
+                            </div>
+                            <div class="quiz-timer">
+                                <span id="quizTimer">00:00</span>
+                            </div>
+                        </div>
+
+                        <div class="question-area">
+                            <div id="questionContent" class="question-content">
+                                <!-- Question content will be loaded here -->
+                            </div>
+                            <div id="answerOptions" class="answer-options">
+                                <!-- Answer options will be loaded here -->
+                            </div>
+                        </div>
+
+                        <div class="quiz-controls">
+                            <button class="btn secondary" id="prevQuestionBtn" disabled>Previous</button>
+                            <button class="btn primary" id="nextQuestionBtn">Next</button>
+                            <button class="btn danger" id="submitQuizBtn" style="display: none;">Submit Quiz</button>
+                        </div>
+                    </div>
+
+                    <div id="quizResults" class="quiz-results hidden">
+                        <h3>Quiz Results</h3>
+                        <div class="result-stats">
+                            <div class="result-stat">
+                                <span class="result-label">Score:</span>
+                                <span class="result-value" id="quizScore">0/30</span>
+                            </div>
+                            <div class="result-stat">
+                                <span class="result-label">Percentage:</span>
+                                <span class="result-value" id="quizPercentage">0%</span>
+                            </div>
+                            <div class="result-stat">
+                                <span class="result-label">Time:</span>
+                                <span class="result-value" id="quizTime">00:00</span>
+                            </div>
+                        </div>
+                        <div class="result-actions">
+                            <button class="btn primary" id="retakeQuizBtn">Retake Quiz</button>
+                            <button class="btn secondary" id="reviewAnswersBtn">Review Answers</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Progress Section -->
+            <section id="progress" class="section">
+                <div class="section-header">
+                    <h2>Progress</h2>
+                </div>
+                <div class="progress-content">
+                    <div class="progress-overview">
+                        <h3>Study Overview</h3>
+                        <div class="progress-stats">
+                            <div class="progress-stat">
+                                <div class="progress-circle">
+                                    <svg viewBox="0 0 100 100">
+                                        <circle cx="50" cy="50" r="45" fill="none" stroke="#e0e0e0" stroke-width="8"/>
+                                        <circle cx="50" cy="50" r="45" fill="none" stroke="#4CAF50" stroke-width="8" 
+                                                stroke-dasharray="283" stroke-dashoffset="226" id="vocabProgressCircle"/>
+                                    </svg>
+                                    <div class="progress-text">
+                                        <span class="progress-number" id="vocabProgressNumber">0</span>
+                                        <span class="progress-label">Vocabulary</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="progress-stat">
+                                <div class="progress-circle">
+                                    <svg viewBox="0 0 100 100">
+                                        <circle cx="50" cy="50" r="45" fill="none" stroke="#e0e0e0" stroke-width="8"/>
+                                        <circle cx="50" cy="50" r="45" fill="none" stroke="#2196F3" stroke-width="8" 
+                                                stroke-dasharray="283" stroke-dashoffset="226" id="kanjiProgressCircle"/>
+                                    </svg>
+                                    <div class="progress-text">
+                                        <span class="progress-number" id="kanjiProgressNumber">0</span>
+                                        <span class="progress-label">Kanji</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="progress-stat">
+                                <div class="progress-circle">
+                                    <svg viewBox="0 0 100 100">
+                                        <circle cx="50" cy="50" r="45" fill="none" stroke="#e0e0e0" stroke-width="8"/>
+                                        <circle cx="50" cy="50" r="45" fill="none" stroke="#FF9800" stroke-width="8" 
+                                                stroke-dasharray="283" stroke-dashoffset="226" id="grammarProgressCircle"/>
+                                    </svg>
+                                    <div class="progress-text">
+                                        <span class="progress-number" id="grammarProgressNumber">0</span>
+                                        <span class="progress-label">Grammar</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="recent-activity">
+                        <h3>Recent Activity</h3>
+                        <div id="activityList" class="activity-list">
+                            <!-- Activity items will be loaded here -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

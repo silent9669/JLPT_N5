@@ -1,0 +1,4779 @@
+{
+  "title": "JLPT N5 Vocabulary Database",
+  "total_words": 591,
+  "categories": [
+    "sports",
+    "pronouns",
+    "abstract",
+    "house",
+    "body",
+    "time",
+    "items",
+    "fruits",
+    "emotions",
+    "verbs",
+    "numbers",
+    "nature",
+    "culture",
+    "cooking",
+    "daily",
+    "weather",
+    "household",
+    "vegetables",
+    "food",
+    "animals",
+    "colors",
+    "places",
+    "directions",
+    "subjects",
+    "education",
+    "adjectives",
+    "expressions",
+    "family",
+    "clothing",
+    "festivals",
+    "health",
+    "work",
+    "transportation",
+    "school",
+    "location",
+    "drinks",
+    "greetings",
+    "people",
+    "technology",
+    "hobbies",
+    "money",
+    "entertainment",
+    "shopping"
+  ],
+  "vocabulary": [
+    {
+      "kanji": "私",
+      "hiragana": "わたし",
+      "romaji": "watashi",
+      "english": "I, myself",
+      "category": "pronouns",
+      "level": "basic"
+    },
+    {
+      "kanji": "あなた",
+      "hiragana": "あなた",
+      "romaji": "anata",
+      "english": "you",
+      "category": "pronouns",
+      "level": "basic"
+    },
+    {
+      "kanji": "彼",
+      "hiragana": "かれ",
+      "romaji": "kare",
+      "english": "he",
+      "category": "pronouns",
+      "level": "basic"
+    },
+    {
+      "kanji": "彼女",
+      "hiragana": "かのじょ",
+      "romaji": "kanojo",
+      "english": "she",
+      "category": "pronouns",
+      "level": "basic"
+    },
+    {
+      "kanji": "これ",
+      "hiragana": "これ",
+      "romaji": "kore",
+      "english": "this",
+      "category": "pronouns",
+      "level": "basic"
+    },
+    {
+      "kanji": "それ",
+      "hiragana": "それ",
+      "romaji": "sore",
+      "english": "that",
+      "category": "pronouns",
+      "level": "basic"
+    },
+    {
+      "kanji": "あれ",
+      "hiragana": "あれ",
+      "romaji": "are",
+      "english": "that over there",
+      "category": "pronouns",
+      "level": "basic"
+    },
+    {
+      "kanji": "どれ",
+      "hiragana": "どれ",
+      "romaji": "dore",
+      "english": "which",
+      "category": "pronouns",
+      "level": "basic"
+    },
+    {
+      "kanji": "ここ",
+      "hiragana": "ここ",
+      "romaji": "koko",
+      "english": "here",
+      "category": "location",
+      "level": "basic"
+    },
+    {
+      "kanji": "そこ",
+      "hiragana": "そこ",
+      "romaji": "soko",
+      "english": "there",
+      "category": "location",
+      "level": "basic"
+    },
+    {
+      "kanji": "あそこ",
+      "hiragana": "あそこ",
+      "romaji": "asoko",
+      "english": "over there",
+      "category": "location",
+      "level": "basic"
+    },
+    {
+      "kanji": "どこ",
+      "hiragana": "どこ",
+      "romaji": "doko",
+      "english": "where",
+      "category": "location",
+      "level": "basic"
+    },
+    {
+      "kanji": "家",
+      "hiragana": "いえ",
+      "romaji": "ie",
+      "english": "house, home",
+      "category": "places",
+      "level": "basic"
+    },
+    {
+      "kanji": "学校",
+      "hiragana": "がっこう",
+      "romaji": "gakkou",
+      "english": "school",
+      "category": "places",
+      "level": "basic"
+    },
+    {
+      "kanji": "会社",
+      "hiragana": "かいしゃ",
+      "romaji": "kaisha",
+      "english": "company",
+      "category": "places",
+      "level": "basic"
+    },
+    {
+      "kanji": "駅",
+      "hiragana": "えき",
+      "romaji": "eki",
+      "english": "station",
+      "category": "places",
+      "level": "basic"
+    },
+    {
+      "kanji": "病院",
+      "hiragana": "びょういん",
+      "romaji": "byouin",
+      "english": "hospital",
+      "category": "places",
+      "level": "basic"
+    },
+    {
+      "kanji": "銀行",
+      "hiragana": "ぎんこう",
+      "romaji": "ginkou",
+      "english": "bank",
+      "category": "places",
+      "level": "basic"
+    },
+    {
+      "kanji": "郵便局",
+      "hiragana": "ゆうびんきょく",
+      "romaji": "yuubinkyoku",
+      "english": "post office",
+      "category": "places",
+      "level": "basic"
+    },
+    {
+      "kanji": "店",
+      "hiragana": "みせ",
+      "romaji": "mise",
+      "english": "shop, store",
+      "category": "places",
+      "level": "basic"
+    },
+    {
+      "kanji": "一",
+      "hiragana": "いち",
+      "romaji": "ichi",
+      "english": "one",
+      "category": "numbers",
+      "level": "basic"
+    },
+    {
+      "kanji": "二",
+      "hiragana": "に",
+      "romaji": "ni",
+      "english": "two",
+      "category": "numbers",
+      "level": "basic"
+    },
+    {
+      "kanji": "三",
+      "hiragana": "さん",
+      "romaji": "san",
+      "english": "three",
+      "category": "numbers",
+      "level": "basic"
+    },
+    {
+      "kanji": "四",
+      "hiragana": "よん",
+      "romaji": "yon",
+      "english": "four",
+      "category": "numbers",
+      "level": "basic"
+    },
+    {
+      "kanji": "五",
+      "hiragana": "ご",
+      "romaji": "go",
+      "english": "five",
+      "category": "numbers",
+      "level": "basic"
+    },
+    {
+      "kanji": "六",
+      "hiragana": "ろく",
+      "romaji": "roku",
+      "english": "six",
+      "category": "numbers",
+      "level": "basic"
+    },
+    {
+      "kanji": "七",
+      "hiragana": "なな",
+      "romaji": "nana",
+      "english": "seven",
+      "category": "numbers",
+      "level": "basic"
+    },
+    {
+      "kanji": "八",
+      "hiragana": "はち",
+      "romaji": "hachi",
+      "english": "eight",
+      "category": "numbers",
+      "level": "basic"
+    },
+    {
+      "kanji": "九",
+      "hiragana": "きゅう",
+      "romaji": "kyuu",
+      "english": "nine",
+      "category": "numbers",
+      "level": "basic"
+    },
+    {
+      "kanji": "十",
+      "hiragana": "じゅう",
+      "romaji": "juu",
+      "english": "ten",
+      "category": "numbers",
+      "level": "basic"
+    },
+    {
+      "kanji": "百",
+      "hiragana": "ひゃく",
+      "romaji": "hyaku",
+      "english": "hundred",
+      "category": "numbers",
+      "level": "basic"
+    },
+    {
+      "kanji": "千",
+      "hiragana": "せん",
+      "romaji": "sen",
+      "english": "thousand",
+      "category": "numbers",
+      "level": "basic"
+    },
+    {
+      "kanji": "万",
+      "hiragana": "まん",
+      "romaji": "man",
+      "english": "ten thousand",
+      "category": "numbers",
+      "level": "basic"
+    },
+    {
+      "kanji": "時",
+      "hiragana": "じ",
+      "romaji": "ji",
+      "english": "time, hour",
+      "category": "time",
+      "level": "basic"
+    },
+    {
+      "kanji": "分",
+      "hiragana": "ふん",
+      "romaji": "fun",
+      "english": "minute",
+      "category": "time",
+      "level": "basic"
+    },
+    {
+      "kanji": "今",
+      "hiragana": "いま",
+      "romaji": "ima",
+      "english": "now",
+      "category": "time",
+      "level": "basic"
+    },
+    {
+      "kanji": "今日",
+      "hiragana": "きょう",
+      "romaji": "kyou",
+      "english": "today",
+      "category": "time",
+      "level": "basic"
+    },
+    {
+      "kanji": "昨日",
+      "hiragana": "きのう",
+      "romaji": "kinou",
+      "english": "yesterday",
+      "category": "time",
+      "level": "basic"
+    },
+    {
+      "kanji": "明日",
+      "hiragana": "あした",
+      "romaji": "ashita",
+      "english": "tomorrow",
+      "category": "time",
+      "level": "basic"
+    },
+    {
+      "kanji": "朝",
+      "hiragana": "あさ",
+      "romaji": "asa",
+      "english": "morning",
+      "category": "time",
+      "level": "basic"
+    },
+    {
+      "kanji": "人",
+      "hiragana": "ひと",
+      "romaji": "hito",
+      "english": "person",
+      "category": "people",
+      "level": "basic"
+    },
+    {
+      "kanji": "父",
+      "hiragana": "ちち",
+      "romaji": "chichi",
+      "english": "father (humble)",
+      "category": "family",
+      "level": "basic"
+    },
+    {
+      "kanji": "母",
+      "hiragana": "はは",
+      "romaji": "haha",
+      "english": "mother (humble)",
+      "category": "family",
+      "level": "basic"
+    },
+    {
+      "kanji": "お父さん",
+      "hiragana": "おとうさん",
+      "romaji": "otousan",
+      "english": "father (polite)",
+      "category": "family",
+      "level": "basic"
+    },
+    {
+      "kanji": "お母さん",
+      "hiragana": "おかあさん",
+      "romaji": "okaasan",
+      "english": "mother (polite)",
+      "category": "family",
+      "level": "basic"
+    },
+    {
+      "kanji": "兄",
+      "hiragana": "あに",
+      "romaji": "ani",
+      "english": "older brother (humble)",
+      "category": "family",
+      "level": "basic"
+    },
+    {
+      "kanji": "姉",
+      "hiragana": "あね",
+      "romaji": "ane",
+      "english": "older sister (humble)",
+      "category": "family",
+      "level": "basic"
+    },
+    {
+      "kanji": "弟",
+      "hiragana": "おとうと",
+      "romaji": "otouto",
+      "english": "younger brother",
+      "category": "family",
+      "level": "basic"
+    },
+    {
+      "kanji": "妹",
+      "hiragana": "いもうと",
+      "romaji": "imouto",
+      "english": "younger sister",
+      "category": "family",
+      "level": "basic"
+    },
+    {
+      "kanji": "子供",
+      "hiragana": "こども",
+      "romaji": "kodomo",
+      "english": "child",
+      "category": "family",
+      "level": "basic"
+    },
+    {
+      "kanji": "友達",
+      "hiragana": "ともだち",
+      "romaji": "tomodachi",
+      "english": "friend",
+      "category": "people",
+      "level": "basic"
+    },
+    {
+      "kanji": "先生",
+      "hiragana": "せんせい",
+      "romaji": "sensei",
+      "english": "teacher",
+      "category": "people",
+      "level": "basic"
+    },
+    {
+      "kanji": "学生",
+      "hiragana": "がくせい",
+      "romaji": "gakusei",
+      "english": "student",
+      "category": "people",
+      "level": "basic"
+    },
+    {
+      "kanji": "医者",
+      "hiragana": "いしゃ",
+      "romaji": "isha",
+      "english": "doctor",
+      "category": "people",
+      "level": "basic"
+    },
+    {
+      "kanji": "男",
+      "hiragana": "おとこ",
+      "romaji": "otoko",
+      "english": "man, male",
+      "category": "people",
+      "level": "basic"
+    },
+    {
+      "kanji": "女",
+      "hiragana": "おんな",
+      "romaji": "onna",
+      "english": "woman, female",
+      "category": "people",
+      "level": "basic"
+    },
+    {
+      "kanji": "男の子",
+      "hiragana": "おとこのこ",
+      "romaji": "otokonoko",
+      "english": "boy",
+      "category": "people",
+      "level": "basic"
+    },
+    {
+      "kanji": "女の子",
+      "hiragana": "おんなのこ",
+      "romaji": "onnanoko",
+      "english": "girl",
+      "category": "people",
+      "level": "basic"
+    },
+    {
+      "kanji": "名前",
+      "hiragana": "なまえ",
+      "romaji": "namae",
+      "english": "name",
+      "category": "people",
+      "level": "basic"
+    },
+    {
+      "kanji": "年",
+      "hiragana": "とし",
+      "romaji": "toshi",
+      "english": "age, year",
+      "category": "people",
+      "level": "basic"
+    },
+    {
+      "kanji": "行く",
+      "hiragana": "いく",
+      "romaji": "iku",
+      "english": "to go",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "来る",
+      "hiragana": "くる",
+      "romaji": "kuru",
+      "english": "to come",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "帰る",
+      "hiragana": "かえる",
+      "romaji": "kaeru",
+      "english": "to return",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "食べる",
+      "hiragana": "たべる",
+      "romaji": "taberu",
+      "english": "to eat",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "飲む",
+      "hiragana": "のむ",
+      "romaji": "nomu",
+      "english": "to drink",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "見る",
+      "hiragana": "みる",
+      "romaji": "miru",
+      "english": "to see, to watch",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "聞く",
+      "hiragana": "きく",
+      "romaji": "kiku",
+      "english": "to hear, to listen",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "読む",
+      "hiragana": "よむ",
+      "romaji": "yomu",
+      "english": "to read",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "書く",
+      "hiragana": "かく",
+      "romaji": "kaku",
+      "english": "to write",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "話す",
+      "hiragana": "はなす",
+      "romaji": "hanasu",
+      "english": "to speak",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "勉強する",
+      "hiragana": "べんきょうする",
+      "romaji": "benkyou suru",
+      "english": "to study",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "働く",
+      "hiragana": "はたらく",
+      "romaji": "hataraku",
+      "english": "to work",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "休む",
+      "hiragana": "やすむ",
+      "romaji": "yasumu",
+      "english": "to rest",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "寝る",
+      "hiragana": "ねる",
+      "romaji": "neru",
+      "english": "to sleep",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "起きる",
+      "hiragana": "おきる",
+      "romaji": "okiru",
+      "english": "to wake up",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "買う",
+      "hiragana": "かう",
+      "romaji": "kau",
+      "english": "to buy",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "売る",
+      "hiragana": "うる",
+      "romaji": "uru",
+      "english": "to sell",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "作る",
+      "hiragana": "つくる",
+      "romaji": "tsukuru",
+      "english": "to make",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "開く",
+      "hiragana": "ひらく",
+      "romaji": "hiraku",
+      "english": "to open",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "閉める",
+      "hiragana": "しめる",
+      "romaji": "shimeru",
+      "english": "to close",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "食べ物",
+      "hiragana": "たべもの",
+      "romaji": "tabemono",
+      "english": "food",
+      "category": "food",
+      "level": "intermediate"
+    },
+    {
+      "kanji": "飲み物",
+      "hiragana": "のみもの",
+      "romaji": "nomimono",
+      "english": "drink",
+      "category": "food",
+      "level": "intermediate"
+    },
+    {
+      "kanji": "水",
+      "hiragana": "みず",
+      "romaji": "mizu",
+      "english": "water",
+      "category": "food",
+      "level": "basic"
+    },
+    {
+      "kanji": "お茶",
+      "hiragana": "おちゃ",
+      "romaji": "ocha",
+      "english": "tea",
+      "category": "food",
+      "level": "basic"
+    },
+    {
+      "kanji": "コーヒー",
+      "hiragana": "コーヒー",
+      "romaji": "koohii",
+      "english": "coffee",
+      "category": "food",
+      "level": "basic"
+    },
+    {
+      "kanji": "牛乳",
+      "hiragana": "ぎゅうにゅう",
+      "romaji": "gyuunyuu",
+      "english": "milk",
+      "category": "food",
+      "level": "basic"
+    },
+    {
+      "kanji": "ご飯",
+      "hiragana": "ごはん",
+      "romaji": "gohan",
+      "english": "rice, meal",
+      "category": "food",
+      "level": "basic"
+    },
+    {
+      "kanji": "パン",
+      "hiragana": "パン",
+      "romaji": "pan",
+      "english": "bread",
+      "category": "food",
+      "level": "basic"
+    },
+    {
+      "kanji": "肉",
+      "hiragana": "にく",
+      "romaji": "niku",
+      "english": "meat",
+      "category": "food",
+      "level": "basic"
+    },
+    {
+      "kanji": "魚",
+      "hiragana": "さかな",
+      "romaji": "sakana",
+      "english": "fish",
+      "category": "food",
+      "level": "basic"
+    },
+    {
+      "kanji": "野菜",
+      "hiragana": "やさい",
+      "romaji": "yasai",
+      "english": "vegetables",
+      "category": "food",
+      "level": "basic"
+    },
+    {
+      "kanji": "果物",
+      "hiragana": "くだもの",
+      "romaji": "kudamono",
+      "english": "fruit",
+      "category": "food",
+      "level": "basic"
+    },
+    {
+      "kanji": "卵",
+      "hiragana": "たまご",
+      "romaji": "tamago",
+      "english": "egg",
+      "category": "food",
+      "level": "basic"
+    },
+    {
+      "kanji": "砂糖",
+      "hiragana": "さとう",
+      "romaji": "satou",
+      "english": "sugar",
+      "category": "food",
+      "level": "basic"
+    },
+    {
+      "kanji": "塩",
+      "hiragana": "しお",
+      "romaji": "shio",
+      "english": "salt",
+      "category": "food",
+      "level": "basic"
+    },
+    {
+      "kanji": "料理",
+      "hiragana": "りょうり",
+      "romaji": "ryouri",
+      "english": "cooking, cuisine",
+      "category": "food",
+      "level": "intermediate"
+    },
+    {
+      "kanji": "朝ご飯",
+      "hiragana": "あさごはん",
+      "romaji": "asagohan",
+      "english": "breakfast",
+      "category": "food",
+      "level": "basic"
+    },
+    {
+      "kanji": "昼ご飯",
+      "hiragana": "ひるごはん",
+      "romaji": "hirugohan",
+      "english": "lunch",
+      "category": "food",
+      "level": "basic"
+    },
+    {
+      "kanji": "晩ご飯",
+      "hiragana": "ばんごはん",
+      "romaji": "bangohan",
+      "english": "dinner",
+      "category": "food",
+      "level": "basic"
+    },
+    {
+      "kanji": "レストラン",
+      "hiragana": "レストラン",
+      "romaji": "resutoran",
+      "english": "restaurant",
+      "category": "food",
+      "level": "basic"
+    },
+    {
+      "kanji": "車",
+      "hiragana": "くるま",
+      "romaji": "kuruma",
+      "english": "car",
+      "category": "transportation",
+      "level": "basic"
+    },
+    {
+      "kanji": "電車",
+      "hiragana": "でんしゃ",
+      "romaji": "densha",
+      "english": "train",
+      "category": "transportation",
+      "level": "basic"
+    },
+    {
+      "kanji": "バス",
+      "hiragana": "バス",
+      "romaji": "basu",
+      "english": "bus",
+      "category": "transportation",
+      "level": "basic"
+    },
+    {
+      "kanji": "飛行機",
+      "hiragana": "ひこうき",
+      "romaji": "hikouki",
+      "english": "airplane",
+      "category": "transportation",
+      "level": "basic"
+    },
+    {
+      "kanji": "自転車",
+      "hiragana": "じてんしゃ",
+      "romaji": "jitensha",
+      "english": "bicycle",
+      "category": "transportation",
+      "level": "basic"
+    },
+    {
+      "kanji": "歩く",
+      "hiragana": "あるく",
+      "romaji": "aruku",
+      "english": "to walk",
+      "category": "transportation",
+      "level": "basic"
+    },
+    {
+      "kanji": "乗る",
+      "hiragana": "のる",
+      "romaji": "noru",
+      "english": "to ride",
+      "category": "transportation",
+      "level": "basic"
+    },
+    {
+      "kanji": "降りる",
+      "hiragana": "おりる",
+      "romaji": "oriru",
+      "english": "to get off",
+      "category": "transportation",
+      "level": "basic"
+    },
+    {
+      "kanji": "タクシー",
+      "hiragana": "タクシー",
+      "romaji": "takushii",
+      "english": "taxi",
+      "category": "transportation",
+      "level": "basic"
+    },
+    {
+      "kanji": "道",
+      "hiragana": "みち",
+      "romaji": "michi",
+      "english": "road, way",
+      "category": "transportation",
+      "level": "basic"
+    },
+    {
+      "kanji": "色",
+      "hiragana": "いろ",
+      "romaji": "iro",
+      "english": "color",
+      "category": "colors",
+      "level": "basic"
+    },
+    {
+      "kanji": "赤い",
+      "hiragana": "あかい",
+      "romaji": "akai",
+      "english": "red",
+      "category": "colors",
+      "level": "basic"
+    },
+    {
+      "kanji": "青い",
+      "hiragana": "あおい",
+      "romaji": "aoi",
+      "english": "blue",
+      "category": "colors",
+      "level": "basic"
+    },
+    {
+      "kanji": "黄色い",
+      "hiragana": "きいろい",
+      "romaji": "kiiroi",
+      "english": "yellow",
+      "category": "colors",
+      "level": "basic"
+    },
+    {
+      "kanji": "緑",
+      "hiragana": "みどり",
+      "romaji": "midori",
+      "english": "green",
+      "category": "colors",
+      "level": "basic"
+    },
+    {
+      "kanji": "黒い",
+      "hiragana": "くろい",
+      "romaji": "kuroi",
+      "english": "black",
+      "category": "colors",
+      "level": "basic"
+    },
+    {
+      "kanji": "白い",
+      "hiragana": "しろい",
+      "romaji": "shiroi",
+      "english": "white",
+      "category": "colors",
+      "level": "basic"
+    },
+    {
+      "kanji": "茶色",
+      "hiragana": "ちゃいろ",
+      "romaji": "chairo",
+      "english": "brown",
+      "category": "colors",
+      "level": "basic"
+    },
+    {
+      "kanji": "大きい",
+      "hiragana": "おおきい",
+      "romaji": "ookii",
+      "english": "big",
+      "category": "adjectives",
+      "level": "basic"
+    },
+    {
+      "kanji": "小さい",
+      "hiragana": "ちいさい",
+      "romaji": "chiisai",
+      "english": "small",
+      "category": "adjectives",
+      "level": "basic"
+    },
+    {
+      "kanji": "新しい",
+      "hiragana": "あたらしい",
+      "romaji": "atarashii",
+      "english": "new",
+      "category": "adjectives",
+      "level": "basic"
+    },
+    {
+      "kanji": "古い",
+      "hiragana": "ふるい",
+      "romaji": "furui",
+      "english": "old",
+      "category": "adjectives",
+      "level": "basic"
+    },
+    {
+      "kanji": "高い",
+      "hiragana": "たかい",
+      "romaji": "takai",
+      "english": "high, expensive",
+      "category": "adjectives",
+      "level": "basic"
+    },
+    {
+      "kanji": "安い",
+      "hiragana": "やすい",
+      "romaji": "yasui",
+      "english": "cheap",
+      "category": "adjectives",
+      "level": "basic"
+    },
+    {
+      "kanji": "長い",
+      "hiragana": "ながい",
+      "romaji": "nagai",
+      "english": "long",
+      "category": "adjectives",
+      "level": "basic"
+    },
+    {
+      "kanji": "短い",
+      "hiragana": "みじかい",
+      "romaji": "mijikai",
+      "english": "short",
+      "category": "adjectives",
+      "level": "basic"
+    },
+    {
+      "kanji": "重い",
+      "hiragana": "おもい",
+      "romaji": "omoi",
+      "english": "heavy",
+      "category": "adjectives",
+      "level": "basic"
+    },
+    {
+      "kanji": "軽い",
+      "hiragana": "かるい",
+      "romaji": "karui",
+      "english": "light",
+      "category": "adjectives",
+      "level": "basic"
+    },
+    {
+      "kanji": "早い",
+      "hiragana": "はやい",
+      "romaji": "hayai",
+      "english": "early, fast",
+      "category": "adjectives",
+      "level": "basic"
+    },
+    {
+      "kanji": "遅い",
+      "hiragana": "おそい",
+      "romaji": "osoi",
+      "english": "late, slow",
+      "category": "adjectives",
+      "level": "basic"
+    },
+    {
+      "kanji": "天気",
+      "hiragana": "てんき",
+      "romaji": "tenki",
+      "english": "weather",
+      "category": "weather",
+      "level": "basic"
+    },
+    {
+      "kanji": "雨",
+      "hiragana": "あめ",
+      "romaji": "ame",
+      "english": "rain",
+      "category": "weather",
+      "level": "basic"
+    },
+    {
+      "kanji": "雪",
+      "hiragana": "ゆき",
+      "romaji": "yuki",
+      "english": "snow",
+      "category": "weather",
+      "level": "basic"
+    },
+    {
+      "kanji": "風",
+      "hiragana": "かぜ",
+      "romaji": "kaze",
+      "english": "wind",
+      "category": "weather",
+      "level": "basic"
+    },
+    {
+      "kanji": "雲",
+      "hiragana": "くも",
+      "romaji": "kumo",
+      "english": "cloud",
+      "category": "weather",
+      "level": "basic"
+    },
+    {
+      "kanji": "太陽",
+      "hiragana": "たいよう",
+      "romaji": "taiyou",
+      "english": "sun",
+      "category": "weather",
+      "level": "basic"
+    },
+    {
+      "kanji": "暑い",
+      "hiragana": "あつい",
+      "romaji": "atsui",
+      "english": "hot",
+      "category": "weather",
+      "level": "basic"
+    },
+    {
+      "kanji": "寒い",
+      "hiragana": "さむい",
+      "romaji": "samui",
+      "english": "cold",
+      "category": "weather",
+      "level": "basic"
+    },
+    {
+      "kanji": "暖かい",
+      "hiragana": "あたたかい",
+      "romaji": "atatakai",
+      "english": "warm",
+      "category": "weather",
+      "level": "basic"
+    },
+    {
+      "kanji": "涼しい",
+      "hiragana": "すずしい",
+      "romaji": "suzushii",
+      "english": "cool",
+      "category": "weather",
+      "level": "basic"
+    },
+    {
+      "kanji": "山",
+      "hiragana": "やま",
+      "romaji": "yama",
+      "english": "mountain",
+      "category": "nature",
+      "level": "basic"
+    },
+    {
+      "kanji": "川",
+      "hiragana": "かわ",
+      "romaji": "kawa",
+      "english": "river",
+      "category": "nature",
+      "level": "basic"
+    },
+    {
+      "kanji": "海",
+      "hiragana": "うみ",
+      "romaji": "umi",
+      "english": "sea, ocean",
+      "category": "nature",
+      "level": "basic"
+    },
+    {
+      "kanji": "木",
+      "hiragana": "き",
+      "romaji": "ki",
+      "english": "tree, wood",
+      "category": "nature",
+      "level": "basic"
+    },
+    {
+      "kanji": "花",
+      "hiragana": "はな",
+      "romaji": "hana",
+      "english": "flower",
+      "category": "nature",
+      "level": "basic"
+    },
+    {
+      "kanji": "草",
+      "hiragana": "くさ",
+      "romaji": "kusa",
+      "english": "grass",
+      "category": "nature",
+      "level": "basic"
+    },
+    {
+      "kanji": "動物",
+      "hiragana": "どうぶつ",
+      "romaji": "doubutsu",
+      "english": "animal",
+      "category": "animals",
+      "level": "basic"
+    },
+    {
+      "kanji": "犬",
+      "hiragana": "いぬ",
+      "romaji": "inu",
+      "english": "dog",
+      "category": "animals",
+      "level": "basic"
+    },
+    {
+      "kanji": "猫",
+      "hiragana": "ねこ",
+      "romaji": "neko",
+      "english": "cat",
+      "category": "animals",
+      "level": "basic"
+    },
+    {
+      "kanji": "鳥",
+      "hiragana": "とり",
+      "romaji": "tori",
+      "english": "bird",
+      "category": "animals",
+      "level": "basic"
+    },
+    {
+      "kanji": "体",
+      "hiragana": "からだ",
+      "romaji": "karada",
+      "english": "body",
+      "category": "body",
+      "level": "basic"
+    },
+    {
+      "kanji": "頭",
+      "hiragana": "あたま",
+      "romaji": "atama",
+      "english": "head",
+      "category": "body",
+      "level": "basic"
+    },
+    {
+      "kanji": "顔",
+      "hiragana": "かお",
+      "romaji": "kao",
+      "english": "face",
+      "category": "body",
+      "level": "basic"
+    },
+    {
+      "kanji": "目",
+      "hiragana": "め",
+      "romaji": "me",
+      "english": "eye",
+      "category": "body",
+      "level": "basic"
+    },
+    {
+      "kanji": "鼻",
+      "hiragana": "はな",
+      "romaji": "hana",
+      "english": "nose",
+      "category": "body",
+      "level": "basic"
+    },
+    {
+      "kanji": "口",
+      "hiragana": "くち",
+      "romaji": "kuchi",
+      "english": "mouth",
+      "category": "body",
+      "level": "basic"
+    },
+    {
+      "kanji": "耳",
+      "hiragana": "みみ",
+      "romaji": "mimi",
+      "english": "ear",
+      "category": "body",
+      "level": "basic"
+    },
+    {
+      "kanji": "手",
+      "hiragana": "て",
+      "romaji": "te",
+      "english": "hand",
+      "category": "body",
+      "level": "basic"
+    },
+    {
+      "kanji": "足",
+      "hiragana": "あし",
+      "romaji": "ashi",
+      "english": "foot, leg",
+      "category": "body",
+      "level": "basic"
+    },
+    {
+      "kanji": "背",
+      "hiragana": "せ",
+      "romaji": "se",
+      "english": "back, height",
+      "category": "body",
+      "level": "basic"
+    },
+    {
+      "kanji": "病気",
+      "hiragana": "びょうき",
+      "romaji": "byouki",
+      "english": "illness",
+      "category": "health",
+      "level": "basic"
+    },
+    {
+      "kanji": "元気",
+      "hiragana": "げんき",
+      "romaji": "genki",
+      "english": "healthy, energetic",
+      "category": "health",
+      "level": "basic"
+    },
+    {
+      "kanji": "薬",
+      "hiragana": "くすり",
+      "romaji": "kusuri",
+      "english": "medicine",
+      "category": "health",
+      "level": "basic"
+    },
+    {
+      "kanji": "痛い",
+      "hiragana": "いたい",
+      "romaji": "itai",
+      "english": "painful",
+      "category": "health",
+      "level": "basic"
+    },
+    {
+      "kanji": "疲れる",
+      "hiragana": "つかれる",
+      "romaji": "tsukareru",
+      "english": "to get tired",
+      "category": "health",
+      "level": "basic"
+    },
+    {
+      "kanji": "風邪",
+      "hiragana": "かぜ",
+      "romaji": "kaze",
+      "english": "cold (illness)",
+      "category": "health",
+      "level": "basic"
+    },
+    {
+      "kanji": "熱",
+      "hiragana": "ねつ",
+      "romaji": "netsu",
+      "english": "fever",
+      "category": "health",
+      "level": "basic"
+    },
+    {
+      "kanji": "歯",
+      "hiragana": "は",
+      "romaji": "ha",
+      "english": "tooth",
+      "category": "body",
+      "level": "basic"
+    },
+    {
+      "kanji": "血",
+      "hiragana": "ち",
+      "romaji": "chi",
+      "english": "blood",
+      "category": "body",
+      "level": "basic"
+    },
+    {
+      "kanji": "心",
+      "hiragana": "こころ",
+      "romaji": "kokoro",
+      "english": "heart, mind",
+      "category": "body",
+      "level": "basic"
+    },
+    {
+      "kanji": "服",
+      "hiragana": "ふく",
+      "romaji": "fuku",
+      "english": "clothes",
+      "category": "clothing",
+      "level": "basic"
+    },
+    {
+      "kanji": "着る",
+      "hiragana": "きる",
+      "romaji": "kiru",
+      "english": "to wear (upper body)",
+      "category": "clothing",
+      "level": "basic"
+    },
+    {
+      "kanji": "脱ぐ",
+      "hiragana": "ぬぐ",
+      "romaji": "nugu",
+      "english": "to take off",
+      "category": "clothing",
+      "level": "basic"
+    },
+    {
+      "kanji": "シャツ",
+      "hiragana": "シャツ",
+      "romaji": "shatsu",
+      "english": "shirt",
+      "category": "clothing",
+      "level": "basic"
+    },
+    {
+      "kanji": "ズボン",
+      "hiragana": "ズボン",
+      "romaji": "zubon",
+      "english": "pants",
+      "category": "clothing",
+      "level": "basic"
+    },
+    {
+      "kanji": "スカート",
+      "hiragana": "スカート",
+      "romaji": "sukaato",
+      "english": "skirt",
+      "category": "clothing",
+      "level": "basic"
+    },
+    {
+      "kanji": "靴",
+      "hiragana": "くつ",
+      "romaji": "kutsu",
+      "english": "shoes",
+      "category": "clothing",
+      "level": "basic"
+    },
+    {
+      "kanji": "靴下",
+      "hiragana": "くつした",
+      "romaji": "kutsushita",
+      "english": "socks",
+      "category": "clothing",
+      "level": "basic"
+    },
+    {
+      "kanji": "帽子",
+      "hiragana": "ぼうし",
+      "romaji": "boushi",
+      "english": "hat",
+      "category": "clothing",
+      "level": "basic"
+    },
+    {
+      "kanji": "眼鏡",
+      "hiragana": "めがね",
+      "romaji": "megane",
+      "english": "glasses",
+      "category": "clothing",
+      "level": "basic"
+    },
+    {
+      "kanji": "時計",
+      "hiragana": "とけい",
+      "romaji": "tokei",
+      "english": "watch, clock",
+      "category": "items",
+      "level": "basic"
+    },
+    {
+      "kanji": "鞄",
+      "hiragana": "かばん",
+      "romaji": "kaban",
+      "english": "bag",
+      "category": "items",
+      "level": "basic"
+    },
+    {
+      "kanji": "財布",
+      "hiragana": "さいふ",
+      "romaji": "saifu",
+      "english": "wallet",
+      "category": "items",
+      "level": "basic"
+    },
+    {
+      "kanji": "鍵",
+      "hiragana": "かぎ",
+      "romaji": "kagi",
+      "english": "key",
+      "category": "items",
+      "level": "basic"
+    },
+    {
+      "kanji": "携帯",
+      "hiragana": "けいたい",
+      "romaji": "keitai",
+      "english": "mobile phone",
+      "category": "items",
+      "level": "basic"
+    },
+    {
+      "kanji": "本",
+      "hiragana": "ほん",
+      "romaji": "hon",
+      "english": "book",
+      "category": "items",
+      "level": "basic"
+    },
+    {
+      "kanji": "ペン",
+      "hiragana": "ペン",
+      "romaji": "pen",
+      "english": "pen",
+      "category": "items",
+      "level": "basic"
+    },
+    {
+      "kanji": "鉛筆",
+      "hiragana": "えんぴつ",
+      "romaji": "enpitsu",
+      "english": "pencil",
+      "category": "items",
+      "level": "basic"
+    },
+    {
+      "kanji": "紙",
+      "hiragana": "かみ",
+      "romaji": "kami",
+      "english": "paper",
+      "category": "items",
+      "level": "basic"
+    },
+    {
+      "kanji": "机",
+      "hiragana": "つくえ",
+      "romaji": "tsukue",
+      "english": "desk",
+      "category": "items",
+      "level": "basic"
+    },
+    {
+      "kanji": "好き",
+      "hiragana": "すき",
+      "romaji": "suki",
+      "english": "to like",
+      "category": "emotions",
+      "level": "basic"
+    },
+    {
+      "kanji": "嫌い",
+      "hiragana": "きらい",
+      "romaji": "kirai",
+      "english": "to hate",
+      "category": "emotions",
+      "level": "basic"
+    },
+    {
+      "kanji": "楽しい",
+      "hiragana": "たのしい",
+      "romaji": "tanoshii",
+      "english": "fun, enjoyable",
+      "category": "emotions",
+      "level": "basic"
+    },
+    {
+      "kanji": "嬉しい",
+      "hiragana": "うれしい",
+      "romaji": "ureshii",
+      "english": "happy",
+      "category": "emotions",
+      "level": "basic"
+    },
+    {
+      "kanji": "悲しい",
+      "hiragana": "かなしい",
+      "romaji": "kanashii",
+      "english": "sad",
+      "category": "emotions",
+      "level": "basic"
+    },
+    {
+      "kanji": "怒る",
+      "hiragana": "おこる",
+      "romaji": "okoru",
+      "english": "to get angry",
+      "category": "emotions",
+      "level": "basic"
+    },
+    {
+      "kanji": "心配",
+      "hiragana": "しんぱい",
+      "romaji": "shinpai",
+      "english": "worry",
+      "category": "emotions",
+      "level": "basic"
+    },
+    {
+      "kanji": "安心",
+      "hiragana": "あんしん",
+      "romaji": "anshin",
+      "english": "relief",
+      "category": "emotions",
+      "level": "basic"
+    },
+    {
+      "kanji": "驚く",
+      "hiragana": "おどろく",
+      "romaji": "odoroku",
+      "english": "to be surprised",
+      "category": "emotions",
+      "level": "basic"
+    },
+    {
+      "kanji": "泣く",
+      "hiragana": "なく",
+      "romaji": "naku",
+      "english": "to cry",
+      "category": "emotions",
+      "level": "basic"
+    },
+    {
+      "kanji": "笑う",
+      "hiragana": "わらう",
+      "romaji": "warau",
+      "english": "to laugh",
+      "category": "emotions",
+      "level": "basic"
+    },
+    {
+      "kanji": "怖い",
+      "hiragana": "こわい",
+      "romaji": "kowai",
+      "english": "scary",
+      "category": "emotions",
+      "level": "basic"
+    },
+    {
+      "kanji": "恥ずかしい",
+      "hiragana": "はずかしい",
+      "romaji": "hazukashii",
+      "english": "embarrassing",
+      "category": "emotions",
+      "level": "basic"
+    },
+    {
+      "kanji": "面白い",
+      "hiragana": "おもしろい",
+      "romaji": "omoshiroi",
+      "english": "interesting",
+      "category": "emotions",
+      "level": "basic"
+    },
+    {
+      "kanji": "つまらない",
+      "hiragana": "つまらない",
+      "romaji": "tsumaranai",
+      "english": "boring",
+      "category": "emotions",
+      "level": "basic"
+    },
+    {
+      "kanji": "忙しい",
+      "hiragana": "いそがしい",
+      "romaji": "isogashii",
+      "english": "busy",
+      "category": "emotions",
+      "level": "basic"
+    },
+    {
+      "kanji": "暇",
+      "hiragana": "ひま",
+      "romaji": "hima",
+      "english": "free time",
+      "category": "emotions",
+      "level": "basic"
+    },
+    {
+      "kanji": "大変",
+      "hiragana": "たいへん",
+      "romaji": "taihen",
+      "english": "difficult, hard",
+      "category": "emotions",
+      "level": "basic"
+    },
+    {
+      "kanji": "簡単",
+      "hiragana": "かんたん",
+      "romaji": "kantan",
+      "english": "simple, easy",
+      "category": "emotions",
+      "level": "basic"
+    },
+    {
+      "kanji": "大丈夫",
+      "hiragana": "だいじょうぶ",
+      "romaji": "daijoubu",
+      "english": "okay, all right",
+      "category": "emotions",
+      "level": "basic"
+    },
+    {
+      "kanji": "お金",
+      "hiragana": "おかね",
+      "romaji": "okane",
+      "english": "money",
+      "category": "money",
+      "level": "basic"
+    },
+    {
+      "kanji": "円",
+      "hiragana": "えん",
+      "romaji": "en",
+      "english": "yen",
+      "category": "money",
+      "level": "basic"
+    },
+    {
+      "kanji": "払う",
+      "hiragana": "はらう",
+      "romaji": "harau",
+      "english": "to pay",
+      "category": "money",
+      "level": "basic"
+    },
+    {
+      "kanji": "もらう",
+      "hiragana": "もらう",
+      "romaji": "morau",
+      "english": "to receive",
+      "category": "money",
+      "level": "basic"
+    },
+    {
+      "kanji": "あげる",
+      "hiragana": "あげる",
+      "romaji": "ageru",
+      "english": "to give",
+      "category": "money",
+      "level": "basic"
+    },
+    {
+      "kanji": "貸す",
+      "hiragana": "かす",
+      "romaji": "kasu",
+      "english": "to lend",
+      "category": "money",
+      "level": "basic"
+    },
+    {
+      "kanji": "借りる",
+      "hiragana": "かりる",
+      "romaji": "kariru",
+      "english": "to borrow",
+      "category": "money",
+      "level": "basic"
+    },
+    {
+      "kanji": "買い物",
+      "hiragana": "かいもの",
+      "romaji": "kaimono",
+      "english": "shopping",
+      "category": "shopping",
+      "level": "basic"
+    },
+    {
+      "kanji": "売り場",
+      "hiragana": "うりば",
+      "romaji": "uriba",
+      "english": "sales floor",
+      "category": "shopping",
+      "level": "basic"
+    },
+    {
+      "kanji": "レジ",
+      "hiragana": "レジ",
+      "romaji": "reji",
+      "english": "cash register",
+      "category": "shopping",
+      "level": "basic"
+    },
+    {
+      "kanji": "値段",
+      "hiragana": "ねだん",
+      "romaji": "nedan",
+      "english": "price",
+      "category": "shopping",
+      "level": "basic"
+    },
+    {
+      "kanji": "割引",
+      "hiragana": "わりびき",
+      "romaji": "waribiki",
+      "english": "discount",
+      "category": "shopping",
+      "level": "basic"
+    },
+    {
+      "kanji": "セール",
+      "hiragana": "セール",
+      "romaji": "seeru",
+      "english": "sale",
+      "category": "shopping",
+      "level": "basic"
+    },
+    {
+      "kanji": "客",
+      "hiragana": "きゃく",
+      "romaji": "kyaku",
+      "english": "customer",
+      "category": "shopping",
+      "level": "basic"
+    },
+    {
+      "kanji": "店員",
+      "hiragana": "てんいん",
+      "romaji": "ten'in",
+      "english": "shop clerk",
+      "category": "shopping",
+      "level": "basic"
+    },
+    {
+      "kanji": "注文",
+      "hiragana": "ちゅうもん",
+      "romaji": "chuumon",
+      "english": "order",
+      "category": "shopping",
+      "level": "basic"
+    },
+    {
+      "kanji": "予約",
+      "hiragana": "よやく",
+      "romaji": "yoyaku",
+      "english": "reservation",
+      "category": "shopping",
+      "level": "basic"
+    },
+    {
+      "kanji": "お釣り",
+      "hiragana": "おつり",
+      "romaji": "otsuri",
+      "english": "change (money)",
+      "category": "money",
+      "level": "basic"
+    },
+    {
+      "kanji": "現金",
+      "hiragana": "げんきん",
+      "romaji": "genkin",
+      "english": "cash",
+      "category": "money",
+      "level": "basic"
+    },
+    {
+      "kanji": "カード",
+      "hiragana": "カード",
+      "romaji": "kaado",
+      "english": "card",
+      "category": "money",
+      "level": "basic"
+    },
+    {
+      "kanji": "右",
+      "hiragana": "みぎ",
+      "romaji": "migi",
+      "english": "right",
+      "category": "directions",
+      "level": "basic"
+    },
+    {
+      "kanji": "左",
+      "hiragana": "ひだり",
+      "romaji": "hidari",
+      "english": "left",
+      "category": "directions",
+      "level": "basic"
+    },
+    {
+      "kanji": "前",
+      "hiragana": "まえ",
+      "romaji": "mae",
+      "english": "front, before",
+      "category": "directions",
+      "level": "basic"
+    },
+    {
+      "kanji": "後ろ",
+      "hiragana": "うしろ",
+      "romaji": "ushiro",
+      "english": "behind",
+      "category": "directions",
+      "level": "basic"
+    },
+    {
+      "kanji": "上",
+      "hiragana": "うえ",
+      "romaji": "ue",
+      "english": "above, up",
+      "category": "directions",
+      "level": "basic"
+    },
+    {
+      "kanji": "下",
+      "hiragana": "した",
+      "romaji": "shita",
+      "english": "below, down",
+      "category": "directions",
+      "level": "basic"
+    },
+    {
+      "kanji": "中",
+      "hiragana": "なか",
+      "romaji": "naka",
+      "english": "inside, middle",
+      "category": "directions",
+      "level": "basic"
+    },
+    {
+      "kanji": "外",
+      "hiragana": "そと",
+      "romaji": "soto",
+      "english": "outside",
+      "category": "directions",
+      "level": "basic"
+    },
+    {
+      "kanji": "隣",
+      "hiragana": "となり",
+      "romaji": "tonari",
+      "english": "next to",
+      "category": "directions",
+      "level": "basic"
+    },
+    {
+      "kanji": "近く",
+      "hiragana": "ちかく",
+      "romaji": "chikaku",
+      "english": "nearby",
+      "category": "directions",
+      "level": "basic"
+    },
+    {
+      "kanji": "遠く",
+      "hiragana": "とおく",
+      "romaji": "tooku",
+      "english": "far away",
+      "category": "directions",
+      "level": "basic"
+    },
+    {
+      "kanji": "東",
+      "hiragana": "ひがし",
+      "romaji": "higashi",
+      "english": "east",
+      "category": "directions",
+      "level": "basic"
+    },
+    {
+      "kanji": "西",
+      "hiragana": "にし",
+      "romaji": "nishi",
+      "english": "west",
+      "category": "directions",
+      "level": "basic"
+    },
+    {
+      "kanji": "南",
+      "hiragana": "みなみ",
+      "romaji": "minami",
+      "english": "south",
+      "category": "directions",
+      "level": "basic"
+    },
+    {
+      "kanji": "北",
+      "hiragana": "きた",
+      "romaji": "kita",
+      "english": "north",
+      "category": "directions",
+      "level": "basic"
+    },
+    {
+      "kanji": "電話",
+      "hiragana": "でんわ",
+      "romaji": "denwa",
+      "english": "telephone",
+      "category": "technology",
+      "level": "basic"
+    },
+    {
+      "kanji": "テレビ",
+      "hiragana": "テレビ",
+      "romaji": "terebi",
+      "english": "television",
+      "category": "technology",
+      "level": "basic"
+    },
+    {
+      "kanji": "ラジオ",
+      "hiragana": "ラジオ",
+      "romaji": "rajio",
+      "english": "radio",
+      "category": "technology",
+      "level": "basic"
+    },
+    {
+      "kanji": "コンピューター",
+      "hiragana": "コンピューター",
+      "romaji": "konpyuutaa",
+      "english": "computer",
+      "category": "technology",
+      "level": "basic"
+    },
+    {
+      "kanji": "インターネット",
+      "hiragana": "インターネット",
+      "romaji": "intaanetto",
+      "english": "internet",
+      "category": "technology",
+      "level": "basic"
+    },
+    {
+      "kanji": "メール",
+      "hiragana": "メール",
+      "romaji": "meeru",
+      "english": "email",
+      "category": "technology",
+      "level": "basic"
+    },
+    {
+      "kanji": "写真",
+      "hiragana": "しゃしん",
+      "romaji": "shashin",
+      "english": "photograph",
+      "category": "technology",
+      "level": "basic"
+    },
+    {
+      "kanji": "カメラ",
+      "hiragana": "カメラ",
+      "romaji": "kamera",
+      "english": "camera",
+      "category": "technology",
+      "level": "basic"
+    },
+    {
+      "kanji": "音楽",
+      "hiragana": "おんがく",
+      "romaji": "ongaku",
+      "english": "music",
+      "category": "entertainment",
+      "level": "basic"
+    },
+    {
+      "kanji": "歌",
+      "hiragana": "うた",
+      "romaji": "uta",
+      "english": "song",
+      "category": "entertainment",
+      "level": "basic"
+    },
+    {
+      "kanji": "映画",
+      "hiragana": "えいが",
+      "romaji": "eiga",
+      "english": "movie",
+      "category": "entertainment",
+      "level": "basic"
+    },
+    {
+      "kanji": "ゲーム",
+      "hiragana": "ゲーム",
+      "romaji": "geemu",
+      "english": "game",
+      "category": "entertainment",
+      "level": "basic"
+    },
+    {
+      "kanji": "スポーツ",
+      "hiragana": "スポーツ",
+      "romaji": "supootsu",
+      "english": "sports",
+      "category": "entertainment",
+      "level": "basic"
+    },
+    {
+      "kanji": "旅行",
+      "hiragana": "りょこう",
+      "romaji": "ryokou",
+      "english": "travel",
+      "category": "entertainment",
+      "level": "basic"
+    },
+    {
+      "kanji": "休み",
+      "hiragana": "やすみ",
+      "romaji": "yasumi",
+      "english": "holiday, rest",
+      "category": "entertainment",
+      "level": "basic"
+    },
+    {
+      "kanji": "立つ",
+      "hiragana": "たつ",
+      "romaji": "tatsu",
+      "english": "to stand",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "座る",
+      "hiragana": "すわる",
+      "romaji": "suwaru",
+      "english": "to sit",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "寝る",
+      "hiragana": "ねる",
+      "romaji": "neru",
+      "english": "to sleep",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "起きる",
+      "hiragana": "おきる",
+      "romaji": "okiru",
+      "english": "to wake up",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "入る",
+      "hiragana": "はいる",
+      "romaji": "hairu",
+      "english": "to enter",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "出る",
+      "hiragana": "でる",
+      "romaji": "deru",
+      "english": "to exit",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "止まる",
+      "hiragana": "とまる",
+      "romaji": "tomaru",
+      "english": "to stop",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "始まる",
+      "hiragana": "はじまる",
+      "romaji": "hajimaru",
+      "english": "to begin",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "終わる",
+      "hiragana": "おわる",
+      "romaji": "owaru",
+      "english": "to end",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "待つ",
+      "hiragana": "まつ",
+      "romaji": "matsu",
+      "english": "to wait",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "会う",
+      "hiragana": "あう",
+      "romaji": "au",
+      "english": "to meet",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "呼ぶ",
+      "hiragana": "よぶ",
+      "romaji": "yobu",
+      "english": "to call",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "教える",
+      "hiragana": "おしえる",
+      "romaji": "oshieru",
+      "english": "to teach",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "習う",
+      "hiragana": "ならう",
+      "romaji": "narau",
+      "english": "to learn",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "覚える",
+      "hiragana": "おぼえる",
+      "romaji": "oboeru",
+      "english": "to remember",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "忘れる",
+      "hiragana": "わすれる",
+      "romaji": "wasureru",
+      "english": "to forget",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "考える",
+      "hiragana": "かんがえる",
+      "romaji": "kangaeru",
+      "english": "to think",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "知る",
+      "hiragana": "しる",
+      "romaji": "shiru",
+      "english": "to know",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "分かる",
+      "hiragana": "わかる",
+      "romaji": "wakaru",
+      "english": "to understand",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "できる",
+      "hiragana": "できる",
+      "romaji": "dekiru",
+      "english": "to be able to",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "台所",
+      "hiragana": "だいどころ",
+      "romaji": "daidokoro",
+      "english": "kitchen",
+      "category": "house",
+      "level": "basic"
+    },
+    {
+      "kanji": "部屋",
+      "hiragana": "へや",
+      "romaji": "heya",
+      "english": "room",
+      "category": "house",
+      "level": "basic"
+    },
+    {
+      "kanji": "寝室",
+      "hiragana": "しんしつ",
+      "romaji": "shinshitsu",
+      "english": "bedroom",
+      "category": "house",
+      "level": "basic"
+    },
+    {
+      "kanji": "お風呂",
+      "hiragana": "おふろ",
+      "romaji": "ofuro",
+      "english": "bath",
+      "category": "house",
+      "level": "basic"
+    },
+    {
+      "kanji": "トイレ",
+      "hiragana": "トイレ",
+      "romaji": "toire",
+      "english": "toilet",
+      "category": "house",
+      "level": "basic"
+    },
+    {
+      "kanji": "玄関",
+      "hiragana": "げんかん",
+      "romaji": "genkan",
+      "english": "entrance",
+      "category": "house",
+      "level": "basic"
+    },
+    {
+      "kanji": "庭",
+      "hiragana": "にわ",
+      "romaji": "niwa",
+      "english": "garden",
+      "category": "house",
+      "level": "basic"
+    },
+    {
+      "kanji": "窓",
+      "hiragana": "まど",
+      "romaji": "mado",
+      "english": "window",
+      "category": "house",
+      "level": "basic"
+    },
+    {
+      "kanji": "ドア",
+      "hiragana": "ドア",
+      "romaji": "doa",
+      "english": "door",
+      "category": "house",
+      "level": "basic"
+    },
+    {
+      "kanji": "階段",
+      "hiragana": "かいだん",
+      "romaji": "kaidan",
+      "english": "stairs",
+      "category": "house",
+      "level": "basic"
+    },
+    {
+      "kanji": "エレベーター",
+      "hiragana": "エレベーター",
+      "romaji": "erebeetaa",
+      "english": "elevator",
+      "category": "house",
+      "level": "basic"
+    },
+    {
+      "kanji": "冷蔵庫",
+      "hiragana": "れいぞうこ",
+      "romaji": "reizouko",
+      "english": "refrigerator",
+      "category": "house",
+      "level": "basic"
+    },
+    {
+      "kanji": "電子レンジ",
+      "hiragana": "でんしレンジ",
+      "romaji": "denshi renji",
+      "english": "microwave",
+      "category": "house",
+      "level": "basic"
+    },
+    {
+      "kanji": "洗濯機",
+      "hiragana": "せんたくき",
+      "romaji": "sentakuki",
+      "english": "washing machine",
+      "category": "house",
+      "level": "basic"
+    },
+    {
+      "kanji": "掃除機",
+      "hiragana": "そうじき",
+      "romaji": "soujiki",
+      "english": "vacuum cleaner",
+      "category": "house",
+      "level": "basic"
+    },
+    {
+      "kanji": "ベッド",
+      "hiragana": "ベッド",
+      "romaji": "beddo",
+      "english": "bed",
+      "category": "house",
+      "level": "basic"
+    },
+    {
+      "kanji": "椅子",
+      "hiragana": "いす",
+      "romaji": "isu",
+      "english": "chair",
+      "category": "house",
+      "level": "basic"
+    },
+    {
+      "kanji": "テーブル",
+      "hiragana": "テーブル",
+      "romaji": "teeburu",
+      "english": "table",
+      "category": "house",
+      "level": "basic"
+    },
+    {
+      "kanji": "棚",
+      "hiragana": "たな",
+      "romaji": "tana",
+      "english": "shelf",
+      "category": "house",
+      "level": "basic"
+    },
+    {
+      "kanji": "鏡",
+      "hiragana": "かがみ",
+      "romaji": "kagami",
+      "english": "mirror",
+      "category": "house",
+      "level": "basic"
+    },
+    {
+      "kanji": "お米",
+      "hiragana": "おこめ",
+      "romaji": "okome",
+      "english": "rice (uncooked)",
+      "category": "food",
+      "level": "basic"
+    },
+    {
+      "kanji": "パンケーキ",
+      "hiragana": "パンケーキ",
+      "romaji": "pankeeki",
+      "english": "pancake",
+      "category": "food",
+      "level": "basic"
+    },
+    {
+      "kanji": "サラダ",
+      "hiragana": "サラダ",
+      "romaji": "sarada",
+      "english": "salad",
+      "category": "food",
+      "level": "basic"
+    },
+    {
+      "kanji": "スープ",
+      "hiragana": "スープ",
+      "romaji": "suupu",
+      "english": "soup",
+      "category": "food",
+      "level": "basic"
+    },
+    {
+      "kanji": "サンドイッチ",
+      "hiragana": "サンドイッチ",
+      "romaji": "sandoitchi",
+      "english": "sandwich",
+      "category": "food",
+      "level": "basic"
+    },
+    {
+      "kanji": "ハンバーガー",
+      "hiragana": "ハンバーガー",
+      "romaji": "hanbaagaa",
+      "english": "hamburger",
+      "category": "food",
+      "level": "basic"
+    },
+    {
+      "kanji": "ピザ",
+      "hiragana": "ピザ",
+      "romaji": "piza",
+      "english": "pizza",
+      "category": "food",
+      "level": "basic"
+    },
+    {
+      "kanji": "ラーメン",
+      "hiragana": "ラーメン",
+      "romaji": "raamen",
+      "english": "ramen",
+      "category": "food",
+      "level": "basic"
+    },
+    {
+      "kanji": "そば",
+      "hiragana": "そば",
+      "romaji": "soba",
+      "english": "buckwheat noodles",
+      "category": "food",
+      "level": "basic"
+    },
+    {
+      "kanji": "うどん",
+      "hiragana": "うどん",
+      "romaji": "udon",
+      "english": "thick noodles",
+      "category": "food",
+      "level": "basic"
+    },
+    {
+      "kanji": "カレー",
+      "hiragana": "カレー",
+      "romaji": "karee",
+      "english": "curry",
+      "category": "food",
+      "level": "basic"
+    },
+    {
+      "kanji": "お寿司",
+      "hiragana": "おすし",
+      "romaji": "osushi",
+      "english": "sushi",
+      "category": "food",
+      "level": "basic"
+    },
+    {
+      "kanji": "天ぷら",
+      "hiragana": "てんぷら",
+      "romaji": "tenpura",
+      "english": "tempura",
+      "category": "food",
+      "level": "basic"
+    },
+    {
+      "kanji": "チーズ",
+      "hiragana": "チーズ",
+      "romaji": "chiizu",
+      "english": "cheese",
+      "category": "food",
+      "level": "basic"
+    },
+    {
+      "kanji": "バター",
+      "hiragana": "バター",
+      "romaji": "bataa",
+      "english": "butter",
+      "category": "food",
+      "level": "basic"
+    },
+    {
+      "kanji": "ヨーグルト",
+      "hiragana": "ヨーグルト",
+      "romaji": "yooguruto",
+      "english": "yogurt",
+      "category": "food",
+      "level": "basic"
+    },
+    {
+      "kanji": "アイスクリーム",
+      "hiragana": "アイスクリーム",
+      "romaji": "aisukuriimu",
+      "english": "ice cream",
+      "category": "food",
+      "level": "basic"
+    },
+    {
+      "kanji": "ケーキ",
+      "hiragana": "ケーキ",
+      "romaji": "keeki",
+      "english": "cake",
+      "category": "food",
+      "level": "basic"
+    },
+    {
+      "kanji": "クッキー",
+      "hiragana": "クッキー",
+      "romaji": "kukkii",
+      "english": "cookie",
+      "category": "food",
+      "level": "basic"
+    },
+    {
+      "kanji": "チョコレート",
+      "hiragana": "チョコレート",
+      "romaji": "chokoreeto",
+      "english": "chocolate",
+      "category": "food",
+      "level": "basic"
+    },
+    {
+      "kanji": "ジュース",
+      "hiragana": "ジュース",
+      "romaji": "juusu",
+      "english": "juice",
+      "category": "drinks",
+      "level": "basic"
+    },
+    {
+      "kanji": "オレンジジュース",
+      "hiragana": "オレンジジュース",
+      "romaji": "orenji juusu",
+      "english": "orange juice",
+      "category": "drinks",
+      "level": "basic"
+    },
+    {
+      "kanji": "リンゴジュース",
+      "hiragana": "リンゴジュース",
+      "romaji": "ringo juusu",
+      "english": "apple juice",
+      "category": "drinks",
+      "level": "basic"
+    },
+    {
+      "kanji": "コーラ",
+      "hiragana": "コーラ",
+      "romaji": "koora",
+      "english": "cola",
+      "category": "drinks",
+      "level": "basic"
+    },
+    {
+      "kanji": "ビール",
+      "hiragana": "ビール",
+      "romaji": "biiru",
+      "english": "beer",
+      "category": "drinks",
+      "level": "basic"
+    },
+    {
+      "kanji": "ワイン",
+      "hiragana": "ワイン",
+      "romaji": "wain",
+      "english": "wine",
+      "category": "drinks",
+      "level": "basic"
+    },
+    {
+      "kanji": "日本酒",
+      "hiragana": "にほんしゅ",
+      "romaji": "nihonshu",
+      "english": "sake",
+      "category": "drinks",
+      "level": "basic"
+    },
+    {
+      "kanji": "紅茶",
+      "hiragana": "こうちゃ",
+      "romaji": "koucha",
+      "english": "black tea",
+      "category": "drinks",
+      "level": "basic"
+    },
+    {
+      "kanji": "緑茶",
+      "hiragana": "りょくちゃ",
+      "romaji": "ryokucha",
+      "english": "green tea",
+      "category": "drinks",
+      "level": "basic"
+    },
+    {
+      "kanji": "ココア",
+      "hiragana": "ココア",
+      "romaji": "kokoa",
+      "english": "cocoa",
+      "category": "drinks",
+      "level": "basic"
+    },
+    {
+      "kanji": "りんご",
+      "hiragana": "りんご",
+      "romaji": "ringo",
+      "english": "apple",
+      "category": "fruits",
+      "level": "basic"
+    },
+    {
+      "kanji": "みかん",
+      "hiragana": "みかん",
+      "romaji": "mikan",
+      "english": "tangerine",
+      "category": "fruits",
+      "level": "basic"
+    },
+    {
+      "kanji": "バナナ",
+      "hiragana": "バナナ",
+      "romaji": "banana",
+      "english": "banana",
+      "category": "fruits",
+      "level": "basic"
+    },
+    {
+      "kanji": "いちご",
+      "hiragana": "いちご",
+      "romaji": "ichigo",
+      "english": "strawberry",
+      "category": "fruits",
+      "level": "basic"
+    },
+    {
+      "kanji": "ぶどう",
+      "hiragana": "ぶどう",
+      "romaji": "budou",
+      "english": "grapes",
+      "category": "fruits",
+      "level": "basic"
+    },
+    {
+      "kanji": "もも",
+      "hiragana": "もも",
+      "romaji": "momo",
+      "english": "peach",
+      "category": "fruits",
+      "level": "basic"
+    },
+    {
+      "kanji": "すいか",
+      "hiragana": "すいか",
+      "romaji": "suika",
+      "english": "watermelon",
+      "category": "fruits",
+      "level": "basic"
+    },
+    {
+      "kanji": "メロン",
+      "hiragana": "メロン",
+      "romaji": "meron",
+      "english": "melon",
+      "category": "fruits",
+      "level": "basic"
+    },
+    {
+      "kanji": "レモン",
+      "hiragana": "レモン",
+      "romaji": "remon",
+      "english": "lemon",
+      "category": "fruits",
+      "level": "basic"
+    },
+    {
+      "kanji": "オレンジ",
+      "hiragana": "オレンジ",
+      "romaji": "orenji",
+      "english": "orange",
+      "category": "fruits",
+      "level": "basic"
+    },
+    {
+      "kanji": "トマト",
+      "hiragana": "トマト",
+      "romaji": "tomato",
+      "english": "tomato",
+      "category": "vegetables",
+      "level": "basic"
+    },
+    {
+      "kanji": "きゅうり",
+      "hiragana": "きゅうり",
+      "romaji": "kyuuri",
+      "english": "cucumber",
+      "category": "vegetables",
+      "level": "basic"
+    },
+    {
+      "kanji": "レタス",
+      "hiragana": "レタス",
+      "romaji": "retasu",
+      "english": "lettuce",
+      "category": "vegetables",
+      "level": "basic"
+    },
+    {
+      "kanji": "キャベツ",
+      "hiragana": "キャベツ",
+      "romaji": "kyabetsu",
+      "english": "cabbage",
+      "category": "vegetables",
+      "level": "basic"
+    },
+    {
+      "kanji": "人参",
+      "hiragana": "にんじん",
+      "romaji": "ninjin",
+      "english": "carrot",
+      "category": "vegetables",
+      "level": "basic"
+    },
+    {
+      "kanji": "じゃがいも",
+      "hiragana": "じゃがいも",
+      "romaji": "jagaimo",
+      "english": "potato",
+      "category": "vegetables",
+      "level": "basic"
+    },
+    {
+      "kanji": "玉ねぎ",
+      "hiragana": "たまねぎ",
+      "romaji": "tamanegi",
+      "english": "onion",
+      "category": "vegetables",
+      "level": "basic"
+    },
+    {
+      "kanji": "ピーマン",
+      "hiragana": "ピーマン",
+      "romaji": "piiman",
+      "english": "green pepper",
+      "category": "vegetables",
+      "level": "basic"
+    },
+    {
+      "kanji": "なす",
+      "hiragana": "なす",
+      "romaji": "nasu",
+      "english": "eggplant",
+      "category": "vegetables",
+      "level": "basic"
+    },
+    {
+      "kanji": "大根",
+      "hiragana": "だいこん",
+      "romaji": "daikon",
+      "english": "radish",
+      "category": "vegetables",
+      "level": "basic"
+    },
+    {
+      "kanji": "大学",
+      "hiragana": "だいがく",
+      "romaji": "daigaku",
+      "english": "university",
+      "category": "education",
+      "level": "basic"
+    },
+    {
+      "kanji": "高校",
+      "hiragana": "こうこう",
+      "romaji": "koukou",
+      "english": "high school",
+      "category": "education",
+      "level": "basic"
+    },
+    {
+      "kanji": "中学校",
+      "hiragana": "ちゅうがっこう",
+      "romaji": "chuugakkou",
+      "english": "middle school",
+      "category": "education",
+      "level": "basic"
+    },
+    {
+      "kanji": "小学校",
+      "hiragana": "しょうがっこう",
+      "romaji": "shougakkou",
+      "english": "elementary school",
+      "category": "education",
+      "level": "basic"
+    },
+    {
+      "kanji": "幼稚園",
+      "hiragana": "ようちえん",
+      "romaji": "youchien",
+      "english": "kindergarten",
+      "category": "education",
+      "level": "basic"
+    },
+    {
+      "kanji": "教室",
+      "hiragana": "きょうしつ",
+      "romaji": "kyoushitsu",
+      "english": "classroom",
+      "category": "education",
+      "level": "basic"
+    },
+    {
+      "kanji": "図書館",
+      "hiragana": "としょかん",
+      "romaji": "toshokan",
+      "english": "library",
+      "category": "education",
+      "level": "basic"
+    },
+    {
+      "kanji": "授業",
+      "hiragana": "じゅぎょう",
+      "romaji": "jugyou",
+      "english": "class, lesson",
+      "category": "education",
+      "level": "basic"
+    },
+    {
+      "kanji": "宿題",
+      "hiragana": "しゅくだい",
+      "romaji": "shukudai",
+      "english": "homework",
+      "category": "education",
+      "level": "basic"
+    },
+    {
+      "kanji": "試験",
+      "hiragana": "しけん",
+      "romaji": "shiken",
+      "english": "exam",
+      "category": "education",
+      "level": "basic"
+    },
+    {
+      "kanji": "質問",
+      "hiragana": "しつもん",
+      "romaji": "shitsumon",
+      "english": "question",
+      "category": "education",
+      "level": "basic"
+    },
+    {
+      "kanji": "答え",
+      "hiragana": "こたえ",
+      "romaji": "kotae",
+      "english": "answer",
+      "category": "education",
+      "level": "basic"
+    },
+    {
+      "kanji": "辞書",
+      "hiragana": "じしょ",
+      "romaji": "jisho",
+      "english": "dictionary",
+      "category": "education",
+      "level": "basic"
+    },
+    {
+      "kanji": "ノート",
+      "hiragana": "ノート",
+      "romaji": "nooto",
+      "english": "notebook",
+      "category": "education",
+      "level": "basic"
+    },
+    {
+      "kanji": "教科書",
+      "hiragana": "きょうかしょ",
+      "romaji": "kyoukasho",
+      "english": "textbook",
+      "category": "education",
+      "level": "basic"
+    },
+    {
+      "kanji": "黒板",
+      "hiragana": "こくばん",
+      "romaji": "kokuban",
+      "english": "blackboard",
+      "category": "education",
+      "level": "basic"
+    },
+    {
+      "kanji": "チョーク",
+      "hiragana": "チョーク",
+      "romaji": "chooku",
+      "english": "chalk",
+      "category": "education",
+      "level": "basic"
+    },
+    {
+      "kanji": "消しゴム",
+      "hiragana": "けしゴム",
+      "romaji": "keshi gomu",
+      "english": "eraser",
+      "category": "education",
+      "level": "basic"
+    },
+    {
+      "kanji": "定規",
+      "hiragana": "じょうぎ",
+      "romaji": "jougi",
+      "english": "ruler",
+      "category": "education",
+      "level": "basic"
+    },
+    {
+      "kanji": "計算機",
+      "hiragana": "けいさんき",
+      "romaji": "keisanki",
+      "english": "calculator",
+      "category": "education",
+      "level": "basic"
+    },
+    {
+      "kanji": "送る",
+      "hiragana": "おくる",
+      "romaji": "okuru",
+      "english": "to send",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "もらう",
+      "hiragana": "もらう",
+      "romaji": "morau",
+      "english": "to receive",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "貸す",
+      "hiragana": "かす",
+      "romaji": "kasu",
+      "english": "to lend",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "借りる",
+      "hiragana": "かりる",
+      "romaji": "kariru",
+      "english": "to borrow",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "洗う",
+      "hiragana": "あらう",
+      "romaji": "arau",
+      "english": "to wash",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "切る",
+      "hiragana": "きる",
+      "romaji": "kiru",
+      "english": "to cut",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "死ぬ",
+      "hiragana": "しぬ",
+      "romaji": "shinu",
+      "english": "to die",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "生まれる",
+      "hiragana": "うまれる",
+      "romaji": "umareru",
+      "english": "to be born",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "住む",
+      "hiragana": "すむ",
+      "romaji": "sumu",
+      "english": "to live",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "引っ越す",
+      "hiragana": "ひっこす",
+      "romaji": "hikkosu",
+      "english": "to move (residence)",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "結婚する",
+      "hiragana": "けっこんする",
+      "romaji": "kekkon suru",
+      "english": "to marry",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "離婚する",
+      "hiragana": "りこんする",
+      "romaji": "rikon suru",
+      "english": "to divorce",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "卒業する",
+      "hiragana": "そつぎょうする",
+      "romaji": "sotsugyou suru",
+      "english": "to graduate",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "入学する",
+      "hiragana": "にゅうがくする",
+      "romaji": "nyuugaku suru",
+      "english": "to enter school",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "就職する",
+      "hiragana": "しゅうしょくする",
+      "romaji": "shuushoku suru",
+      "english": "to get a job",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "退職する",
+      "hiragana": "たいしょくする",
+      "romaji": "taishoku suru",
+      "english": "to retire",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "旅行する",
+      "hiragana": "りょこうする",
+      "romaji": "ryokou suru",
+      "english": "to travel",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "散歩する",
+      "hiragana": "さんぽする",
+      "romaji": "sanpo suru",
+      "english": "to take a walk",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "運動する",
+      "hiragana": "うんどうする",
+      "romaji": "undou suru",
+      "english": "to exercise",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "練習する",
+      "hiragana": "れんしゅうする",
+      "romaji": "renshuu suru",
+      "english": "to practice",
+      "category": "verbs",
+      "level": "basic"
+    },
+    {
+      "kanji": "仕事",
+      "hiragana": "しごと",
+      "romaji": "shigoto",
+      "english": "job, work",
+      "category": "work",
+      "level": "basic"
+    },
+    {
+      "kanji": "会社員",
+      "hiragana": "かいしゃいん",
+      "romaji": "kaishain",
+      "english": "company employee",
+      "category": "work",
+      "level": "basic"
+    },
+    {
+      "kanji": "公務員",
+      "hiragana": "こうむいん",
+      "romaji": "koumuin",
+      "english": "public servant",
+      "category": "work",
+      "level": "basic"
+    },
+    {
+      "kanji": "看護師",
+      "hiragana": "かんごし",
+      "romaji": "kangoshi",
+      "english": "nurse",
+      "category": "work",
+      "level": "basic"
+    },
+    {
+      "kanji": "警察官",
+      "hiragana": "けいさつかん",
+      "romaji": "keisatsukan",
+      "english": "police officer",
+      "category": "work",
+      "level": "basic"
+    },
+    {
+      "kanji": "消防士",
+      "hiragana": "しょうぼうし",
+      "romaji": "shouboushi",
+      "english": "firefighter",
+      "category": "work",
+      "level": "basic"
+    },
+    {
+      "kanji": "料理人",
+      "hiragana": "りょうりにん",
+      "romaji": "ryourinin",
+      "english": "chef",
+      "category": "work",
+      "level": "basic"
+    },
+    {
+      "kanji": "美容師",
+      "hiragana": "びようし",
+      "romaji": "biyoushi",
+      "english": "hairdresser",
+      "category": "work",
+      "level": "basic"
+    },
+    {
+      "kanji": "運転手",
+      "hiragana": "うんてんしゅ",
+      "romaji": "untenshu",
+      "english": "driver",
+      "category": "work",
+      "level": "basic"
+    },
+    {
+      "kanji": "エンジニア",
+      "hiragana": "エンジニア",
+      "romaji": "enjinia",
+      "english": "engineer",
+      "category": "work",
+      "level": "basic"
+    },
+    {
+      "kanji": "プログラマー",
+      "hiragana": "プログラマー",
+      "romaji": "puroguramaa",
+      "english": "programmer",
+      "category": "work",
+      "level": "basic"
+    },
+    {
+      "kanji": "デザイナー",
+      "hiragana": "デザイナー",
+      "romaji": "dezainaa",
+      "english": "designer",
+      "category": "work",
+      "level": "basic"
+    },
+    {
+      "kanji": "記者",
+      "hiragana": "きしゃ",
+      "romaji": "kisha",
+      "english": "reporter",
+      "category": "work",
+      "level": "basic"
+    },
+    {
+      "kanji": "弁護士",
+      "hiragana": "べんごし",
+      "romaji": "bengoshi",
+      "english": "lawyer",
+      "category": "work",
+      "level": "basic"
+    },
+    {
+      "kanji": "会計士",
+      "hiragana": "かいけいし",
+      "romaji": "kaikeishi",
+      "english": "accountant",
+      "category": "work",
+      "level": "basic"
+    },
+    {
+      "kanji": "主婦",
+      "hiragana": "しゅふ",
+      "romaji": "shufu",
+      "english": "housewife",
+      "category": "work",
+      "level": "basic"
+    },
+    {
+      "kanji": "農家",
+      "hiragana": "のうか",
+      "romaji": "nouka",
+      "english": "farmer",
+      "category": "work",
+      "level": "basic"
+    },
+    {
+      "kanji": "漁師",
+      "hiragana": "りょうし",
+      "romaji": "ryoushi",
+      "english": "fisherman",
+      "category": "work",
+      "level": "basic"
+    },
+    {
+      "kanji": "歌手",
+      "hiragana": "かしゅ",
+      "romaji": "kashu",
+      "english": "singer",
+      "category": "work",
+      "level": "basic"
+    },
+    {
+      "kanji": "俳優",
+      "hiragana": "はいゆう",
+      "romaji": "haiyuu",
+      "english": "actor",
+      "category": "work",
+      "level": "basic"
+    },
+    {
+      "kanji": "美しい",
+      "hiragana": "うつくしい",
+      "romaji": "utsukushii",
+      "english": "beautiful",
+      "category": "adjectives",
+      "level": "basic"
+    },
+    {
+      "kanji": "醜い",
+      "hiragana": "みにくい",
+      "romaji": "minikui",
+      "english": "ugly",
+      "category": "adjectives",
+      "level": "basic"
+    },
+    {
+      "kanji": "優しい",
+      "hiragana": "やさしい",
+      "romaji": "yasashii",
+      "english": "kind",
+      "category": "adjectives",
+      "level": "basic"
+    },
+    {
+      "kanji": "厳しい",
+      "hiragana": "きびしい",
+      "romaji": "kibishii",
+      "english": "strict",
+      "category": "adjectives",
+      "level": "basic"
+    },
+    {
+      "kanji": "明るい",
+      "hiragana": "あかるい",
+      "romaji": "akarui",
+      "english": "bright, cheerful",
+      "category": "adjectives",
+      "level": "basic"
+    },
+    {
+      "kanji": "暗い",
+      "hiragana": "くらい",
+      "romaji": "kurai",
+      "english": "dark",
+      "category": "adjectives",
+      "level": "basic"
+    },
+    {
+      "kanji": "静かな",
+      "hiragana": "しずかな",
+      "romaji": "shizuka na",
+      "english": "quiet",
+      "category": "adjectives",
+      "level": "basic"
+    },
+    {
+      "kanji": "うるさい",
+      "hiragana": "うるさい",
+      "romaji": "urusai",
+      "english": "noisy",
+      "category": "adjectives",
+      "level": "basic"
+    },
+    {
+      "kanji": "清潔な",
+      "hiragana": "せいけつな",
+      "romaji": "seiketsu na",
+      "english": "clean",
+      "category": "adjectives",
+      "level": "basic"
+    },
+    {
+      "kanji": "汚い",
+      "hiragana": "きたない",
+      "romaji": "kitanai",
+      "english": "dirty",
+      "category": "adjectives",
+      "level": "basic"
+    },
+    {
+      "kanji": "便利な",
+      "hiragana": "べんりな",
+      "romaji": "benri na",
+      "english": "convenient",
+      "category": "adjectives",
+      "level": "basic"
+    },
+    {
+      "kanji": "不便な",
+      "hiragana": "ふべんな",
+      "romaji": "fuben na",
+      "english": "inconvenient",
+      "category": "adjectives",
+      "level": "basic"
+    },
+    {
+      "kanji": "簡単な",
+      "hiragana": "かんたんな",
+      "romaji": "kantan na",
+      "english": "simple",
+      "category": "adjectives",
+      "level": "basic"
+    },
+    {
+      "kanji": "複雑な",
+      "hiragana": "ふくざつな",
+      "romaji": "fukuzatsu na",
+      "english": "complicated",
+      "category": "adjectives",
+      "level": "basic"
+    },
+    {
+      "kanji": "有名な",
+      "hiragana": "ゆうめいな",
+      "romaji": "yuumei na",
+      "english": "famous",
+      "category": "adjectives",
+      "level": "basic"
+    },
+    {
+      "kanji": "無名な",
+      "hiragana": "むめいな",
+      "romaji": "mumei na",
+      "english": "unknown",
+      "category": "adjectives",
+      "level": "basic"
+    },
+    {
+      "kanji": "親切な",
+      "hiragana": "しんせつな",
+      "romaji": "shinsetsu na",
+      "english": "kind",
+      "category": "adjectives",
+      "level": "basic"
+    },
+    {
+      "kanji": "丁寧な",
+      "hiragana": "ていねいな",
+      "romaji": "teinei na",
+      "english": "polite",
+      "category": "adjectives",
+      "level": "basic"
+    },
+    {
+      "kanji": "失礼な",
+      "hiragana": "しつれいな",
+      "romaji": "shitsurei na",
+      "english": "rude",
+      "category": "adjectives",
+      "level": "basic"
+    },
+    {
+      "kanji": "正しい",
+      "hiragana": "ただしい",
+      "romaji": "tadashii",
+      "english": "correct",
+      "category": "adjectives",
+      "level": "basic"
+    },
+    {
+      "kanji": "スマートフォン",
+      "hiragana": "スマートフォン",
+      "romaji": "sumaatofon",
+      "english": "smartphone",
+      "category": "technology",
+      "level": "basic"
+    },
+    {
+      "kanji": "タブレット",
+      "hiragana": "タブレット",
+      "romaji": "taburetto",
+      "english": "tablet",
+      "category": "technology",
+      "level": "basic"
+    },
+    {
+      "kanji": "パソコン",
+      "hiragana": "パソコン",
+      "romaji": "pasokon",
+      "english": "personal computer",
+      "category": "technology",
+      "level": "basic"
+    },
+    {
+      "kanji": "キーボード",
+      "hiragana": "キーボード",
+      "romaji": "kiiboodo",
+      "english": "keyboard",
+      "category": "technology",
+      "level": "basic"
+    },
+    {
+      "kanji": "マウス",
+      "hiragana": "マウス",
+      "romaji": "mausu",
+      "english": "computer mouse",
+      "category": "technology",
+      "level": "basic"
+    },
+    {
+      "kanji": "プリンター",
+      "hiragana": "プリンター",
+      "romaji": "purintaa",
+      "english": "printer",
+      "category": "technology",
+      "level": "basic"
+    },
+    {
+      "kanji": "スキャナー",
+      "hiragana": "スキャナー",
+      "romaji": "sukyanaa",
+      "english": "scanner",
+      "category": "technology",
+      "level": "basic"
+    },
+    {
+      "kanji": "ヘッドホン",
+      "hiragana": "ヘッドホン",
+      "romaji": "heddohon",
+      "english": "headphones",
+      "category": "technology",
+      "level": "basic"
+    },
+    {
+      "kanji": "イヤホン",
+      "hiragana": "イヤホン",
+      "romaji": "iyahon",
+      "english": "earphones",
+      "category": "technology",
+      "level": "basic"
+    },
+    {
+      "kanji": "スピーカー",
+      "hiragana": "スピーカー",
+      "romaji": "supiikaa",
+      "english": "speaker",
+      "category": "technology",
+      "level": "basic"
+    },
+    {
+      "kanji": "充電器",
+      "hiragana": "じゅうでんき",
+      "romaji": "juudenki",
+      "english": "charger",
+      "category": "technology",
+      "level": "basic"
+    },
+    {
+      "kanji": "バッテリー",
+      "hiragana": "バッテリー",
+      "romaji": "batterii",
+      "english": "battery",
+      "category": "technology",
+      "level": "basic"
+    },
+    {
+      "kanji": "アプリ",
+      "hiragana": "アプリ",
+      "romaji": "apuri",
+      "english": "app",
+      "category": "technology",
+      "level": "basic"
+    },
+    {
+      "kanji": "ソフトウェア",
+      "hiragana": "ソフトウェア",
+      "romaji": "sofutowea",
+      "english": "software",
+      "category": "technology",
+      "level": "basic"
+    },
+    {
+      "kanji": "ハードウェア",
+      "hiragana": "ハードウェア",
+      "romaji": "haadowea",
+      "english": "hardware",
+      "category": "technology",
+      "level": "basic"
+    },
+    {
+      "kanji": "ウイルス",
+      "hiragana": "ウイルス",
+      "romaji": "uirusu",
+      "english": "virus",
+      "category": "technology",
+      "level": "basic"
+    },
+    {
+      "kanji": "パスワード",
+      "hiragana": "パスワード",
+      "romaji": "pasuwaado",
+      "english": "password",
+      "category": "technology",
+      "level": "basic"
+    },
+    {
+      "kanji": "ダウンロード",
+      "hiragana": "ダウンロード",
+      "romaji": "daunroodo",
+      "english": "download",
+      "category": "technology",
+      "level": "basic"
+    },
+    {
+      "kanji": "アップロード",
+      "hiragana": "アップロード",
+      "romaji": "appuroodo",
+      "english": "upload",
+      "category": "technology",
+      "level": "basic"
+    },
+    {
+      "kanji": "オンライン",
+      "hiragana": "オンライン",
+      "romaji": "onrain",
+      "english": "online",
+      "category": "technology",
+      "level": "basic"
+    },
+    {
+      "kanji": "起床",
+      "hiragana": "きしょう",
+      "romaji": "kishou",
+      "english": "waking up",
+      "category": "daily",
+      "level": "basic"
+    },
+    {
+      "kanji": "就寝",
+      "hiragana": "しゅうしん",
+      "romaji": "shuushin",
+      "english": "going to bed",
+      "category": "daily",
+      "level": "basic"
+    },
+    {
+      "kanji": "入浴",
+      "hiragana": "にゅうよく",
+      "romaji": "nyuuyoku",
+      "english": "bathing",
+      "category": "daily",
+      "level": "basic"
+    },
+    {
+      "kanji": "洗濯",
+      "hiragana": "せんたく",
+      "romaji": "sentaku",
+      "english": "laundry",
+      "category": "daily",
+      "level": "basic"
+    },
+    {
+      "kanji": "掃除",
+      "hiragana": "そうじ",
+      "romaji": "souji",
+      "english": "cleaning",
+      "category": "daily",
+      "level": "basic"
+    },
+    {
+      "kanji": "料理",
+      "hiragana": "りょうり",
+      "romaji": "ryouri",
+      "english": "cooking",
+      "category": "daily",
+      "level": "basic"
+    },
+    {
+      "kanji": "買い物",
+      "hiragana": "かいもの",
+      "romaji": "kaimono",
+      "english": "shopping",
+      "category": "daily",
+      "level": "basic"
+    },
+    {
+      "kanji": "読書",
+      "hiragana": "どくしょ",
+      "romaji": "dokusho",
+      "english": "reading",
+      "category": "daily",
+      "level": "basic"
+    },
+    {
+      "kanji": "映画鑑賞",
+      "hiragana": "えいがかんしょう",
+      "romaji": "eiga kanshou",
+      "english": "movie watching",
+      "category": "daily",
+      "level": "basic"
+    },
+    {
+      "kanji": "音楽鑑賞",
+      "hiragana": "おんがくかんしょう",
+      "romaji": "ongaku kanshou",
+      "english": "music listening",
+      "category": "daily",
+      "level": "basic"
+    },
+    {
+      "kanji": "第一",
+      "hiragana": "だいいち",
+      "romaji": "daiichi",
+      "english": "first",
+      "category": "numbers",
+      "level": "basic"
+    },
+    {
+      "kanji": "第二",
+      "hiragana": "だいに",
+      "romaji": "daini",
+      "english": "second",
+      "category": "numbers",
+      "level": "basic"
+    },
+    {
+      "kanji": "第三",
+      "hiragana": "だいさん",
+      "romaji": "daisan",
+      "english": "third",
+      "category": "numbers",
+      "level": "basic"
+    },
+    {
+      "kanji": "何回",
+      "hiragana": "なんかい",
+      "romaji": "nankai",
+      "english": "how many times",
+      "category": "numbers",
+      "level": "basic"
+    },
+    {
+      "kanji": "一回",
+      "hiragana": "いっかい",
+      "romaji": "ikkai",
+      "english": "one time",
+      "category": "numbers",
+      "level": "basic"
+    },
+    {
+      "kanji": "二回",
+      "hiragana": "にかい",
+      "romaji": "nikai",
+      "english": "two times",
+      "category": "numbers",
+      "level": "basic"
+    },
+    {
+      "kanji": "何個",
+      "hiragana": "なんこ",
+      "romaji": "nanko",
+      "english": "how many (pieces)",
+      "category": "numbers",
+      "level": "basic"
+    },
+    {
+      "kanji": "一個",
+      "hiragana": "いっこ",
+      "romaji": "ikko",
+      "english": "one piece",
+      "category": "numbers",
+      "level": "basic"
+    },
+    {
+      "kanji": "二個",
+      "hiragana": "にこ",
+      "romaji": "niko",
+      "english": "two pieces",
+      "category": "numbers",
+      "level": "basic"
+    },
+    {
+      "kanji": "何枚",
+      "hiragana": "なんまい",
+      "romaji": "nanmai",
+      "english": "how many (flat objects)",
+      "category": "numbers",
+      "level": "basic"
+    },
+    {
+      "kanji": "一枚",
+      "hiragana": "いちまい",
+      "romaji": "ichimai",
+      "english": "one sheet",
+      "category": "numbers",
+      "level": "basic"
+    },
+    {
+      "kanji": "二枚",
+      "hiragana": "にまい",
+      "romaji": "nimai",
+      "english": "two sheets",
+      "category": "numbers",
+      "level": "basic"
+    },
+    {
+      "kanji": "何本",
+      "hiragana": "なんぼん",
+      "romaji": "nanbon",
+      "english": "how many (long objects)",
+      "category": "numbers",
+      "level": "basic"
+    },
+    {
+      "kanji": "一本",
+      "hiragana": "いっぽん",
+      "romaji": "ippon",
+      "english": "one long object",
+      "category": "numbers",
+      "level": "basic"
+    },
+    {
+      "kanji": "二本",
+      "hiragana": "にほん",
+      "romaji": "nihon",
+      "english": "two long objects",
+      "category": "numbers",
+      "level": "basic"
+    },
+    {
+      "kanji": "おはよう",
+      "hiragana": "おはよう",
+      "romaji": "ohayou",
+      "english": "good morning (casual)",
+      "category": "greetings",
+      "level": "basic"
+    },
+    {
+      "kanji": "おはようございます",
+      "hiragana": "おはようございます",
+      "romaji": "ohayou gozaimasu",
+      "english": "good morning (polite)",
+      "category": "greetings",
+      "level": "basic"
+    },
+    {
+      "kanji": "こんにちは",
+      "hiragana": "こんにちは",
+      "romaji": "konnichiwa",
+      "english": "hello/good afternoon",
+      "category": "greetings",
+      "level": "basic"
+    },
+    {
+      "kanji": "こんばんは",
+      "hiragana": "こんばんは",
+      "romaji": "konbanwa",
+      "english": "good evening",
+      "category": "greetings",
+      "level": "basic"
+    },
+    {
+      "kanji": "さようなら",
+      "hiragana": "さようなら",
+      "romaji": "sayounara",
+      "english": "goodbye",
+      "category": "greetings",
+      "level": "basic"
+    },
+    {
+      "kanji": "また明日",
+      "hiragana": "またあした",
+      "romaji": "mata ashita",
+      "english": "see you tomorrow",
+      "category": "greetings",
+      "level": "basic"
+    },
+    {
+      "kanji": "お疲れ様",
+      "hiragana": "おつかれさま",
+      "romaji": "otsukaresama",
+      "english": "thank you for your hard work",
+      "category": "greetings",
+      "level": "basic"
+    },
+    {
+      "kanji": "失礼します",
+      "hiragana": "しつれいします",
+      "romaji": "shitsurei shimasu",
+      "english": "excuse me (leaving)",
+      "category": "greetings",
+      "level": "basic"
+    },
+    {
+      "kanji": "すみません",
+      "hiragana": "すみません",
+      "romaji": "sumimasen",
+      "english": "excuse me/sorry",
+      "category": "expressions",
+      "level": "basic"
+    },
+    {
+      "kanji": "ごめんなさい",
+      "hiragana": "ごめんなさい",
+      "romaji": "gomen nasai",
+      "english": "I'm sorry",
+      "category": "expressions",
+      "level": "basic"
+    },
+    {
+      "kanji": "ありがとう",
+      "hiragana": "ありがとう",
+      "romaji": "arigatou",
+      "english": "thank you (casual)",
+      "category": "expressions",
+      "level": "basic"
+    },
+    {
+      "kanji": "ありがとうございます",
+      "hiragana": "ありがとうございます",
+      "romaji": "arigatou gozaimasu",
+      "english": "thank you (polite)",
+      "category": "expressions",
+      "level": "basic"
+    },
+    {
+      "kanji": "どういたしまして",
+      "hiragana": "どういたしまして",
+      "romaji": "dou itashimashite",
+      "english": "you're welcome",
+      "category": "expressions",
+      "level": "basic"
+    },
+    {
+      "kanji": "いらっしゃいませ",
+      "hiragana": "いらっしゃいませ",
+      "romaji": "irasshaimase",
+      "english": "welcome (to shop)",
+      "category": "expressions",
+      "level": "basic"
+    },
+    {
+      "kanji": "お邪魔します",
+      "hiragana": "おじゃまします",
+      "romaji": "ojama shimasu",
+      "english": "excuse me (entering)",
+      "category": "expressions",
+      "level": "basic"
+    },
+    {
+      "kanji": "お先に",
+      "hiragana": "おさきに",
+      "romaji": "osaki ni",
+      "english": "excuse me (leaving first)",
+      "category": "expressions",
+      "level": "basic"
+    },
+    {
+      "kanji": "頑張って",
+      "hiragana": "がんばって",
+      "romaji": "ganbatte",
+      "english": "good luck/do your best",
+      "category": "expressions",
+      "level": "basic"
+    },
+    {
+      "kanji": "お元気ですか",
+      "hiragana": "おげんきですか",
+      "romaji": "ogenki desu ka",
+      "english": "how are you?",
+      "category": "expressions",
+      "level": "basic"
+    },
+    {
+      "kanji": "元気です",
+      "hiragana": "げんきです",
+      "romaji": "genki desu",
+      "english": "I'm fine",
+      "category": "expressions",
+      "level": "basic"
+    },
+    {
+      "kanji": "お名前は",
+      "hiragana": "おなまえは",
+      "romaji": "onamae wa",
+      "english": "what's your name?",
+      "category": "expressions",
+      "level": "basic"
+    },
+    {
+      "kanji": "習慣",
+      "hiragana": "しゅうかん",
+      "romaji": "shuukan",
+      "english": "habit",
+      "category": "abstract",
+      "level": "basic"
+    },
+    {
+      "kanji": "文化",
+      "hiragana": "ぶんか",
+      "romaji": "bunka",
+      "english": "culture",
+      "category": "abstract",
+      "level": "basic"
+    },
+    {
+      "kanji": "伝統",
+      "hiragana": "でんとう",
+      "romaji": "dentou",
+      "english": "tradition",
+      "category": "abstract",
+      "level": "basic"
+    },
+    {
+      "kanji": "歴史",
+      "hiragana": "れきし",
+      "romaji": "rekishi",
+      "english": "history",
+      "category": "abstract",
+      "level": "basic"
+    },
+    {
+      "kanji": "未来",
+      "hiragana": "みらい",
+      "romaji": "mirai",
+      "english": "future",
+      "category": "abstract",
+      "level": "basic"
+    },
+    {
+      "kanji": "過去",
+      "hiragana": "かこ",
+      "romaji": "kako",
+      "english": "past",
+      "category": "abstract",
+      "level": "basic"
+    },
+    {
+      "kanji": "現在",
+      "hiragana": "げんざい",
+      "romaji": "genzai",
+      "english": "present",
+      "category": "abstract",
+      "level": "basic"
+    },
+    {
+      "kanji": "希望",
+      "hiragana": "きぼう",
+      "romaji": "kibou",
+      "english": "hope",
+      "category": "abstract",
+      "level": "basic"
+    },
+    {
+      "kanji": "不安",
+      "hiragana": "ふあん",
+      "romaji": "fuan",
+      "english": "anxiety",
+      "category": "abstract",
+      "level": "basic"
+    },
+    {
+      "kanji": "幸福",
+      "hiragana": "こうふく",
+      "romaji": "koufuku",
+      "english": "happiness",
+      "category": "abstract",
+      "level": "basic"
+    },
+    {
+      "kanji": "お正月",
+      "hiragana": "おしょうがつ",
+      "romaji": "oshougatsu",
+      "english": "New Year",
+      "category": "festivals",
+      "level": "basic"
+    },
+    {
+      "kanji": "お盆",
+      "hiragana": "おぼん",
+      "romaji": "obon",
+      "english": "Obon festival",
+      "category": "festivals",
+      "level": "basic"
+    },
+    {
+      "kanji": "クリスマス",
+      "hiragana": "クリスマス",
+      "romaji": "kurisumasu",
+      "english": "Christmas",
+      "category": "festivals",
+      "level": "basic"
+    },
+    {
+      "kanji": "誕生日",
+      "hiragana": "たんじょうび",
+      "romaji": "tanjoubi",
+      "english": "birthday",
+      "category": "festivals",
+      "level": "basic"
+    },
+    {
+      "kanji": "記念日",
+      "hiragana": "きねんび",
+      "romaji": "kinenbi",
+      "english": "anniversary",
+      "category": "festivals",
+      "level": "basic"
+    },
+    {
+      "kanji": "祭り",
+      "hiragana": "まつり",
+      "romaji": "matsuri",
+      "english": "festival",
+      "category": "festivals",
+      "level": "basic"
+    },
+    {
+      "kanji": "花見",
+      "hiragana": "はなみ",
+      "romaji": "hanami",
+      "english": "cherry blossom viewing",
+      "category": "festivals",
+      "level": "basic"
+    },
+    {
+      "kanji": "花火",
+      "hiragana": "はなび",
+      "romaji": "hanabi",
+      "english": "fireworks",
+      "category": "festivals",
+      "level": "basic"
+    },
+    {
+      "kanji": "お祝い",
+      "hiragana": "おいわい",
+      "romaji": "oiwai",
+      "english": "celebration",
+      "category": "festivals",
+      "level": "basic"
+    },
+    {
+      "kanji": "パーティー",
+      "hiragana": "パーティー",
+      "romaji": "paatii",
+      "english": "party",
+      "category": "festivals",
+      "level": "basic"
+    },
+    {
+      "kanji": "シャンプー",
+      "hiragana": "シャンプー",
+      "romaji": "shanpuu",
+      "english": "shampoo",
+      "category": "household",
+      "level": "basic"
+    },
+    {
+      "kanji": "石鹸",
+      "hiragana": "せっけん",
+      "romaji": "sekken",
+      "english": "soap",
+      "category": "household",
+      "level": "basic"
+    },
+    {
+      "kanji": "歯ブラシ",
+      "hiragana": "はブラシ",
+      "romaji": "ha burashi",
+      "english": "toothbrush",
+      "category": "household",
+      "level": "basic"
+    },
+    {
+      "kanji": "歯磨き粉",
+      "hiragana": "はみがきこ",
+      "romaji": "hamigakiko",
+      "english": "toothpaste",
+      "category": "household",
+      "level": "basic"
+    },
+    {
+      "kanji": "タオル",
+      "hiragana": "タオル",
+      "romaji": "taoru",
+      "english": "towel",
+      "category": "household",
+      "level": "basic"
+    },
+    {
+      "kanji": "ティッシュ",
+      "hiragana": "ティッシュ",
+      "romaji": "tisshu",
+      "english": "tissue",
+      "category": "household",
+      "level": "basic"
+    },
+    {
+      "kanji": "トイレットペーパー",
+      "hiragana": "トイレットペーパー",
+      "romaji": "toiretto peepaa",
+      "english": "toilet paper",
+      "category": "household",
+      "level": "basic"
+    },
+    {
+      "kanji": "洗剤",
+      "hiragana": "せんざい",
+      "romaji": "senzai",
+      "english": "detergent",
+      "category": "household",
+      "level": "basic"
+    },
+    {
+      "kanji": "ゴミ",
+      "hiragana": "ゴミ",
+      "romaji": "gomi",
+      "english": "garbage",
+      "category": "household",
+      "level": "basic"
+    },
+    {
+      "kanji": "ゴミ箱",
+      "hiragana": "ゴミばこ",
+      "romaji": "gomi bako",
+      "english": "trash can",
+      "category": "household",
+      "level": "basic"
+    },
+    {
+      "kanji": "地下鉄",
+      "hiragana": "ちかてつ",
+      "romaji": "chikatetsu",
+      "english": "subway",
+      "category": "transportation",
+      "level": "basic"
+    },
+    {
+      "kanji": "新幹線",
+      "hiragana": "しんかんせん",
+      "romaji": "shinkansen",
+      "english": "bullet train",
+      "category": "transportation",
+      "level": "basic"
+    },
+    {
+      "kanji": "普通電車",
+      "hiragana": "ふつうでんしゃ",
+      "romaji": "futsuu densha",
+      "english": "local train",
+      "category": "transportation",
+      "level": "basic"
+    },
+    {
+      "kanji": "急行",
+      "hiragana": "きゅうこう",
+      "romaji": "kyuukou",
+      "english": "express train",
+      "category": "transportation",
+      "level": "basic"
+    },
+    {
+      "kanji": "特急",
+      "hiragana": "とっきゅう",
+      "romaji": "tokkyuu",
+      "english": "limited express",
+      "category": "transportation",
+      "level": "basic"
+    },
+    {
+      "kanji": "切符",
+      "hiragana": "きっぷ",
+      "romaji": "kippu",
+      "english": "ticket",
+      "category": "transportation",
+      "level": "basic"
+    },
+    {
+      "kanji": "定期券",
+      "hiragana": "ていきけん",
+      "romaji": "teikiken",
+      "english": "commuter pass",
+      "category": "transportation",
+      "level": "basic"
+    },
+    {
+      "kanji": "改札",
+      "hiragana": "かいさつ",
+      "romaji": "kaisatsu",
+      "english": "ticket gate",
+      "category": "transportation",
+      "level": "basic"
+    },
+    {
+      "kanji": "ホーム",
+      "hiragana": "ホーム",
+      "romaji": "hoomu",
+      "english": "platform",
+      "category": "transportation",
+      "level": "basic"
+    },
+    {
+      "kanji": "乗り換え",
+      "hiragana": "のりかえ",
+      "romaji": "norikae",
+      "english": "transfer",
+      "category": "transportation",
+      "level": "basic"
+    },
+    {
+      "kanji": "数学",
+      "hiragana": "すうがく",
+      "romaji": "suugaku",
+      "english": "mathematics",
+      "category": "subjects",
+      "level": "basic"
+    },
+    {
+      "kanji": "理科",
+      "hiragana": "りか",
+      "romaji": "rika",
+      "english": "science",
+      "category": "subjects",
+      "level": "basic"
+    },
+    {
+      "kanji": "社会",
+      "hiragana": "しゃかい",
+      "romaji": "shakai",
+      "english": "social studies",
+      "category": "subjects",
+      "level": "basic"
+    },
+    {
+      "kanji": "体育",
+      "hiragana": "たいいく",
+      "romaji": "taiiku",
+      "english": "physical education",
+      "category": "subjects",
+      "level": "basic"
+    },
+    {
+      "kanji": "音楽",
+      "hiragana": "おんがく",
+      "romaji": "ongaku",
+      "english": "music",
+      "category": "subjects",
+      "level": "basic"
+    },
+    {
+      "kanji": "美術",
+      "hiragana": "びじゅつ",
+      "romaji": "bijutsu",
+      "english": "art",
+      "category": "subjects",
+      "level": "basic"
+    },
+    {
+      "kanji": "技術",
+      "hiragana": "ぎじゅつ",
+      "romaji": "gijutsu",
+      "english": "technology",
+      "category": "subjects",
+      "level": "basic"
+    },
+    {
+      "kanji": "家庭科",
+      "hiragana": "かていか",
+      "romaji": "kateika",
+      "english": "home economics",
+      "category": "subjects",
+      "level": "basic"
+    },
+    {
+      "kanji": "道徳",
+      "hiragana": "どうとく",
+      "romaji": "doutoku",
+      "english": "moral education",
+      "category": "subjects",
+      "level": "basic"
+    },
+    {
+      "kanji": "クラブ",
+      "hiragana": "クラブ",
+      "romaji": "kurabu",
+      "english": "club",
+      "category": "school",
+      "level": "basic"
+    },
+    {
+      "kanji": "調味料",
+      "hiragana": "ちょうみりょう",
+      "romaji": "choumiryou",
+      "english": "seasoning",
+      "category": "cooking",
+      "level": "basic"
+    },
+    {
+      "kanji": "醤油",
+      "hiragana": "しょうゆ",
+      "romaji": "shouyu",
+      "english": "soy sauce",
+      "category": "cooking",
+      "level": "basic"
+    },
+    {
+      "kanji": "味噌",
+      "hiragana": "みそ",
+      "romaji": "miso",
+      "english": "miso",
+      "category": "cooking",
+      "level": "basic"
+    },
+    {
+      "kanji": "酢",
+      "hiragana": "す",
+      "romaji": "su",
+      "english": "vinegar",
+      "category": "cooking",
+      "level": "basic"
+    },
+    {
+      "kanji": "油",
+      "hiragana": "あぶら",
+      "romaji": "abura",
+      "english": "oil",
+      "category": "cooking",
+      "level": "basic"
+    },
+    {
+      "kanji": "胡椒",
+      "hiragana": "こしょう",
+      "romaji": "koshou",
+      "english": "pepper",
+      "category": "cooking",
+      "level": "basic"
+    },
+    {
+      "kanji": "フライパン",
+      "hiragana": "フライパン",
+      "romaji": "furaipan",
+      "english": "frying pan",
+      "category": "cooking",
+      "level": "basic"
+    },
+    {
+      "kanji": "鍋",
+      "hiragana": "なべ",
+      "romaji": "nabe",
+      "english": "pot",
+      "category": "cooking",
+      "level": "basic"
+    },
+    {
+      "kanji": "包丁",
+      "hiragana": "ほうちょう",
+      "romaji": "houchou",
+      "english": "kitchen knife",
+      "category": "cooking",
+      "level": "basic"
+    },
+    {
+      "kanji": "お箸",
+      "hiragana": "おはし",
+      "romaji": "ohashi",
+      "english": "chopsticks",
+      "category": "cooking",
+      "level": "basic"
+    },
+    {
+      "kanji": "病気",
+      "hiragana": "びょうき",
+      "romaji": "byouki",
+      "english": "illness",
+      "category": "health",
+      "level": "basic"
+    },
+    {
+      "kanji": "治療",
+      "hiragana": "ちりょう",
+      "romaji": "chiryou",
+      "english": "treatment",
+      "category": "health",
+      "level": "basic"
+    },
+    {
+      "kanji": "診察",
+      "hiragana": "しんさつ",
+      "romaji": "shinsatsu",
+      "english": "medical examination",
+      "category": "health",
+      "level": "basic"
+    },
+    {
+      "kanji": "注射",
+      "hiragana": "ちゅうしゃ",
+      "romaji": "chuusha",
+      "english": "injection",
+      "category": "health",
+      "level": "basic"
+    },
+    {
+      "kanji": "手術",
+      "hiragana": "しゅじゅつ",
+      "romaji": "shujutsu",
+      "english": "surgery",
+      "category": "health",
+      "level": "basic"
+    },
+    {
+      "kanji": "救急車",
+      "hiragana": "きゅうきゅうしゃ",
+      "romaji": "kyuukyuusha",
+      "english": "ambulance",
+      "category": "health",
+      "level": "basic"
+    },
+    {
+      "kanji": "保険",
+      "hiragana": "ほけん",
+      "romaji": "hoken",
+      "english": "insurance",
+      "category": "health",
+      "level": "basic"
+    },
+    {
+      "kanji": "健康",
+      "hiragana": "けんこう",
+      "romaji": "kenkou",
+      "english": "health",
+      "category": "health",
+      "level": "basic"
+    },
+    {
+      "kanji": "栄養",
+      "hiragana": "えいよう",
+      "romaji": "eiyou",
+      "english": "nutrition",
+      "category": "health",
+      "level": "basic"
+    },
+    {
+      "kanji": "ビタミン",
+      "hiragana": "ビタミン",
+      "romaji": "bitamin",
+      "english": "vitamin",
+      "category": "health",
+      "level": "basic"
+    },
+    {
+      "kanji": "野球",
+      "hiragana": "やきゅう",
+      "romaji": "yakyuu",
+      "english": "baseball",
+      "category": "sports",
+      "level": "basic"
+    },
+    {
+      "kanji": "サッカー",
+      "hiragana": "サッカー",
+      "romaji": "sakkaa",
+      "english": "soccer",
+      "category": "sports",
+      "level": "basic"
+    },
+    {
+      "kanji": "バスケットボール",
+      "hiragana": "バスケットボール",
+      "romaji": "basukettobooru",
+      "english": "basketball",
+      "category": "sports",
+      "level": "basic"
+    },
+    {
+      "kanji": "テニス",
+      "hiragana": "テニス",
+      "romaji": "tenisu",
+      "english": "tennis",
+      "category": "sports",
+      "level": "basic"
+    },
+    {
+      "kanji": "ゴルフ",
+      "hiragana": "ゴルフ",
+      "romaji": "gorufu",
+      "english": "golf",
+      "category": "sports",
+      "level": "basic"
+    },
+    {
+      "kanji": "水泳",
+      "hiragana": "すいえい",
+      "romaji": "suiei",
+      "english": "swimming",
+      "category": "sports",
+      "level": "basic"
+    },
+    {
+      "kanji": "柔道",
+      "hiragana": "じゅうどう",
+      "romaji": "juudou",
+      "english": "judo",
+      "category": "sports",
+      "level": "basic"
+    },
+    {
+      "kanji": "空手",
+      "hiragana": "からて",
+      "romaji": "karate",
+      "english": "karate",
+      "category": "sports",
+      "level": "basic"
+    },
+    {
+      "kanji": "剣道",
+      "hiragana": "けんどう",
+      "romaji": "kendou",
+      "english": "kendo",
+      "category": "sports",
+      "level": "basic"
+    },
+    {
+      "kanji": "茶道",
+      "hiragana": "さどう",
+      "romaji": "sadou",
+      "english": "tea ceremony",
+      "category": "culture",
+      "level": "basic"
+    },
+    {
+      "kanji": "趣味",
+      "hiragana": "しゅみ",
+      "romaji": "shumi",
+      "english": "hobby",
+      "category": "hobbies",
+      "level": "basic"
+    },
+    {
+      "kanji": "特技",
+      "hiragana": "とくぎ",
+      "romaji": "tokugi",
+      "english": "special skill",
+      "category": "hobbies",
+      "level": "basic"
+    },
+    {
+      "kanji": "才能",
+      "hiragana": "さいのう",
+      "romaji": "sainou",
+      "english": "talent",
+      "category": "hobbies",
+      "level": "basic"
+    },
+    {
+      "kanji": "経験",
+      "hiragana": "けいけん",
+      "romaji": "keiken",
+      "english": "experience",
+      "category": "abstract",
+      "level": "basic"
+    },
+    {
+      "kanji": "知識",
+      "hiragana": "ちしき",
+      "romaji": "chishiki",
+      "english": "knowledge",
+      "category": "abstract",
+      "level": "basic"
+    },
+    {
+      "kanji": "技術",
+      "hiragana": "ぎじゅつ",
+      "romaji": "gijutsu",
+      "english": "skill, technology",
+      "category": "abstract",
+      "level": "basic"
+    },
+    {
+      "kanji": "能力",
+      "hiragana": "のうりょく",
+      "romaji": "nouryoku",
+      "english": "ability",
+      "category": "abstract",
+      "level": "basic"
+    },
+    {
+      "kanji": "実力",
+      "hiragana": "じつりょく",
+      "romaji": "jitsuryoku",
+      "english": "real ability",
+      "category": "abstract",
+      "level": "basic"
+    },
+    {
+      "kanji": "努力",
+      "hiragana": "どりょく",
+      "romaji": "doryoku",
+      "english": "effort",
+      "category": "abstract",
+      "level": "basic"
+    },
+    {
+      "kanji": "成功",
+      "hiragana": "せいこう",
+      "romaji": "seikou",
+      "english": "success",
+      "category": "abstract",
+      "level": "basic"
+    },
+    {
+      "kanji": "失敗",
+      "hiragana": "しっぱい",
+      "romaji": "shippai",
+      "english": "failure",
+      "category": "abstract",
+      "level": "basic"
+    },
+    {
+      "kanji": "進歩",
+      "hiragana": "しんぽ",
+      "romaji": "shinpo",
+      "english": "progress",
+      "category": "abstract",
+      "level": "basic"
+    },
+    {
+      "kanji": "発達",
+      "hiragana": "はったつ",
+      "romaji": "hattatsu",
+      "english": "development",
+      "category": "abstract",
+      "level": "basic"
+    },
+    {
+      "kanji": "成長",
+      "hiragana": "せいちょう",
+      "romaji": "seichou",
+      "english": "growth",
+      "category": "abstract",
+      "level": "basic"
+    },
+    {
+      "kanji": "変化",
+      "hiragana": "へんか",
+      "romaji": "henka",
+      "english": "change",
+      "category": "abstract",
+      "level": "basic"
+    },
+    {
+      "kanji": "改善",
+      "hiragana": "かいぜん",
+      "romaji": "kaizen",
+      "english": "improvement",
+      "category": "abstract",
+      "level": "basic"
+    }
+  ]
+}

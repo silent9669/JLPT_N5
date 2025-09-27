@@ -1,0 +1,1438 @@
+{
+  "day": 15,
+  "date": "2025-01-15",
+  "title": "JLPT N5 Study Plan - Day 15",
+  "daily_goal": {
+    "vocabulary_words": 19,
+    "kanji_characters": 6,
+    "grammar_points": 2,
+    "study_time_minutes": 60
+  },
+  "vocabulary": {
+    "new_words": [
+      {
+        "kanji": "止まる",
+        "hiragana": "とまる",
+        "romaji": "tomaru",
+        "english": "to stop",
+        "category": "verbs",
+        "level": "basic"
+      },
+      {
+        "kanji": "始まる",
+        "hiragana": "はじまる",
+        "romaji": "hajimaru",
+        "english": "to begin",
+        "category": "verbs",
+        "level": "basic"
+      },
+      {
+        "kanji": "終わる",
+        "hiragana": "おわる",
+        "romaji": "owaru",
+        "english": "to end",
+        "category": "verbs",
+        "level": "basic"
+      },
+      {
+        "kanji": "待つ",
+        "hiragana": "まつ",
+        "romaji": "matsu",
+        "english": "to wait",
+        "category": "verbs",
+        "level": "basic"
+      },
+      {
+        "kanji": "会う",
+        "hiragana": "あう",
+        "romaji": "au",
+        "english": "to meet",
+        "category": "verbs",
+        "level": "basic"
+      },
+      {
+        "kanji": "呼ぶ",
+        "hiragana": "よぶ",
+        "romaji": "yobu",
+        "english": "to call",
+        "category": "verbs",
+        "level": "basic"
+      },
+      {
+        "kanji": "教える",
+        "hiragana": "おしえる",
+        "romaji": "oshieru",
+        "english": "to teach",
+        "category": "verbs",
+        "level": "basic"
+      },
+      {
+        "kanji": "習う",
+        "hiragana": "ならう",
+        "romaji": "narau",
+        "english": "to learn",
+        "category": "verbs",
+        "level": "basic"
+      },
+      {
+        "kanji": "覚える",
+        "hiragana": "おぼえる",
+        "romaji": "oboeru",
+        "english": "to remember",
+        "category": "verbs",
+        "level": "basic"
+      },
+      {
+        "kanji": "忘れる",
+        "hiragana": "わすれる",
+        "romaji": "wasureru",
+        "english": "to forget",
+        "category": "verbs",
+        "level": "basic"
+      },
+      {
+        "kanji": "考える",
+        "hiragana": "かんがえる",
+        "romaji": "kangaeru",
+        "english": "to think",
+        "category": "verbs",
+        "level": "basic"
+      },
+      {
+        "kanji": "知る",
+        "hiragana": "しる",
+        "romaji": "shiru",
+        "english": "to know",
+        "category": "verbs",
+        "level": "basic"
+      },
+      {
+        "kanji": "分かる",
+        "hiragana": "わかる",
+        "romaji": "wakaru",
+        "english": "to understand",
+        "category": "verbs",
+        "level": "basic"
+      },
+      {
+        "kanji": "できる",
+        "hiragana": "できる",
+        "romaji": "dekiru",
+        "english": "to be able to",
+        "category": "verbs",
+        "level": "basic"
+      },
+      {
+        "kanji": "台所",
+        "hiragana": "だいどころ",
+        "romaji": "daidokoro",
+        "english": "kitchen",
+        "category": "house",
+        "level": "basic"
+      },
+      {
+        "kanji": "部屋",
+        "hiragana": "へや",
+        "romaji": "heya",
+        "english": "room",
+        "category": "house",
+        "level": "basic"
+      },
+      {
+        "kanji": "寝室",
+        "hiragana": "しんしつ",
+        "romaji": "shinshitsu",
+        "english": "bedroom",
+        "category": "house",
+        "level": "basic"
+      },
+      {
+        "kanji": "お風呂",
+        "hiragana": "おふろ",
+        "romaji": "ofuro",
+        "english": "bath",
+        "category": "house",
+        "level": "basic"
+      },
+      {
+        "kanji": "トイレ",
+        "hiragana": "トイレ",
+        "romaji": "toire",
+        "english": "toilet",
+        "category": "house",
+        "level": "basic"
+      }
+    ],
+    "total_learned": 285,
+    "category_focus": "verbs"
+  },
+  "kanji": {
+    "new_kanji": [
+      {
+        "kanji": "帰",
+        "onyomi": "キ",
+        "kunyomi": "かえる",
+        "meaning": "return",
+        "vocabulary": [
+          "帰る(かえる)",
+          "帰国(きこく)"
+        ],
+        "strokes": 10
+      },
+      {
+        "kanji": "出",
+        "onyomi": "シュツ",
+        "kunyomi": "でる、だす",
+        "meaning": "exit, put out",
+        "vocabulary": [
+          "出る(でる)",
+          "出口(でぐち)"
+        ],
+        "strokes": 5
+      },
+      {
+        "kanji": "入",
+        "onyomi": "ニュウ",
+        "kunyomi": "はいる、いれる",
+        "meaning": "enter, put in",
+        "vocabulary": [
+          "入る(はいる)",
+          "入口(いりぐち)"
+        ],
+        "strokes": 2
+      },
+      {
+        "kanji": "上",
+        "onyomi": "ジョウ",
+        "kunyomi": "うえ、あがる",
+        "meaning": "up, above",
+        "vocabulary": [
+          "上(うえ)",
+          "上手(じょうず)"
+        ],
+        "strokes": 3
+      },
+      {
+        "kanji": "下",
+        "onyomi": "カ、ゲ",
+        "kunyomi": "した、さがる",
+        "meaning": "down, below",
+        "vocabulary": [
+          "下(した)",
+          "下手(へた)"
+        ],
+        "strokes": 3
+      },
+      {
+        "kanji": "右",
+        "onyomi": "ウ",
+        "kunyomi": "みぎ",
+        "meaning": "right",
+        "vocabulary": [
+          "右(みぎ)",
+          "右手(みぎて)"
+        ],
+        "strokes": 5
+      }
+    ],
+    "total_learned": 90,
+    "stroke_practice": [
+      "帰",
+      "出",
+      "入",
+      "上",
+      "下",
+      "右"
+    ]
+  },
+  "grammar": {
+    "new_points": [
+      {
+        "grammar": "まで",
+        "meaning": "until, to",
+        "formation": "time/place + まで",
+        "example_jp": "五時まで働きます。",
+        "example_en": "I work until 5 o'clock.",
+        "level": "basic",
+        "category": "time"
+      },
+      {
+        "grammar": "から",
+        "meaning": "from, since",
+        "formation": "time/place + から",
+        "example_jp": "九時から授業があります。",
+        "example_en": "There's class from 9 o'clock.",
+        "level": "basic",
+        "category": "time"
+      }
+    ],
+    "total_learned": 30,
+    "focus_category": "time"
+  },
+  "daily_quiz": {
+    "questions": [
+      {
+        "type": "vocabulary",
+        "question": "What does '妹' mean?",
+        "question_jp": "妹",
+        "question_hiragana": "いもうと",
+        "correct_answer": "younger sister",
+        "options": [
+          "younger sister",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "妹 (いもうと) means younger sister"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '父' mean?",
+        "question_jp": "父",
+        "question_hiragana": "ちち",
+        "correct_answer": "father (humble)",
+        "options": [
+          "father (humble)",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "父 (ちち) means father (humble)"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '行く' mean?",
+        "question_jp": "行く",
+        "question_hiragana": "いく",
+        "correct_answer": "to go",
+        "options": [
+          "to go",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "行く (いく) means to go"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '疲れる' mean?",
+        "question_jp": "疲れる",
+        "question_hiragana": "つかれる",
+        "correct_answer": "to get tired",
+        "options": [
+          "to get tired",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "疲れる (つかれる) means to get tired"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '心配' mean?",
+        "question_jp": "心配",
+        "question_hiragana": "しんぱい",
+        "correct_answer": "worry",
+        "options": [
+          "worry",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "心配 (しんぱい) means worry"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '黄色い' mean?",
+        "question_jp": "黄色い",
+        "question_hiragana": "きいろい",
+        "correct_answer": "yellow",
+        "options": [
+          "yellow",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "黄色い (きいろい) means yellow"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '暑い' mean?",
+        "question_jp": "暑い",
+        "question_hiragana": "あつい",
+        "correct_answer": "hot",
+        "options": [
+          "hot",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "暑い (あつい) means hot"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '眼鏡' mean?",
+        "question_jp": "眼鏡",
+        "question_hiragana": "めがね",
+        "correct_answer": "glasses",
+        "options": [
+          "glasses",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "眼鏡 (めがね) means glasses"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '靴下' mean?",
+        "question_jp": "靴下",
+        "question_hiragana": "くつした",
+        "correct_answer": "socks",
+        "options": [
+          "socks",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "靴下 (くつした) means socks"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '外' mean?",
+        "question_jp": "外",
+        "question_hiragana": "そと",
+        "correct_answer": "outside",
+        "options": [
+          "outside",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "外 (そと) means outside"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does 'ゲーム' mean?",
+        "question_jp": "ゲーム",
+        "question_hiragana": "ゲーム",
+        "correct_answer": "game",
+        "options": [
+          "game",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "ゲーム (ゲーム) means game"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '払う' mean?",
+        "question_jp": "払う",
+        "question_hiragana": "はらう",
+        "correct_answer": "to pay",
+        "options": [
+          "to pay",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "払う (はらう) means to pay"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '晴'?",
+        "question_jp": "晴",
+        "correct_answer": "セイ",
+        "options": [
+          "セイ",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "晴 can be read as セイ (on'yomi) or はれる (kun'yomi). Meaning: clear weather"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '昼'?",
+        "question_jp": "昼",
+        "correct_answer": "チュウ",
+        "options": [
+          "チュウ",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "昼 can be read as チュウ (on'yomi) or ひる (kun'yomi). Meaning: noon, daytime"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '暖'?",
+        "question_jp": "暖",
+        "correct_answer": "ダン",
+        "options": [
+          "ダン",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "暖 can be read as ダン (on'yomi) or あたたかい (kun'yomi). Meaning: warm"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '晩'?",
+        "question_jp": "晩",
+        "correct_answer": "バン",
+        "options": [
+          "バン",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "晩 can be read as バン (on'yomi) or  (kun'yomi). Meaning: evening"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '古'?",
+        "question_jp": "古",
+        "correct_answer": "コ",
+        "options": [
+          "コ",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "古 can be read as コ (on'yomi) or ふるい (kun'yomi). Meaning: old"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '天'?",
+        "question_jp": "天",
+        "correct_answer": "テン",
+        "options": [
+          "テン",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "天 can be read as テン (on'yomi) or あま (kun'yomi). Meaning: heaven, sky"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '小'?",
+        "question_jp": "小",
+        "correct_answer": "ショウ",
+        "options": [
+          "ショウ",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "小 can be read as ショウ (on'yomi) or ちいさい、こ (kun'yomi). Meaning: small"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '一'?",
+        "question_jp": "一",
+        "correct_answer": "イチ、イツ",
+        "options": [
+          "イチ、イツ",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "一 can be read as イチ、イツ (on'yomi) or ひと、ひとつ (kun'yomi). Meaning: one"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '火'?",
+        "question_jp": "火",
+        "correct_answer": "カ",
+        "options": [
+          "カ",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "火 can be read as カ (on'yomi) or ひ (kun'yomi). Meaning: fire"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'ください':",
+        "question_jp": "水をください。",
+        "correct_answer": "Please give me water.",
+        "explanation": "ください: please give me. Example: 水をください。 = Please give me water.",
+        "grammar_point": "ください",
+        "meaning": "please give me"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'いつ':",
+        "question_jp": "いつ日本に行きますか。",
+        "correct_answer": "When do you go to Japan?",
+        "explanation": "いつ: when. Example: いつ日本に行きますか。 = When do you go to Japan?",
+        "grammar_point": "いつ",
+        "meaning": "when"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'どうして':",
+        "question_jp": "どうして勉強しないんですか。",
+        "correct_answer": "Why don't you study?",
+        "explanation": "どうして: why. Example: どうして勉強しないんですか。 = Why don't you study?",
+        "grammar_point": "どうして",
+        "meaning": "why"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'だれ/誰':",
+        "question_jp": "あの人はだれですか。",
+        "correct_answer": "Who is that person?",
+        "explanation": "だれ/誰: who. Example: あの人はだれですか。 = Who is that person?",
+        "grammar_point": "だれ/誰",
+        "meaning": "who"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'じゃありません/ではありません':",
+        "question_jp": "私は学生じゃありません。",
+        "correct_answer": "I am not a student.",
+        "explanation": "じゃありません/ではありません: to not be (polite negative). Example: 私は学生じゃありません。 = I am not a student.",
+        "grammar_point": "じゃありません/ではありません",
+        "meaning": "to not be (polite negative)"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'に (ni)':",
+        "question_jp": "学校に行きます。",
+        "correct_answer": "I go to school.",
+        "explanation": "に (ni): location/time/direction particle. Example: 学校に行きます。 = I go to school.",
+        "grammar_point": "に (ni)",
+        "meaning": "location/time/direction particle"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'と (to)':",
+        "question_jp": "友達と映画を見ます。",
+        "correct_answer": "I watch a movie with friends.",
+        "explanation": "と (to): and/with particle. Example: 友達と映画を見ます。 = I watch a movie with friends.",
+        "grammar_point": "と (to)",
+        "meaning": "and/with particle"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'な-adjectives':",
+        "question_jp": "きれいな花です。",
+        "correct_answer": "It's a beautiful flower.",
+        "explanation": "な-adjectives: na-adjectives conjugation. Example: きれいな花です。 = It's a beautiful flower.",
+        "grammar_point": "な-adjectives",
+        "meaning": "na-adjectives conjugation"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using '何 (なに/なん)':",
+        "question_jp": "これは何ですか。",
+        "correct_answer": "What is this?",
+        "explanation": "何 (なに/なん): what. Example: これは何ですか。 = What is this?",
+        "grammar_point": "何 (なに/なん)",
+        "meaning": "what"
+      }
+    ],
+    "total_questions": 30,
+    "estimated_time_minutes": 15,
+    "description": "Mixed review of vocabulary, kanji, and grammar from previous days"
+  },
+  "study_tips": {
+    "vocabulary": "Focus on memorizing kanji readings and English meanings. Use spaced repetition.",
+    "kanji": "Practice writing each kanji 5-10 times. Learn both on'yomi and kun'yomi readings.",
+    "grammar": "Create your own example sentences using new grammar patterns.",
+    "general": "Review previous days' content for 10-15 minutes before learning new material.",
+    "special": "Today includes the midterm test! Review all content from days 1-14."
+  },
+  "midterm_test": {
+    "test_type": "midterm",
+    "total_questions": 50,
+    "time_limit_minutes": 50,
+    "sections": {
+      "vocabulary": 20,
+      "kanji": 15,
+      "grammar": 15
+    },
+    "questions": [
+      {
+        "id": "vocab_1",
+        "type": "kanji_reading",
+        "section": "Language Knowledge (Vocabulary)",
+        "question_jp": "＿＿＿の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+        "sentence": "私は毎日南を勉強します。",
+        "underlined_word": "南",
+        "options": [
+          "みなみ",
+          "incorrect_hiragana_1",
+          "incorrect_hiragana_2",
+          "incorrect_hiragana_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "南 is read as みなみ and means south"
+      },
+      {
+        "id": "vocab_2",
+        "type": "kanji_reading",
+        "section": "Language Knowledge (Vocabulary)",
+        "question_jp": "＿＿＿の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+        "sentence": "私は毎日携帯を勉強します。",
+        "underlined_word": "携帯",
+        "options": [
+          "けいたい",
+          "incorrect_hiragana_1",
+          "incorrect_hiragana_2",
+          "incorrect_hiragana_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "携帯 is read as けいたい and means mobile phone"
+      },
+      {
+        "id": "vocab_3",
+        "type": "kanji_reading",
+        "section": "Language Knowledge (Vocabulary)",
+        "question_jp": "＿＿＿の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+        "sentence": "私は毎日どこを勉強します。",
+        "underlined_word": "どこ",
+        "options": [
+          "どこ",
+          "incorrect_hiragana_1",
+          "incorrect_hiragana_2",
+          "incorrect_hiragana_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "どこ is read as どこ and means where"
+      },
+      {
+        "id": "vocab_4",
+        "type": "kanji_reading",
+        "section": "Language Knowledge (Vocabulary)",
+        "question_jp": "＿＿＿の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+        "sentence": "私は毎日お茶を勉強します。",
+        "underlined_word": "お茶",
+        "options": [
+          "おちゃ",
+          "incorrect_hiragana_1",
+          "incorrect_hiragana_2",
+          "incorrect_hiragana_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "お茶 is read as おちゃ and means tea"
+      },
+      {
+        "id": "vocab_5",
+        "type": "kanji_reading",
+        "section": "Language Knowledge (Vocabulary)",
+        "question_jp": "＿＿＿の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+        "sentence": "私は毎日客を勉強します。",
+        "underlined_word": "客",
+        "options": [
+          "きゃく",
+          "incorrect_hiragana_1",
+          "incorrect_hiragana_2",
+          "incorrect_hiragana_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "客 is read as きゃく and means customer"
+      },
+      {
+        "id": "vocab_6",
+        "type": "kanji_reading",
+        "section": "Language Knowledge (Vocabulary)",
+        "question_jp": "＿＿＿の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+        "sentence": "私は毎日暇を勉強します。",
+        "underlined_word": "暇",
+        "options": [
+          "ひま",
+          "incorrect_hiragana_1",
+          "incorrect_hiragana_2",
+          "incorrect_hiragana_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "暇 is read as ひま and means free time"
+      },
+      {
+        "id": "vocab_7",
+        "type": "kanji_reading",
+        "section": "Language Knowledge (Vocabulary)",
+        "question_jp": "＿＿＿の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+        "sentence": "私は毎日肉を勉強します。",
+        "underlined_word": "肉",
+        "options": [
+          "にく",
+          "incorrect_hiragana_1",
+          "incorrect_hiragana_2",
+          "incorrect_hiragana_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "肉 is read as にく and means meat"
+      },
+      {
+        "id": "vocab_8",
+        "type": "kanji_reading",
+        "section": "Language Knowledge (Vocabulary)",
+        "question_jp": "＿＿＿の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+        "sentence": "私は毎日足を勉強します。",
+        "underlined_word": "足",
+        "options": [
+          "あし",
+          "incorrect_hiragana_1",
+          "incorrect_hiragana_2",
+          "incorrect_hiragana_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "足 is read as あし and means foot, leg"
+      },
+      {
+        "id": "vocab_9",
+        "type": "kanji_reading",
+        "section": "Language Knowledge (Vocabulary)",
+        "question_jp": "＿＿＿の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+        "sentence": "私は毎日水を勉強します。",
+        "underlined_word": "水",
+        "options": [
+          "みず",
+          "incorrect_hiragana_1",
+          "incorrect_hiragana_2",
+          "incorrect_hiragana_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "水 is read as みず and means water"
+      },
+      {
+        "id": "vocab_10",
+        "type": "kanji_reading",
+        "section": "Language Knowledge (Vocabulary)",
+        "question_jp": "＿＿＿の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+        "sentence": "私は毎日血を勉強します。",
+        "underlined_word": "血",
+        "options": [
+          "ち",
+          "incorrect_hiragana_1",
+          "incorrect_hiragana_2",
+          "incorrect_hiragana_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "血 is read as ち and means blood"
+      },
+      {
+        "id": "vocab_11",
+        "type": "kanji_reading",
+        "section": "Language Knowledge (Vocabulary)",
+        "question_jp": "＿＿＿の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+        "sentence": "私は毎日コーヒーを勉強します。",
+        "underlined_word": "コーヒー",
+        "options": [
+          "コーヒー",
+          "incorrect_hiragana_1",
+          "incorrect_hiragana_2",
+          "incorrect_hiragana_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "コーヒー is read as コーヒー and means coffee"
+      },
+      {
+        "id": "vocab_12",
+        "type": "kanji_reading",
+        "section": "Language Knowledge (Vocabulary)",
+        "question_jp": "＿＿＿の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+        "sentence": "私は毎日九を勉強します。",
+        "underlined_word": "九",
+        "options": [
+          "きゅう",
+          "incorrect_hiragana_1",
+          "incorrect_hiragana_2",
+          "incorrect_hiragana_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "九 is read as きゅう and means nine"
+      },
+      {
+        "id": "vocab_13",
+        "type": "kanji_reading",
+        "section": "Language Knowledge (Vocabulary)",
+        "question_jp": "＿＿＿の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+        "sentence": "私は毎日隣を勉強します。",
+        "underlined_word": "隣",
+        "options": [
+          "となり",
+          "incorrect_hiragana_1",
+          "incorrect_hiragana_2",
+          "incorrect_hiragana_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "隣 is read as となり and means next to"
+      },
+      {
+        "id": "vocab_14",
+        "type": "kanji_reading",
+        "section": "Language Knowledge (Vocabulary)",
+        "question_jp": "＿＿＿の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+        "sentence": "私は毎日雨を勉強します。",
+        "underlined_word": "雨",
+        "options": [
+          "あめ",
+          "incorrect_hiragana_1",
+          "incorrect_hiragana_2",
+          "incorrect_hiragana_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "雨 is read as あめ and means rain"
+      },
+      {
+        "id": "vocab_15",
+        "type": "kanji_reading",
+        "section": "Language Knowledge (Vocabulary)",
+        "question_jp": "＿＿＿の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+        "sentence": "私は毎日入るを勉強します。",
+        "underlined_word": "入る",
+        "options": [
+          "はいる",
+          "incorrect_hiragana_1",
+          "incorrect_hiragana_2",
+          "incorrect_hiragana_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "入る is read as はいる and means to enter"
+      },
+      {
+        "id": "vocab_16",
+        "type": "kanji_reading",
+        "section": "Language Knowledge (Vocabulary)",
+        "question_jp": "＿＿＿の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+        "sentence": "私は毎日大きいを勉強します。",
+        "underlined_word": "大きい",
+        "options": [
+          "おおきい",
+          "incorrect_hiragana_1",
+          "incorrect_hiragana_2",
+          "incorrect_hiragana_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "大きい is read as おおきい and means big"
+      },
+      {
+        "id": "vocab_17",
+        "type": "kanji_reading",
+        "section": "Language Knowledge (Vocabulary)",
+        "question_jp": "＿＿＿の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+        "sentence": "私は毎日雲を勉強します。",
+        "underlined_word": "雲",
+        "options": [
+          "くも",
+          "incorrect_hiragana_1",
+          "incorrect_hiragana_2",
+          "incorrect_hiragana_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "雲 is read as くも and means cloud"
+      },
+      {
+        "id": "vocab_18",
+        "type": "kanji_reading",
+        "section": "Language Knowledge (Vocabulary)",
+        "question_jp": "＿＿＿の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+        "sentence": "私は毎日二を勉強します。",
+        "underlined_word": "二",
+        "options": [
+          "に",
+          "incorrect_hiragana_1",
+          "incorrect_hiragana_2",
+          "incorrect_hiragana_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "二 is read as に and means two"
+      },
+      {
+        "id": "vocab_19",
+        "type": "kanji_reading",
+        "section": "Language Knowledge (Vocabulary)",
+        "question_jp": "＿＿＿の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+        "sentence": "私は毎日聞くを勉強します。",
+        "underlined_word": "聞く",
+        "options": [
+          "きく",
+          "incorrect_hiragana_1",
+          "incorrect_hiragana_2",
+          "incorrect_hiragana_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "聞く is read as きく and means to hear, to listen"
+      },
+      {
+        "id": "vocab_20",
+        "type": "kanji_reading",
+        "section": "Language Knowledge (Vocabulary)",
+        "question_jp": "＿＿＿の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+        "sentence": "私は毎日左を勉強します。",
+        "underlined_word": "左",
+        "options": [
+          "ひだり",
+          "incorrect_hiragana_1",
+          "incorrect_hiragana_2",
+          "incorrect_hiragana_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "左 is read as ひだり and means left"
+      },
+      {
+        "id": "kanji_1",
+        "type": "kanji_meaning",
+        "section": "Language Knowledge (Vocabulary)",
+        "question_jp": "＿＿＿の意味として最もよいものを、1・2・3・4から一つ選びなさい。",
+        "kanji": "遅",
+        "options": [
+          "late, slow",
+          "incorrect_meaning_1",
+          "incorrect_meaning_2",
+          "incorrect_meaning_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "遅 means late, slow. Example words: 遅い(おそい), 遅刻(ちこく)"
+      },
+      {
+        "id": "kanji_2",
+        "type": "kanji_meaning",
+        "section": "Language Knowledge (Vocabulary)",
+        "question_jp": "＿＿＿の意味として最もよいものを、1・2・3・4から一つ選びなさい。",
+        "kanji": "長",
+        "options": [
+          "long",
+          "incorrect_meaning_1",
+          "incorrect_meaning_2",
+          "incorrect_meaning_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "長 means long. Example words: 長い(ながい), 社長(しゃちょう)"
+      },
+      {
+        "id": "kanji_3",
+        "type": "kanji_meaning",
+        "section": "Language Knowledge (Vocabulary)",
+        "question_jp": "＿＿＿の意味として最もよいものを、1・2・3・4から一つ選びなさい。",
+        "kanji": "古",
+        "options": [
+          "old",
+          "incorrect_meaning_1",
+          "incorrect_meaning_2",
+          "incorrect_meaning_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "古 means old. Example words: 古い(ふるい), 古本(ふるほん)"
+      },
+      {
+        "id": "kanji_4",
+        "type": "kanji_meaning",
+        "section": "Language Knowledge (Vocabulary)",
+        "question_jp": "＿＿＿の意味として最もよいものを、1・2・3・4から一つ選びなさい。",
+        "kanji": "分",
+        "options": [
+          "minute, divide",
+          "incorrect_meaning_1",
+          "incorrect_meaning_2",
+          "incorrect_meaning_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "分 means minute, divide. Example words: 分かる(わかる), 十分(じゅっぷん)"
+      },
+      {
+        "id": "kanji_5",
+        "type": "kanji_meaning",
+        "section": "Language Knowledge (Vocabulary)",
+        "question_jp": "＿＿＿の意味として最もよいものを、1・2・3・4から一つ選びなさい。",
+        "kanji": "暖",
+        "options": [
+          "warm",
+          "incorrect_meaning_1",
+          "incorrect_meaning_2",
+          "incorrect_meaning_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "暖 means warm. Example words: 暖かい(あたたかい), 暖房(だんぼう)"
+      },
+      {
+        "id": "kanji_6",
+        "type": "kanji_meaning",
+        "section": "Language Knowledge (Vocabulary)",
+        "question_jp": "＿＿＿の意味として最もよいものを、1・2・3・4から一つ選びなさい。",
+        "kanji": "八",
+        "options": [
+          "eight",
+          "incorrect_meaning_1",
+          "incorrect_meaning_2",
+          "incorrect_meaning_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "八 means eight. Example words: 八人(はちにん), 八つ(やっつ)"
+      },
+      {
+        "id": "kanji_7",
+        "type": "kanji_meaning",
+        "section": "Language Knowledge (Vocabulary)",
+        "question_jp": "＿＿＿の意味として最もよいものを、1・2・3・4から一つ選びなさい。",
+        "kanji": "少",
+        "options": [
+          "few, little",
+          "incorrect_meaning_1",
+          "incorrect_meaning_2",
+          "incorrect_meaning_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "少 means few, little. Example words: 少ない(すくない), 少し(すこし)"
+      },
+      {
+        "id": "kanji_8",
+        "type": "kanji_meaning",
+        "section": "Language Knowledge (Vocabulary)",
+        "question_jp": "＿＿＿の意味として最もよいものを、1・2・3・4から一つ選びなさい。",
+        "kanji": "帰",
+        "options": [
+          "return",
+          "incorrect_meaning_1",
+          "incorrect_meaning_2",
+          "incorrect_meaning_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "帰 means return. Example words: 帰る(かえる), 帰国(きこく)"
+      },
+      {
+        "id": "kanji_9",
+        "type": "kanji_meaning",
+        "section": "Language Knowledge (Vocabulary)",
+        "question_jp": "＿＿＿の意味として最もよいものを、1・2・3・4から一つ選びなさい。",
+        "kanji": "五",
+        "options": [
+          "five",
+          "incorrect_meaning_1",
+          "incorrect_meaning_2",
+          "incorrect_meaning_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "五 means five. Example words: 五人(ごにん), 五つ(いつつ)"
+      },
+      {
+        "id": "kanji_10",
+        "type": "kanji_meaning",
+        "section": "Language Knowledge (Vocabulary)",
+        "question_jp": "＿＿＿の意味として最もよいものを、1・2・3・4から一つ選びなさい。",
+        "kanji": "冬",
+        "options": [
+          "winter",
+          "incorrect_meaning_1",
+          "incorrect_meaning_2",
+          "incorrect_meaning_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "冬 means winter. Example words: 冬(ふゆ), 冬休み(ふゆやすみ)"
+      },
+      {
+        "id": "kanji_11",
+        "type": "kanji_meaning",
+        "section": "Language Knowledge (Vocabulary)",
+        "question_jp": "＿＿＿の意味として最もよいものを、1・2・3・4から一つ選びなさい。",
+        "kanji": "月",
+        "options": [
+          "month, moon",
+          "incorrect_meaning_1",
+          "incorrect_meaning_2",
+          "incorrect_meaning_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "月 means month, moon. Example words: 今月(こんげつ), 月曜日(げつようび)"
+      },
+      {
+        "id": "kanji_12",
+        "type": "kanji_meaning",
+        "section": "Language Knowledge (Vocabulary)",
+        "question_jp": "＿＿＿の意味として最もよいものを、1・2・3・4から一つ選びなさい。",
+        "kanji": "近",
+        "options": [
+          "near",
+          "incorrect_meaning_1",
+          "incorrect_meaning_2",
+          "incorrect_meaning_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "近 means near. Example words: 近い(ちかい), 近所(きんじょ)"
+      },
+      {
+        "id": "kanji_13",
+        "type": "kanji_meaning",
+        "section": "Language Knowledge (Vocabulary)",
+        "question_jp": "＿＿＿の意味として最もよいものを、1・2・3・4から一つ選びなさい。",
+        "kanji": "海",
+        "options": [
+          "sea",
+          "incorrect_meaning_1",
+          "incorrect_meaning_2",
+          "incorrect_meaning_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "海 means sea. Example words: 海(うみ), 海外(かいがい)"
+      },
+      {
+        "id": "kanji_14",
+        "type": "kanji_meaning",
+        "section": "Language Knowledge (Vocabulary)",
+        "question_jp": "＿＿＿の意味として最もよいものを、1・2・3・4から一つ選びなさい。",
+        "kanji": "万",
+        "options": [
+          "ten thousand",
+          "incorrect_meaning_1",
+          "incorrect_meaning_2",
+          "incorrect_meaning_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "万 means ten thousand. Example words: 一万(いちまん), 万年筆(まんねんひつ)"
+      },
+      {
+        "id": "kanji_15",
+        "type": "kanji_meaning",
+        "section": "Language Knowledge (Vocabulary)",
+        "question_jp": "＿＿＿の意味として最もよいものを、1・2・3・4から一つ選びなさい。",
+        "kanji": "高",
+        "options": [
+          "high, expensive",
+          "incorrect_meaning_1",
+          "incorrect_meaning_2",
+          "incorrect_meaning_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "高 means high, expensive. Example words: 高い(たかい), 高校(こうこう)"
+      },
+      {
+        "id": "grammar_1",
+        "type": "grammar_completion",
+        "section": "Language Knowledge (Grammar) & Reading",
+        "question_jp": "＿＿＿に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+        "sentence": "今日は働き＿＿＿。",
+        "options": [
+          "ません",
+          "incorrect_grammar_1",
+          "incorrect_grammar_2",
+          "incorrect_grammar_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "ません means 'polite negative present/future'. Formation: Verb stem + ません"
+      },
+      {
+        "id": "grammar_2",
+        "type": "grammar_completion",
+        "section": "Language Knowledge (Grammar) & Reading",
+        "question_jp": "＿＿＿に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+        "sentence": "りんごを＿＿＿買いますか。",
+        "options": [
+          "いくつ",
+          "incorrect_grammar_1",
+          "incorrect_grammar_2",
+          "incorrect_grammar_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "いくつ means 'how many'. Formation: いくつ + ですか"
+      },
+      {
+        "id": "grammar_3",
+        "type": "grammar_completion",
+        "section": "Language Knowledge (Grammar) & Reading",
+        "question_jp": "＿＿＿に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+        "sentence": "あなたは学生＿＿＿。",
+        "options": [
+          "ですか",
+          "incorrect_grammar_1",
+          "incorrect_grammar_2",
+          "incorrect_grammar_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "ですか means 'question marker (polite)'. Formation: Noun + ですか"
+      },
+      {
+        "id": "grammar_4",
+        "type": "grammar_completion",
+        "section": "Language Knowledge (Grammar) & Reading",
+        "question_jp": "＿＿＿に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+        "sentence": "写真を撮っ＿＿＿か。",
+        "options": [
+          "てもいいです",
+          "incorrect_grammar_1",
+          "incorrect_grammar_2",
+          "incorrect_grammar_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "てもいいです means 'it's okay to ~'. Formation: verb te-form + もいいです"
+      },
+      {
+        "id": "grammar_5",
+        "type": "grammar_completion",
+        "section": "Language Knowledge (Grammar) & Reading",
+        "question_jp": "＿＿＿に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+        "sentence": "犬がいます。",
+        "options": [
+          "が (ga)",
+          "incorrect_grammar_1",
+          "incorrect_grammar_2",
+          "incorrect_grammar_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "が (ga) means 'subject particle'. Formation: Noun + が"
+      },
+      {
+        "id": "grammar_6",
+        "type": "grammar_completion",
+        "section": "Language Knowledge (Grammar) & Reading",
+        "question_jp": "＿＿＿に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+        "sentence": "学校に行きます。",
+        "options": [
+          "に (ni)",
+          "incorrect_grammar_1",
+          "incorrect_grammar_2",
+          "incorrect_grammar_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "に (ni) means 'location/time/direction particle'. Formation: Noun + に"
+      },
+      {
+        "id": "grammar_7",
+        "type": "grammar_completion",
+        "section": "Language Knowledge (Grammar) & Reading",
+        "question_jp": "＿＿＿に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+        "sentence": "ちょっと待っ＿＿＿。",
+        "options": [
+          "てください",
+          "incorrect_grammar_1",
+          "incorrect_grammar_2",
+          "incorrect_grammar_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "てください means 'please do ~'. Formation: verb te-form + ください"
+      },
+      {
+        "id": "grammar_8",
+        "type": "grammar_completion",
+        "section": "Language Knowledge (Grammar) & Reading",
+        "question_jp": "＿＿＿に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+        "sentence": "今勉強し＿＿＿。",
+        "options": [
+          "ています",
+          "incorrect_grammar_1",
+          "incorrect_grammar_2",
+          "incorrect_grammar_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "ています means 'to be doing (progressive)'. Formation: verb te-form + います"
+      },
+      {
+        "id": "grammar_9",
+        "type": "grammar_completion",
+        "section": "Language Knowledge (Grammar) & Reading",
+        "question_jp": "＿＿＿に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+        "sentence": "図書館で勉強します。",
+        "options": [
+          "で (de)",
+          "incorrect_grammar_1",
+          "incorrect_grammar_2",
+          "incorrect_grammar_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "で (de) means 'location of action/means particle'. Formation: Noun + で"
+      },
+      {
+        "id": "grammar_10",
+        "type": "grammar_completion",
+        "section": "Language Knowledge (Grammar) & Reading",
+        "question_jp": "＿＿＿に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+        "sentence": "九時から働きます。",
+        "options": [
+          "から (kara)",
+          "incorrect_grammar_1",
+          "incorrect_grammar_2",
+          "incorrect_grammar_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "から (kara) means 'from/because'. Formation: Noun + から"
+      },
+      {
+        "id": "grammar_11",
+        "type": "grammar_completion",
+        "section": "Language Knowledge (Grammar) & Reading",
+        "question_jp": "＿＿＿に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+        "sentence": "これは何ですか。",
+        "options": [
+          "何 (なに/なん)",
+          "incorrect_grammar_1",
+          "incorrect_grammar_2",
+          "incorrect_grammar_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "何 (なに/なん) means 'what'. Formation: 何 + (noun/verb)"
+      },
+      {
+        "id": "grammar_12",
+        "type": "grammar_completion",
+        "section": "Language Knowledge (Grammar) & Reading",
+        "question_jp": "＿＿＿に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+        "sentence": "五時＿＿＿働きます。",
+        "options": [
+          "まで",
+          "incorrect_grammar_1",
+          "incorrect_grammar_2",
+          "incorrect_grammar_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "まで means 'until, to'. Formation: time/place + まで"
+      },
+      {
+        "id": "grammar_13",
+        "type": "grammar_completion",
+        "section": "Language Knowledge (Grammar) & Reading",
+        "question_jp": "＿＿＿に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+        "sentence": "食事の前に手を洗います。",
+        "options": [
+          "～前に",
+          "incorrect_grammar_1",
+          "incorrect_grammar_2",
+          "incorrect_grammar_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "～前に means 'before ~'. Formation: noun + の前に"
+      },
+      {
+        "id": "grammar_14",
+        "type": "grammar_completion",
+        "section": "Language Knowledge (Grammar) & Reading",
+        "question_jp": "＿＿＿に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+        "sentence": "日本に行き＿＿＿です。",
+        "options": [
+          "たい",
+          "incorrect_grammar_1",
+          "incorrect_grammar_2",
+          "incorrect_grammar_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "たい means 'to want to do'. Formation: Verb stem + たいです"
+      },
+      {
+        "id": "grammar_15",
+        "type": "grammar_completion",
+        "section": "Language Knowledge (Grammar) & Reading",
+        "question_jp": "＿＿＿に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+        "sentence": "日本語は＿＿＿ですか。",
+        "options": [
+          "どう",
+          "incorrect_grammar_1",
+          "incorrect_grammar_2",
+          "incorrect_grammar_3"
+        ],
+        "correct_answer": 1,
+        "explanation": "どう means 'how'. Formation: どう + (verb)"
+      }
+    ],
+    "instructions": {
+      "jp": "問題を読んで、1・2・3・4から最もよいものを一つ選びなさい。",
+      "en": "Read each question and choose the best answer from 1, 2, 3, or 4."
+    }
+  }
+}

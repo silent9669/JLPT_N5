@@ -1,0 +1,2261 @@
+{
+  "title": "JLPT N5 Kanji Database",
+  "total_kanji": 205,
+  "kanji": [
+    {
+      "kanji": "一",
+      "onyomi": "イチ、イツ",
+      "kunyomi": "ひと、ひとつ",
+      "meaning": "one",
+      "vocabulary": [
+        "一人(ひとり)",
+        "一つ(ひとつ)"
+      ],
+      "strokes": 1
+    },
+    {
+      "kanji": "二",
+      "onyomi": "ニ",
+      "kunyomi": "ふた、ふたつ",
+      "meaning": "two",
+      "vocabulary": [
+        "二人(ふたり)",
+        "二つ(ふたつ)"
+      ],
+      "strokes": 2
+    },
+    {
+      "kanji": "三",
+      "onyomi": "サン",
+      "kunyomi": "み、みつ、みっつ",
+      "meaning": "three",
+      "vocabulary": [
+        "三人(さんにん)",
+        "三つ(みっつ)"
+      ],
+      "strokes": 3
+    },
+    {
+      "kanji": "四",
+      "onyomi": "シ",
+      "kunyomi": "よ、よん、よっつ",
+      "meaning": "four",
+      "vocabulary": [
+        "四人(よにん)",
+        "四つ(よっつ)"
+      ],
+      "strokes": 5
+    },
+    {
+      "kanji": "五",
+      "onyomi": "ゴ",
+      "kunyomi": "いつ、いつつ",
+      "meaning": "five",
+      "vocabulary": [
+        "五人(ごにん)",
+        "五つ(いつつ)"
+      ],
+      "strokes": 4
+    },
+    {
+      "kanji": "六",
+      "onyomi": "ロク",
+      "kunyomi": "む、むっつ",
+      "meaning": "six",
+      "vocabulary": [
+        "六人(ろくにん)",
+        "六つ(むっつ)"
+      ],
+      "strokes": 4
+    },
+    {
+      "kanji": "七",
+      "onyomi": "シチ",
+      "kunyomi": "なな、ななつ",
+      "meaning": "seven",
+      "vocabulary": [
+        "七人(しちにん)",
+        "七つ(ななつ)"
+      ],
+      "strokes": 2
+    },
+    {
+      "kanji": "八",
+      "onyomi": "ハチ",
+      "kunyomi": "や、やっつ",
+      "meaning": "eight",
+      "vocabulary": [
+        "八人(はちにん)",
+        "八つ(やっつ)"
+      ],
+      "strokes": 2
+    },
+    {
+      "kanji": "九",
+      "onyomi": "キュウ、ク",
+      "kunyomi": "ここの、ここのつ",
+      "meaning": "nine",
+      "vocabulary": [
+        "九人(きゅうにん)",
+        "九つ(ここのつ)"
+      ],
+      "strokes": 2
+    },
+    {
+      "kanji": "十",
+      "onyomi": "ジュウ",
+      "kunyomi": "とお",
+      "meaning": "ten",
+      "vocabulary": [
+        "十人(じゅうにん)",
+        "十日(とおか)"
+      ],
+      "strokes": 2
+    },
+    {
+      "kanji": "百",
+      "onyomi": "ヒャク",
+      "kunyomi": "もも",
+      "meaning": "hundred",
+      "vocabulary": [
+        "百円(ひゃくえん)",
+        "八百屋(やおや)"
+      ],
+      "strokes": 6
+    },
+    {
+      "kanji": "千",
+      "onyomi": "セン",
+      "kunyomi": "ち",
+      "meaning": "thousand",
+      "vocabulary": [
+        "千円(せんえん)",
+        "千葉(ちば)"
+      ],
+      "strokes": 3
+    },
+    {
+      "kanji": "万",
+      "onyomi": "マン",
+      "kunyomi": "よろず",
+      "meaning": "ten thousand",
+      "vocabulary": [
+        "一万(いちまん)",
+        "万年筆(まんねんひつ)"
+      ],
+      "strokes": 3
+    },
+    {
+      "kanji": "日",
+      "onyomi": "ニチ、ジツ",
+      "kunyomi": "ひ、か",
+      "meaning": "day, sun",
+      "vocabulary": [
+        "今日(きょう)",
+        "日曜日(にちようび)"
+      ],
+      "strokes": 4
+    },
+    {
+      "kanji": "月",
+      "onyomi": "ゲツ、ガツ",
+      "kunyomi": "つき",
+      "meaning": "month, moon",
+      "vocabulary": [
+        "今月(こんげつ)",
+        "月曜日(げつようび)"
+      ],
+      "strokes": 4
+    },
+    {
+      "kanji": "火",
+      "onyomi": "カ",
+      "kunyomi": "ひ",
+      "meaning": "fire",
+      "vocabulary": [
+        "火曜日(かようび)",
+        "火事(かじ)"
+      ],
+      "strokes": 4
+    },
+    {
+      "kanji": "水",
+      "onyomi": "スイ",
+      "kunyomi": "みず",
+      "meaning": "water",
+      "vocabulary": [
+        "水曜日(すいようび)",
+        "水(みず)"
+      ],
+      "strokes": 4
+    },
+    {
+      "kanji": "木",
+      "onyomi": "モク、ボク",
+      "kunyomi": "き",
+      "meaning": "tree, wood",
+      "vocabulary": [
+        "木曜日(もくようび)",
+        "木(き)"
+      ],
+      "strokes": 4
+    },
+    {
+      "kanji": "金",
+      "onyomi": "キン、コン",
+      "kunyomi": "かね",
+      "meaning": "gold, money",
+      "vocabulary": [
+        "金曜日(きんようび)",
+        "お金(おかね)"
+      ],
+      "strokes": 8
+    },
+    {
+      "kanji": "土",
+      "onyomi": "ド、ト",
+      "kunyomi": "つち",
+      "meaning": "earth, soil",
+      "vocabulary": [
+        "土曜日(どようび)",
+        "土(つち)"
+      ],
+      "strokes": 3
+    },
+    {
+      "kanji": "年",
+      "onyomi": "ネン",
+      "kunyomi": "とし",
+      "meaning": "year",
+      "vocabulary": [
+        "今年(ことし)",
+        "去年(きょねん)"
+      ],
+      "strokes": 6
+    },
+    {
+      "kanji": "時",
+      "onyomi": "ジ",
+      "kunyomi": "とき",
+      "meaning": "time",
+      "vocabulary": [
+        "時間(じかん)",
+        "何時(なんじ)"
+      ],
+      "strokes": 10
+    },
+    {
+      "kanji": "分",
+      "onyomi": "ブン、フン",
+      "kunyomi": "わける",
+      "meaning": "minute, divide",
+      "vocabulary": [
+        "分かる(わかる)",
+        "十分(じゅっぷん)"
+      ],
+      "strokes": 4
+    },
+    {
+      "kanji": "半",
+      "onyomi": "ハン",
+      "kunyomi": "なかば",
+      "meaning": "half",
+      "vocabulary": [
+        "半分(はんぶん)",
+        "半年(はんとし)"
+      ],
+      "strokes": 5
+    },
+    {
+      "kanji": "今",
+      "onyomi": "コン",
+      "kunyomi": "いま",
+      "meaning": "now",
+      "vocabulary": [
+        "今(いま)",
+        "今日(きょう)"
+      ],
+      "strokes": 4
+    },
+    {
+      "kanji": "前",
+      "onyomi": "ゼン",
+      "kunyomi": "まえ",
+      "meaning": "before, front",
+      "vocabulary": [
+        "前(まえ)",
+        "午前(ごぜん)"
+      ],
+      "strokes": 9
+    },
+    {
+      "kanji": "後",
+      "onyomi": "ゴ、コウ",
+      "kunyomi": "あと、うしろ",
+      "meaning": "after, behind",
+      "vocabulary": [
+        "後ろ(うしろ)",
+        "午後(ごご)"
+      ],
+      "strokes": 9
+    },
+    {
+      "kanji": "人",
+      "onyomi": "ジン、ニン",
+      "kunyomi": "ひと",
+      "meaning": "person",
+      "vocabulary": [
+        "人(ひと)",
+        "日本人(にほんじん)"
+      ],
+      "strokes": 2
+    },
+    {
+      "kanji": "私",
+      "onyomi": "シ",
+      "kunyomi": "わたし、わたくし",
+      "meaning": "I, private",
+      "vocabulary": [
+        "私(わたし)",
+        "私立(しりつ)"
+      ],
+      "strokes": 7
+    },
+    {
+      "kanji": "父",
+      "onyomi": "フ",
+      "kunyomi": "ちち",
+      "meaning": "father",
+      "vocabulary": [
+        "父(ちち)",
+        "父親(ちちおや)"
+      ],
+      "strokes": 4
+    },
+    {
+      "kanji": "母",
+      "onyomi": "ボ",
+      "kunyomi": "はは",
+      "meaning": "mother",
+      "vocabulary": [
+        "母(はは)",
+        "母親(ははおや)"
+      ],
+      "strokes": 5
+    },
+    {
+      "kanji": "兄",
+      "onyomi": "ケイ、キョウ",
+      "kunyomi": "あに",
+      "meaning": "older brother",
+      "vocabulary": [
+        "兄(あに)",
+        "お兄さん(おにいさん)"
+      ],
+      "strokes": 5
+    },
+    {
+      "kanji": "姉",
+      "onyomi": "シ",
+      "kunyomi": "あね",
+      "meaning": "older sister",
+      "vocabulary": [
+        "姉(あね)",
+        "お姉さん(おねえさん)"
+      ],
+      "strokes": 8
+    },
+    {
+      "kanji": "弟",
+      "onyomi": "テイ、ダイ",
+      "kunyomi": "おとうと",
+      "meaning": "younger brother",
+      "vocabulary": [
+        "弟(おとうと)",
+        "兄弟(きょうだい)"
+      ],
+      "strokes": 7
+    },
+    {
+      "kanji": "妹",
+      "onyomi": "マイ",
+      "kunyomi": "いもうと",
+      "meaning": "younger sister",
+      "vocabulary": [
+        "妹(いもうと)",
+        "姉妹(しまい)"
+      ],
+      "strokes": 8
+    },
+    {
+      "kanji": "子",
+      "onyomi": "シ、ス",
+      "kunyomi": "こ",
+      "meaning": "child",
+      "vocabulary": [
+        "子供(こども)",
+        "男の子(おとこのこ)"
+      ],
+      "strokes": 3
+    },
+    {
+      "kanji": "男",
+      "onyomi": "ダン、ナン",
+      "kunyomi": "おとこ",
+      "meaning": "man",
+      "vocabulary": [
+        "男(おとこ)",
+        "男性(だんせい)"
+      ],
+      "strokes": 7
+    },
+    {
+      "kanji": "女",
+      "onyomi": "ジョ、ニョ",
+      "kunyomi": "おんな",
+      "meaning": "woman",
+      "vocabulary": [
+        "女(おんな)",
+        "女性(じょせい)"
+      ],
+      "strokes": 3
+    },
+    {
+      "kanji": "友",
+      "onyomi": "ユウ",
+      "kunyomi": "とも",
+      "meaning": "friend",
+      "vocabulary": [
+        "友達(ともだち)",
+        "友人(ゆうじん)"
+      ],
+      "strokes": 4
+    },
+    {
+      "kanji": "先",
+      "onyomi": "セン",
+      "kunyomi": "さき",
+      "meaning": "previous, ahead",
+      "vocabulary": [
+        "先生(せんせい)",
+        "先週(せんしゅう)"
+      ],
+      "strokes": 6
+    },
+    {
+      "kanji": "生",
+      "onyomi": "セイ、ショウ",
+      "kunyomi": "いきる、うまれる",
+      "meaning": "life, birth",
+      "vocabulary": [
+        "先生(せんせい)",
+        "学生(がくせい)"
+      ],
+      "strokes": 5
+    },
+    {
+      "kanji": "学",
+      "onyomi": "ガク",
+      "kunyomi": "まなぶ",
+      "meaning": "study, learning",
+      "vocabulary": [
+        "学校(がっこう)",
+        "大学(だいがく)"
+      ],
+      "strokes": 8
+    },
+    {
+      "kanji": "校",
+      "onyomi": "コウ",
+      "kunyomi": "",
+      "meaning": "school",
+      "vocabulary": [
+        "学校(がっこう)",
+        "高校(こうこう)"
+      ],
+      "strokes": 10
+    },
+    {
+      "kanji": "語",
+      "onyomi": "ゴ",
+      "kunyomi": "かたる",
+      "meaning": "language",
+      "vocabulary": [
+        "日本語(にほんご)",
+        "英語(えいご)"
+      ],
+      "strokes": 14
+    },
+    {
+      "kanji": "国",
+      "onyomi": "コク",
+      "kunyomi": "くに",
+      "meaning": "country",
+      "vocabulary": [
+        "国(くに)",
+        "外国(がいこく)"
+      ],
+      "strokes": 8
+    },
+    {
+      "kanji": "本",
+      "onyomi": "ホン",
+      "kunyomi": "もと",
+      "meaning": "book, origin",
+      "vocabulary": [
+        "本(ほん)",
+        "日本(にほん)"
+      ],
+      "strokes": 5
+    },
+    {
+      "kanji": "大",
+      "onyomi": "ダイ、タイ",
+      "kunyomi": "おお、おおきい",
+      "meaning": "big, large",
+      "vocabulary": [
+        "大きい(おおきい)",
+        "大学(だいがく)"
+      ],
+      "strokes": 3
+    },
+    {
+      "kanji": "小",
+      "onyomi": "ショウ",
+      "kunyomi": "ちいさい、こ",
+      "meaning": "small",
+      "vocabulary": [
+        "小さい(ちいさい)",
+        "小学校(しょうがっこう)"
+      ],
+      "strokes": 3
+    },
+    {
+      "kanji": "高",
+      "onyomi": "コウ",
+      "kunyomi": "たかい",
+      "meaning": "high, expensive",
+      "vocabulary": [
+        "高い(たかい)",
+        "高校(こうこう)"
+      ],
+      "strokes": 10
+    },
+    {
+      "kanji": "安",
+      "onyomi": "アン",
+      "kunyomi": "やすい",
+      "meaning": "cheap, peaceful",
+      "vocabulary": [
+        "安い(やすい)",
+        "安全(あんぜん)"
+      ],
+      "strokes": 6
+    },
+    {
+      "kanji": "新",
+      "onyomi": "シン",
+      "kunyomi": "あたらしい",
+      "meaning": "new",
+      "vocabulary": [
+        "新しい(あたらしい)",
+        "新聞(しんぶん)"
+      ],
+      "strokes": 13
+    },
+    {
+      "kanji": "古",
+      "onyomi": "コ",
+      "kunyomi": "ふるい",
+      "meaning": "old",
+      "vocabulary": [
+        "古い(ふるい)",
+        "古本(ふるほん)"
+      ],
+      "strokes": 5
+    },
+    {
+      "kanji": "長",
+      "onyomi": "チョウ",
+      "kunyomi": "ながい",
+      "meaning": "long",
+      "vocabulary": [
+        "長い(ながい)",
+        "社長(しゃちょう)"
+      ],
+      "strokes": 8
+    },
+    {
+      "kanji": "短",
+      "onyomi": "タン",
+      "kunyomi": "みじかい",
+      "meaning": "short",
+      "vocabulary": [
+        "短い(みじかい)",
+        "短時間(たんじかん)"
+      ],
+      "strokes": 12
+    },
+    {
+      "kanji": "多",
+      "onyomi": "タ",
+      "kunyomi": "おおい",
+      "meaning": "many",
+      "vocabulary": [
+        "多い(おおい)",
+        "多分(たぶん)"
+      ],
+      "strokes": 6
+    },
+    {
+      "kanji": "少",
+      "onyomi": "ショウ",
+      "kunyomi": "すくない、すこし",
+      "meaning": "few, little",
+      "vocabulary": [
+        "少ない(すくない)",
+        "少し(すこし)"
+      ],
+      "strokes": 4
+    },
+    {
+      "kanji": "早",
+      "onyomi": "ソウ",
+      "kunyomi": "はやい",
+      "meaning": "early, fast",
+      "vocabulary": [
+        "早い(はやい)",
+        "早朝(そうちょう)"
+      ],
+      "strokes": 6
+    },
+    {
+      "kanji": "遅",
+      "onyomi": "チ",
+      "kunyomi": "おそい",
+      "meaning": "late, slow",
+      "vocabulary": [
+        "遅い(おそい)",
+        "遅刻(ちこく)"
+      ],
+      "strokes": 12
+    },
+    {
+      "kanji": "好",
+      "onyomi": "コウ",
+      "kunyomi": "すき",
+      "meaning": "like, good",
+      "vocabulary": [
+        "好き(すき)",
+        "好む(このむ)"
+      ],
+      "strokes": 6
+    },
+    {
+      "kanji": "嫌",
+      "onyomi": "ケン",
+      "kunyomi": "きらい、いや",
+      "meaning": "dislike, hate",
+      "vocabulary": [
+        "嫌い(きらい)",
+        "嫌(いや)"
+      ],
+      "strokes": 13
+    },
+    {
+      "kanji": "元",
+      "onyomi": "ゲン、ガン",
+      "kunyomi": "もと",
+      "meaning": "origin, former",
+      "vocabulary": [
+        "元気(げんき)",
+        "元(もと)"
+      ],
+      "strokes": 4
+    },
+    {
+      "kanji": "気",
+      "onyomi": "キ、ケ",
+      "kunyomi": "",
+      "meaning": "spirit, energy",
+      "vocabulary": [
+        "元気(げんき)",
+        "天気(てんき)"
+      ],
+      "strokes": 6
+    },
+    {
+      "kanji": "天",
+      "onyomi": "テン",
+      "kunyomi": "あま",
+      "meaning": "heaven, sky",
+      "vocabulary": [
+        "天気(てんき)",
+        "天国(てんごく)"
+      ],
+      "strokes": 4
+    },
+    {
+      "kanji": "雨",
+      "onyomi": "ウ",
+      "kunyomi": "あめ",
+      "meaning": "rain",
+      "vocabulary": [
+        "雨(あめ)",
+        "雨天(うてん)"
+      ],
+      "strokes": 8
+    },
+    {
+      "kanji": "雪",
+      "onyomi": "セツ",
+      "kunyomi": "ゆき",
+      "meaning": "snow",
+      "vocabulary": [
+        "雪(ゆき)",
+        "雪国(ゆきぐに)"
+      ],
+      "strokes": 11
+    },
+    {
+      "kanji": "風",
+      "onyomi": "フウ",
+      "kunyomi": "かぜ",
+      "meaning": "wind",
+      "vocabulary": [
+        "風(かぜ)",
+        "風景(ふうけい)"
+      ],
+      "strokes": 9
+    },
+    {
+      "kanji": "晴",
+      "onyomi": "セイ",
+      "kunyomi": "はれる",
+      "meaning": "clear weather",
+      "vocabulary": [
+        "晴れ(はれ)",
+        "晴天(せいてん)"
+      ],
+      "strokes": 12
+    },
+    {
+      "kanji": "曇",
+      "onyomi": "ドン",
+      "kunyomi": "くもる",
+      "meaning": "cloudy",
+      "vocabulary": [
+        "曇り(くもり)",
+        "曇天(どんてん)"
+      ],
+      "strokes": 16
+    },
+    {
+      "kanji": "暑",
+      "onyomi": "ショ",
+      "kunyomi": "あつい",
+      "meaning": "hot",
+      "vocabulary": [
+        "暑い(あつい)",
+        "暑中(しょちゅう)"
+      ],
+      "strokes": 12
+    },
+    {
+      "kanji": "寒",
+      "onyomi": "カン",
+      "kunyomi": "さむい",
+      "meaning": "cold",
+      "vocabulary": [
+        "寒い(さむい)",
+        "寒冷(かんれい)"
+      ],
+      "strokes": 12
+    },
+    {
+      "kanji": "暖",
+      "onyomi": "ダン",
+      "kunyomi": "あたたかい",
+      "meaning": "warm",
+      "vocabulary": [
+        "暖かい(あたたかい)",
+        "暖房(だんぼう)"
+      ],
+      "strokes": 13
+    },
+    {
+      "kanji": "涼",
+      "onyomi": "リョウ",
+      "kunyomi": "すずしい",
+      "meaning": "cool",
+      "vocabulary": [
+        "涼しい(すずしい)",
+        "涼風(りょうふう)"
+      ],
+      "strokes": 11
+    },
+    {
+      "kanji": "春",
+      "onyomi": "シュン",
+      "kunyomi": "はる",
+      "meaning": "spring",
+      "vocabulary": [
+        "春(はる)",
+        "春休み(はるやすみ)"
+      ],
+      "strokes": 9
+    },
+    {
+      "kanji": "夏",
+      "onyomi": "カ、ゲ",
+      "kunyomi": "なつ",
+      "meaning": "summer",
+      "vocabulary": [
+        "夏(なつ)",
+        "夏休み(なつやすみ)"
+      ],
+      "strokes": 10
+    },
+    {
+      "kanji": "秋",
+      "onyomi": "シュウ",
+      "kunyomi": "あき",
+      "meaning": "autumn",
+      "vocabulary": [
+        "秋(あき)",
+        "秋分(しゅうぶん)"
+      ],
+      "strokes": 9
+    },
+    {
+      "kanji": "冬",
+      "onyomi": "トウ",
+      "kunyomi": "ふゆ",
+      "meaning": "winter",
+      "vocabulary": [
+        "冬(ふゆ)",
+        "冬休み(ふゆやすみ)"
+      ],
+      "strokes": 5
+    },
+    {
+      "kanji": "朝",
+      "onyomi": "チョウ",
+      "kunyomi": "あさ",
+      "meaning": "morning",
+      "vocabulary": [
+        "朝(あさ)",
+        "朝食(ちょうしょく)"
+      ],
+      "strokes": 12
+    },
+    {
+      "kanji": "昼",
+      "onyomi": "チュウ",
+      "kunyomi": "ひる",
+      "meaning": "noon, daytime",
+      "vocabulary": [
+        "昼(ひる)",
+        "昼食(ちゅうしょく)"
+      ],
+      "strokes": 9
+    },
+    {
+      "kanji": "夜",
+      "onyomi": "ヤ",
+      "kunyomi": "よる",
+      "meaning": "night",
+      "vocabulary": [
+        "夜(よる)",
+        "夜中(よなか)"
+      ],
+      "strokes": 8
+    },
+    {
+      "kanji": "晩",
+      "onyomi": "バン",
+      "kunyomi": "",
+      "meaning": "evening",
+      "vocabulary": [
+        "晩(ばん)",
+        "今晩(こんばん)"
+      ],
+      "strokes": 12
+    },
+    {
+      "kanji": "午",
+      "onyomi": "ゴ",
+      "kunyomi": "",
+      "meaning": "noon",
+      "vocabulary": [
+        "午前(ごぜん)",
+        "午後(ごご)"
+      ],
+      "strokes": 4
+    },
+    {
+      "kanji": "毎",
+      "onyomi": "マイ",
+      "kunyomi": "",
+      "meaning": "every",
+      "vocabulary": [
+        "毎日(まいにち)",
+        "毎年(まいねん)"
+      ],
+      "strokes": 6
+    },
+    {
+      "kanji": "来",
+      "onyomi": "ライ",
+      "kunyomi": "くる",
+      "meaning": "come",
+      "vocabulary": [
+        "来る(くる)",
+        "来年(らいねん)"
+      ],
+      "strokes": 7
+    },
+    {
+      "kanji": "行",
+      "onyomi": "コウ、ギョウ",
+      "kunyomi": "いく、ゆく",
+      "meaning": "go",
+      "vocabulary": [
+        "行く(いく)",
+        "旅行(りょこう)"
+      ],
+      "strokes": 6
+    },
+    {
+      "kanji": "帰",
+      "onyomi": "キ",
+      "kunyomi": "かえる",
+      "meaning": "return",
+      "vocabulary": [
+        "帰る(かえる)",
+        "帰国(きこく)"
+      ],
+      "strokes": 10
+    },
+    {
+      "kanji": "出",
+      "onyomi": "シュツ",
+      "kunyomi": "でる、だす",
+      "meaning": "exit, put out",
+      "vocabulary": [
+        "出る(でる)",
+        "出口(でぐち)"
+      ],
+      "strokes": 5
+    },
+    {
+      "kanji": "入",
+      "onyomi": "ニュウ",
+      "kunyomi": "はいる、いれる",
+      "meaning": "enter, put in",
+      "vocabulary": [
+        "入る(はいる)",
+        "入口(いりぐち)"
+      ],
+      "strokes": 2
+    },
+    {
+      "kanji": "上",
+      "onyomi": "ジョウ",
+      "kunyomi": "うえ、あがる",
+      "meaning": "up, above",
+      "vocabulary": [
+        "上(うえ)",
+        "上手(じょうず)"
+      ],
+      "strokes": 3
+    },
+    {
+      "kanji": "下",
+      "onyomi": "カ、ゲ",
+      "kunyomi": "した、さがる",
+      "meaning": "down, below",
+      "vocabulary": [
+        "下(した)",
+        "下手(へた)"
+      ],
+      "strokes": 3
+    },
+    {
+      "kanji": "右",
+      "onyomi": "ウ",
+      "kunyomi": "みぎ",
+      "meaning": "right",
+      "vocabulary": [
+        "右(みぎ)",
+        "右手(みぎて)"
+      ],
+      "strokes": 5
+    },
+    {
+      "kanji": "左",
+      "onyomi": "サ",
+      "kunyomi": "ひだり",
+      "meaning": "left",
+      "vocabulary": [
+        "左(ひだり)",
+        "左手(ひだりて)"
+      ],
+      "strokes": 5
+    },
+    {
+      "kanji": "東",
+      "onyomi": "トウ",
+      "kunyomi": "ひがし",
+      "meaning": "east",
+      "vocabulary": [
+        "東(ひがし)",
+        "東京(とうきょう)"
+      ],
+      "strokes": 8
+    },
+    {
+      "kanji": "西",
+      "onyomi": "セイ、サイ",
+      "kunyomi": "にし",
+      "meaning": "west",
+      "vocabulary": [
+        "西(にし)",
+        "関西(かんさい)"
+      ],
+      "strokes": 6
+    },
+    {
+      "kanji": "南",
+      "onyomi": "ナン",
+      "kunyomi": "みなみ",
+      "meaning": "south",
+      "vocabulary": [
+        "南(みなみ)",
+        "南国(なんごく)"
+      ],
+      "strokes": 9
+    },
+    {
+      "kanji": "北",
+      "onyomi": "ホク",
+      "kunyomi": "きた",
+      "meaning": "north",
+      "vocabulary": [
+        "北(きた)",
+        "北海道(ほっかいどう)"
+      ],
+      "strokes": 5
+    },
+    {
+      "kanji": "中",
+      "onyomi": "チュウ",
+      "kunyomi": "なか",
+      "meaning": "middle, inside",
+      "vocabulary": [
+        "中(なか)",
+        "中学校(ちゅうがっこう)"
+      ],
+      "strokes": 4
+    },
+    {
+      "kanji": "外",
+      "onyomi": "ガイ",
+      "kunyomi": "そと",
+      "meaning": "outside",
+      "vocabulary": [
+        "外(そと)",
+        "外国(がいこく)"
+      ],
+      "strokes": 5
+    },
+    {
+      "kanji": "内",
+      "onyomi": "ナイ",
+      "kunyomi": "うち",
+      "meaning": "inside",
+      "vocabulary": [
+        "内(うち)",
+        "案内(あんない)"
+      ],
+      "strokes": 4
+    },
+    {
+      "kanji": "近",
+      "onyomi": "キン",
+      "kunyomi": "ちかい",
+      "meaning": "near",
+      "vocabulary": [
+        "近い(ちかい)",
+        "近所(きんじょ)"
+      ],
+      "strokes": 7
+    },
+    {
+      "kanji": "遠",
+      "onyomi": "エン",
+      "kunyomi": "とおい",
+      "meaning": "far",
+      "vocabulary": [
+        "遠い(とおい)",
+        "遠足(えんそく)"
+      ],
+      "strokes": 13
+    },
+    {
+      "kanji": "山",
+      "onyomi": "サン",
+      "kunyomi": "やま",
+      "meaning": "mountain",
+      "vocabulary": [
+        "山(やま)",
+        "富士山(ふじさん)"
+      ],
+      "strokes": 3
+    },
+    {
+      "kanji": "川",
+      "onyomi": "セン",
+      "kunyomi": "かわ",
+      "meaning": "river",
+      "vocabulary": [
+        "川(かわ)",
+        "河川(かせん)"
+      ],
+      "strokes": 3
+    },
+    {
+      "kanji": "海",
+      "onyomi": "カイ",
+      "kunyomi": "うみ",
+      "meaning": "sea",
+      "vocabulary": [
+        "海(うみ)",
+        "海外(かいがい)"
+      ],
+      "strokes": 9
+    },
+    {
+      "kanji": "田",
+      "onyomi": "デン",
+      "kunyomi": "た",
+      "meaning": "rice field",
+      "vocabulary": [
+        "田んぼ(たんぼ)",
+        "田中(たなか)"
+      ],
+      "strokes": 5
+    },
+    {
+      "kanji": "町",
+      "onyomi": "チョウ",
+      "kunyomi": "まち",
+      "meaning": "town",
+      "vocabulary": [
+        "町(まち)",
+        "町内(ちょうない)"
+      ],
+      "strokes": 7
+    },
+    {
+      "kanji": "村",
+      "onyomi": "ソン",
+      "kunyomi": "むら",
+      "meaning": "village",
+      "vocabulary": [
+        "村(むら)",
+        "農村(のうそん)"
+      ],
+      "strokes": 7
+    },
+    {
+      "kanji": "市",
+      "onyomi": "シ",
+      "kunyomi": "いち",
+      "meaning": "city, market",
+      "vocabulary": [
+        "市(し)",
+        "市場(いちば)"
+      ],
+      "strokes": 5
+    },
+    {
+      "kanji": "県",
+      "onyomi": "ケン",
+      "kunyomi": "",
+      "meaning": "prefecture",
+      "vocabulary": [
+        "県(けん)",
+        "東京都(とうきょうと)"
+      ],
+      "strokes": 9
+    },
+    {
+      "kanji": "道",
+      "onyomi": "ドウ",
+      "kunyomi": "みち",
+      "meaning": "road, way",
+      "vocabulary": [
+        "道(みち)",
+        "北海道(ほっかいどう)"
+      ],
+      "strokes": 12
+    },
+    {
+      "kanji": "駅",
+      "onyomi": "エキ",
+      "kunyomi": "",
+      "meaning": "station",
+      "vocabulary": [
+        "駅(えき)",
+        "駅前(えきまえ)"
+      ],
+      "strokes": 14
+    },
+    {
+      "kanji": "空",
+      "onyomi": "クウ",
+      "kunyomi": "そら、から",
+      "meaning": "sky, empty",
+      "vocabulary": [
+        "空(そら)",
+        "空港(くうこう)"
+      ],
+      "strokes": 8
+    },
+    {
+      "kanji": "地",
+      "onyomi": "チ、ジ",
+      "kunyomi": "",
+      "meaning": "earth, ground",
+      "vocabulary": [
+        "地図(ちず)",
+        "土地(とち)"
+      ],
+      "strokes": 6
+    },
+    {
+      "kanji": "土",
+      "onyomi": "ド、ト",
+      "kunyomi": "つち",
+      "meaning": "earth, soil",
+      "vocabulary": [
+        "土(つち)",
+        "土曜日(どようび)"
+      ],
+      "strokes": 3
+    },
+    {
+      "kanji": "石",
+      "onyomi": "セキ、シャク",
+      "kunyomi": "いし",
+      "meaning": "stone",
+      "vocabulary": [
+        "石(いし)",
+        "石油(せきゆ)"
+      ],
+      "strokes": 5
+    },
+    {
+      "kanji": "火",
+      "onyomi": "カ",
+      "kunyomi": "ひ",
+      "meaning": "fire",
+      "vocabulary": [
+        "火(ひ)",
+        "火曜日(かようび)"
+      ],
+      "strokes": 4
+    },
+    {
+      "kanji": "花",
+      "onyomi": "カ",
+      "kunyomi": "はな",
+      "meaning": "flower",
+      "vocabulary": [
+        "花(はな)",
+        "花見(はなみ)"
+      ],
+      "strokes": 7
+    },
+    {
+      "kanji": "草",
+      "onyomi": "ソウ",
+      "kunyomi": "くさ",
+      "meaning": "grass",
+      "vocabulary": [
+        "草(くさ)",
+        "草花(くさばな)"
+      ],
+      "strokes": 9
+    },
+    {
+      "kanji": "犬",
+      "onyomi": "ケン",
+      "kunyomi": "いぬ",
+      "meaning": "dog",
+      "vocabulary": [
+        "犬(いぬ)",
+        "番犬(ばんけん)"
+      ],
+      "strokes": 4
+    },
+    {
+      "kanji": "猫",
+      "onyomi": "ビョウ",
+      "kunyomi": "ねこ",
+      "meaning": "cat",
+      "vocabulary": [
+        "猫(ねこ)",
+        "子猫(こねこ)"
+      ],
+      "strokes": 11
+    },
+    {
+      "kanji": "鳥",
+      "onyomi": "チョウ",
+      "kunyomi": "とり",
+      "meaning": "bird",
+      "vocabulary": [
+        "鳥(とり)",
+        "小鳥(ことり)"
+      ],
+      "strokes": 11
+    },
+    {
+      "kanji": "魚",
+      "onyomi": "ギョ",
+      "kunyomi": "さかな",
+      "meaning": "fish",
+      "vocabulary": [
+        "魚(さかな)",
+        "金魚(きんぎょ)"
+      ],
+      "strokes": 11
+    },
+    {
+      "kanji": "肉",
+      "onyomi": "ニク",
+      "kunyomi": "",
+      "meaning": "meat",
+      "vocabulary": [
+        "肉(にく)",
+        "牛肉(ぎゅうにく)"
+      ],
+      "strokes": 6
+    },
+    {
+      "kanji": "米",
+      "onyomi": "ベイ、マイ",
+      "kunyomi": "こめ",
+      "meaning": "rice",
+      "vocabulary": [
+        "米(こめ)",
+        "白米(はくまい)"
+      ],
+      "strokes": 6
+    },
+    {
+      "kanji": "野",
+      "onyomi": "ヤ",
+      "kunyomi": "の",
+      "meaning": "field, wild",
+      "vocabulary": [
+        "野菜(やさい)",
+        "野球(やきゅう)"
+      ],
+      "strokes": 11
+    },
+    {
+      "kanji": "果",
+      "onyomi": "カ",
+      "kunyomi": "はて",
+      "meaning": "fruit, result",
+      "vocabulary": [
+        "果物(くだもの)",
+        "結果(けっか)"
+      ],
+      "strokes": 8
+    },
+    {
+      "kanji": "電",
+      "onyomi": "デン",
+      "kunyomi": "",
+      "meaning": "electricity",
+      "vocabulary": [
+        "電話(でんわ)",
+        "電車(でんしゃ)"
+      ],
+      "strokes": 13
+    },
+    {
+      "kanji": "車",
+      "onyomi": "シャ",
+      "kunyomi": "くるま",
+      "meaning": "car, vehicle",
+      "vocabulary": [
+        "車(くるま)",
+        "電車(でんしゃ)"
+      ],
+      "strokes": 7
+    },
+    {
+      "kanji": "食",
+      "onyomi": "ショク",
+      "kunyomi": "たべる",
+      "meaning": "eat, food",
+      "vocabulary": [
+        "食べる(たべる)",
+        "食事(しょくじ)"
+      ],
+      "strokes": 9
+    },
+    {
+      "kanji": "飲",
+      "onyomi": "イン",
+      "kunyomi": "のむ",
+      "meaning": "drink",
+      "vocabulary": [
+        "飲む(のむ)",
+        "飲み物(のみもの)"
+      ],
+      "strokes": 12
+    },
+    {
+      "kanji": "見",
+      "onyomi": "ケン",
+      "kunyomi": "みる",
+      "meaning": "see, look",
+      "vocabulary": [
+        "見る(みる)",
+        "見物(けんぶつ)"
+      ],
+      "strokes": 7
+    },
+    {
+      "kanji": "聞",
+      "onyomi": "ブン、モン",
+      "kunyomi": "きく",
+      "meaning": "hear, listen",
+      "vocabulary": [
+        "聞く(きく)",
+        "新聞(しんぶん)"
+      ],
+      "strokes": 14
+    },
+    {
+      "kanji": "読",
+      "onyomi": "ドク",
+      "kunyomi": "よむ",
+      "meaning": "read",
+      "vocabulary": [
+        "読む(よむ)",
+        "読書(どくしょ)"
+      ],
+      "strokes": 14
+    },
+    {
+      "kanji": "書",
+      "onyomi": "ショ",
+      "kunyomi": "かく",
+      "meaning": "write",
+      "vocabulary": [
+        "書く(かく)",
+        "図書館(としょかん)"
+      ],
+      "strokes": 10
+    },
+    {
+      "kanji": "話",
+      "onyomi": "ワ",
+      "kunyomi": "はなす、はなし",
+      "meaning": "speak, talk",
+      "vocabulary": [
+        "話す(はなす)",
+        "会話(かいわ)"
+      ],
+      "strokes": 13
+    },
+    {
+      "kanji": "立",
+      "onyomi": "リツ",
+      "kunyomi": "たつ",
+      "meaning": "stand",
+      "vocabulary": [
+        "立つ(たつ)",
+        "私立(しりつ)"
+      ],
+      "strokes": 5
+    },
+    {
+      "kanji": "座",
+      "onyomi": "ザ",
+      "kunyomi": "すわる",
+      "meaning": "sit",
+      "vocabulary": [
+        "座る(すわる)",
+        "座席(ざせき)"
+      ],
+      "strokes": 10
+    },
+    {
+      "kanji": "歩",
+      "onyomi": "ホ",
+      "kunyomi": "あるく",
+      "meaning": "walk",
+      "vocabulary": [
+        "歩く(あるく)",
+        "散歩(さんぽ)"
+      ],
+      "strokes": 8
+    },
+    {
+      "kanji": "走",
+      "onyomi": "ソウ",
+      "kunyomi": "はしる",
+      "meaning": "run",
+      "vocabulary": [
+        "走る(はしる)",
+        "競走(きょうそう)"
+      ],
+      "strokes": 7
+    },
+    {
+      "kanji": "飛",
+      "onyomi": "ヒ",
+      "kunyomi": "とぶ",
+      "meaning": "fly",
+      "vocabulary": [
+        "飛ぶ(とぶ)",
+        "飛行機(ひこうき)"
+      ],
+      "strokes": 9
+    },
+    {
+      "kanji": "泳",
+      "onyomi": "エイ",
+      "kunyomi": "およぐ",
+      "meaning": "swim",
+      "vocabulary": [
+        "泳ぐ(およぐ)",
+        "水泳(すいえい)"
+      ],
+      "strokes": 8
+    },
+    {
+      "kanji": "買",
+      "onyomi": "バイ",
+      "kunyomi": "かう",
+      "meaning": "buy",
+      "vocabulary": [
+        "買う(かう)",
+        "売買(ばいばい)"
+      ],
+      "strokes": 12
+    },
+    {
+      "kanji": "売",
+      "onyomi": "バイ",
+      "kunyomi": "うる",
+      "meaning": "sell",
+      "vocabulary": [
+        "売る(うる)",
+        "販売(はんばい)"
+      ],
+      "strokes": 7
+    },
+    {
+      "kanji": "作",
+      "onyomi": "サク",
+      "kunyomi": "つくる",
+      "meaning": "make",
+      "vocabulary": [
+        "作る(つくる)",
+        "作品(さくひん)"
+      ],
+      "strokes": 7
+    },
+    {
+      "kanji": "開",
+      "onyomi": "カイ",
+      "kunyomi": "ひらく、あく",
+      "meaning": "open",
+      "vocabulary": [
+        "開く(ひらく)",
+        "開始(かいし)"
+      ],
+      "strokes": 12
+    },
+    {
+      "kanji": "閉",
+      "onyomi": "ヘイ",
+      "kunyomi": "しめる",
+      "meaning": "close",
+      "vocabulary": [
+        "閉める(しめる)",
+        "閉店(へいてん)"
+      ],
+      "strokes": 11
+    },
+    {
+      "kanji": "始",
+      "onyomi": "シ",
+      "kunyomi": "はじまる",
+      "meaning": "begin",
+      "vocabulary": [
+        "始まる(はじまる)",
+        "開始(かいし)"
+      ],
+      "strokes": 8
+    },
+    {
+      "kanji": "終",
+      "onyomi": "シュウ",
+      "kunyomi": "おわる",
+      "meaning": "end",
+      "vocabulary": [
+        "終わる(おわる)",
+        "終了(しゅうりょう)"
+      ],
+      "strokes": 11
+    },
+    {
+      "kanji": "止",
+      "onyomi": "シ",
+      "kunyomi": "とまる",
+      "meaning": "stop",
+      "vocabulary": [
+        "止まる(とまる)",
+        "中止(ちゅうし)"
+      ],
+      "strokes": 4
+    },
+    {
+      "kanji": "動",
+      "onyomi": "ドウ",
+      "kunyomi": "うごく",
+      "meaning": "move",
+      "vocabulary": [
+        "動く(うごく)",
+        "運動(うんどう)"
+      ],
+      "strokes": 11
+    },
+    {
+      "kanji": "住",
+      "onyomi": "ジュウ",
+      "kunyomi": "すむ",
+      "meaning": "live, reside",
+      "vocabulary": [
+        "住む(すむ)",
+        "住所(じゅうしょ)"
+      ],
+      "strokes": 7
+    },
+    {
+      "kanji": "働",
+      "onyomi": "ドウ",
+      "kunyomi": "はたらく",
+      "meaning": "work",
+      "vocabulary": [
+        "働く(はたらく)",
+        "労働(ろうどう)"
+      ],
+      "strokes": 13
+    },
+    {
+      "kanji": "休",
+      "onyomi": "キュウ",
+      "kunyomi": "やすむ",
+      "meaning": "rest",
+      "vocabulary": [
+        "休む(やすむ)",
+        "休日(きゅうじつ)"
+      ],
+      "strokes": 6
+    },
+    {
+      "kanji": "寝",
+      "onyomi": "シン",
+      "kunyomi": "ねる",
+      "meaning": "sleep",
+      "vocabulary": [
+        "寝る(ねる)",
+        "就寝(しゅうしん)"
+      ],
+      "strokes": 13
+    },
+    {
+      "kanji": "起",
+      "onyomi": "キ",
+      "kunyomi": "おきる",
+      "meaning": "wake up",
+      "vocabulary": [
+        "起きる(おきる)",
+        "起床(きしょう)"
+      ],
+      "strokes": 10
+    },
+    {
+      "kanji": "会",
+      "onyomi": "カイ",
+      "kunyomi": "あう",
+      "meaning": "meet",
+      "vocabulary": [
+        "会う(あう)",
+        "会社(かいしゃ)"
+      ],
+      "strokes": 6
+    },
+    {
+      "kanji": "帰",
+      "onyomi": "キ",
+      "kunyomi": "かえる",
+      "meaning": "return",
+      "vocabulary": [
+        "帰る(かえる)",
+        "帰国(きこく)"
+      ],
+      "strokes": 10
+    },
+    {
+      "kanji": "持",
+      "onyomi": "ジ",
+      "kunyomi": "もつ",
+      "meaning": "hold",
+      "vocabulary": [
+        "持つ(もつ)",
+        "持参(じさん)"
+      ],
+      "strokes": 9
+    },
+    {
+      "kanji": "取",
+      "onyomi": "シュ",
+      "kunyomi": "とる",
+      "meaning": "take",
+      "vocabulary": [
+        "取る(とる)",
+        "取得(しゅとく)"
+      ],
+      "strokes": 8
+    },
+    {
+      "kanji": "送",
+      "onyomi": "ソウ",
+      "kunyomi": "おくる",
+      "meaning": "send",
+      "vocabulary": [
+        "送る(おくる)",
+        "送信(そうしん)"
+      ],
+      "strokes": 9
+    },
+    {
+      "kanji": "待",
+      "onyomi": "タイ",
+      "kunyomi": "まつ",
+      "meaning": "wait",
+      "vocabulary": [
+        "待つ(まつ)",
+        "期待(きたい)"
+      ],
+      "strokes": 9
+    },
+    {
+      "kanji": "教",
+      "onyomi": "キョウ",
+      "kunyomi": "おしえる",
+      "meaning": "teach",
+      "vocabulary": [
+        "教える(おしえる)",
+        "教師(きょうし)"
+      ],
+      "strokes": 11
+    },
+    {
+      "kanji": "習",
+      "onyomi": "シュウ",
+      "kunyomi": "ならう",
+      "meaning": "learn",
+      "vocabulary": [
+        "習う(ならう)",
+        "学習(がくしゅう)"
+      ],
+      "strokes": 11
+    },
+    {
+      "kanji": "知",
+      "onyomi": "チ",
+      "kunyomi": "しる",
+      "meaning": "know",
+      "vocabulary": [
+        "知る(しる)",
+        "知識(ちしき)"
+      ],
+      "strokes": 8
+    },
+    {
+      "kanji": "考",
+      "onyomi": "コウ",
+      "kunyomi": "かんがえる",
+      "meaning": "think",
+      "vocabulary": [
+        "考える(かんがえる)",
+        "思考(しこう)"
+      ],
+      "strokes": 6
+    },
+    {
+      "kanji": "思",
+      "onyomi": "シ",
+      "kunyomi": "おもう",
+      "meaning": "think",
+      "vocabulary": [
+        "思う(おもう)",
+        "思考(しこう)"
+      ],
+      "strokes": 9
+    },
+    {
+      "kanji": "忘",
+      "onyomi": "ボウ",
+      "kunyomi": "わすれる",
+      "meaning": "forget",
+      "vocabulary": [
+        "忘れる(わすれる)",
+        "健忘(けんぼう)"
+      ],
+      "strokes": 7
+    },
+    {
+      "kanji": "覚",
+      "onyomi": "カク",
+      "kunyomi": "おぼえる",
+      "meaning": "remember",
+      "vocabulary": [
+        "覚える(おぼえる)",
+        "記憶(きおく)"
+      ],
+      "strokes": 12
+    },
+    {
+      "kanji": "理",
+      "onyomi": "リ",
+      "kunyomi": "",
+      "meaning": "reason, logic",
+      "vocabulary": [
+        "料理(りょうり)",
+        "理由(りゆう)"
+      ],
+      "strokes": 11
+    },
+    {
+      "kanji": "解",
+      "onyomi": "カイ",
+      "kunyomi": "とく",
+      "meaning": "solve, understand",
+      "vocabulary": [
+        "理解(りかい)",
+        "解決(かいけつ)"
+      ],
+      "strokes": 13
+    },
+    {
+      "kanji": "明",
+      "onyomi": "メイ",
+      "kunyomi": "あかるい",
+      "meaning": "bright",
+      "vocabulary": [
+        "明るい(あかるい)",
+        "明日(あした)"
+      ],
+      "strokes": 8
+    },
+    {
+      "kanji": "暗",
+      "onyomi": "アン",
+      "kunyomi": "くらい",
+      "meaning": "dark",
+      "vocabulary": [
+        "暗い(くらい)",
+        "暗記(あんき)"
+      ],
+      "strokes": 13
+    },
+    {
+      "kanji": "赤",
+      "onyomi": "セキ、シャク",
+      "kunyomi": "あか",
+      "meaning": "red",
+      "vocabulary": [
+        "赤い(あかい)",
+        "赤色(あかいろ)"
+      ],
+      "strokes": 7
+    },
+    {
+      "kanji": "青",
+      "onyomi": "セイ、ショウ",
+      "kunyomi": "あお",
+      "meaning": "blue",
+      "vocabulary": [
+        "青い(あおい)",
+        "青色(あおいろ)"
+      ],
+      "strokes": 8
+    },
+    {
+      "kanji": "黄",
+      "onyomi": "オウ、コウ",
+      "kunyomi": "きいろ",
+      "meaning": "yellow",
+      "vocabulary": [
+        "黄色(きいろ)",
+        "黄金(おうごん)"
+      ],
+      "strokes": 11
+    },
+    {
+      "kanji": "黒",
+      "onyomi": "コク",
+      "kunyomi": "くろ",
+      "meaning": "black",
+      "vocabulary": [
+        "黒い(くろい)",
+        "黒色(くろいろ)"
+      ],
+      "strokes": 11
+    },
+    {
+      "kanji": "白",
+      "onyomi": "ハク、ビャク",
+      "kunyomi": "しろ",
+      "meaning": "white",
+      "vocabulary": [
+        "白い(しろい)",
+        "白色(しろいろ)"
+      ],
+      "strokes": 5
+    },
+    {
+      "kanji": "緑",
+      "onyomi": "リョク",
+      "kunyomi": "みどり",
+      "meaning": "green",
+      "vocabulary": [
+        "緑(みどり)",
+        "緑色(みどりいろ)"
+      ],
+      "strokes": 14
+    },
+    {
+      "kanji": "茶",
+      "onyomi": "チャ、サ",
+      "kunyomi": "",
+      "meaning": "tea, brown",
+      "vocabulary": [
+        "お茶(おちゃ)",
+        "茶色(ちゃいろ)"
+      ],
+      "strokes": 9
+    },
+    {
+      "kanji": "色",
+      "onyomi": "ショク、シキ",
+      "kunyomi": "いろ",
+      "meaning": "color",
+      "vocabulary": [
+        "色(いろ)",
+        "色彩(しきさい)"
+      ],
+      "strokes": 6
+    },
+    {
+      "kanji": "服",
+      "onyomi": "フク",
+      "kunyomi": "",
+      "meaning": "clothes",
+      "vocabulary": [
+        "服(ふく)",
+        "洋服(ようふく)"
+      ],
+      "strokes": 8
+    },
+    {
+      "kanji": "着",
+      "onyomi": "チャク",
+      "kunyomi": "きる",
+      "meaning": "wear",
+      "vocabulary": [
+        "着る(きる)",
+        "到着(とうちゃく)"
+      ],
+      "strokes": 12
+    },
+    {
+      "kanji": "脱",
+      "onyomi": "ダツ",
+      "kunyomi": "ぬぐ",
+      "meaning": "take off",
+      "vocabulary": [
+        "脱ぐ(ぬぐ)",
+        "脱出(だっしゅつ)"
+      ],
+      "strokes": 11
+    },
+    {
+      "kanji": "頭",
+      "onyomi": "トウ、ズ",
+      "kunyomi": "あたま",
+      "meaning": "head",
+      "vocabulary": [
+        "頭(あたま)",
+        "頭痛(ずつう)"
+      ],
+      "strokes": 16
+    },
+    {
+      "kanji": "顔",
+      "onyomi": "ガン",
+      "kunyomi": "かお",
+      "meaning": "face",
+      "vocabulary": [
+        "顔(かお)",
+        "笑顔(えがお)"
+      ],
+      "strokes": 18
+    },
+    {
+      "kanji": "鼻",
+      "onyomi": "ビ",
+      "kunyomi": "はな",
+      "meaning": "nose",
+      "vocabulary": [
+        "鼻(はな)",
+        "鼻血(はなぢ)"
+      ],
+      "strokes": 14
+    },
+    {
+      "kanji": "口",
+      "onyomi": "コウ、ク",
+      "kunyomi": "くち",
+      "meaning": "mouth",
+      "vocabulary": [
+        "口(くち)",
+        "入口(いりぐち)"
+      ],
+      "strokes": 3
+    },
+    {
+      "kanji": "耳",
+      "onyomi": "ジ",
+      "kunyomi": "みみ",
+      "meaning": "ear",
+      "vocabulary": [
+        "耳(みみ)",
+        "中耳炎(ちゅうじえん)"
+      ],
+      "strokes": 6
+    },
+    {
+      "kanji": "目",
+      "onyomi": "モク、ボク",
+      "kunyomi": "め",
+      "meaning": "eye",
+      "vocabulary": [
+        "目(め)",
+        "目標(もくひょう)"
+      ],
+      "strokes": 5
+    },
+    {
+      "kanji": "手",
+      "onyomi": "シュ",
+      "kunyomi": "て",
+      "meaning": "hand",
+      "vocabulary": [
+        "手(て)",
+        "上手(じょうず)"
+      ],
+      "strokes": 4
+    },
+    {
+      "kanji": "足",
+      "onyomi": "ソク",
+      "kunyomi": "あし",
+      "meaning": "foot",
+      "vocabulary": [
+        "足(あし)",
+        "満足(まんぞく)"
+      ],
+      "strokes": 7
+    },
+    {
+      "kanji": "体",
+      "onyomi": "タイ",
+      "kunyomi": "からだ",
+      "meaning": "body",
+      "vocabulary": [
+        "体(からだ)",
+        "体重(たいじゅう)"
+      ],
+      "strokes": 7
+    },
+    {
+      "kanji": "心",
+      "onyomi": "シン",
+      "kunyomi": "こころ",
+      "meaning": "heart",
+      "vocabulary": [
+        "心(こころ)",
+        "心配(しんぱい)"
+      ],
+      "strokes": 4
+    },
+    {
+      "kanji": "声",
+      "onyomi": "セイ",
+      "kunyomi": "こえ",
+      "meaning": "voice",
+      "vocabulary": [
+        "声(こえ)",
+        "音声(おんせい)"
+      ],
+      "strokes": 7
+    },
+    {
+      "kanji": "歯",
+      "onyomi": "シ",
+      "kunyomi": "は",
+      "meaning": "tooth",
+      "vocabulary": [
+        "歯(は)",
+        "歯医者(はいしゃ)"
+      ],
+      "strokes": 12
+    },
+    {
+      "kanji": "血",
+      "onyomi": "ケツ",
+      "kunyomi": "ち",
+      "meaning": "blood",
+      "vocabulary": [
+        "血(ち)",
+        "血液(けつえき)"
+      ],
+      "strokes": 6
+    },
+    {
+      "kanji": "骨",
+      "onyomi": "コツ",
+      "kunyomi": "ほね",
+      "meaning": "bone",
+      "vocabulary": [
+        "骨(ほね)",
+        "骨折(こっせつ)"
+      ],
+      "strokes": 10
+    },
+    {
+      "kanji": "肉",
+      "onyomi": "ニク",
+      "kunyomi": "",
+      "meaning": "meat",
+      "vocabulary": [
+        "肉(にく)",
+        "筋肉(きんにく)"
+      ],
+      "strokes": 6
+    },
+    {
+      "kanji": "魚",
+      "onyomi": "ギョ",
+      "kunyomi": "さかな",
+      "meaning": "fish",
+      "vocabulary": [
+        "魚(さかな)",
+        "金魚(きんぎょ)"
+      ],
+      "strokes": 11
+    },
+    {
+      "kanji": "鳥",
+      "onyomi": "チョウ",
+      "kunyomi": "とり",
+      "meaning": "bird",
+      "vocabulary": [
+        "鳥(とり)",
+        "白鳥(はくちょう)"
+      ],
+      "strokes": 11
+    },
+    {
+      "kanji": "虫",
+      "onyomi": "チュウ",
+      "kunyomi": "むし",
+      "meaning": "insect",
+      "vocabulary": [
+        "虫(むし)",
+        "昆虫(こんちゅう)"
+      ],
+      "strokes": 6
+    },
+    {
+      "kanji": "象",
+      "onyomi": "ゾウ、ショウ",
+      "kunyomi": "ぞう",
+      "meaning": "elephant",
+      "vocabulary": [
+        "象(ぞう)",
+        "現象(げんしょう)"
+      ],
+      "strokes": 12
+    },
+    {
+      "kanji": "馬",
+      "onyomi": "バ",
+      "kunyomi": "うま",
+      "meaning": "horse",
+      "vocabulary": [
+        "馬(うま)",
+        "競馬(けいば)"
+      ],
+      "strokes": 10
+    },
+    {
+      "kanji": "牛",
+      "onyomi": "ギュウ",
+      "kunyomi": "うし",
+      "meaning": "cow",
+      "vocabulary": [
+        "牛(うし)",
+        "牛乳(ぎゅうにゅう)"
+      ],
+      "strokes": 4
+    },
+    {
+      "kanji": "豚",
+      "onyomi": "トン",
+      "kunyomi": "ぶた",
+      "meaning": "pig",
+      "vocabulary": [
+        "豚(ぶた)",
+        "豚肉(ぶたにく)"
+      ],
+      "strokes": 11
+    },
+    {
+      "kanji": "羊",
+      "onyomi": "ヨウ",
+      "kunyomi": "ひつじ",
+      "meaning": "sheep",
+      "vocabulary": [
+        "羊(ひつじ)",
+        "羊毛(ようもう)"
+      ],
+      "strokes": 6
+    }
+  ]
+}

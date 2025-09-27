@@ -1,0 +1,651 @@
+{
+  "day": 8,
+  "date": "2025-01-08",
+  "title": "JLPT N5 Study Plan - Day 8",
+  "daily_goal": {
+    "vocabulary_words": 19,
+    "kanji_characters": 6,
+    "grammar_points": 2,
+    "study_time_minutes": 60
+  },
+  "vocabulary": {
+    "new_words": [
+      {
+        "kanji": "風",
+        "hiragana": "かぜ",
+        "romaji": "kaze",
+        "english": "wind",
+        "category": "weather",
+        "level": "basic"
+      },
+      {
+        "kanji": "雲",
+        "hiragana": "くも",
+        "romaji": "kumo",
+        "english": "cloud",
+        "category": "weather",
+        "level": "basic"
+      },
+      {
+        "kanji": "太陽",
+        "hiragana": "たいよう",
+        "romaji": "taiyou",
+        "english": "sun",
+        "category": "weather",
+        "level": "basic"
+      },
+      {
+        "kanji": "暑い",
+        "hiragana": "あつい",
+        "romaji": "atsui",
+        "english": "hot",
+        "category": "weather",
+        "level": "basic"
+      },
+      {
+        "kanji": "寒い",
+        "hiragana": "さむい",
+        "romaji": "samui",
+        "english": "cold",
+        "category": "weather",
+        "level": "basic"
+      },
+      {
+        "kanji": "暖かい",
+        "hiragana": "あたたかい",
+        "romaji": "atatakai",
+        "english": "warm",
+        "category": "weather",
+        "level": "basic"
+      },
+      {
+        "kanji": "涼しい",
+        "hiragana": "すずしい",
+        "romaji": "suzushii",
+        "english": "cool",
+        "category": "weather",
+        "level": "basic"
+      },
+      {
+        "kanji": "山",
+        "hiragana": "やま",
+        "romaji": "yama",
+        "english": "mountain",
+        "category": "nature",
+        "level": "basic"
+      },
+      {
+        "kanji": "川",
+        "hiragana": "かわ",
+        "romaji": "kawa",
+        "english": "river",
+        "category": "nature",
+        "level": "basic"
+      },
+      {
+        "kanji": "海",
+        "hiragana": "うみ",
+        "romaji": "umi",
+        "english": "sea, ocean",
+        "category": "nature",
+        "level": "basic"
+      },
+      {
+        "kanji": "木",
+        "hiragana": "き",
+        "romaji": "ki",
+        "english": "tree, wood",
+        "category": "nature",
+        "level": "basic"
+      },
+      {
+        "kanji": "花",
+        "hiragana": "はな",
+        "romaji": "hana",
+        "english": "flower",
+        "category": "nature",
+        "level": "basic"
+      },
+      {
+        "kanji": "草",
+        "hiragana": "くさ",
+        "romaji": "kusa",
+        "english": "grass",
+        "category": "nature",
+        "level": "basic"
+      },
+      {
+        "kanji": "動物",
+        "hiragana": "どうぶつ",
+        "romaji": "doubutsu",
+        "english": "animal",
+        "category": "animals",
+        "level": "basic"
+      },
+      {
+        "kanji": "犬",
+        "hiragana": "いぬ",
+        "romaji": "inu",
+        "english": "dog",
+        "category": "animals",
+        "level": "basic"
+      },
+      {
+        "kanji": "猫",
+        "hiragana": "ねこ",
+        "romaji": "neko",
+        "english": "cat",
+        "category": "animals",
+        "level": "basic"
+      },
+      {
+        "kanji": "鳥",
+        "hiragana": "とり",
+        "romaji": "tori",
+        "english": "bird",
+        "category": "animals",
+        "level": "basic"
+      },
+      {
+        "kanji": "体",
+        "hiragana": "からだ",
+        "romaji": "karada",
+        "english": "body",
+        "category": "body",
+        "level": "basic"
+      },
+      {
+        "kanji": "頭",
+        "hiragana": "あたま",
+        "romaji": "atama",
+        "english": "head",
+        "category": "body",
+        "level": "basic"
+      }
+    ],
+    "total_learned": 152,
+    "category_focus": "weather"
+  },
+  "kanji": {
+    "new_kanji": [
+      {
+        "kanji": "校",
+        "onyomi": "コウ",
+        "kunyomi": "",
+        "meaning": "school",
+        "vocabulary": [
+          "学校(がっこう)",
+          "高校(こうこう)"
+        ],
+        "strokes": 10
+      },
+      {
+        "kanji": "語",
+        "onyomi": "ゴ",
+        "kunyomi": "かたる",
+        "meaning": "language",
+        "vocabulary": [
+          "日本語(にほんご)",
+          "英語(えいご)"
+        ],
+        "strokes": 14
+      },
+      {
+        "kanji": "国",
+        "onyomi": "コク",
+        "kunyomi": "くに",
+        "meaning": "country",
+        "vocabulary": [
+          "国(くに)",
+          "外国(がいこく)"
+        ],
+        "strokes": 8
+      },
+      {
+        "kanji": "本",
+        "onyomi": "ホン",
+        "kunyomi": "もと",
+        "meaning": "book, origin",
+        "vocabulary": [
+          "本(ほん)",
+          "日本(にほん)"
+        ],
+        "strokes": 5
+      },
+      {
+        "kanji": "大",
+        "onyomi": "ダイ、タイ",
+        "kunyomi": "おお、おおきい",
+        "meaning": "big, large",
+        "vocabulary": [
+          "大きい(おおきい)",
+          "大学(だいがく)"
+        ],
+        "strokes": 3
+      },
+      {
+        "kanji": "小",
+        "onyomi": "ショウ",
+        "kunyomi": "ちいさい、こ",
+        "meaning": "small",
+        "vocabulary": [
+          "小さい(ちいさい)",
+          "小学校(しょうがっこう)"
+        ],
+        "strokes": 3
+      }
+    ],
+    "total_learned": 48,
+    "stroke_practice": [
+      "校",
+      "語",
+      "国",
+      "本",
+      "大",
+      "小"
+    ]
+  },
+  "grammar": {
+    "new_points": [
+      {
+        "grammar": "い-adjectives",
+        "meaning": "i-adjectives conjugation",
+        "formation": "adj + です",
+        "example_jp": "この本は面白いです。",
+        "example_en": "This book is interesting.",
+        "level": "basic",
+        "category": "adjective"
+      },
+      {
+        "grammar": "な-adjectives",
+        "meaning": "na-adjectives conjugation",
+        "formation": "adj + な + noun",
+        "example_jp": "きれいな花です。",
+        "example_en": "It's a beautiful flower.",
+        "level": "basic",
+        "category": "adjective"
+      }
+    ],
+    "total_learned": 16,
+    "focus_category": "adjective"
+  },
+  "daily_quiz": {
+    "questions": [
+      {
+        "type": "vocabulary",
+        "question": "What does '黒い' mean?",
+        "question_jp": "黒い",
+        "question_hiragana": "くろい",
+        "correct_answer": "black",
+        "options": [
+          "black",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "黒い (くろい) means black"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '妹' mean?",
+        "question_jp": "妹",
+        "question_hiragana": "いもうと",
+        "correct_answer": "younger sister",
+        "options": [
+          "younger sister",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "妹 (いもうと) means younger sister"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '郵便局' mean?",
+        "question_jp": "郵便局",
+        "question_hiragana": "ゆうびんきょく",
+        "correct_answer": "post office",
+        "options": [
+          "post office",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "郵便局 (ゆうびんきょく) means post office"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '電車' mean?",
+        "question_jp": "電車",
+        "question_hiragana": "でんしゃ",
+        "correct_answer": "train",
+        "options": [
+          "train",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "電車 (でんしゃ) means train"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '人' mean?",
+        "question_jp": "人",
+        "question_hiragana": "ひと",
+        "correct_answer": "person",
+        "options": [
+          "person",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "人 (ひと) means person"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '聞く' mean?",
+        "question_jp": "聞く",
+        "question_hiragana": "きく",
+        "correct_answer": "to hear, to listen",
+        "options": [
+          "to hear, to listen",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "聞く (きく) means to hear, to listen"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '売る' mean?",
+        "question_jp": "売る",
+        "question_hiragana": "うる",
+        "correct_answer": "to sell",
+        "options": [
+          "to sell",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "売る (うる) means to sell"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '飛行機' mean?",
+        "question_jp": "飛行機",
+        "question_hiragana": "ひこうき",
+        "correct_answer": "airplane",
+        "options": [
+          "airplane",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "飛行機 (ひこうき) means airplane"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '休む' mean?",
+        "question_jp": "休む",
+        "question_hiragana": "やすむ",
+        "correct_answer": "to rest",
+        "options": [
+          "to rest",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "休む (やすむ) means to rest"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does 'それ' mean?",
+        "question_jp": "それ",
+        "question_hiragana": "それ",
+        "correct_answer": "that",
+        "options": [
+          "that",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "それ (それ) means that"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '青い' mean?",
+        "question_jp": "青い",
+        "question_hiragana": "あおい",
+        "correct_answer": "blue",
+        "options": [
+          "blue",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "青い (あおい) means blue"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does 'そこ' mean?",
+        "question_jp": "そこ",
+        "question_hiragana": "そこ",
+        "correct_answer": "there",
+        "options": [
+          "there",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "そこ (そこ) means there"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '金'?",
+        "question_jp": "金",
+        "correct_answer": "キン、コン",
+        "options": [
+          "キン、コン",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "金 can be read as キン、コン (on'yomi) or かね (kun'yomi). Meaning: gold, money"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '八'?",
+        "question_jp": "八",
+        "correct_answer": "ハチ",
+        "options": [
+          "ハチ",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "八 can be read as ハチ (on'yomi) or や、やっつ (kun'yomi). Meaning: eight"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '年'?",
+        "question_jp": "年",
+        "correct_answer": "ネン",
+        "options": [
+          "ネン",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "年 can be read as ネン (on'yomi) or とし (kun'yomi). Meaning: year"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '分'?",
+        "question_jp": "分",
+        "correct_answer": "ブン、フン",
+        "options": [
+          "ブン、フン",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "分 can be read as ブン、フン (on'yomi) or わける (kun'yomi). Meaning: minute, divide"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '十'?",
+        "question_jp": "十",
+        "correct_answer": "ジュウ",
+        "options": [
+          "ジュウ",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "十 can be read as ジュウ (on'yomi) or とお (kun'yomi). Meaning: ten"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '妹'?",
+        "question_jp": "妹",
+        "correct_answer": "マイ",
+        "options": [
+          "マイ",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "妹 can be read as マイ (on'yomi) or いもうと (kun'yomi). Meaning: younger sister"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '火'?",
+        "question_jp": "火",
+        "correct_answer": "カ",
+        "options": [
+          "カ",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "火 can be read as カ (on'yomi) or ひ (kun'yomi). Meaning: fire"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '半'?",
+        "question_jp": "半",
+        "correct_answer": "ハン",
+        "options": [
+          "ハン",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "半 can be read as ハン (on'yomi) or なかば (kun'yomi). Meaning: half"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '一'?",
+        "question_jp": "一",
+        "correct_answer": "イチ、イツ",
+        "options": [
+          "イチ、イツ",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "一 can be read as イチ、イツ (on'yomi) or ひと、ひとつ (kun'yomi). Meaning: one"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'です/だ':",
+        "question_jp": "私は学生です。",
+        "correct_answer": "I am a student.",
+        "explanation": "です/だ: to be (polite/casual). Example: 私は学生です。 = I am a student.",
+        "grammar_point": "です/だ",
+        "meaning": "to be (polite/casual)"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'ます form':",
+        "question_jp": "毎日勉強します。",
+        "correct_answer": "I study every day.",
+        "explanation": "ます form: polite present/future tense. Example: 毎日勉強します。 = I study every day.",
+        "grammar_point": "ます form",
+        "meaning": "polite present/future tense"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'は (wa)':",
+        "question_jp": "私は田中です。",
+        "correct_answer": "I am Tanaka.",
+        "explanation": "は (wa): topic particle. Example: 私は田中です。 = I am Tanaka.",
+        "grammar_point": "は (wa)",
+        "meaning": "topic particle"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'と (to)':",
+        "question_jp": "友達と映画を見ます。",
+        "correct_answer": "I watch a movie with friends.",
+        "explanation": "と (to): and/with particle. Example: 友達と映画を見ます。 = I watch a movie with friends.",
+        "grammar_point": "と (to)",
+        "meaning": "and/with particle"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'から (kara)':",
+        "question_jp": "九時から働きます。",
+        "correct_answer": "I work from 9 o'clock.",
+        "explanation": "から (kara): from/because. Example: 九時から働きます。 = I work from 9 o'clock.",
+        "grammar_point": "から (kara)",
+        "meaning": "from/because"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'じゃありません/ではありません':",
+        "question_jp": "私は学生じゃありません。",
+        "correct_answer": "I am not a student.",
+        "explanation": "じゃありません/ではありません: to not be (polite negative). Example: 私は学生じゃありません。 = I am not a student.",
+        "grammar_point": "じゃありません/ではありません",
+        "meaning": "to not be (polite negative)"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'を (wo/o)':",
+        "question_jp": "コーヒーを飲みます。",
+        "correct_answer": "I drink coffee.",
+        "explanation": "を (wo/o): direct object particle. Example: コーヒーを飲みます。 = I drink coffee.",
+        "grammar_point": "を (wo/o)",
+        "meaning": "direct object particle"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'ました':",
+        "question_jp": "昨日映画を見ました。",
+        "correct_answer": "I watched a movie yesterday.",
+        "explanation": "ました: polite past tense. Example: 昨日映画を見ました。 = I watched a movie yesterday.",
+        "grammar_point": "ました",
+        "meaning": "polite past tense"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'で (de)':",
+        "question_jp": "図書館で勉強します。",
+        "correct_answer": "I study at the library.",
+        "explanation": "で (de): location of action/means particle. Example: 図書館で勉強します。 = I study at the library.",
+        "grammar_point": "で (de)",
+        "meaning": "location of action/means particle"
+      }
+    ],
+    "total_questions": 30,
+    "estimated_time_minutes": 15,
+    "description": "Mixed review of vocabulary, kanji, and grammar from previous days"
+  },
+  "study_tips": {
+    "vocabulary": "Focus on memorizing kanji readings and English meanings. Use spaced repetition.",
+    "kanji": "Practice writing each kanji 5-10 times. Learn both on'yomi and kun'yomi readings.",
+    "grammar": "Create your own example sentences using new grammar patterns.",
+    "general": "Review previous days' content for 10-15 minutes before learning new material."
+  }
+}

@@ -1,0 +1,624 @@
+{
+  "day": 4,
+  "date": "2025-01-04",
+  "title": "JLPT N5 Study Plan - Day 4",
+  "daily_goal": {
+    "vocabulary_words": 19,
+    "kanji_characters": 6,
+    "grammar_points": 2,
+    "study_time_minutes": 60
+  },
+  "vocabulary": {
+    "new_words": [
+      {
+        "kanji": "女の子",
+        "hiragana": "おんなのこ",
+        "romaji": "onnanoko",
+        "english": "girl",
+        "category": "people",
+        "level": "basic"
+      },
+      {
+        "kanji": "名前",
+        "hiragana": "なまえ",
+        "romaji": "namae",
+        "english": "name",
+        "category": "people",
+        "level": "basic"
+      },
+      {
+        "kanji": "年",
+        "hiragana": "とし",
+        "romaji": "toshi",
+        "english": "age, year",
+        "category": "people",
+        "level": "basic"
+      },
+      {
+        "kanji": "行く",
+        "hiragana": "いく",
+        "romaji": "iku",
+        "english": "to go",
+        "category": "verbs",
+        "level": "basic"
+      },
+      {
+        "kanji": "来る",
+        "hiragana": "くる",
+        "romaji": "kuru",
+        "english": "to come",
+        "category": "verbs",
+        "level": "basic"
+      },
+      {
+        "kanji": "帰る",
+        "hiragana": "かえる",
+        "romaji": "kaeru",
+        "english": "to return",
+        "category": "verbs",
+        "level": "basic"
+      },
+      {
+        "kanji": "食べる",
+        "hiragana": "たべる",
+        "romaji": "taberu",
+        "english": "to eat",
+        "category": "verbs",
+        "level": "basic"
+      },
+      {
+        "kanji": "飲む",
+        "hiragana": "のむ",
+        "romaji": "nomu",
+        "english": "to drink",
+        "category": "verbs",
+        "level": "basic"
+      },
+      {
+        "kanji": "見る",
+        "hiragana": "みる",
+        "romaji": "miru",
+        "english": "to see, to watch",
+        "category": "verbs",
+        "level": "basic"
+      },
+      {
+        "kanji": "聞く",
+        "hiragana": "きく",
+        "romaji": "kiku",
+        "english": "to hear, to listen",
+        "category": "verbs",
+        "level": "basic"
+      },
+      {
+        "kanji": "読む",
+        "hiragana": "よむ",
+        "romaji": "yomu",
+        "english": "to read",
+        "category": "verbs",
+        "level": "basic"
+      },
+      {
+        "kanji": "書く",
+        "hiragana": "かく",
+        "romaji": "kaku",
+        "english": "to write",
+        "category": "verbs",
+        "level": "basic"
+      },
+      {
+        "kanji": "話す",
+        "hiragana": "はなす",
+        "romaji": "hanasu",
+        "english": "to speak",
+        "category": "verbs",
+        "level": "basic"
+      },
+      {
+        "kanji": "勉強する",
+        "hiragana": "べんきょうする",
+        "romaji": "benkyou suru",
+        "english": "to study",
+        "category": "verbs",
+        "level": "basic"
+      },
+      {
+        "kanji": "働く",
+        "hiragana": "はたらく",
+        "romaji": "hataraku",
+        "english": "to work",
+        "category": "verbs",
+        "level": "basic"
+      },
+      {
+        "kanji": "休む",
+        "hiragana": "やすむ",
+        "romaji": "yasumu",
+        "english": "to rest",
+        "category": "verbs",
+        "level": "basic"
+      },
+      {
+        "kanji": "寝る",
+        "hiragana": "ねる",
+        "romaji": "neru",
+        "english": "to sleep",
+        "category": "verbs",
+        "level": "basic"
+      },
+      {
+        "kanji": "起きる",
+        "hiragana": "おきる",
+        "romaji": "okiru",
+        "english": "to wake up",
+        "category": "verbs",
+        "level": "basic"
+      },
+      {
+        "kanji": "買う",
+        "hiragana": "かう",
+        "romaji": "kau",
+        "english": "to buy",
+        "category": "verbs",
+        "level": "basic"
+      }
+    ],
+    "total_learned": 76,
+    "category_focus": "people"
+  },
+  "kanji": {
+    "new_kanji": [
+      {
+        "kanji": "金",
+        "onyomi": "キン、コン",
+        "kunyomi": "かね",
+        "meaning": "gold, money",
+        "vocabulary": [
+          "金曜日(きんようび)",
+          "お金(おかね)"
+        ],
+        "strokes": 8
+      },
+      {
+        "kanji": "土",
+        "onyomi": "ド、ト",
+        "kunyomi": "つち",
+        "meaning": "earth, soil",
+        "vocabulary": [
+          "土曜日(どようび)",
+          "土(つち)"
+        ],
+        "strokes": 3
+      },
+      {
+        "kanji": "年",
+        "onyomi": "ネン",
+        "kunyomi": "とし",
+        "meaning": "year",
+        "vocabulary": [
+          "今年(ことし)",
+          "去年(きょねん)"
+        ],
+        "strokes": 6
+      },
+      {
+        "kanji": "時",
+        "onyomi": "ジ",
+        "kunyomi": "とき",
+        "meaning": "time",
+        "vocabulary": [
+          "時間(じかん)",
+          "何時(なんじ)"
+        ],
+        "strokes": 10
+      },
+      {
+        "kanji": "分",
+        "onyomi": "ブン、フン",
+        "kunyomi": "わける",
+        "meaning": "minute, divide",
+        "vocabulary": [
+          "分かる(わかる)",
+          "十分(じゅっぷん)"
+        ],
+        "strokes": 4
+      },
+      {
+        "kanji": "半",
+        "onyomi": "ハン",
+        "kunyomi": "なかば",
+        "meaning": "half",
+        "vocabulary": [
+          "半分(はんぶん)",
+          "半年(はんとし)"
+        ],
+        "strokes": 5
+      }
+    ],
+    "total_learned": 24,
+    "stroke_practice": [
+      "金",
+      "土",
+      "年",
+      "時",
+      "分",
+      "半"
+    ]
+  },
+  "grammar": {
+    "new_points": [
+      {
+        "grammar": "に (ni)",
+        "meaning": "location/time/direction particle",
+        "formation": "Noun + に",
+        "example_jp": "学校に行きます。",
+        "example_en": "I go to school.",
+        "level": "basic",
+        "category": "particle"
+      },
+      {
+        "grammar": "で (de)",
+        "meaning": "location of action/means particle",
+        "formation": "Noun + で",
+        "example_jp": "図書館で勉強します。",
+        "example_en": "I study at the library.",
+        "level": "basic",
+        "category": "particle"
+      }
+    ],
+    "total_learned": 8,
+    "focus_category": "particle"
+  },
+  "daily_quiz": {
+    "questions": [
+      {
+        "type": "vocabulary",
+        "question": "What does '昨日' mean?",
+        "question_jp": "昨日",
+        "question_hiragana": "きのう",
+        "correct_answer": "yesterday",
+        "options": [
+          "yesterday",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "昨日 (きのう) means yesterday"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '五' mean?",
+        "question_jp": "五",
+        "question_hiragana": "ご",
+        "correct_answer": "five",
+        "options": [
+          "five",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "五 (ご) means five"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '百' mean?",
+        "question_jp": "百",
+        "question_hiragana": "ひゃく",
+        "correct_answer": "hundred",
+        "options": [
+          "hundred",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "百 (ひゃく) means hundred"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '先生' mean?",
+        "question_jp": "先生",
+        "question_hiragana": "せんせい",
+        "correct_answer": "teacher",
+        "options": [
+          "teacher",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "先生 (せんせい) means teacher"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '父' mean?",
+        "question_jp": "父",
+        "question_hiragana": "ちち",
+        "correct_answer": "father (humble)",
+        "options": [
+          "father (humble)",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "父 (ちち) means father (humble)"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '八' mean?",
+        "question_jp": "八",
+        "question_hiragana": "はち",
+        "correct_answer": "eight",
+        "options": [
+          "eight",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "八 (はち) means eight"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '弟' mean?",
+        "question_jp": "弟",
+        "question_hiragana": "おとうと",
+        "correct_answer": "younger brother",
+        "options": [
+          "younger brother",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "弟 (おとうと) means younger brother"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '一' mean?",
+        "question_jp": "一",
+        "question_hiragana": "いち",
+        "correct_answer": "one",
+        "options": [
+          "one",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "一 (いち) means one"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '彼' mean?",
+        "question_jp": "彼",
+        "question_hiragana": "かれ",
+        "correct_answer": "he",
+        "options": [
+          "he",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "彼 (かれ) means he"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '店' mean?",
+        "question_jp": "店",
+        "question_hiragana": "みせ",
+        "correct_answer": "shop, store",
+        "options": [
+          "shop, store",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "店 (みせ) means shop, store"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '朝' mean?",
+        "question_jp": "朝",
+        "question_hiragana": "あさ",
+        "correct_answer": "morning",
+        "options": [
+          "morning",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "朝 (あさ) means morning"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '友達' mean?",
+        "question_jp": "友達",
+        "question_hiragana": "ともだち",
+        "correct_answer": "friend",
+        "options": [
+          "friend",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "友達 (ともだち) means friend"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '五'?",
+        "question_jp": "五",
+        "correct_answer": "ゴ",
+        "options": [
+          "ゴ",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "五 can be read as ゴ (on'yomi) or いつ、いつつ (kun'yomi). Meaning: five"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '七'?",
+        "question_jp": "七",
+        "correct_answer": "シチ",
+        "options": [
+          "シチ",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "七 can be read as シチ (on'yomi) or なな、ななつ (kun'yomi). Meaning: seven"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '一'?",
+        "question_jp": "一",
+        "correct_answer": "イチ、イツ",
+        "options": [
+          "イチ、イツ",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "一 can be read as イチ、イツ (on'yomi) or ひと、ひとつ (kun'yomi). Meaning: one"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '二'?",
+        "question_jp": "二",
+        "correct_answer": "ニ",
+        "options": [
+          "ニ",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "二 can be read as ニ (on'yomi) or ふた、ふたつ (kun'yomi). Meaning: two"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '日'?",
+        "question_jp": "日",
+        "correct_answer": "ニチ、ジツ",
+        "options": [
+          "ニチ、ジツ",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "日 can be read as ニチ、ジツ (on'yomi) or ひ、か (kun'yomi). Meaning: day, sun"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '万'?",
+        "question_jp": "万",
+        "correct_answer": "マン",
+        "options": [
+          "マン",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "万 can be read as マン (on'yomi) or よろず (kun'yomi). Meaning: ten thousand"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '六'?",
+        "question_jp": "六",
+        "correct_answer": "ロク",
+        "options": [
+          "ロク",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "六 can be read as ロク (on'yomi) or む、むっつ (kun'yomi). Meaning: six"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '四'?",
+        "question_jp": "四",
+        "correct_answer": "シ",
+        "options": [
+          "シ",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "四 can be read as シ (on'yomi) or よ、よん、よっつ (kun'yomi). Meaning: four"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '千'?",
+        "question_jp": "千",
+        "correct_answer": "セン",
+        "options": [
+          "セン",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "千 can be read as セン (on'yomi) or ち (kun'yomi). Meaning: thousand"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'が (ga)':",
+        "question_jp": "犬がいます。",
+        "correct_answer": "There is a dog.",
+        "explanation": "が (ga): subject particle. Example: 犬がいます。 = There is a dog.",
+        "grammar_point": "が (ga)",
+        "meaning": "subject particle"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'を (wo/o)':",
+        "question_jp": "コーヒーを飲みます。",
+        "correct_answer": "I drink coffee.",
+        "explanation": "を (wo/o): direct object particle. Example: コーヒーを飲みます。 = I drink coffee.",
+        "grammar_point": "を (wo/o)",
+        "meaning": "direct object particle"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'ですか':",
+        "question_jp": "あなたは学生ですか。",
+        "correct_answer": "Are you a student?",
+        "explanation": "ですか: question marker (polite). Example: あなたは学生ですか。 = Are you a student?",
+        "grammar_point": "ですか",
+        "meaning": "question marker (polite)"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'です/だ':",
+        "question_jp": "私は学生です。",
+        "correct_answer": "I am a student.",
+        "explanation": "です/だ: to be (polite/casual). Example: 私は学生です。 = I am a student.",
+        "grammar_point": "です/だ",
+        "meaning": "to be (polite/casual)"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'じゃありません/ではありません':",
+        "question_jp": "私は学生じゃありません。",
+        "correct_answer": "I am not a student.",
+        "explanation": "じゃありません/ではありません: to not be (polite negative). Example: 私は学生じゃありません。 = I am not a student.",
+        "grammar_point": "じゃありません/ではありません",
+        "meaning": "to not be (polite negative)"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'は (wa)':",
+        "question_jp": "私は田中です。",
+        "correct_answer": "I am Tanaka.",
+        "explanation": "は (wa): topic particle. Example: 私は田中です。 = I am Tanaka.",
+        "grammar_point": "は (wa)",
+        "meaning": "topic particle"
+      }
+    ],
+    "total_questions": 27,
+    "estimated_time_minutes": 15,
+    "description": "Mixed review of vocabulary, kanji, and grammar from previous days"
+  },
+  "study_tips": {
+    "vocabulary": "Focus on memorizing kanji readings and English meanings. Use spaced repetition.",
+    "kanji": "Practice writing each kanji 5-10 times. Learn both on'yomi and kun'yomi readings.",
+    "grammar": "Create your own example sentences using new grammar patterns.",
+    "general": "Review previous days' content for 10-15 minutes before learning new material."
+  }
+}

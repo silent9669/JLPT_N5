@@ -1,0 +1,766 @@
+{
+  "title": "JLPT N5 Grammar Database",
+  "total_points": 80,
+  "categories": [
+    "desire",
+    "request",
+    "time",
+    "verb",
+    "expectation",
+    "verb_form",
+    "hearsay",
+    "degree",
+    "probability",
+    "intention",
+    "prohibition",
+    "existence",
+    "question",
+    "contrast",
+    "conditional",
+    "invitation",
+    "suggestion",
+    "adjective",
+    "permission",
+    "decision",
+    "experience",
+    "copula",
+    "progressive",
+    "offer",
+    "ability",
+    "particle",
+    "purpose",
+    "obligation",
+    "example_listing",
+    "superlative",
+    "simultaneous",
+    "distribution",
+    "location",
+    "quantity",
+    "possibility",
+    "limitation",
+    "comparison",
+    "concession"
+  ],
+  "grammar_points": [
+    {
+      "grammar": "です/だ",
+      "meaning": "to be (polite/casual)",
+      "formation": "Noun + です/だ",
+      "example_jp": "私は学生です。",
+      "example_en": "I am a student.",
+      "level": "basic",
+      "category": "copula"
+    },
+    {
+      "grammar": "ですか",
+      "meaning": "question marker (polite)",
+      "formation": "Noun + ですか",
+      "example_jp": "あなたは学生ですか。",
+      "example_en": "Are you a student?",
+      "level": "basic",
+      "category": "question"
+    },
+    {
+      "grammar": "じゃありません/ではありません",
+      "meaning": "to not be (polite negative)",
+      "formation": "Noun + じゃありません",
+      "example_jp": "私は学生じゃありません。",
+      "example_en": "I am not a student.",
+      "level": "basic",
+      "category": "copula"
+    },
+    {
+      "grammar": "は (wa)",
+      "meaning": "topic particle",
+      "formation": "Noun + は",
+      "example_jp": "私は田中です。",
+      "example_en": "I am Tanaka.",
+      "level": "basic",
+      "category": "particle"
+    },
+    {
+      "grammar": "が (ga)",
+      "meaning": "subject particle",
+      "formation": "Noun + が",
+      "example_jp": "犬がいます。",
+      "example_en": "There is a dog.",
+      "level": "basic",
+      "category": "particle"
+    },
+    {
+      "grammar": "を (wo/o)",
+      "meaning": "direct object particle",
+      "formation": "Noun + を + Verb",
+      "example_jp": "コーヒーを飲みます。",
+      "example_en": "I drink coffee.",
+      "level": "basic",
+      "category": "particle"
+    },
+    {
+      "grammar": "に (ni)",
+      "meaning": "location/time/direction particle",
+      "formation": "Noun + に",
+      "example_jp": "学校に行きます。",
+      "example_en": "I go to school.",
+      "level": "basic",
+      "category": "particle"
+    },
+    {
+      "grammar": "で (de)",
+      "meaning": "location of action/means particle",
+      "formation": "Noun + で",
+      "example_jp": "図書館で勉強します。",
+      "example_en": "I study at the library.",
+      "level": "basic",
+      "category": "particle"
+    },
+    {
+      "grammar": "と (to)",
+      "meaning": "and/with particle",
+      "formation": "Noun + と",
+      "example_jp": "友達と映画を見ます。",
+      "example_en": "I watch a movie with friends.",
+      "level": "basic",
+      "category": "particle"
+    },
+    {
+      "grammar": "から (kara)",
+      "meaning": "from/because",
+      "formation": "Noun + から",
+      "example_jp": "九時から働きます。",
+      "example_en": "I work from 9 o'clock.",
+      "level": "basic",
+      "category": "particle"
+    },
+    {
+      "grammar": "ます form",
+      "meaning": "polite present/future tense",
+      "formation": "Verb stem + ます",
+      "example_jp": "毎日勉強します。",
+      "example_en": "I study every day.",
+      "level": "basic",
+      "category": "verb"
+    },
+    {
+      "grammar": "ません",
+      "meaning": "polite negative present/future",
+      "formation": "Verb stem + ません",
+      "example_jp": "今日は働きません。",
+      "example_en": "I don't work today.",
+      "level": "basic",
+      "category": "verb"
+    },
+    {
+      "grammar": "ました",
+      "meaning": "polite past tense",
+      "formation": "Verb stem + ました",
+      "example_jp": "昨日映画を見ました。",
+      "example_en": "I watched a movie yesterday.",
+      "level": "basic",
+      "category": "verb"
+    },
+    {
+      "grammar": "ませんでした",
+      "meaning": "polite negative past tense",
+      "formation": "Verb stem + ませんでした",
+      "example_jp": "昨日は勉強しませんでした。",
+      "example_en": "I didn't study yesterday.",
+      "level": "basic",
+      "category": "verb"
+    },
+    {
+      "grammar": "い-adjectives",
+      "meaning": "i-adjectives conjugation",
+      "formation": "adj + です",
+      "example_jp": "この本は面白いです。",
+      "example_en": "This book is interesting.",
+      "level": "basic",
+      "category": "adjective"
+    },
+    {
+      "grammar": "な-adjectives",
+      "meaning": "na-adjectives conjugation",
+      "formation": "adj + な + noun",
+      "example_jp": "きれいな花です。",
+      "example_en": "It's a beautiful flower.",
+      "level": "basic",
+      "category": "adjective"
+    },
+    {
+      "grammar": "あります/います",
+      "meaning": "to exist (inanimate/animate)",
+      "formation": "Noun + が + あります/います",
+      "example_jp": "机の上に本があります。",
+      "example_en": "There is a book on the desk.",
+      "level": "basic",
+      "category": "existence"
+    },
+    {
+      "grammar": "ほしい",
+      "meaning": "to want (object)",
+      "formation": "Noun + が + ほしいです",
+      "example_jp": "新しい車がほしいです。",
+      "example_en": "I want a new car.",
+      "level": "basic",
+      "category": "desire"
+    },
+    {
+      "grammar": "たい",
+      "meaning": "to want to do",
+      "formation": "Verb stem + たいです",
+      "example_jp": "日本に行きたいです。",
+      "example_en": "I want to go to Japan.",
+      "level": "basic",
+      "category": "desire"
+    },
+    {
+      "grammar": "ください",
+      "meaning": "please give me",
+      "formation": "Noun + を + ください",
+      "example_jp": "水をください。",
+      "example_en": "Please give me water.",
+      "level": "basic",
+      "category": "request"
+    },
+    {
+      "grammar": "何 (なに/なん)",
+      "meaning": "what",
+      "formation": "何 + (noun/verb)",
+      "example_jp": "これは何ですか。",
+      "example_en": "What is this?",
+      "level": "basic",
+      "category": "question"
+    },
+    {
+      "grammar": "どこ",
+      "meaning": "where",
+      "formation": "どこ + (verb)",
+      "example_jp": "学校はどこですか。",
+      "example_en": "Where is the school?",
+      "level": "basic",
+      "category": "question"
+    },
+    {
+      "grammar": "いつ",
+      "meaning": "when",
+      "formation": "いつ + (verb)",
+      "example_jp": "いつ日本に行きますか。",
+      "example_en": "When do you go to Japan?",
+      "level": "basic",
+      "category": "question"
+    },
+    {
+      "grammar": "だれ/誰",
+      "meaning": "who",
+      "formation": "だれ + (verb)",
+      "example_jp": "あの人はだれですか。",
+      "example_en": "Who is that person?",
+      "level": "basic",
+      "category": "question"
+    },
+    {
+      "grammar": "どうして",
+      "meaning": "why",
+      "formation": "どうして + (sentence)",
+      "example_jp": "どうして勉強しないんですか。",
+      "example_en": "Why don't you study?",
+      "level": "basic",
+      "category": "question"
+    },
+    {
+      "grammar": "どう",
+      "meaning": "how",
+      "formation": "どう + (verb)",
+      "example_jp": "日本語はどうですか。",
+      "example_en": "How is Japanese?",
+      "level": "basic",
+      "category": "question"
+    },
+    {
+      "grammar": "いくら",
+      "meaning": "how much",
+      "formation": "いくら + ですか",
+      "example_jp": "これはいくらですか。",
+      "example_en": "How much is this?",
+      "level": "basic",
+      "category": "question"
+    },
+    {
+      "grammar": "いくつ",
+      "meaning": "how many",
+      "formation": "いくつ + ですか",
+      "example_jp": "りんごをいくつ買いますか。",
+      "example_en": "How many apples will you buy?",
+      "level": "basic",
+      "category": "question"
+    },
+    {
+      "grammar": "まで",
+      "meaning": "until, to",
+      "formation": "time/place + まで",
+      "example_jp": "五時まで働きます。",
+      "example_en": "I work until 5 o'clock.",
+      "level": "basic",
+      "category": "time"
+    },
+    {
+      "grammar": "から",
+      "meaning": "from, since",
+      "formation": "time/place + から",
+      "example_jp": "九時から授業があります。",
+      "example_en": "There's class from 9 o'clock.",
+      "level": "basic",
+      "category": "time"
+    },
+    {
+      "grammar": "～時に",
+      "meaning": "at ~ o'clock",
+      "formation": "number + 時に",
+      "example_jp": "七時に起きます。",
+      "example_en": "I wake up at 7 o'clock.",
+      "level": "basic",
+      "category": "time"
+    },
+    {
+      "grammar": "～前に",
+      "meaning": "before ~",
+      "formation": "noun + の前に",
+      "example_jp": "食事の前に手を洗います。",
+      "example_en": "I wash my hands before meals.",
+      "level": "basic",
+      "category": "time"
+    },
+    {
+      "grammar": "～後で",
+      "meaning": "after ~",
+      "formation": "noun + の後で",
+      "example_jp": "授業の後で昼ご飯を食べます。",
+      "example_en": "I eat lunch after class.",
+      "level": "basic",
+      "category": "time"
+    },
+    {
+      "grammar": "ませんか",
+      "meaning": "would you like to ~ (invitation)",
+      "formation": "verb stem + ませんか",
+      "example_jp": "一緒に映画を見ませんか。",
+      "example_en": "Would you like to watch a movie together?",
+      "level": "basic",
+      "category": "invitation"
+    },
+    {
+      "grammar": "ましょう",
+      "meaning": "let's ~",
+      "formation": "verb stem + ましょう",
+      "example_jp": "一緒に勉強しましょう。",
+      "example_en": "Let's study together.",
+      "level": "basic",
+      "category": "suggestion"
+    },
+    {
+      "grammar": "ましょうか",
+      "meaning": "shall I ~",
+      "formation": "verb stem + ましょうか",
+      "example_jp": "手伝いましょうか。",
+      "example_en": "Shall I help?",
+      "level": "basic",
+      "category": "offer"
+    },
+    {
+      "grammar": "てください",
+      "meaning": "please do ~",
+      "formation": "verb te-form + ください",
+      "example_jp": "ちょっと待ってください。",
+      "example_en": "Please wait a moment.",
+      "level": "basic",
+      "category": "request"
+    },
+    {
+      "grammar": "ています",
+      "meaning": "to be doing (progressive)",
+      "formation": "verb te-form + います",
+      "example_jp": "今勉強しています。",
+      "example_en": "I'm studying now.",
+      "level": "basic",
+      "category": "progressive"
+    },
+    {
+      "grammar": "てもいいです",
+      "meaning": "it's okay to ~",
+      "formation": "verb te-form + もいいです",
+      "example_jp": "写真を撮ってもいいですか。",
+      "example_en": "Is it okay to take photos?",
+      "level": "basic",
+      "category": "permission"
+    },
+    {
+      "grammar": "て-form",
+      "meaning": "te-form (connecting form)",
+      "formation": "verb te-form",
+      "example_jp": "食べて寝ます。",
+      "example_en": "I eat and then sleep.",
+      "level": "basic",
+      "category": "verb_form"
+    },
+    {
+      "grammar": "てはいけません",
+      "meaning": "must not do",
+      "formation": "verb te-form + はいけません",
+      "example_jp": "ここで写真を撮ってはいけません。",
+      "example_en": "You must not take photos here.",
+      "level": "basic",
+      "category": "prohibition"
+    },
+    {
+      "grammar": "ないでください",
+      "meaning": "please don't do",
+      "formation": "verb nai-form + でください",
+      "example_jp": "遅れないでください。",
+      "example_en": "Please don't be late.",
+      "level": "basic",
+      "category": "request"
+    },
+    {
+      "grammar": "なければなりません",
+      "meaning": "must do",
+      "formation": "verb nai-form + ければなりません",
+      "example_jp": "宿題をしなければなりません。",
+      "example_en": "I must do homework.",
+      "level": "basic",
+      "category": "obligation"
+    },
+    {
+      "grammar": "なくてもいいです",
+      "meaning": "don't have to",
+      "formation": "verb nai-form + くてもいいです",
+      "example_jp": "明日来なくてもいいです。",
+      "example_en": "You don't have to come tomorrow.",
+      "level": "basic",
+      "category": "permission"
+    },
+    {
+      "grammar": "ことができます",
+      "meaning": "can do, be able to",
+      "formation": "verb dictionary form + ことができます",
+      "example_jp": "日本語を話すことができます。",
+      "example_en": "I can speak Japanese.",
+      "level": "basic",
+      "category": "ability"
+    },
+    {
+      "grammar": "つもりです",
+      "meaning": "intend to",
+      "formation": "verb dictionary form + つもりです",
+      "example_jp": "来年日本に行くつもりです。",
+      "example_en": "I intend to go to Japan next year.",
+      "level": "basic",
+      "category": "intention"
+    },
+    {
+      "grammar": "たことがあります",
+      "meaning": "have done before (experience)",
+      "formation": "verb ta-form + ことがあります",
+      "example_jp": "富士山に登ったことがあります。",
+      "example_en": "I have climbed Mt. Fuji before.",
+      "level": "basic",
+      "category": "experience"
+    },
+    {
+      "grammar": "たことがありません",
+      "meaning": "have never done",
+      "formation": "verb ta-form + ことがありません",
+      "example_jp": "寿司を食べたことがありません。",
+      "example_en": "I have never eaten sushi.",
+      "level": "basic",
+      "category": "experience"
+    },
+    {
+      "grammar": "たり...たりします",
+      "meaning": "do things like... and...",
+      "formation": "verb tari-form + verb tari-form + します",
+      "example_jp": "映画を見たり本を読んだりします。",
+      "example_en": "I do things like watch movies and read books.",
+      "level": "basic",
+      "category": "example_listing"
+    },
+    {
+      "grammar": "より",
+      "meaning": "more than",
+      "formation": "A は B より + adjective",
+      "example_jp": "日本語は英語より難しいです。",
+      "example_en": "Japanese is more difficult than English.",
+      "level": "basic",
+      "category": "comparison"
+    },
+    {
+      "grammar": "ほうが",
+      "meaning": "more (comparison)",
+      "formation": "A のほうが B より + adjective",
+      "example_jp": "りんごのほうがみかんより甘いです。",
+      "example_en": "Apples are sweeter than oranges.",
+      "level": "basic",
+      "category": "comparison"
+    },
+    {
+      "grammar": "いちばん",
+      "meaning": "most",
+      "formation": "～の中で A がいちばん + adjective",
+      "example_jp": "この中で富士山がいちばん高いです。",
+      "example_en": "Among these, Mt. Fuji is the highest.",
+      "level": "basic",
+      "category": "superlative"
+    },
+    {
+      "grammar": "とても",
+      "meaning": "very",
+      "formation": "とても + adjective",
+      "example_jp": "今日はとても暑いです。",
+      "example_en": "Today is very hot.",
+      "level": "basic",
+      "category": "degree"
+    },
+    {
+      "grammar": "あまり",
+      "meaning": "not very (with negative)",
+      "formation": "あまり + negative adjective/verb",
+      "example_jp": "この映画はあまり面白くありません。",
+      "example_en": "This movie is not very interesting.",
+      "level": "basic",
+      "category": "degree"
+    },
+    {
+      "grammar": "ちょっと",
+      "meaning": "a little",
+      "formation": "ちょっと + adjective/verb",
+      "example_jp": "ちょっと疲れました。",
+      "example_en": "I'm a little tired.",
+      "level": "basic",
+      "category": "degree"
+    },
+    {
+      "grammar": "たくさん",
+      "meaning": "a lot, many",
+      "formation": "たくさん + noun/verb",
+      "example_jp": "たくさん勉強しました。",
+      "example_en": "I studied a lot.",
+      "level": "basic",
+      "category": "quantity"
+    },
+    {
+      "grammar": "少し",
+      "meaning": "a little",
+      "formation": "少し + noun/verb",
+      "example_jp": "少し休みます。",
+      "example_en": "I'll rest a little.",
+      "level": "basic",
+      "category": "quantity"
+    },
+    {
+      "grammar": "に",
+      "meaning": "to/at (direction/location)",
+      "formation": "place + に + motion verb",
+      "example_jp": "学校に行きます。",
+      "example_en": "I go to school.",
+      "level": "basic",
+      "category": "location"
+    },
+    {
+      "grammar": "で",
+      "meaning": "at/in (location of action)",
+      "formation": "place + で + action verb",
+      "example_jp": "図書館で勉強します。",
+      "example_en": "I study at the library.",
+      "level": "basic",
+      "category": "location"
+    },
+    {
+      "grammar": "から",
+      "meaning": "from",
+      "formation": "place + から",
+      "example_jp": "駅から歩きます。",
+      "example_en": "I walk from the station.",
+      "level": "basic",
+      "category": "location"
+    },
+    {
+      "grammar": "まで",
+      "meaning": "until/to",
+      "formation": "place/time + まで",
+      "example_jp": "駅まで歩きます。",
+      "example_en": "I walk to the station.",
+      "level": "basic",
+      "category": "location"
+    },
+    {
+      "grammar": "そうです (hearsay)",
+      "meaning": "I heard that",
+      "formation": "sentence + そうです",
+      "example_jp": "雨が降るそうです。",
+      "example_en": "I heard it will rain.",
+      "level": "basic",
+      "category": "hearsay"
+    },
+    {
+      "grammar": "でしょう",
+      "meaning": "probably",
+      "formation": "sentence + でしょう",
+      "example_jp": "明日は晴れるでしょう。",
+      "example_en": "It will probably be sunny tomorrow.",
+      "level": "basic",
+      "category": "probability"
+    },
+    {
+      "grammar": "かもしれません",
+      "meaning": "might be",
+      "formation": "sentence + かもしれません",
+      "example_jp": "雨が降るかもしれません。",
+      "example_en": "It might rain.",
+      "level": "basic",
+      "category": "possibility"
+    },
+    {
+      "grammar": "はずです",
+      "meaning": "should be, supposed to",
+      "formation": "sentence + はずです",
+      "example_jp": "彼は来るはずです。",
+      "example_en": "He should come.",
+      "level": "basic",
+      "category": "expectation"
+    },
+    {
+      "grammar": "らしいです",
+      "meaning": "seems like, I heard",
+      "formation": "sentence + らしいです",
+      "example_jp": "雨が降るらしいです。",
+      "example_en": "It seems like it will rain.",
+      "level": "basic",
+      "category": "hearsay"
+    },
+    {
+      "grammar": "ながら",
+      "meaning": "while doing",
+      "formation": "verb stem + ながら",
+      "example_jp": "音楽を聞きながら勉強します。",
+      "example_en": "I study while listening to music.",
+      "level": "basic",
+      "category": "simultaneous"
+    },
+    {
+      "grammar": "ば",
+      "meaning": "if",
+      "formation": "verb/adjective conditional form + ば",
+      "example_jp": "天気が良ければ散歩します。",
+      "example_en": "If the weather is good, I'll take a walk.",
+      "level": "basic",
+      "category": "conditional"
+    },
+    {
+      "grammar": "たら",
+      "meaning": "if/when",
+      "formation": "verb ta-form + ら",
+      "example_jp": "家に帰ったら電話します。",
+      "example_en": "I'll call when I get home.",
+      "level": "basic",
+      "category": "conditional"
+    },
+    {
+      "grammar": "と",
+      "meaning": "when/if (natural consequence)",
+      "formation": "verb dictionary form + と",
+      "example_jp": "春になると花が咲きます。",
+      "example_en": "When spring comes, flowers bloom.",
+      "level": "basic",
+      "category": "conditional"
+    },
+    {
+      "grammar": "ても",
+      "meaning": "even if",
+      "formation": "verb te-form + も",
+      "example_jp": "雨が降っても行きます。",
+      "example_en": "I'll go even if it rains.",
+      "level": "basic",
+      "category": "concession"
+    },
+    {
+      "grammar": "のに",
+      "meaning": "although, despite",
+      "formation": "verb/adjective plain form + のに",
+      "example_jp": "勉強したのに試験に落ちました。",
+      "example_en": "Although I studied, I failed the exam.",
+      "level": "basic",
+      "category": "contrast"
+    },
+    {
+      "grammar": "ために",
+      "meaning": "for the purpose of",
+      "formation": "verb dictionary form + ために",
+      "example_jp": "日本語を勉強するために図書館に行きます。",
+      "example_en": "I go to the library to study Japanese.",
+      "level": "basic",
+      "category": "purpose"
+    },
+    {
+      "grammar": "ように",
+      "meaning": "so that, in order to",
+      "formation": "verb potential/negative + ように",
+      "example_jp": "忘れないように書きます。",
+      "example_en": "I write so that I don't forget.",
+      "level": "basic",
+      "category": "purpose"
+    },
+    {
+      "grammar": "ことにする",
+      "meaning": "decide to",
+      "formation": "verb dictionary form + ことにする",
+      "example_jp": "毎日運動することにしました。",
+      "example_en": "I decided to exercise every day.",
+      "level": "basic",
+      "category": "decision"
+    },
+    {
+      "grammar": "ことになる",
+      "meaning": "it has been decided that",
+      "formation": "verb dictionary form + ことになる",
+      "example_jp": "来年転校することになりました。",
+      "example_en": "It has been decided that I'll transfer schools next year.",
+      "level": "basic",
+      "category": "decision"
+    },
+    {
+      "grammar": "ばかり",
+      "meaning": "only, just",
+      "formation": "noun/verb te-form + ばかり",
+      "example_jp": "ゲームばかりしています。",
+      "example_en": "I only play games.",
+      "level": "basic",
+      "category": "limitation"
+    },
+    {
+      "grammar": "だけ",
+      "meaning": "only",
+      "formation": "noun/verb + だけ",
+      "example_jp": "今日だけ休みます。",
+      "example_en": "I'll rest only today.",
+      "level": "basic",
+      "category": "limitation"
+    },
+    {
+      "grammar": "しか",
+      "meaning": "only (with negative)",
+      "formation": "noun + しか + negative",
+      "example_jp": "百円しかありません。",
+      "example_en": "I only have 100 yen.",
+      "level": "basic",
+      "category": "limitation"
+    },
+    {
+      "grammar": "ずつ",
+      "meaning": "each, apiece",
+      "formation": "number + ずつ",
+      "example_jp": "一人ずつ発表してください。",
+      "example_en": "Please present one person at a time.",
+      "level": "basic",
+      "category": "distribution"
+    }
+  ]
+}

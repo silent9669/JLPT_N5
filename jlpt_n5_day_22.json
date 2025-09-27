@@ -1,0 +1,651 @@
+{
+  "day": 22,
+  "date": "2025-01-22",
+  "title": "JLPT N5 Study Plan - Day 22",
+  "daily_goal": {
+    "vocabulary_words": 19,
+    "kanji_characters": 6,
+    "grammar_points": 2,
+    "study_time_minutes": 60
+  },
+  "vocabulary": {
+    "new_words": [
+      {
+        "kanji": "エンジニア",
+        "hiragana": "エンジニア",
+        "romaji": "enjinia",
+        "english": "engineer",
+        "category": "work",
+        "level": "basic"
+      },
+      {
+        "kanji": "プログラマー",
+        "hiragana": "プログラマー",
+        "romaji": "puroguramaa",
+        "english": "programmer",
+        "category": "work",
+        "level": "basic"
+      },
+      {
+        "kanji": "デザイナー",
+        "hiragana": "デザイナー",
+        "romaji": "dezainaa",
+        "english": "designer",
+        "category": "work",
+        "level": "basic"
+      },
+      {
+        "kanji": "記者",
+        "hiragana": "きしゃ",
+        "romaji": "kisha",
+        "english": "reporter",
+        "category": "work",
+        "level": "basic"
+      },
+      {
+        "kanji": "弁護士",
+        "hiragana": "べんごし",
+        "romaji": "bengoshi",
+        "english": "lawyer",
+        "category": "work",
+        "level": "basic"
+      },
+      {
+        "kanji": "会計士",
+        "hiragana": "かいけいし",
+        "romaji": "kaikeishi",
+        "english": "accountant",
+        "category": "work",
+        "level": "basic"
+      },
+      {
+        "kanji": "主婦",
+        "hiragana": "しゅふ",
+        "romaji": "shufu",
+        "english": "housewife",
+        "category": "work",
+        "level": "basic"
+      },
+      {
+        "kanji": "農家",
+        "hiragana": "のうか",
+        "romaji": "nouka",
+        "english": "farmer",
+        "category": "work",
+        "level": "basic"
+      },
+      {
+        "kanji": "漁師",
+        "hiragana": "りょうし",
+        "romaji": "ryoushi",
+        "english": "fisherman",
+        "category": "work",
+        "level": "basic"
+      },
+      {
+        "kanji": "歌手",
+        "hiragana": "かしゅ",
+        "romaji": "kashu",
+        "english": "singer",
+        "category": "work",
+        "level": "basic"
+      },
+      {
+        "kanji": "俳優",
+        "hiragana": "はいゆう",
+        "romaji": "haiyuu",
+        "english": "actor",
+        "category": "work",
+        "level": "basic"
+      },
+      {
+        "kanji": "美しい",
+        "hiragana": "うつくしい",
+        "romaji": "utsukushii",
+        "english": "beautiful",
+        "category": "adjectives",
+        "level": "basic"
+      },
+      {
+        "kanji": "醜い",
+        "hiragana": "みにくい",
+        "romaji": "minikui",
+        "english": "ugly",
+        "category": "adjectives",
+        "level": "basic"
+      },
+      {
+        "kanji": "優しい",
+        "hiragana": "やさしい",
+        "romaji": "yasashii",
+        "english": "kind",
+        "category": "adjectives",
+        "level": "basic"
+      },
+      {
+        "kanji": "厳しい",
+        "hiragana": "きびしい",
+        "romaji": "kibishii",
+        "english": "strict",
+        "category": "adjectives",
+        "level": "basic"
+      },
+      {
+        "kanji": "明るい",
+        "hiragana": "あかるい",
+        "romaji": "akarui",
+        "english": "bright, cheerful",
+        "category": "adjectives",
+        "level": "basic"
+      },
+      {
+        "kanji": "暗い",
+        "hiragana": "くらい",
+        "romaji": "kurai",
+        "english": "dark",
+        "category": "adjectives",
+        "level": "basic"
+      },
+      {
+        "kanji": "静かな",
+        "hiragana": "しずかな",
+        "romaji": "shizuka na",
+        "english": "quiet",
+        "category": "adjectives",
+        "level": "basic"
+      },
+      {
+        "kanji": "うるさい",
+        "hiragana": "うるさい",
+        "romaji": "urusai",
+        "english": "noisy",
+        "category": "adjectives",
+        "level": "basic"
+      }
+    ],
+    "total_learned": 418,
+    "category_focus": "work"
+  },
+  "kanji": {
+    "new_kanji": [
+      {
+        "kanji": "車",
+        "onyomi": "シャ",
+        "kunyomi": "くるま",
+        "meaning": "car, vehicle",
+        "vocabulary": [
+          "車(くるま)",
+          "電車(でんしゃ)"
+        ],
+        "strokes": 7
+      },
+      {
+        "kanji": "食",
+        "onyomi": "ショク",
+        "kunyomi": "たべる",
+        "meaning": "eat, food",
+        "vocabulary": [
+          "食べる(たべる)",
+          "食事(しょくじ)"
+        ],
+        "strokes": 9
+      },
+      {
+        "kanji": "飲",
+        "onyomi": "イン",
+        "kunyomi": "のむ",
+        "meaning": "drink",
+        "vocabulary": [
+          "飲む(のむ)",
+          "飲み物(のみもの)"
+        ],
+        "strokes": 12
+      },
+      {
+        "kanji": "見",
+        "onyomi": "ケン",
+        "kunyomi": "みる",
+        "meaning": "see, look",
+        "vocabulary": [
+          "見る(みる)",
+          "見物(けんぶつ)"
+        ],
+        "strokes": 7
+      },
+      {
+        "kanji": "聞",
+        "onyomi": "ブン、モン",
+        "kunyomi": "きく",
+        "meaning": "hear, listen",
+        "vocabulary": [
+          "聞く(きく)",
+          "新聞(しんぶん)"
+        ],
+        "strokes": 14
+      },
+      {
+        "kanji": "読",
+        "onyomi": "ドク",
+        "kunyomi": "よむ",
+        "meaning": "read",
+        "vocabulary": [
+          "読む(よむ)",
+          "読書(どくしょ)"
+        ],
+        "strokes": 14
+      }
+    ],
+    "total_learned": 132,
+    "stroke_practice": [
+      "車",
+      "食",
+      "飲",
+      "見",
+      "聞",
+      "読"
+    ]
+  },
+  "grammar": {
+    "new_points": [
+      {
+        "grammar": "なければなりません",
+        "meaning": "must do",
+        "formation": "verb nai-form + ければなりません",
+        "example_jp": "宿題をしなければなりません。",
+        "example_en": "I must do homework.",
+        "level": "basic",
+        "category": "obligation"
+      },
+      {
+        "grammar": "なくてもいいです",
+        "meaning": "don't have to",
+        "formation": "verb nai-form + くてもいいです",
+        "example_jp": "明日来なくてもいいです。",
+        "example_en": "You don't have to come tomorrow.",
+        "level": "basic",
+        "category": "permission"
+      }
+    ],
+    "total_learned": 44,
+    "focus_category": "obligation"
+  },
+  "daily_quiz": {
+    "questions": [
+      {
+        "type": "vocabulary",
+        "question": "What does '会社' mean?",
+        "question_jp": "会社",
+        "question_hiragana": "かいしゃ",
+        "correct_answer": "company",
+        "options": [
+          "company",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "会社 (かいしゃ) means company"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '本' mean?",
+        "question_jp": "本",
+        "question_hiragana": "ほん",
+        "correct_answer": "book",
+        "options": [
+          "book",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "本 (ほん) means book"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does 'カレー' mean?",
+        "question_jp": "カレー",
+        "question_hiragana": "カレー",
+        "correct_answer": "curry",
+        "options": [
+          "curry",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "カレー (カレー) means curry"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '入る' mean?",
+        "question_jp": "入る",
+        "question_hiragana": "はいる",
+        "correct_answer": "to enter",
+        "options": [
+          "to enter",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "入る (はいる) means to enter"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does 'ハンバーガー' mean?",
+        "question_jp": "ハンバーガー",
+        "question_hiragana": "ハンバーガー",
+        "correct_answer": "hamburger",
+        "options": [
+          "hamburger",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "ハンバーガー (ハンバーガー) means hamburger"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does 'トマト' mean?",
+        "question_jp": "トマト",
+        "question_hiragana": "トマト",
+        "correct_answer": "tomato",
+        "options": [
+          "tomato",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "トマト (トマト) means tomato"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '怖い' mean?",
+        "question_jp": "怖い",
+        "question_hiragana": "こわい",
+        "correct_answer": "scary",
+        "options": [
+          "scary",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "怖い (こわい) means scary"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does 'お風呂' mean?",
+        "question_jp": "お風呂",
+        "question_hiragana": "おふろ",
+        "correct_answer": "bath",
+        "options": [
+          "bath",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "お風呂 (おふろ) means bath"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '高い' mean?",
+        "question_jp": "高い",
+        "question_hiragana": "たかい",
+        "correct_answer": "high, expensive",
+        "options": [
+          "high, expensive",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "高い (たかい) means high, expensive"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '辞書' mean?",
+        "question_jp": "辞書",
+        "question_hiragana": "じしょ",
+        "correct_answer": "dictionary",
+        "options": [
+          "dictionary",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "辞書 (じしょ) means dictionary"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '定規' mean?",
+        "question_jp": "定規",
+        "question_hiragana": "じょうぎ",
+        "correct_answer": "ruler",
+        "options": [
+          "ruler",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "定規 (じょうぎ) means ruler"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '今日' mean?",
+        "question_jp": "今日",
+        "question_hiragana": "きょう",
+        "correct_answer": "today",
+        "options": [
+          "today",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "今日 (きょう) means today"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '県'?",
+        "question_jp": "県",
+        "correct_answer": "ケン",
+        "options": [
+          "ケン",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "県 can be read as ケン (on'yomi) or  (kun'yomi). Meaning: prefecture"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '田'?",
+        "question_jp": "田",
+        "correct_answer": "デン",
+        "options": [
+          "デン",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "田 can be read as デン (on'yomi) or た (kun'yomi). Meaning: rice field"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '駅'?",
+        "question_jp": "駅",
+        "correct_answer": "エキ",
+        "options": [
+          "エキ",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "駅 can be read as エキ (on'yomi) or  (kun'yomi). Meaning: station"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '晩'?",
+        "question_jp": "晩",
+        "correct_answer": "バン",
+        "options": [
+          "バン",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "晩 can be read as バン (on'yomi) or  (kun'yomi). Meaning: evening"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '入'?",
+        "question_jp": "入",
+        "correct_answer": "ニュウ",
+        "options": [
+          "ニュウ",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "入 can be read as ニュウ (on'yomi) or はいる、いれる (kun'yomi). Meaning: enter, put in"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '十'?",
+        "question_jp": "十",
+        "correct_answer": "ジュウ",
+        "options": [
+          "ジュウ",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "十 can be read as ジュウ (on'yomi) or とお (kun'yomi). Meaning: ten"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '猫'?",
+        "question_jp": "猫",
+        "correct_answer": "ビョウ",
+        "options": [
+          "ビョウ",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "猫 can be read as ビョウ (on'yomi) or ねこ (kun'yomi). Meaning: cat"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '嫌'?",
+        "question_jp": "嫌",
+        "correct_answer": "ケン",
+        "options": [
+          "ケン",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "嫌 can be read as ケン (on'yomi) or きらい、いや (kun'yomi). Meaning: dislike, hate"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '多'?",
+        "question_jp": "多",
+        "correct_answer": "タ",
+        "options": [
+          "タ",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "多 can be read as タ (on'yomi) or おおい (kun'yomi). Meaning: many"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'ください':",
+        "question_jp": "水をください。",
+        "correct_answer": "Please give me water.",
+        "explanation": "ください: please give me. Example: 水をください。 = Please give me water.",
+        "grammar_point": "ください",
+        "meaning": "please give me"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'ませんか':",
+        "question_jp": "一緒に映画を見ませんか。",
+        "correct_answer": "Would you like to watch a movie together?",
+        "explanation": "ませんか: would you like to ~ (invitation). Example: 一緒に映画を見ませんか。 = Would you like to watch a movie together?",
+        "grammar_point": "ませんか",
+        "meaning": "would you like to ~ (invitation)"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'てください':",
+        "question_jp": "ちょっと待ってください。",
+        "correct_answer": "Please wait a moment.",
+        "explanation": "てください: please do ~. Example: ちょっと待ってください。 = Please wait a moment.",
+        "grammar_point": "てください",
+        "meaning": "please do ~"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'いくつ':",
+        "question_jp": "りんごをいくつ買いますか。",
+        "correct_answer": "How many apples will you buy?",
+        "explanation": "いくつ: how many. Example: りんごをいくつ買いますか。 = How many apples will you buy?",
+        "grammar_point": "いくつ",
+        "meaning": "how many"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'から':",
+        "question_jp": "九時から授業があります。",
+        "correct_answer": "There's class from 9 o'clock.",
+        "explanation": "から: from, since. Example: 九時から授業があります。 = There's class from 9 o'clock.",
+        "grammar_point": "から",
+        "meaning": "from, since"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using '～時に':",
+        "question_jp": "七時に起きます。",
+        "correct_answer": "I wake up at 7 o'clock.",
+        "explanation": "～時に: at ~ o'clock. Example: 七時に起きます。 = I wake up at 7 o'clock.",
+        "grammar_point": "～時に",
+        "meaning": "at ~ o'clock"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'ます form':",
+        "question_jp": "毎日勉強します。",
+        "correct_answer": "I study every day.",
+        "explanation": "ます form: polite present/future tense. Example: 毎日勉強します。 = I study every day.",
+        "grammar_point": "ます form",
+        "meaning": "polite present/future tense"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'どこ':",
+        "question_jp": "学校はどこですか。",
+        "correct_answer": "Where is the school?",
+        "explanation": "どこ: where. Example: 学校はどこですか。 = Where is the school?",
+        "grammar_point": "どこ",
+        "meaning": "where"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'で (de)':",
+        "question_jp": "図書館で勉強します。",
+        "correct_answer": "I study at the library.",
+        "explanation": "で (de): location of action/means particle. Example: 図書館で勉強します。 = I study at the library.",
+        "grammar_point": "で (de)",
+        "meaning": "location of action/means particle"
+      }
+    ],
+    "total_questions": 30,
+    "estimated_time_minutes": 15,
+    "description": "Mixed review of vocabulary, kanji, and grammar from previous days"
+  },
+  "study_tips": {
+    "vocabulary": "Focus on memorizing kanji readings and English meanings. Use spaced repetition.",
+    "kanji": "Practice writing each kanji 5-10 times. Learn both on'yomi and kun'yomi readings.",
+    "grammar": "Create your own example sentences using new grammar patterns.",
+    "general": "Review previous days' content for 10-15 minutes before learning new material."
+  }
+}

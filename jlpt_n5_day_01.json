@@ -1,0 +1,284 @@
+{
+  "day": 1,
+  "date": "2025-01-01",
+  "title": "JLPT N5 Study Plan - Day 1",
+  "daily_goal": {
+    "vocabulary_words": 19,
+    "kanji_characters": 6,
+    "grammar_points": 2,
+    "study_time_minutes": 60
+  },
+  "vocabulary": {
+    "new_words": [
+      {
+        "kanji": "私",
+        "hiragana": "わたし",
+        "romaji": "watashi",
+        "english": "I, myself",
+        "category": "pronouns",
+        "level": "basic"
+      },
+      {
+        "kanji": "あなた",
+        "hiragana": "あなた",
+        "romaji": "anata",
+        "english": "you",
+        "category": "pronouns",
+        "level": "basic"
+      },
+      {
+        "kanji": "彼",
+        "hiragana": "かれ",
+        "romaji": "kare",
+        "english": "he",
+        "category": "pronouns",
+        "level": "basic"
+      },
+      {
+        "kanji": "彼女",
+        "hiragana": "かのじょ",
+        "romaji": "kanojo",
+        "english": "she",
+        "category": "pronouns",
+        "level": "basic"
+      },
+      {
+        "kanji": "これ",
+        "hiragana": "これ",
+        "romaji": "kore",
+        "english": "this",
+        "category": "pronouns",
+        "level": "basic"
+      },
+      {
+        "kanji": "それ",
+        "hiragana": "それ",
+        "romaji": "sore",
+        "english": "that",
+        "category": "pronouns",
+        "level": "basic"
+      },
+      {
+        "kanji": "あれ",
+        "hiragana": "あれ",
+        "romaji": "are",
+        "english": "that over there",
+        "category": "pronouns",
+        "level": "basic"
+      },
+      {
+        "kanji": "どれ",
+        "hiragana": "どれ",
+        "romaji": "dore",
+        "english": "which",
+        "category": "pronouns",
+        "level": "basic"
+      },
+      {
+        "kanji": "ここ",
+        "hiragana": "ここ",
+        "romaji": "koko",
+        "english": "here",
+        "category": "location",
+        "level": "basic"
+      },
+      {
+        "kanji": "そこ",
+        "hiragana": "そこ",
+        "romaji": "soko",
+        "english": "there",
+        "category": "location",
+        "level": "basic"
+      },
+      {
+        "kanji": "あそこ",
+        "hiragana": "あそこ",
+        "romaji": "asoko",
+        "english": "over there",
+        "category": "location",
+        "level": "basic"
+      },
+      {
+        "kanji": "どこ",
+        "hiragana": "どこ",
+        "romaji": "doko",
+        "english": "where",
+        "category": "location",
+        "level": "basic"
+      },
+      {
+        "kanji": "家",
+        "hiragana": "いえ",
+        "romaji": "ie",
+        "english": "house, home",
+        "category": "places",
+        "level": "basic"
+      },
+      {
+        "kanji": "学校",
+        "hiragana": "がっこう",
+        "romaji": "gakkou",
+        "english": "school",
+        "category": "places",
+        "level": "basic"
+      },
+      {
+        "kanji": "会社",
+        "hiragana": "かいしゃ",
+        "romaji": "kaisha",
+        "english": "company",
+        "category": "places",
+        "level": "basic"
+      },
+      {
+        "kanji": "駅",
+        "hiragana": "えき",
+        "romaji": "eki",
+        "english": "station",
+        "category": "places",
+        "level": "basic"
+      },
+      {
+        "kanji": "病院",
+        "hiragana": "びょういん",
+        "romaji": "byouin",
+        "english": "hospital",
+        "category": "places",
+        "level": "basic"
+      },
+      {
+        "kanji": "銀行",
+        "hiragana": "ぎんこう",
+        "romaji": "ginkou",
+        "english": "bank",
+        "category": "places",
+        "level": "basic"
+      },
+      {
+        "kanji": "郵便局",
+        "hiragana": "ゆうびんきょく",
+        "romaji": "yuubinkyoku",
+        "english": "post office",
+        "category": "places",
+        "level": "basic"
+      }
+    ],
+    "total_learned": 19,
+    "category_focus": "pronouns"
+  },
+  "kanji": {
+    "new_kanji": [
+      {
+        "kanji": "一",
+        "onyomi": "イチ、イツ",
+        "kunyomi": "ひと、ひとつ",
+        "meaning": "one",
+        "vocabulary": [
+          "一人(ひとり)",
+          "一つ(ひとつ)"
+        ],
+        "strokes": 1
+      },
+      {
+        "kanji": "二",
+        "onyomi": "ニ",
+        "kunyomi": "ふた、ふたつ",
+        "meaning": "two",
+        "vocabulary": [
+          "二人(ふたり)",
+          "二つ(ふたつ)"
+        ],
+        "strokes": 2
+      },
+      {
+        "kanji": "三",
+        "onyomi": "サン",
+        "kunyomi": "み、みつ、みっつ",
+        "meaning": "three",
+        "vocabulary": [
+          "三人(さんにん)",
+          "三つ(みっつ)"
+        ],
+        "strokes": 3
+      },
+      {
+        "kanji": "四",
+        "onyomi": "シ",
+        "kunyomi": "よ、よん、よっつ",
+        "meaning": "four",
+        "vocabulary": [
+          "四人(よにん)",
+          "四つ(よっつ)"
+        ],
+        "strokes": 5
+      },
+      {
+        "kanji": "五",
+        "onyomi": "ゴ",
+        "kunyomi": "いつ、いつつ",
+        "meaning": "five",
+        "vocabulary": [
+          "五人(ごにん)",
+          "五つ(いつつ)"
+        ],
+        "strokes": 4
+      },
+      {
+        "kanji": "六",
+        "onyomi": "ロク",
+        "kunyomi": "む、むっつ",
+        "meaning": "six",
+        "vocabulary": [
+          "六人(ろくにん)",
+          "六つ(むっつ)"
+        ],
+        "strokes": 4
+      }
+    ],
+    "total_learned": 6,
+    "stroke_practice": [
+      "一",
+      "二",
+      "三",
+      "四",
+      "五",
+      "六"
+    ]
+  },
+  "grammar": {
+    "new_points": [
+      {
+        "grammar": "です/だ",
+        "meaning": "to be (polite/casual)",
+        "formation": "Noun + です/だ",
+        "example_jp": "私は学生です。",
+        "example_en": "I am a student.",
+        "level": "basic",
+        "category": "copula"
+      },
+      {
+        "grammar": "ですか",
+        "meaning": "question marker (polite)",
+        "formation": "Noun + ですか",
+        "example_jp": "あなたは学生ですか。",
+        "example_en": "Are you a student?",
+        "level": "basic",
+        "category": "question"
+      }
+    ],
+    "total_learned": 2,
+    "focus_category": "copula"
+  },
+  "daily_quiz": {
+    "questions": [],
+    "total_questions": 0,
+    "estimated_time_minutes": 15,
+    "description": "Mixed review of vocabulary, kanji, and grammar from previous days"
+  },
+  "study_tips": {
+    "vocabulary": "Focus on memorizing kanji readings and English meanings. Use spaced repetition.",
+    "kanji": "Practice writing each kanji 5-10 times. Learn both on'yomi and kun'yomi readings.",
+    "grammar": "Create your own example sentences using new grammar patterns.",
+    "general": "Review previous days' content for 10-15 minutes before learning new material."
+  }
+}

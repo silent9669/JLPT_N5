@@ -1,0 +1,651 @@
+{
+  "day": 16,
+  "date": "2025-01-16",
+  "title": "JLPT N5 Study Plan - Day 16",
+  "daily_goal": {
+    "vocabulary_words": 19,
+    "kanji_characters": 6,
+    "grammar_points": 2,
+    "study_time_minutes": 60
+  },
+  "vocabulary": {
+    "new_words": [
+      {
+        "kanji": "玄関",
+        "hiragana": "げんかん",
+        "romaji": "genkan",
+        "english": "entrance",
+        "category": "house",
+        "level": "basic"
+      },
+      {
+        "kanji": "庭",
+        "hiragana": "にわ",
+        "romaji": "niwa",
+        "english": "garden",
+        "category": "house",
+        "level": "basic"
+      },
+      {
+        "kanji": "窓",
+        "hiragana": "まど",
+        "romaji": "mado",
+        "english": "window",
+        "category": "house",
+        "level": "basic"
+      },
+      {
+        "kanji": "ドア",
+        "hiragana": "ドア",
+        "romaji": "doa",
+        "english": "door",
+        "category": "house",
+        "level": "basic"
+      },
+      {
+        "kanji": "階段",
+        "hiragana": "かいだん",
+        "romaji": "kaidan",
+        "english": "stairs",
+        "category": "house",
+        "level": "basic"
+      },
+      {
+        "kanji": "エレベーター",
+        "hiragana": "エレベーター",
+        "romaji": "erebeetaa",
+        "english": "elevator",
+        "category": "house",
+        "level": "basic"
+      },
+      {
+        "kanji": "冷蔵庫",
+        "hiragana": "れいぞうこ",
+        "romaji": "reizouko",
+        "english": "refrigerator",
+        "category": "house",
+        "level": "basic"
+      },
+      {
+        "kanji": "電子レンジ",
+        "hiragana": "でんしレンジ",
+        "romaji": "denshi renji",
+        "english": "microwave",
+        "category": "house",
+        "level": "basic"
+      },
+      {
+        "kanji": "洗濯機",
+        "hiragana": "せんたくき",
+        "romaji": "sentakuki",
+        "english": "washing machine",
+        "category": "house",
+        "level": "basic"
+      },
+      {
+        "kanji": "掃除機",
+        "hiragana": "そうじき",
+        "romaji": "soujiki",
+        "english": "vacuum cleaner",
+        "category": "house",
+        "level": "basic"
+      },
+      {
+        "kanji": "ベッド",
+        "hiragana": "ベッド",
+        "romaji": "beddo",
+        "english": "bed",
+        "category": "house",
+        "level": "basic"
+      },
+      {
+        "kanji": "椅子",
+        "hiragana": "いす",
+        "romaji": "isu",
+        "english": "chair",
+        "category": "house",
+        "level": "basic"
+      },
+      {
+        "kanji": "テーブル",
+        "hiragana": "テーブル",
+        "romaji": "teeburu",
+        "english": "table",
+        "category": "house",
+        "level": "basic"
+      },
+      {
+        "kanji": "棚",
+        "hiragana": "たな",
+        "romaji": "tana",
+        "english": "shelf",
+        "category": "house",
+        "level": "basic"
+      },
+      {
+        "kanji": "鏡",
+        "hiragana": "かがみ",
+        "romaji": "kagami",
+        "english": "mirror",
+        "category": "house",
+        "level": "basic"
+      },
+      {
+        "kanji": "お米",
+        "hiragana": "おこめ",
+        "romaji": "okome",
+        "english": "rice (uncooked)",
+        "category": "food",
+        "level": "basic"
+      },
+      {
+        "kanji": "パンケーキ",
+        "hiragana": "パンケーキ",
+        "romaji": "pankeeki",
+        "english": "pancake",
+        "category": "food",
+        "level": "basic"
+      },
+      {
+        "kanji": "サラダ",
+        "hiragana": "サラダ",
+        "romaji": "sarada",
+        "english": "salad",
+        "category": "food",
+        "level": "basic"
+      },
+      {
+        "kanji": "スープ",
+        "hiragana": "スープ",
+        "romaji": "suupu",
+        "english": "soup",
+        "category": "food",
+        "level": "basic"
+      }
+    ],
+    "total_learned": 304,
+    "category_focus": "house"
+  },
+  "kanji": {
+    "new_kanji": [
+      {
+        "kanji": "左",
+        "onyomi": "サ",
+        "kunyomi": "ひだり",
+        "meaning": "left",
+        "vocabulary": [
+          "左(ひだり)",
+          "左手(ひだりて)"
+        ],
+        "strokes": 5
+      },
+      {
+        "kanji": "東",
+        "onyomi": "トウ",
+        "kunyomi": "ひがし",
+        "meaning": "east",
+        "vocabulary": [
+          "東(ひがし)",
+          "東京(とうきょう)"
+        ],
+        "strokes": 8
+      },
+      {
+        "kanji": "西",
+        "onyomi": "セイ、サイ",
+        "kunyomi": "にし",
+        "meaning": "west",
+        "vocabulary": [
+          "西(にし)",
+          "関西(かんさい)"
+        ],
+        "strokes": 6
+      },
+      {
+        "kanji": "南",
+        "onyomi": "ナン",
+        "kunyomi": "みなみ",
+        "meaning": "south",
+        "vocabulary": [
+          "南(みなみ)",
+          "南国(なんごく)"
+        ],
+        "strokes": 9
+      },
+      {
+        "kanji": "北",
+        "onyomi": "ホク",
+        "kunyomi": "きた",
+        "meaning": "north",
+        "vocabulary": [
+          "北(きた)",
+          "北海道(ほっかいどう)"
+        ],
+        "strokes": 5
+      },
+      {
+        "kanji": "中",
+        "onyomi": "チュウ",
+        "kunyomi": "なか",
+        "meaning": "middle, inside",
+        "vocabulary": [
+          "中(なか)",
+          "中学校(ちゅうがっこう)"
+        ],
+        "strokes": 4
+      }
+    ],
+    "total_learned": 96,
+    "stroke_practice": [
+      "左",
+      "東",
+      "西",
+      "南",
+      "北",
+      "中"
+    ]
+  },
+  "grammar": {
+    "new_points": [
+      {
+        "grammar": "～時に",
+        "meaning": "at ~ o'clock",
+        "formation": "number + 時に",
+        "example_jp": "七時に起きます。",
+        "example_en": "I wake up at 7 o'clock.",
+        "level": "basic",
+        "category": "time"
+      },
+      {
+        "grammar": "～前に",
+        "meaning": "before ~",
+        "formation": "noun + の前に",
+        "example_jp": "食事の前に手を洗います。",
+        "example_en": "I wash my hands before meals.",
+        "level": "basic",
+        "category": "time"
+      }
+    ],
+    "total_learned": 32,
+    "focus_category": "time"
+  },
+  "daily_quiz": {
+    "questions": [
+      {
+        "type": "vocabulary",
+        "question": "What does '遅い' mean?",
+        "question_jp": "遅い",
+        "question_hiragana": "おそい",
+        "correct_answer": "late, slow",
+        "options": [
+          "late, slow",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "遅い (おそい) means late, slow"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '雲' mean?",
+        "question_jp": "雲",
+        "question_hiragana": "くも",
+        "correct_answer": "cloud",
+        "options": [
+          "cloud",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "雲 (くも) means cloud"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '読む' mean?",
+        "question_jp": "読む",
+        "question_hiragana": "よむ",
+        "correct_answer": "to read",
+        "options": [
+          "to read",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "読む (よむ) means to read"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '私' mean?",
+        "question_jp": "私",
+        "question_hiragana": "わたし",
+        "correct_answer": "I, myself",
+        "options": [
+          "I, myself",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "私 (わたし) means I, myself"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '太陽' mean?",
+        "question_jp": "太陽",
+        "question_hiragana": "たいよう",
+        "correct_answer": "sun",
+        "options": [
+          "sun",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "太陽 (たいよう) means sun"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '近く' mean?",
+        "question_jp": "近く",
+        "question_hiragana": "ちかく",
+        "correct_answer": "nearby",
+        "options": [
+          "nearby",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "近く (ちかく) means nearby"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '鞄' mean?",
+        "question_jp": "鞄",
+        "question_hiragana": "かばん",
+        "correct_answer": "bag",
+        "options": [
+          "bag",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "鞄 (かばん) means bag"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does 'ご飯' mean?",
+        "question_jp": "ご飯",
+        "question_hiragana": "ごはん",
+        "correct_answer": "rice, meal",
+        "options": [
+          "rice, meal",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "ご飯 (ごはん) means rice, meal"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '短い' mean?",
+        "question_jp": "短い",
+        "question_hiragana": "みじかい",
+        "correct_answer": "short",
+        "options": [
+          "short",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "短い (みじかい) means short"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '下' mean?",
+        "question_jp": "下",
+        "question_hiragana": "した",
+        "correct_answer": "below, down",
+        "options": [
+          "below, down",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "下 (した) means below, down"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '帰る' mean?",
+        "question_jp": "帰る",
+        "question_hiragana": "かえる",
+        "correct_answer": "to return",
+        "options": [
+          "to return",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "帰る (かえる) means to return"
+      },
+      {
+        "type": "vocabulary",
+        "question": "What does '彼女' mean?",
+        "question_jp": "彼女",
+        "question_hiragana": "かのじょ",
+        "correct_answer": "she",
+        "options": [
+          "she",
+          "incorrect option 1",
+          "incorrect option 2",
+          "incorrect option 3"
+        ],
+        "explanation": "彼女 (かのじょ) means she"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '好'?",
+        "question_jp": "好",
+        "correct_answer": "コウ",
+        "options": [
+          "コウ",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "好 can be read as コウ (on'yomi) or すき (kun'yomi). Meaning: like, good"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '毎'?",
+        "question_jp": "毎",
+        "correct_answer": "マイ",
+        "options": [
+          "マイ",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "毎 can be read as マイ (on'yomi) or  (kun'yomi). Meaning: every"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '土'?",
+        "question_jp": "土",
+        "correct_answer": "ド、ト",
+        "options": [
+          "ド、ト",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "土 can be read as ド、ト (on'yomi) or つち (kun'yomi). Meaning: earth, soil"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '長'?",
+        "question_jp": "長",
+        "correct_answer": "チョウ",
+        "options": [
+          "チョウ",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "長 can be read as チョウ (on'yomi) or ながい (kun'yomi). Meaning: long"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '昼'?",
+        "question_jp": "昼",
+        "correct_answer": "チュウ",
+        "options": [
+          "チュウ",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "昼 can be read as チュウ (on'yomi) or ひる (kun'yomi). Meaning: noon, daytime"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '高'?",
+        "question_jp": "高",
+        "correct_answer": "コウ",
+        "options": [
+          "コウ",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "高 can be read as コウ (on'yomi) or たかい (kun'yomi). Meaning: high, expensive"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '秋'?",
+        "question_jp": "秋",
+        "correct_answer": "シュウ",
+        "options": [
+          "シュウ",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "秋 can be read as シュウ (on'yomi) or あき (kun'yomi). Meaning: autumn"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '多'?",
+        "question_jp": "多",
+        "correct_answer": "タ",
+        "options": [
+          "タ",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "多 can be read as タ (on'yomi) or おおい (kun'yomi). Meaning: many"
+      },
+      {
+        "type": "kanji",
+        "question": "How do you read '本'?",
+        "question_jp": "本",
+        "correct_answer": "ホン",
+        "options": [
+          "ホン",
+          "incorrect reading 1",
+          "incorrect reading 2",
+          "incorrect reading 3"
+        ],
+        "explanation": "本 can be read as ホン (on'yomi) or もと (kun'yomi). Meaning: book, origin"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'ました':",
+        "question_jp": "昨日映画を見ました。",
+        "correct_answer": "I watched a movie yesterday.",
+        "explanation": "ました: polite past tense. Example: 昨日映画を見ました。 = I watched a movie yesterday.",
+        "grammar_point": "ました",
+        "meaning": "polite past tense"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'で (de)':",
+        "question_jp": "図書館で勉強します。",
+        "correct_answer": "I study at the library.",
+        "explanation": "で (de): location of action/means particle. Example: 図書館で勉強します。 = I study at the library.",
+        "grammar_point": "で (de)",
+        "meaning": "location of action/means particle"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'あります/います':",
+        "question_jp": "机の上に本があります。",
+        "correct_answer": "There is a book on the desk.",
+        "explanation": "あります/います: to exist (inanimate/animate). Example: 机の上に本があります。 = There is a book on the desk.",
+        "grammar_point": "あります/います",
+        "meaning": "to exist (inanimate/animate)"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'ください':",
+        "question_jp": "水をください。",
+        "correct_answer": "Please give me water.",
+        "explanation": "ください: please give me. Example: 水をください。 = Please give me water.",
+        "grammar_point": "ください",
+        "meaning": "please give me"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'いつ':",
+        "question_jp": "いつ日本に行きますか。",
+        "correct_answer": "When do you go to Japan?",
+        "explanation": "いつ: when. Example: いつ日本に行きますか。 = When do you go to Japan?",
+        "grammar_point": "いつ",
+        "meaning": "when"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'ません':",
+        "question_jp": "今日は働きません。",
+        "correct_answer": "I don't work today.",
+        "explanation": "ません: polite negative present/future. Example: 今日は働きません。 = I don't work today.",
+        "grammar_point": "ません",
+        "meaning": "polite negative present/future"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'どうして':",
+        "question_jp": "どうして勉強しないんですか。",
+        "correct_answer": "Why don't you study?",
+        "explanation": "どうして: why. Example: どうして勉強しないんですか。 = Why don't you study?",
+        "grammar_point": "どうして",
+        "meaning": "why"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'は (wa)':",
+        "question_jp": "私は田中です。",
+        "correct_answer": "I am Tanaka.",
+        "explanation": "は (wa): topic particle. Example: 私は田中です。 = I am Tanaka.",
+        "grammar_point": "は (wa)",
+        "meaning": "topic particle"
+      },
+      {
+        "type": "grammar",
+        "question": "Complete the sentence using 'いくら':",
+        "question_jp": "これはいくらですか。",
+        "correct_answer": "How much is this?",
+        "explanation": "いくら: how much. Example: これはいくらですか。 = How much is this?",
+        "grammar_point": "いくら",
+        "meaning": "how much"
+      }
+    ],
+    "total_questions": 30,
+    "estimated_time_minutes": 15,
+    "description": "Mixed review of vocabulary, kanji, and grammar from previous days"
+  },
+  "study_tips": {
+    "vocabulary": "Focus on memorizing kanji readings and English meanings. Use spaced repetition.",
+    "kanji": "Practice writing each kanji 5-10 times. Learn both on'yomi and kun'yomi readings.",
+    "grammar": "Create your own example sentences using new grammar patterns.",
+    "general": "Review previous days' content for 10-15 minutes before learning new material."
+  }
+}
