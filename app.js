@@ -164,9 +164,12 @@ class JLPTApp {
             this.loadDayData(this.currentDay);
         } else if (sectionName === 'vocabulary') {
             // Always load vocabulary when visiting the section
+            console.log('Vocabulary section accessed, vocabData length:', this.vocabData.length);
             if (this.vocabData.length === 0) {
+                console.log('Loading vocabulary from API...');
                 this.loadVocabularyFromAPI();
             } else {
+                console.log('Vocabulary already loaded, rendering table...');
                 // If already loaded, just render it
                 this.renderVocabularyTable();
             }
@@ -322,7 +325,9 @@ class JLPTApp {
             console.log('Processed vocabulary data:', this.vocabData.length, 'words');
             
             this.updateVocabStats();
+            console.log('About to call renderVocabularyTable');
             this.renderVocabularyTable();
+            console.log('renderVocabularyTable call completed');
         } catch (error) {
             console.error('Error loading vocabulary:', error);
             const container = document.getElementById('vocabularyDatabase');
@@ -386,42 +391,77 @@ class JLPTApp {
     }
 
     renderVocabularyTable() {
+        console.log('renderVocabularyTable called');
         const container = document.getElementById('vocabularyDatabase');
-        if (!container) return;
+        console.log('Container found:', container);
+        
+        if (!container) {
+            console.error('Vocabulary container not found!');
+            return;
+        }
+        
+        console.log('Filtered vocab data length:', this.filteredVocabData.length);
+        console.log('First few words:', this.filteredVocabData.slice(0, 3));
         
         if (this.filteredVocabData.length === 0) {
             container.innerHTML = '<div class="loading-message">No vocabulary found matching your search criteria.</div>';
             return;
         }
         
-        container.innerHTML = `
-            <table class="vocab-table">
+        // First try a simple test table
+        const testHTML = `
+            <div style="background: yellow; padding: 10px; margin: 10px;">
+                <h3>Test: Vocabulary Table</h3>
+                <p>Data loaded: ${this.filteredVocabData.length} words</p>
+                <p>First word: ${this.filteredVocabData[0] ? this.filteredVocabData[0].kanji : 'None'}</p>
+            </div>
+        `;
+        
+        const tableHTML = `
+            <table class="vocab-table" style="width: 100%; border-collapse: collapse; background: white;">
                 <thead>
-                    <tr>
-                        <th class="vocab-number">#</th>
-                        <th class="vocab-kanji">Kanji</th>
-                        <th class="vocab-hiragana">Hiragana</th>
-                        <th class="vocab-romaji">Romaji</th>
-                        <th class="vocab-english">English</th>
-                        <th class="vocab-level">Level</th>
+                    <tr style="background: #4CAF50; color: white;">
+                        <th style="padding: 10px; border: 1px solid #ddd;">#</th>
+                        <th style="padding: 10px; border: 1px solid #ddd;">Kanji</th>
+                        <th style="padding: 10px; border: 1px solid #ddd;">Hiragana</th>
+                        <th style="padding: 10px; border: 1px solid #ddd;">Romaji</th>
+                        <th style="padding: 10px; border: 1px solid #ddd;">English</th>
+                        <th style="padding: 10px; border: 1px solid #ddd;">Level</th>
                     </tr>
                 </thead>
                 <tbody>
-                    ${this.filteredVocabData.map(word => `
-                        <tr>
-                            <td class="vocab-number">${word.number}</td>
-                            <td class="vocab-kanji">${word.kanji || '-'}</td>
-                            <td class="vocab-hiragana">${word.hiragana || '-'}</td>
-                            <td class="vocab-romaji">${word.romaji || '-'}</td>
-                            <td class="vocab-english">${word.english || '-'}</td>
-                            <td class="vocab-level">
-                                <span class="vocab-level-badge">${word.level || 'N5'}</span>
-                            </td>
+                    ${this.filteredVocabData.slice(0, 10).map(word => `
+                        <tr style="border-bottom: 1px solid #ddd;">
+                            <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">${word.number}</td>
+                            <td style="padding: 10px; border: 1px solid #ddd;">${word.kanji || '-'}</td>
+                            <td style="padding: 10px; border: 1px solid #ddd;">${word.hiragana || '-'}</td>
+                            <td style="padding: 10px; border: 1px solid #ddd;">${word.romaji || '-'}</td>
+                            <td style="padding: 10px; border: 1px solid #ddd;">${word.english || '-'}</td>
+                            <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">${word.level || 'N5'}</td>
                         </tr>
                     `).join('')}
                 </tbody>
             </table>
         `;
+        
+        const finalHTML = testHTML + tableHTML;
+        
+        console.log('Setting innerHTML with table');
+        container.innerHTML = finalHTML;
+        console.log('Table rendered successfully');
+        console.log('Container innerHTML length:', container.innerHTML.length);
+        console.log('Container children count:', container.children.length);
+        
+        // Test if table is visible
+        const table = container.querySelector('.vocab-table');
+        if (table) {
+            console.log('Table found in DOM');
+            console.log('Table display style:', window.getComputedStyle(table).display);
+            console.log('Table visibility:', window.getComputedStyle(table).visibility);
+            console.log('Table height:', window.getComputedStyle(table).height);
+        } else {
+            console.error('Table not found in DOM after rendering!');
+        }
     }
 
     // Quiz functionality (simplified)
