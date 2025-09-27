@@ -162,9 +162,14 @@ class JLPTApp {
         // Load section-specific data
         if (sectionName === 'daily') {
             this.loadDayData(this.currentDay);
-        } else if (sectionName === 'vocabulary' && this.vocabData.length === 0) {
-            // Auto-load N5 vocabulary when first visiting the section
-            this.loadVocabularyFromAPI();
+        } else if (sectionName === 'vocabulary') {
+            // Always load vocabulary when visiting the section
+            if (this.vocabData.length === 0) {
+                this.loadVocabularyFromAPI();
+            } else {
+                // If already loaded, just render it
+                this.renderVocabularyTable();
+            }
         }
     }
 
@@ -295,16 +300,26 @@ class JLPTApp {
     async loadVocabularyFromAPI() {
         try {
             const container = document.getElementById('vocabularyDatabase');
-            if (!container) return;
+            if (!container) {
+                console.error('Vocabulary container not found');
+                return;
+            }
 
             container.innerHTML = '<div class="loading-message">Loading N5 vocabulary list...</div>';
             
             // Load from local JSON file for faster loading
             const response = await fetch('n5_vocabulary.json');
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            
             const data = await response.json();
+            console.log('Loaded vocabulary data:', data);
             
             this.vocabData = data.vocabulary || [];
             this.filteredVocabData = [...this.vocabData];
+            
+            console.log('Processed vocabulary data:', this.vocabData.length, 'words');
             
             this.updateVocabStats();
             this.renderVocabularyTable();
@@ -312,7 +327,12 @@ class JLPTApp {
             console.error('Error loading vocabulary:', error);
             const container = document.getElementById('vocabularyDatabase');
             if (container) {
-                container.innerHTML = '<div class="loading-message">Unable to load vocabulary data. Please check your internet connection and try again.</div>';
+                container.innerHTML = `
+                    <div class="loading-message">
+                        <p>Unable to load vocabulary data. Please try again.</p>
+                        <button class="btn primary" onclick="window.jlptApp.loadVocabularyFromAPI()">Retry</button>
+                    </div>
+                `;
             }
         }
     }
@@ -752,7 +772,9 @@ class JLPTApp {
 
 // Initialize the app when the page loads
 document.addEventListener('DOMContentLoaded', () => {
+    console.log('Initializing JLPT App...');
     window.jlptApp = new JLPTApp();
+    console.log('JLPT App initialized successfully');
 });
 
 // Global functions for onclick handlers

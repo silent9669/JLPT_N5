@@ -38,6 +38,29 @@
                     </div>
                     
                     <div class="info-card">
+                        <h3>Study Materials</h3>
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <div class="stat-number">591</div>
+                                <div class="stat-label">Vocabulary Words</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">205</div>
+                                <div class="stat-label">Kanji Characters</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">80</div>
+                                <div class="stat-label">Grammar Points</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">30</div>
+                                <div class="stat-label">Study Days</div>
+                            </div>
+                        </div>
+                        <p class="stats-description">Complete JLPT N5 curriculum with daily structured learning plan</p>
+                    </div>
+                    
+                    <div class="info-card">
                         <h3>Quick Start</h3>
                         <div class="quick-actions">
                             <button class="action-btn primary" onclick="startDailyStudy()">
@@ -59,7 +82,7 @@
                         <h3>GitHub Repository</h3>
                         <p>This project is open source and available on GitHub for educational purposes.</p>
                         <div class="github-info">
-                            <a href="https://github.com/yourusername/jlpt-n5-study-app" target="_blank" class="github-link">
+                            <a href="https://github.com/silent9669/JLPT_N5" target="_blank" class="github-link">
                                 <span class="btn-icon">🔗</span>
                                 View on GitHub
                             </a>
@@ -190,7 +213,10 @@
                     </div>
 
                     <div id="vocabularyDatabase" class="vocab-database">
-                        <div class="loading-message">Click "Load N5 Vocab List" to start exploring the vocabulary list.</div>
+                        <div class="loading-message">
+                            <p>Click "Load N5 Vocab List" to start exploring the vocabulary list.</p>
+                            <button class="btn primary" onclick="window.jlptApp.loadVocabularyFromAPI()" style="margin-top: 1rem;">Load Vocabulary Now</button>
+                        </div>
                     </div>
                 </div>
             </section>

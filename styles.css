@@ -221,6 +221,45 @@ body {
     margin: 0;
 }
 
+/* Dashboard Statistics */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.stat-item {
+    text-align: center;
+    padding: 1rem;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+}
+
+.stat-number {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #4CAF50;
+    margin-bottom: 0.25rem;
+    display: block;
+}
+
+.stat-label {
+    font-size: 0.8rem;
+    color: #666;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.stats-description {
+    color: #666;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 1rem;
+    font-style: italic;
+}
+
 /* Section Headers */
 .section-header {
     display: flex;
