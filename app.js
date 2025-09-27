@@ -99,6 +99,95 @@ class JLPTApp {
             });
         }
 
+        // Grammar search
+        const grammarSearchBtn = document.getElementById('grammarSearchBtn');
+        if (grammarSearchBtn) {
+            grammarSearchBtn.addEventListener('click', () => {
+                this.searchGrammar();
+            });
+        }
+
+        const grammarSearchInput = document.getElementById('grammarSearch');
+        if (grammarSearchInput) {
+            grammarSearchInput.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    this.searchGrammar();
+                }
+            });
+        }
+
+        // Grammar filters
+        const levelFilter = document.getElementById('levelFilter');
+        if (levelFilter) {
+            levelFilter.addEventListener('change', () => {
+                this.searchGrammar();
+            });
+        }
+
+        const categoryFilter = document.getElementById('categoryFilter');
+        if (categoryFilter) {
+            categoryFilter.addEventListener('change', () => {
+                this.searchGrammar();
+            });
+        }
+
+        // Test controls
+        const startTestBtn = document.getElementById('startTestBtn');
+        if (startTestBtn) {
+            startTestBtn.addEventListener('click', () => {
+                this.startTest();
+            });
+        }
+
+        const testPrevQuestionBtn = document.getElementById('prevQuestionBtn');
+        if (testPrevQuestionBtn) {
+            testPrevQuestionBtn.addEventListener('click', () => {
+                this.prevTestQuestion();
+            });
+        }
+
+        const testNextQuestionBtn = document.getElementById('nextQuestionBtn');
+        if (testNextQuestionBtn) {
+            testNextQuestionBtn.addEventListener('click', () => {
+                this.nextTestQuestion();
+            });
+        }
+
+        const finishTestBtn = document.getElementById('finishTestBtn');
+        if (finishTestBtn) {
+            finishTestBtn.addEventListener('click', () => {
+                this.finishTest();
+            });
+        }
+
+        const reviewTestBtn = document.getElementById('reviewTestBtn');
+        if (reviewTestBtn) {
+            reviewTestBtn.addEventListener('click', () => {
+                this.reviewTest();
+            });
+        }
+
+        const retakeTestBtn = document.getElementById('retakeTestBtn');
+        if (retakeTestBtn) {
+            retakeTestBtn.addEventListener('click', () => {
+                this.retakeTest();
+            });
+        }
+
+        const backToTestResultsBtn = document.getElementById('backToResultsBtn');
+        if (backToTestResultsBtn) {
+            backToTestResultsBtn.addEventListener('click', () => {
+                this.backToResults();
+            });
+        }
+
+        const retakeFromReviewBtn = document.getElementById('retakeFromReviewBtn');
+        if (retakeFromReviewBtn) {
+            retakeFromReviewBtn.addEventListener('click', () => {
+                this.retakeTest();
+            });
+        }
+
         // Quiz navigation
         const nextQuestionBtn = document.getElementById('nextQuestionBtn');
         if (nextQuestionBtn) {
@@ -180,6 +269,10 @@ class JLPTApp {
             } else {
                 this.renderVocabularyTable();
             }
+        } else if (sectionName === 'grammar') {
+            this.loadGrammarDatabase();
+        } else if (sectionName === 'test') {
+            this.loadTestList();
         }
     }
 
@@ -218,7 +311,7 @@ class JLPTApp {
 
     async loadDayData(day) {
         try {
-            const response = await fetch(`jlpt_n5_day_${day.toString().padStart(2, '0')}.json`);
+            const response = await fetch(`data/daily/jlpt_n5_day_${day.toString().padStart(2, '0')}.json`);
             const data = await response.json();
             
             this.currentDayData = data;
@@ -242,7 +335,7 @@ class JLPTApp {
 
         for (let i = 1; i <= day; i++) {
             try {
-                const response = await fetch(`jlpt_n5_day_${i.toString().padStart(2, '0')}.json`);
+                const response = await fetch(`data/daily/jlpt_n5_day_${i.toString().padStart(2, '0')}.json`);
                 const data = await response.json();
                 
                 if (data.vocabulary && data.vocabulary.new_words) {
@@ -273,7 +366,7 @@ class JLPTApp {
 
         for (let i = 1; i <= 36; i++) {
             try {
-                const response = await fetch(`jlpt_n5_day_${i.toString().padStart(2, '0')}.json`);
+                const response = await fetch(`data/daily/jlpt_n5_day_${i.toString().padStart(2, '0')}.json`);
                 const data = await response.json();
                 
                 if (data.vocabulary && data.vocabulary.new_words) {
@@ -431,7 +524,7 @@ class JLPTApp {
             container.innerHTML = '<div class="loading-message">Loading N5 vocabulary list...</div>';
             
             // Load from local JSON file for faster loading
-            const response = await fetch('n5_vocabulary.json');
+            const response = await fetch('data/vocabulary/n5_vocabulary.json');
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
@@ -781,14 +874,14 @@ class JLPTApp {
     }
 
     nextQuestion() {
-        if (this.currentQuestion < this.quizData.length - 1) {
+        if (this.quizData && this.currentQuestion < this.quizData.length - 1) {
             this.currentQuestion++;
             this.renderQuestion();
         }
     }
 
     prevQuestion() {
-        if (this.currentQuestion > 0) {
+        if (this.quizData && this.currentQuestion > 0) {
             this.currentQuestion--;
             this.renderQuestion();
         }
@@ -900,6 +993,527 @@ class JLPTApp {
 
     showError(message) {
         alert(message); // Simple error handling
+    }
+
+    // Grammar Database Functions
+    async loadGrammarDatabase() {
+        try {
+        const container = document.getElementById('grammarDatabase');
+        if (!container) return;
+
+            container.innerHTML = '<div class="loading-message">Loading grammar database...</div>';
+            
+            const response = await fetch('data/tests/jlpt_n5_n4_complete_grammar_database.json');
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            
+            const data = await response.json();
+            this.grammarData = data.grammar_points || [];
+            this.filteredGrammarData = [...this.grammarData];
+            
+            this.populateCategoryFilter();
+            this.renderGrammarTable();
+        } catch (error) {
+            console.error('Error loading grammar database:', error);
+            const container = document.getElementById('grammarDatabase');
+            if (container) {
+                container.innerHTML = `
+                    <div class="loading-message">
+                        <p>Unable to load grammar data. Please try again.</p>
+                        <button class="btn primary" onclick="window.jlptApp.loadGrammarDatabase()">Retry</button>
+                    </div>
+                `;
+            }
+        }
+    }
+
+    populateCategoryFilter() {
+        const categoryFilter = document.getElementById('categoryFilter');
+        if (!categoryFilter) return;
+
+        const categories = [...new Set(this.grammarData.map(item => item.category))].sort();
+        categories.forEach(category => {
+            const option = document.createElement('option');
+            option.value = category;
+            option.textContent = category.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+            categoryFilter.appendChild(option);
+        });
+    }
+
+    renderGrammarTable() {
+        const container = document.getElementById('grammarDatabase');
+        if (!container) return;
+        if (this.filteredGrammarData.length === 0) {
+            container.innerHTML = '<div class="loading-message"><p>No grammar points found.</p></div>';
+            return;
+        }
+
+        const tableHTML = `
+            <table class="grammar-table">
+                <thead>
+                    <tr>
+                        <th>Grammar Point</th>
+                        <th>Meaning</th>
+                        <th>Formation</th>
+                        <th>Level</th>
+                        <th>Category</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    ${this.filteredGrammarData.map(item => `
+                        <tr>
+                            <td>
+                                <div class="grammar-point">${item.grammar}</div>
+                            </td>
+                            <td>
+                                <div class="grammar-meaning">${item.meaning}</div>
+                            </td>
+                            <td>
+                                <div class="grammar-formation">${item.formation}</div>
+                            </td>
+                            <td>
+                                <span class="grammar-level ${item.level.toLowerCase()}">${item.level}</span>
+                            </td>
+                            <td>${item.category.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}</td>
+                        </tr>
+                    `).join('')}
+                </tbody>
+            </table>
+        `;
+
+        container.innerHTML = tableHTML;
+    }
+
+    searchGrammar() {
+        const searchInput = document.getElementById('grammarSearch');
+        const levelFilter = document.getElementById('levelFilter');
+        const categoryFilter = document.getElementById('categoryFilter');
+        
+        if (!searchInput) return;
+
+        const searchTerm = searchInput.value.toLowerCase().trim();
+        const selectedLevel = levelFilter ? levelFilter.value : 'all';
+        const selectedCategory = categoryFilter ? categoryFilter.value : 'all';
+        
+        this.filteredGrammarData = this.grammarData.filter(item => {
+            const matchesSearch = !searchTerm || 
+                item.grammar.toLowerCase().includes(searchTerm) ||
+                item.meaning.toLowerCase().includes(searchTerm) ||
+                item.formation.toLowerCase().includes(searchTerm);
+            
+            const matchesLevel = selectedLevel === 'all' || item.level === selectedLevel;
+            const matchesCategory = selectedCategory === 'all' || item.category === selectedCategory;
+            
+            return matchesSearch && matchesLevel && matchesCategory;
+        });
+        
+        this.renderGrammarTable();
+    }
+
+    // Test Functions
+    async loadTestList() {
+        try {
+            const testSelect = document.getElementById('testSelect');
+            if (!testSelect) return;
+
+            // Clear existing options
+            testSelect.innerHTML = '<option value="">Select a Practice Test</option>';
+
+            // Load test list from the realtest_n_grammar folder
+            for (let i = 1; i <= 10; i++) {
+                try {
+                    const response = await fetch(`data/tests/jlpt_n5_practice_test_${i.toString().padStart(2, '0')}.json`);
+                    if (response.ok) {
+                        const data = await response.json();
+                        const option = document.createElement('option');
+                        option.value = i;
+                        option.textContent = `Practice Test ${i} - ${data.test_info.title}`;
+                        testSelect.appendChild(option);
+                    }
+                } catch (error) {
+                    console.warn(`Could not load test ${i}:`, error);
+                }
+            }
+
+            // Enable start button when test is selected
+            testSelect.addEventListener('change', (e) => {
+                const startBtn = document.getElementById('startTestBtn');
+                if (startBtn) {
+                    startBtn.disabled = !e.target.value;
+                }
+            });
+
+        } catch (error) {
+            console.error('Error loading test list:', error);
+        }
+    }
+
+    async startTest() {
+        const testSelect = document.getElementById('testSelect');
+        const testNumber = testSelect.value;
+        
+        if (!testNumber) return;
+
+        try {
+            const response = await fetch(`data/tests/jlpt_n5_practice_test_${testNumber.padStart(2, '0')}.json`);
+            const testData = await response.json();
+            
+            this.currentTest = testData;
+            this.testAnswers = [];
+            this.currentTestQuestion = 0;
+            this.testStartTime = Date.now();
+            
+            this.showTestArea();
+            this.renderTestQuestion();
+            this.startTestTimer();
+            
+        } catch (error) {
+            console.error('Error starting test:', error);
+            alert('Failed to load test. Please try again.');
+        }
+    }
+
+    showTestArea() {
+        document.getElementById('testArea').style.display = 'block';
+        document.getElementById('testResults').style.display = 'none';
+        document.getElementById('testReview').style.display = 'none';
+    }
+
+    renderTestQuestion() {
+        const testQuestion = document.getElementById('testQuestion');
+        const progressFill = document.getElementById('testProgress');
+        const prevBtn = document.getElementById('prevQuestionBtn');
+        const nextBtn = document.getElementById('nextQuestionBtn');
+        const finishBtn = document.getElementById('finishTestBtn');
+        
+        if (!testQuestion || !this.currentTest) return;
+
+        const totalQuestions = this.getTotalQuestions();
+        const currentQ = this.currentTestQuestion;
+        const progress = ((currentQ + 1) / totalQuestions) * 100;
+        
+        if (progressFill) {
+            progressFill.style.width = `${progress}%`;
+        }
+        
+        if (prevBtn) {
+            prevBtn.disabled = currentQ === 0;
+        }
+        
+        if (nextBtn) {
+            nextBtn.disabled = currentQ >= totalQuestions - 1;
+        }
+        
+        if (finishBtn) {
+            finishBtn.style.display = currentQ >= totalQuestions - 1 ? 'block' : 'none';
+        }
+
+        const question = this.getCurrentQuestion();
+        if (!question) return;
+
+        let questionText = question.question;
+        if (question.underlined) {
+            questionText = questionText.replace('___', `<span style="text-decoration: underline; font-weight: bold; color: #4CAF50;">${question.underlined}</span>`);
+        }
+        
+        const questionHTML = `
+            <div class="question-text">${questionText}</div>
+            <div class="question-options">
+                ${question.options.map((option, index) => `
+                    <div class="option" data-option="${index + 1}">
+                        <div class="option-number">${index + 1}</div>
+                        <div class="option-text">${option}</div>
+                    </div>
+                `).join('')}
+            </div>
+        `;
+
+        testQuestion.innerHTML = questionHTML;
+
+        // Add click handlers for options
+        testQuestion.querySelectorAll('.option').forEach(option => {
+            option.addEventListener('click', () => {
+                this.selectTestAnswer(parseInt(option.dataset.option));
+            });
+        });
+
+        // Load previous answer if exists
+        if (this.testAnswers[currentQ] !== undefined) {
+            const selectedOption = testQuestion.querySelector(`[data-option="${this.testAnswers[currentQ]}"]`);
+            if (selectedOption) {
+                selectedOption.classList.add('selected');
+            }
+        }
+    }
+
+    selectTestAnswer(answer) {
+        const testQuestion = document.getElementById('testQuestion');
+        if (!testQuestion) return;
+
+        // Remove previous selection
+        testQuestion.querySelectorAll('.option').forEach(opt => {
+            opt.classList.remove('selected');
+        });
+
+        // Add selection to clicked option
+        const selectedOption = testQuestion.querySelector(`[data-option="${answer}"]`);
+        if (selectedOption) {
+            selectedOption.classList.add('selected');
+        }
+
+        // Store answer
+        this.testAnswers[this.currentTestQuestion] = answer;
+    }
+
+    getTotalQuestions() {
+        if (!this.currentTest) return 0;
+        
+        let total = 0;
+        if (this.currentTest.section_1_vocabulary) {
+            total += this.currentTest.section_1_vocabulary.total_questions;
+        }
+        if (this.currentTest.section_2_grammar_reading) {
+            total += this.currentTest.section_2_grammar_reading.total_questions;
+        }
+        if (this.currentTest.section_3_reading) {
+            total += this.currentTest.section_3_reading.total_questions;
+        }
+        return total;
+    }
+
+    getCurrentQuestion() {
+        if (!this.currentTest) return null;
+        
+        let questionIndex = this.currentTestQuestion;
+        
+        // Check vocabulary section
+        if (this.currentTest.section_1_vocabulary) {
+            const vocabQuestions = this.getAllQuestionsFromSection(this.currentTest.section_1_vocabulary);
+            if (questionIndex < vocabQuestions.length) {
+                return vocabQuestions[questionIndex];
+            }
+            questionIndex -= vocabQuestions.length;
+        }
+        
+        // Check grammar section
+        if (this.currentTest.section_2_grammar_reading) {
+            const grammarQuestions = this.getAllQuestionsFromSection(this.currentTest.section_2_grammar_reading);
+            if (questionIndex < grammarQuestions.length) {
+                return grammarQuestions[questionIndex];
+            }
+            questionIndex -= grammarQuestions.length;
+        }
+        
+        // Check reading section
+        if (this.currentTest.section_3_reading) {
+            const readingQuestions = this.getAllQuestionsFromSection(this.currentTest.section_3_reading);
+            if (questionIndex < readingQuestions.length) {
+                return readingQuestions[questionIndex];
+            }
+        }
+        return null;
+    }
+
+    getAllQuestionsFromSection(section) {
+        const questions = [];
+        
+        // Handle direct question_types structure (vocabulary section)
+        if (section.question_types) {
+            Object.keys(section.question_types).forEach(questionType => {
+                if (section.question_types[questionType].questions) {
+                    questions.push(...section.question_types[questionType].questions);
+                }
+            });
+        }
+        
+        // Handle subsections structure (grammar section)
+        if (section.subsections) {
+            Object.keys(section.subsections).forEach(subsectionName => {
+                const subsection = section.subsections[subsectionName];
+                if (subsection.question_types) {
+                    Object.keys(subsection.question_types).forEach(questionType => {
+                        if (subsection.question_types[questionType].questions) {
+                            questions.push(...subsection.question_types[questionType].questions);
+                        }
+                    });
+                }
+            });
+        }
+        
+        return questions;
+    }
+
+    nextTestQuestion() {
+        const totalQuestions = this.getTotalQuestions();
+        if (this.currentTestQuestion < totalQuestions - 1) {
+            this.currentTestQuestion++;
+            this.renderTestQuestion();
+        }
+    }
+
+    prevTestQuestion() {
+        if (this.currentTestQuestion > 0) {
+            this.currentTestQuestion--;
+            this.renderTestQuestion();
+        }
+    }
+
+    finishTest() {
+        const testTime = Math.floor((Date.now() - this.testStartTime) / 1000);
+        const totalQuestions = this.getTotalQuestions();
+        let correctAnswers = 0;
+        
+        // Calculate score
+        for (let i = 0; i < totalQuestions; i++) {
+            const question = this.getQuestionByIndex(i);
+            if (question && this.testAnswers[i] === question.correct_answer) {
+                correctAnswers++;
+            }
+        }
+        
+        const percentage = Math.round((correctAnswers / totalQuestions) * 100);
+        
+        // Show results
+        this.showTestResults(correctAnswers, totalQuestions, percentage, testTime);
+    }
+
+    getQuestionByIndex(index) {
+        let questionIndex = index;
+        
+        // Check vocabulary section
+        if (this.currentTest.section_1_vocabulary) {
+            const vocabQuestions = this.getAllQuestionsFromSection(this.currentTest.section_1_vocabulary);
+            if (questionIndex < vocabQuestions.length) {
+                return vocabQuestions[questionIndex];
+            }
+            questionIndex -= vocabQuestions.length;
+        }
+        
+        // Check grammar section
+        if (this.currentTest.section_2_grammar_reading) {
+            const grammarQuestions = this.getAllQuestionsFromSection(this.currentTest.section_2_grammar_reading);
+            if (questionIndex < grammarQuestions.length) {
+                return grammarQuestions[questionIndex];
+            }
+            questionIndex -= grammarQuestions.length;
+        }
+        
+        // Check reading section
+        if (this.currentTest.section_3_reading) {
+            const readingQuestions = this.getAllQuestionsFromSection(this.currentTest.section_3_reading);
+            if (questionIndex < readingQuestions.length) {
+                return readingQuestions[questionIndex];
+            }
+        }
+        
+        return null;
+    }
+
+    showTestResults(correct, total, percentage, time) {
+        document.getElementById('testArea').style.display = 'none';
+        document.getElementById('testResults').style.display = 'block';
+        
+        document.getElementById('testScore').textContent = `${correct}/${total}`;
+        document.getElementById('testPercentage').textContent = `${percentage}%`;
+        document.getElementById('testTime').textContent = this.formatTime(time);
+        
+        // Add performance feedback
+        const percentageElement = document.getElementById('testPercentage');
+        if (percentage >= 80) {
+            percentageElement.style.color = '#4CAF50';
+        } else if (percentage >= 60) {
+            percentageElement.style.color = '#FF9800';
+        } else {
+            percentageElement.style.color = '#f44336';
+        }
+    }
+
+    formatTime(seconds) {
+        const minutes = Math.floor(seconds / 60);
+        const remainingSeconds = seconds % 60;
+        return `${minutes}:${remainingSeconds.toString().padStart(2, '0')}`;
+    }
+
+    startTestTimer() {
+        this.testTimer = setInterval(() => {
+            const elapsed = Math.floor((Date.now() - this.testStartTime) / 1000);
+            const timerElement = document.getElementById('testTimer');
+            if (timerElement) {
+                timerElement.textContent = this.formatTime(elapsed);
+            }
+        }, 1000);
+    }
+
+    stopTestTimer() {
+        if (this.testTimer) {
+            clearInterval(this.testTimer);
+            this.testTimer = null;
+        }
+    }
+
+    reviewTest() {
+        document.getElementById('testResults').style.display = 'none';
+        document.getElementById('testReview').style.display = 'block';
+        
+        const reviewContent = document.getElementById('reviewContent');
+        const totalQuestions = this.getTotalQuestions();
+        
+        let reviewHTML = `
+            <div class="review-header">
+                <h3>Test Review - ${this.currentTest.test_info.title}</h3>
+                <p>Review all questions and your answers</p>
+            </div>
+        `;
+        
+        for (let i = 0; i < totalQuestions; i++) {
+            const question = this.getQuestionByIndex(i);
+            if (!question) continue;
+            
+            const userAnswer = this.testAnswers[i];
+            const isCorrect = userAnswer === question.correct_answer;
+            
+            let questionText = question.question;
+            if (question.underlined) {
+                questionText = questionText.replace('___', `<span style="text-decoration: underline; font-weight: bold; color: #4CAF50;">${question.underlined}</span>`);
+            }
+            
+            reviewHTML += `
+                <div class="review-question ${isCorrect ? 'correct' : 'incorrect'}">
+                    <div class="review-question-header">
+                        <h4>Question ${i + 1} ${isCorrect ? '✓' : '✗'}</h4>
+                        <span class="question-type">${question.type || 'Multiple Choice'}</span>
+                    </div>
+                    <div class="review-question-content">
+                        <p class="question-text"><strong>Question:</strong> ${questionText}</p>
+                        <div class="answer-comparison">
+                            <div class="user-answer">
+                                <strong>Your Answer:</strong> 
+                                <span class="answer-text ${isCorrect ? 'correct' : 'incorrect'}">
+                                    ${userAnswer ? question.options[userAnswer - 1] : 'Not answered'}
+                                </span>
+                            </div>
+                            <div class="correct-answer">
+                                <strong>Correct Answer:</strong> 
+                                <span class="answer-text correct">${question.options[question.correct_answer - 1]}</span>
+                            </div>
+                        </div>
+                        ${question.explanation ? `<div class="explanation"><strong>Explanation:</strong> ${question.explanation}</div>` : ''}
+                    </div>
+                </div>
+            `;
+        }
+        
+        reviewContent.innerHTML = reviewHTML;
+    }
+
+    retakeTest() {
+        this.startTest();
+    }
+
+    backToResults() {
+        document.getElementById('testReview').style.display = 'none';
+        document.getElementById('testResults').style.display = 'block';
     }
 }
 

@@ -1,7 +1,7 @@
 {
   "name": "jlpt-n5-study-app",
-  "version": "1.0.0",
-  "description": "A comprehensive 30-day study application for JLPT N5 preparation",
+  "version": "2.0.0",
+  "description": "A comprehensive 36-day study application for JLPT N5 preparation with vocabulary, kanji, grammar, quizzes, and practice tests",
   "main": "index.html",
   "scripts": {
     "start": "python -m http.server 8000",
@@ -12,21 +12,24 @@
   "keywords": [
     "jlpt",
     "n5",
+    "n4",
     "japanese",
     "language-learning",
     "vocabulary",
     "kanji",
     "grammar",
     "quiz",
-    "study-app"
+    "practice-tests",
+    "study-app",
+    "jlpt-preparation"
   ],
-  "author": "JLPT Study App",
+  "author": "Phuc Dang <phuc.dangcs2007@hcmut.edu.vn>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/jlpt-n5-study-app.git"
+    "url": "https://github.com/silent9669/JLPT_N5"
   },
-  "homepage": "https://yourusername.github.io/jlpt-n5-study-app",
+  "homepage": "https://silent9669.github.io/JLPT_N5",
   "devDependencies": {},
   "dependencies": {},
   "engines": {

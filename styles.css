@@ -288,6 +288,481 @@ html, body {
     color: #45a049;
 }
 
+/* Grammar Section Styles */
+.grammar-header {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.grammar-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.filter-controls {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.filter-controls select {
+    padding: 0.5rem 1rem;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: white;
+    min-width: 150px;
+}
+
+.filter-controls select:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.grammar-scroll-container {
+    max-height: 70vh;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background: white;
+}
+
+.grammar-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+    background: white;
+    border: 1px solid #ddd;
+}
+
+.grammar-table th {
+    background: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: left;
+    font-weight: 600;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.grammar-table td {
+    padding: 1rem;
+    border-bottom: 1px solid #f0f0f0;
+    vertical-align: top;
+}
+
+.grammar-point {
+    font-weight: 600;
+    color: #4CAF50;
+    font-size: 1.1rem;
+}
+
+.grammar-meaning {
+    color: #333;
+    margin: 0.5rem 0;
+}
+
+.grammar-formation {
+    font-family: 'Courier New', monospace;
+    background: #f8f9fa;
+    padding: 0.5rem;
+    border-radius: 4px;
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+.grammar-example {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    background: #f0f8ff;
+    border-left: 3px solid #4CAF50;
+    border-radius: 0 4px 4px 0;
+}
+
+.grammar-level {
+    display: inline-block;
+    padding: 0.2rem 0.6rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.grammar-level.n5 {
+    background: #e8f5e8;
+    color: #2e7d32;
+}
+
+.grammar-level.n4 {
+    background: #e3f2fd;
+    color: #1976d2;
+}
+
+/* Test Section Styles */
+.test-header {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.test-controls {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.test-controls select {
+    padding: 0.75rem 1rem;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: white;
+    min-width: 200px;
+}
+
+.test-controls select:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.test-area {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.test-progress {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.progress-bar {
+    flex: 1;
+    height: 8px;
+    background: #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-right: 1rem;
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #4CAF50, #45a049);
+    transition: width 0.3s ease;
+    width: 0%;
+}
+
+.test-timer {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #4CAF50;
+    min-width: 80px;
+    text-align: center;
+}
+
+.test-question {
+    margin-bottom: 2rem;
+}
+
+.question-text {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.question-options {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: white;
+}
+
+.option:hover {
+    border-color: #4CAF50;
+    background: #f8fff8;
+}
+
+.option.selected {
+    border-color: #4CAF50;
+    background: #e8f5e8;
+}
+
+.option.correct {
+    border-color: #4CAF50;
+    background: #c8e6c9;
+}
+
+.option.incorrect {
+    border-color: #f44336;
+    background: #ffcdd2;
+}
+
+.option-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #4CAF50;
+    color: white;
+    font-weight: 600;
+    margin-right: 1rem;
+    flex-shrink: 0;
+}
+
+.option-text {
+    flex: 1;
+    font-size: 1rem;
+}
+
+.test-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    border-top: 1px solid #e0e0e0;
+}
+
+.test-results {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.result-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.stat-label {
+    font-size: 0.9rem;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.stat-value {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #4CAF50;
+}
+
+.test-actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.test-review {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.review-question {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background: #f8f9fa;
+}
+
+.review-question.correct {
+    border-color: #4CAF50;
+    background: #e8f5e8;
+}
+
+.review-question.incorrect {
+    border-color: #f44336;
+    background: #ffebee;
+}
+
+.review-actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+/* Enhanced Test Review Styles */
+.review-header {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: linear-gradient(135deg, #4CAF50, #45a049);
+    color: white;
+    border-radius: 12px;
+}
+
+.review-header h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.8rem;
+}
+
+.review-header p {
+    margin: 0;
+    opacity: 0.9;
+}
+
+.review-question {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 2px solid #e0e0e0;
+    background: #f8f9fa;
+    transition: all 0.3s ease;
+}
+
+.review-question:hover {
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.review-question.correct {
+    border-color: #4CAF50;
+    background: #e8f5e8;
+}
+
+.review-question.incorrect {
+    border-color: #f44336;
+    background: #ffebee;
+}
+
+.review-question-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.review-question-header h4 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.question-type {
+    background: #4CAF50;
+    color: white;
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.review-question-content {
+    line-height: 1.6;
+}
+
+.question-text {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.answer-comparison {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.user-answer, .correct-answer {
+    padding: 1rem;
+    border-radius: 8px;
+    background: white;
+    border: 1px solid #ddd;
+}
+
+.user-answer {
+    border-left: 4px solid #2196F3;
+}
+
+.correct-answer {
+    border-left: 4px solid #4CAF50;
+}
+
+.answer-text {
+    display: block;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.answer-text.correct {
+    background: #e8f5e8;
+    color: #2e7d32;
+}
+
+.answer-text.incorrect {
+    background: #ffcdd2;
+    color: #c62828;
+}
+
+.explanation {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: #f0f8ff;
+    border-left: 4px solid #2196F3;
+    border-radius: 0 8px 8px 0;
+    font-style: italic;
+    color: #1976d2;
+}
+
+/* Mobile responsive for review */
+@media (max-width: 768px) {
+    .answer-comparison {
+        grid-template-columns: 1fr;
+    }
+    
+    .review-question-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+    
+    .review-header h3 {
+        font-size: 1.5rem;
+    }
+}
+
 .app-info {
     display: grid;
     gap: 2rem;

@@ -17,6 +17,8 @@
                     <button class="nav-btn active" data-section="dashboard">Dashboard</button>
                     <button class="nav-btn" data-section="daily">Daily Study</button>
                     <button class="nav-btn" data-section="vocabulary">Vocabulary</button>
+                    <button class="nav-btn" data-section="grammar">Grammar</button>
+                    <button class="nav-btn" data-section="test">Test</button>
                     <button class="nav-btn" data-section="quiz">Quiz</button>
                 </nav>
             </div>
@@ -142,7 +144,7 @@
                         </div>
 
                         <!-- Grammar Tab -->
-                        <div id="grammar" class="tab-panel">
+                        <div id="grammar-tab" class="tab-panel">
                             <div class="study-header">
                                 <h3>Grammar</h3>
                             <div class="study-stats">
@@ -173,6 +175,101 @@
                         <p>Loading N5 vocabulary list...</p>
                     </div>
                 </div>
+            </section>
+
+            <!-- Grammar Section -->
+            <section id="grammar" class="section">
+                <div class="grammar-header">
+                    <h2>Grammar Reference</h2>
+                    <div class="grammar-controls">
+                        <div class="search-bar">
+                            <input type="text" id="grammarSearch" placeholder="Search grammar points..." />
+                            <button class="search-btn" id="grammarSearchBtn">Search</button>
+                        </div>
+                        <div class="filter-controls">
+                            <select id="levelFilter">
+                                <option value="all">All Levels</option>
+                                <option value="N5">N5 Only</option>
+                                <option value="N4">N4 Only</option>
+                            </select>
+                            <select id="categoryFilter">
+                                <option value="all">All Categories</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="grammarDatabase" class="grammar-scroll-container">
+                    <div class="loading-message">
+                        <p>Loading grammar database...</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Test Section -->
+            <section id="test" class="section">
+                <div class="test-header">
+                    <h2>Practice Tests</h2>
+                    <div class="test-controls">
+                        <select id="testSelect">
+                            <option value="">Select a Practice Test</option>
+                        </select>
+                        <button class="btn primary" id="startTestBtn" disabled>Start Test</button>
+                    </div>
+                </div>
+
+                <div id="testArea" class="test-area" style="display: none;">
+                    <div class="test-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="testProgress"></div>
+                        </div>
+                        <div class="test-timer">
+                            <span id="testTimer">00:00</span>
+                        </div>
+                    </div>
+
+                    <div class="test-question" id="testQuestion">
+                        <!-- Test questions will be loaded here -->
+                    </div>
+
+                    <div class="test-navigation">
+                        <button class="btn secondary" id="prevQuestionBtn" disabled>Previous</button>
+                        <button class="btn primary" id="nextQuestionBtn">Next</button>
+                        <button class="btn danger" id="finishTestBtn" style="display: none;">Finish Test</button>
+                    </div>
+                </div>
+
+                <div id="testResults" class="test-results" style="display: none;">
+                    <h3>Test Results</h3>
+                    <div class="result-stats">
+                        <div class="stat-item">
+                            <span class="stat-label">Score:</span>
+                            <span class="stat-value" id="testScore">0/0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Percentage:</span>
+                            <span class="stat-value" id="testPercentage">0%</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Time:</span>
+                            <span class="stat-value" id="testTime">0:00</span>
+                        </div>
+                    </div>
+                    <div class="test-actions">
+                        <button class="btn primary" id="reviewTestBtn">Review Answers</button>
+                        <button class="btn secondary" id="retakeTestBtn">Retake Test</button>
+                    </div>
+                </div>
+
+            <div id="testReview" class="test-review" style="display: none;">
+                <div id="reviewContent">
+                    <!-- Review content will be loaded here -->
+                </div>
+                <div class="review-actions">
+                    <button class="btn secondary" id="backToResultsBtn">Back to Results</button>
+                    <button class="btn primary" id="retakeFromReviewBtn">Retake Test</button>
+                </div>
+            </div>
             </section>
 
             <!-- Quiz Section -->
