@@ -1,0 +1,301 @@
+{
+  "day": 35,
+  "date": "2025-02-04",
+  "title": "JLPT N5 Study Plan - Day 35",
+  "daily_goal": {
+    "vocabulary_words": 20,
+    "kanji_characters": 6,
+    "grammar_points": 3,
+    "study_time_minutes": 60
+  },
+  "vocabulary": {
+    "new_words": [
+      {
+        "kanji": "スポーツ",
+        "hiragana": "スポーツ",
+        "romaji": "supootsu",
+        "english": "sports",
+        "category": "sports",
+        "level": "N5"
+      },
+      {
+        "kanji": "運動",
+        "hiragana": "うんどう",
+        "romaji": "undou",
+        "english": "exercise, movement",
+        "category": "sports",
+        "level": "N4"
+      },
+      {
+        "kanji": "練習",
+        "hiragana": "れんしゅう",
+        "romaji": "renshuu",
+        "english": "practice",
+        "category": "sports",
+        "level": "N5"
+      },
+      {
+        "kanji": "試合",
+        "hiragana": "しあい",
+        "romaji": "shiai",
+        "english": "game, match",
+        "category": "sports",
+        "level": "N4"
+      },
+      {
+        "kanji": "競技",
+        "hiragana": "きょうぎ",
+        "romaji": "kyougi",
+        "english": "competition",
+        "category": "sports",
+        "level": "N4"
+      },
+      {
+        "kanji": "選手",
+        "hiragana": "せんしゅ",
+        "romaji": "senshu",
+        "english": "player, athlete",
+        "category": "sports",
+        "level": "N4"
+      },
+      {
+        "kanji": "チーム",
+        "hiragana": "チーム",
+        "romaji": "chiimu",
+        "english": "team",
+        "category": "sports",
+        "level": "N4"
+      },
+      {
+        "kanji": "勝利",
+        "hiragana": "しょうり",
+        "romaji": "shouri",
+        "english": "victory",
+        "category": "sports",
+        "level": "N4"
+      },
+      {
+        "kanji": "敗北",
+        "hiragana": "はいぼく",
+        "romaji": "haiboku",
+        "english": "defeat",
+        "category": "sports",
+        "level": "N4"
+      },
+      {
+        "kanji": "優勝",
+        "hiragana": "ゆうしょう",
+        "romaji": "yuushou",
+        "english": "championship",
+        "category": "sports",
+        "level": "N4"
+      },
+      {
+        "kanji": "記録",
+        "hiragana": "きろく",
+        "romaji": "kiroku",
+        "english": "record",
+        "category": "sports",
+        "level": "N4"
+      },
+      {
+        "kanji": "体力",
+        "hiragana": "たいりょく",
+        "romaji": "tairyoku",
+        "english": "physical strength",
+        "category": "sports",
+        "level": "N4"
+      },
+      {
+        "kanji": "健康",
+        "hiragana": "けんこう",
+        "romaji": "kenkou",
+        "english": "health",
+        "category": "health",
+        "level": "N5"
+      },
+      {
+        "kanji": "筋肉",
+        "hiragana": "きんにく",
+        "romaji": "kinniku",
+        "english": "muscle",
+        "category": "sports",
+        "level": "N4"
+      },
+      {
+        "kanji": "柔軟性",
+        "hiragana": "じゅうなんせい",
+        "romaji": "juunansei",
+        "english": "flexibility",
+        "category": "sports",
+        "level": "N4"
+      },
+      {
+        "kanji": "持久力",
+        "hiragana": "じきゅうりょく",
+        "romaji": "jikyuuryoku",
+        "english": "endurance",
+        "category": "sports",
+        "level": "N4"
+      },
+      {
+        "kanji": "集中力",
+        "hiragana": "しゅうちゅうりょく",
+        "romaji": "shuuchuuryoku",
+        "english": "concentration",
+        "category": "sports",
+        "level": "N4"
+      },
+      {
+        "kanji": "協力",
+        "hiragana": "きょうりょく",
+        "romaji": "kyouryoku",
+        "english": "cooperation",
+        "category": "sports",
+        "level": "N4"
+      },
+      {
+        "kanji": "努力",
+        "hiragana": "どりょく",
+        "romaji": "doryoku",
+        "english": "effort",
+        "category": "general",
+        "level": "N4"
+      },
+      {
+        "kanji": "頑張る",
+        "hiragana": "がんばる",
+        "romaji": "ganbaru",
+        "english": "to do one's best",
+        "category": "sports",
+        "level": "N5"
+      }
+    ],
+    "total_learned": 20,
+    "category_focus": "sports"
+  },
+  "kanji": {
+    "new_kanji": [
+      {
+        "kanji": "運",
+        "onyomi": "ウン",
+        "kunyomi": "はこ",
+        "meaning": "carry, transport",
+        "vocabulary": [
+          "運動(うんどう)",
+          "運ぶ(はこぶ)"
+        ],
+        "strokes": 12
+      },
+      {
+        "kanji": "動",
+        "onyomi": "ドウ",
+        "kunyomi": "うご",
+        "meaning": "move, motion",
+        "vocabulary": [
+          "運動(うんどう)",
+          "動く(うごく)"
+        ],
+        "strokes": 11
+      },
+      {
+        "kanji": "練",
+        "onyomi": "レン",
+        "kunyomi": "ね",
+        "meaning": "practice, refine",
+        "vocabulary": [
+          "練習(れんしゅう)",
+          "練る(ねる)"
+        ],
+        "strokes": 14
+      },
+      {
+        "kanji": "習",
+        "onyomi": "シュウ",
+        "kunyomi": "なら",
+        "meaning": "learn, practice",
+        "vocabulary": [
+          "練習(れんしゅう)",
+          "習う(ならう)"
+        ],
+        "strokes": 11
+      },
+      {
+        "kanji": "試",
+        "onyomi": "シ",
+        "kunyomi": "ため",
+        "meaning": "try, test",
+        "vocabulary": [
+          "試合(しあい)",
+          "試す(ためす)"
+        ],
+        "strokes": 13
+      },
+      {
+        "kanji": "合",
+        "onyomi": "ゴウ、ガッ",
+        "kunyomi": "あ",
+        "meaning": "fit, match",
+        "vocabulary": [
+          "試合(しあい)",
+          "合う(あう)"
+        ],
+        "strokes": 6
+      }
+    ],
+    "total_learned": 6,
+    "stroke_practice": [
+      "運",
+      "動",
+      "練",
+      "習",
+      "試",
+      "合"
+    ]
+  },
+  "grammar": {
+    "new_points": [
+      {
+        "grammar": "～ながら",
+        "meaning": "while doing",
+        "formation": "Verb (stem) + ながら",
+        "example_jp": "音楽を聞きながら勉強します。",
+        "example_en": "I study while listening to music.",
+        "level": "N4",
+        "category": "simultaneous"
+      },
+      {
+        "grammar": "～間",
+        "meaning": "during, while",
+        "formation": "Verb (dictionary form) + 間",
+        "example_jp": "勉強している間、静かにしてください。",
+        "example_en": "Please be quiet while I'm studying.",
+        "level": "N4",
+        "category": "time"
+      },
+      {
+        "grammar": "～うちに",
+        "meaning": "while, before",
+        "formation": "Verb (dictionary form) + うちに",
+        "example_jp": "若いうちに勉強しましょう。",
+        "example_en": "Let's study while we're young.",
+        "level": "N4",
+        "category": "time"
+      }
+    ],
+    "total_learned": 3,
+    "focus_category": "time"
+  },
+  "daily_quiz": {
+    "questions": [],
+    "total_questions": 0,
+    "estimated_time_minutes": 15,
+    "description": "Mixed review of vocabulary, kanji, and grammar from previous days"
+  },
+  "study_tips": {
+    "vocabulary": "Focus on sports and physical activity vocabulary. Practice using these words in context about sports and exercise.",
+    "kanji": "Learn the compound words that use these kanji. Practice writing them with proper stroke order.",
+    "grammar": "Understand the different ways to express simultaneous actions and time periods in Japanese.",
+    "general": "Review previous days' content and practice using new vocabulary in sentences about sports and physical activities."
+  }
+}

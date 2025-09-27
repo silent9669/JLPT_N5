@@ -1,0 +1,301 @@
+{
+  "day": 31,
+  "date": "2025-01-31",
+  "title": "JLPT N5 Study Plan - Day 31",
+  "daily_goal": {
+    "vocabulary_words": 20,
+    "kanji_characters": 6,
+    "grammar_points": 3,
+    "study_time_minutes": 60
+  },
+  "vocabulary": {
+    "new_words": [
+      {
+        "kanji": "技術",
+        "hiragana": "ぎじゅつ",
+        "romaji": "gijutsu",
+        "english": "technology",
+        "category": "technology",
+        "level": "N4"
+      },
+      {
+        "kanji": "発明",
+        "hiragana": "はつめい",
+        "romaji": "hatsumei",
+        "english": "invention",
+        "category": "technology",
+        "level": "N4"
+      },
+      {
+        "kanji": "研究",
+        "hiragana": "けんきゅう",
+        "romaji": "kenkyuu",
+        "english": "research",
+        "category": "academic",
+        "level": "N4"
+      },
+      {
+        "kanji": "実験",
+        "hiragana": "じっけん",
+        "romaji": "jikken",
+        "english": "experiment",
+        "category": "academic",
+        "level": "N4"
+      },
+      {
+        "kanji": "発見",
+        "hiragana": "はっけん",
+        "romaji": "hakken",
+        "english": "discovery",
+        "category": "academic",
+        "level": "N4"
+      },
+      {
+        "kanji": "進歩",
+        "hiragana": "しんぽ",
+        "romaji": "shinpo",
+        "english": "progress",
+        "category": "general",
+        "level": "N4"
+      },
+      {
+        "kanji": "発展",
+        "hiragana": "はってん",
+        "romaji": "hatten",
+        "english": "development",
+        "category": "general",
+        "level": "N4"
+      },
+      {
+        "kanji": "改善",
+        "hiragana": "かいぜん",
+        "romaji": "kaizen",
+        "english": "improvement",
+        "category": "general",
+        "level": "N4"
+      },
+      {
+        "kanji": "解決",
+        "hiragana": "かいけつ",
+        "romaji": "kaiketsu",
+        "english": "solution",
+        "category": "general",
+        "level": "N4"
+      },
+      {
+        "kanji": "問題",
+        "hiragana": "もんだい",
+        "romaji": "mondai",
+        "english": "problem",
+        "category": "general",
+        "level": "N5"
+      },
+      {
+        "kanji": "方法",
+        "hiragana": "ほうほう",
+        "romaji": "houhou",
+        "english": "method",
+        "category": "general",
+        "level": "N4"
+      },
+      {
+        "kanji": "計画",
+        "hiragana": "けいかく",
+        "romaji": "keikaku",
+        "english": "plan",
+        "category": "general",
+        "level": "N4"
+      },
+      {
+        "kanji": "目標",
+        "hiragana": "もくひょう",
+        "romaji": "mokuhyou",
+        "english": "goal",
+        "category": "general",
+        "level": "N4"
+      },
+      {
+        "kanji": "成功",
+        "hiragana": "せいこう",
+        "romaji": "seikou",
+        "english": "success",
+        "category": "general",
+        "level": "N4"
+      },
+      {
+        "kanji": "失敗",
+        "hiragana": "しっぱい",
+        "romaji": "shippai",
+        "english": "failure",
+        "category": "general",
+        "level": "N4"
+      },
+      {
+        "kanji": "努力",
+        "hiragana": "どりょく",
+        "romaji": "doryoku",
+        "english": "effort",
+        "category": "general",
+        "level": "N4"
+      },
+      {
+        "kanji": "練習",
+        "hiragana": "れんしゅう",
+        "romaji": "renshuu",
+        "english": "practice",
+        "category": "general",
+        "level": "N5"
+      },
+      {
+        "kanji": "経験",
+        "hiragana": "けいけん",
+        "romaji": "keiken",
+        "english": "experience",
+        "category": "general",
+        "level": "N4"
+      },
+      {
+        "kanji": "知識",
+        "hiragana": "ちしき",
+        "romaji": "chishiki",
+        "english": "knowledge",
+        "category": "academic",
+        "level": "N4"
+      },
+      {
+        "kanji": "能力",
+        "hiragana": "のうりょく",
+        "romaji": "nouryoku",
+        "english": "ability",
+        "category": "general",
+        "level": "N4"
+      }
+    ],
+    "total_learned": 20,
+    "category_focus": "technology"
+  },
+  "kanji": {
+    "new_kanji": [
+      {
+        "kanji": "技",
+        "onyomi": "ギ",
+        "kunyomi": "わざ",
+        "meaning": "skill, technique",
+        "vocabulary": [
+          "技術(ぎじゅつ)",
+          "技(わざ)"
+        ],
+        "strokes": 7
+      },
+      {
+        "kanji": "術",
+        "onyomi": "ジュツ",
+        "kunyomi": "すべ",
+        "meaning": "art, technique",
+        "vocabulary": [
+          "技術(ぎじゅつ)",
+          "手術(しゅじゅつ)"
+        ],
+        "strokes": 11
+      },
+      {
+        "kanji": "発",
+        "onyomi": "ハツ、ホツ",
+        "kunyomi": "はつ",
+        "meaning": "departure, emit",
+        "vocabulary": [
+          "発明(はつめい)",
+          "発見(はっけん)"
+        ],
+        "strokes": 9
+      },
+      {
+        "kanji": "明",
+        "onyomi": "メイ、ミョウ",
+        "kunyomi": "あか、あき",
+        "meaning": "bright, clear",
+        "vocabulary": [
+          "発明(はつめい)",
+          "明日(あした)"
+        ],
+        "strokes": 8
+      },
+      {
+        "kanji": "研",
+        "onyomi": "ケン",
+        "kunyomi": "とぐ",
+        "meaning": "polish, study",
+        "vocabulary": [
+          "研究(けんきゅう)",
+          "研ぐ(とぐ)"
+        ],
+        "strokes": 9
+      },
+      {
+        "kanji": "究",
+        "onyomi": "キュウ",
+        "kunyomi": "きわ",
+        "meaning": "research, investigate",
+        "vocabulary": [
+          "研究(けんきゅう)",
+          "究める(きわめる)"
+        ],
+        "strokes": 7
+      }
+    ],
+    "total_learned": 6,
+    "stroke_practice": [
+      "技",
+      "術",
+      "発",
+      "明",
+      "研",
+      "究"
+    ]
+  },
+  "grammar": {
+    "new_points": [
+      {
+        "grammar": "ために",
+        "meaning": "in order to, for the purpose of",
+        "formation": "Verb (dictionary form) + ために",
+        "example_jp": "日本語を勉強するために日本に来ました。",
+        "example_en": "I came to Japan in order to study Japanese.",
+        "level": "N4",
+        "category": "purpose"
+      },
+      {
+        "grammar": "ように",
+        "meaning": "in order to, so that",
+        "formation": "Verb (potential form) + ように",
+        "example_jp": "日本語が話せるように勉強しています。",
+        "example_en": "I'm studying so that I can speak Japanese.",
+        "level": "N4",
+        "category": "purpose"
+      },
+      {
+        "grammar": "おかげで",
+        "meaning": "thanks to, because of",
+        "formation": "Noun + のおかげで",
+        "example_jp": "先生のおかげで日本語が上手になりました。",
+        "example_en": "Thanks to my teacher, my Japanese has improved.",
+        "level": "N4",
+        "category": "cause"
+      }
+    ],
+    "total_learned": 3,
+    "focus_category": "purpose"
+  },
+  "daily_quiz": {
+    "questions": [],
+    "total_questions": 0,
+    "estimated_time_minutes": 15,
+    "description": "Mixed review of vocabulary, kanji, and grammar from previous days"
+  },
+  "study_tips": {
+    "vocabulary": "Focus on technology and academic vocabulary. Practice using these words in context.",
+    "kanji": "Learn the compound words that use these kanji. Practice writing them with proper stroke order.",
+    "grammar": "Understand the difference between ために and ように for expressing purpose.",
+    "general": "Review previous days' content and practice using new vocabulary in sentences."
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "day": 36,
+  "date": "2025-02-05",
+  "title": "JLPT N5 Study Plan - Day 36",
+  "daily_goal": {
+    "vocabulary_words": 20,
+    "kanji_characters": 6,
+    "grammar_points": 3,
+    "study_time_minutes": 60
+  },
+  "vocabulary": {
+    "new_words": [
+      {
+        "kanji": "旅行",
+        "hiragana": "りょこう",
+        "romaji": "ryokou",
+        "english": "travel, trip",
+        "category": "travel",
+        "level": "N5"
+      },
+      {
+        "kanji": "観光",
+        "hiragana": "かんこう",
+        "romaji": "kankou",
+        "english": "sightseeing",
+        "category": "travel",
+        "level": "N4"
+      },
+      {
+        "kanji": "観光地",
+        "hiragana": "かんこうち",
+        "romaji": "kankouchi",
+        "english": "tourist spot",
+        "category": "travel",
+        "level": "N4"
+      },
+      {
+        "kanji": "名所",
+        "hiragana": "めいしょ",
+        "romaji": "meisho",
+        "english": "famous place",
+        "category": "travel",
+        "level": "N4"
+      },
+      {
+        "kanji": "景色",
+        "hiragana": "けしき",
+        "romaji": "keshiki",
+        "english": "scenery, view",
+        "category": "travel",
+        "level": "N4"
+      },
+      {
+        "kanji": "風景",
+        "hiragana": "ふうけい",
+        "romaji": "fuukei",
+        "english": "landscape",
+        "category": "travel",
+        "level": "N4"
+      },
+      {
+        "kanji": "宿泊",
+        "hiragana": "しゅくはく",
+        "romaji": "shukuhaku",
+        "english": "accommodation",
+        "category": "travel",
+        "level": "N4"
+      },
+      {
+        "kanji": "ホテル",
+        "hiragana": "ホテル",
+        "romaji": "hoteru",
+        "english": "hotel",
+        "category": "travel",
+        "level": "N5"
+      },
+      {
+        "kanji": "旅館",
+        "hiragana": "りょかん",
+        "romaji": "ryokan",
+        "english": "Japanese inn",
+        "category": "travel",
+        "level": "N4"
+      },
+      {
+        "kanji": "予約",
+        "hiragana": "よやく",
+        "romaji": "yoyaku",
+        "english": "reservation",
+        "category": "travel",
+        "level": "N4"
+      },
+      {
+        "kanji": "切符",
+        "hiragana": "きっぷ",
+        "romaji": "kippu",
+        "english": "ticket",
+        "category": "travel",
+        "level": "N5"
+      },
+      {
+        "kanji": "乗り物",
+        "hiragana": "のりもの",
+        "romaji": "norimono",
+        "english": "vehicle",
+        "category": "travel",
+        "level": "N5"
+      },
+      {
+        "kanji": "電車",
+        "hiragana": "でんしゃ",
+        "romaji": "densha",
+        "english": "train",
+        "category": "travel",
+        "level": "N5"
+      },
+      {
+        "kanji": "飛行機",
+        "hiragana": "ひこうき",
+        "romaji": "hikouki",
+        "english": "airplane",
+        "category": "travel",
+        "level": "N5"
+      },
+      {
+        "kanji": "船",
+        "hiragana": "ふね",
+        "romaji": "fune",
+        "english": "ship, boat",
+        "category": "travel",
+        "level": "N5"
+      },
+      {
+        "kanji": "バス",
+        "hiragana": "バス",
+        "romaji": "basu",
+        "english": "bus",
+        "category": "travel",
+        "level": "N5"
+      },
+      {
+        "kanji": "タクシー",
+        "hiragana": "タクシー",
+        "romaji": "takushii",
+        "english": "taxi",
+        "category": "travel",
+        "level": "N5"
+      },
+      {
+        "kanji": "地図",
+        "hiragana": "ちず",
+        "romaji": "chizu",
+        "english": "map",
+        "category": "travel",
+        "level": "N5"
+      },
+      {
+        "kanji": "案内",
+        "hiragana": "あんない",
+        "romaji": "annai",
+        "english": "guidance, information",
+        "category": "travel",
+        "level": "N4"
+      },
+      {
+        "kanji": "案内所",
+        "hiragana": "あんないじょ",
+        "romaji": "annaijo",
+        "english": "information desk",
+        "category": "travel",
+        "level": "N4"
+      }
+    ],
+    "total_learned": 20,
+    "category_focus": "travel"
+  },
+  "kanji": {
+    "new_kanji": [
+      {
+        "kanji": "旅",
+        "onyomi": "リョ",
+        "kunyomi": "たび",
+        "meaning": "travel, trip",
+        "vocabulary": [
+          "旅行(りょこう)",
+          "旅(たび)"
+        ],
+        "strokes": 10
+      },
+      {
+        "kanji": "行",
+        "onyomi": "コウ、ギョウ",
+        "kunyomi": "い、ゆ",
+        "meaning": "go, travel",
+        "vocabulary": [
+          "旅行(りょこう)",
+          "行く(いく)"
+        ],
+        "strokes": 6
+      },
+      {
+        "kanji": "観",
+        "onyomi": "カン",
+        "kunyomi": "み",
+        "meaning": "observe, view",
+        "vocabulary": [
+          "観光(かんこう)",
+          "観る(みる)"
+        ],
+        "strokes": 18
+      },
+      {
+        "kanji": "光",
+        "onyomi": "コウ",
+        "kunyomi": "ひか",
+        "meaning": "light, shine",
+        "vocabulary": [
+          "観光(かんこう)",
+          "光る(ひかる)"
+        ],
+        "strokes": 6
+      },
+      {
+        "kanji": "名",
+        "onyomi": "メイ、ミョウ",
+        "kunyomi": "な",
+        "meaning": "name, famous",
+        "vocabulary": [
+          "名所(めいしょ)",
+          "名前(なまえ)"
+        ],
+        "strokes": 6
+      },
+      {
+        "kanji": "所",
+        "onyomi": "ショ",
+        "kunyomi": "ところ",
+        "meaning": "place, location",
+        "vocabulary": [
+          "名所(めいしょ)",
+          "所(ところ)"
+        ],
+        "strokes": 8
+      }
+    ],
+    "total_learned": 6,
+    "stroke_practice": [
+      "旅",
+      "行",
+      "観",
+      "光",
+      "名",
+      "所"
+    ]
+  },
+  "grammar": {
+    "new_points": [
+      {
+        "grammar": "～てみる",
+        "meaning": "try doing",
+        "formation": "Verb (te-form) + みる",
+        "example_jp": "この料理を食べてみてください。",
+        "example_en": "Please try eating this dish.",
+        "level": "N4",
+        "category": "attempt"
+      },
+      {
+        "grammar": "～ておく",
+        "meaning": "do in advance",
+        "formation": "Verb (te-form) + おく",
+        "example_jp": "宿題をしておきます。",
+        "example_en": "I'll do my homework in advance.",
+        "level": "N4",
+        "category": "preparation"
+      },
+      {
+        "grammar": "～てある",
+        "meaning": "has been done (resultative)",
+        "formation": "Verb (te-form) + ある",
+        "example_jp": "窓が開けてあります。",
+        "example_en": "The window has been opened.",
+        "level": "N4",
+        "category": "result"
+      }
+    ],
+    "total_learned": 3,
+    "focus_category": "action"
+  },
+  "daily_quiz": {
+    "questions": [],
+    "total_questions": 0,
+    "estimated_time_minutes": 15,
+    "description": "Mixed review of vocabulary, kanji, and grammar from previous days"
+  },
+  "study_tips": {
+    "vocabulary": "Focus on travel and tourism vocabulary. Practice using these words in context about traveling and sightseeing.",
+    "kanji": "Learn the compound words that use these kanji. Practice writing them with proper stroke order.",
+    "grammar": "Understand the different ways to express attempts, preparation, and results in Japanese.",
+    "general": "Review previous days' content and practice using new vocabulary in sentences about travel and tourism. This is the final day of the 36-day study plan!"
+  }
+}

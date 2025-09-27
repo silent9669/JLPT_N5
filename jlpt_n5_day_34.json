@@ -1,0 +1,301 @@
+{
+  "day": 34,
+  "date": "2025-02-03",
+  "title": "JLPT N5 Study Plan - Day 34",
+  "daily_goal": {
+    "vocabulary_words": 20,
+    "kanji_characters": 6,
+    "grammar_points": 3,
+    "study_time_minutes": 60
+  },
+  "vocabulary": {
+    "new_words": [
+      {
+        "kanji": "芸術",
+        "hiragana": "げいじゅつ",
+        "romaji": "geijutsu",
+        "english": "art",
+        "category": "arts",
+        "level": "N4"
+      },
+      {
+        "kanji": "音楽",
+        "hiragana": "おんがく",
+        "romaji": "ongaku",
+        "english": "music",
+        "category": "arts",
+        "level": "N5"
+      },
+      {
+        "kanji": "美術",
+        "hiragana": "びじゅつ",
+        "romaji": "bijutsu",
+        "english": "fine arts",
+        "category": "arts",
+        "level": "N4"
+      },
+      {
+        "kanji": "文学",
+        "hiragana": "ぶんがく",
+        "romaji": "bungaku",
+        "english": "literature",
+        "category": "arts",
+        "level": "N4"
+      },
+      {
+        "kanji": "映画",
+        "hiragana": "えいが",
+        "romaji": "eiga",
+        "english": "movie",
+        "category": "arts",
+        "level": "N5"
+      },
+      {
+        "kanji": "演劇",
+        "hiragana": "えんげき",
+        "romaji": "engeki",
+        "english": "theater",
+        "category": "arts",
+        "level": "N4"
+      },
+      {
+        "kanji": "舞台",
+        "hiragana": "ぶたい",
+        "romaji": "butai",
+        "english": "stage",
+        "category": "arts",
+        "level": "N4"
+      },
+      {
+        "kanji": "演奏",
+        "hiragana": "えんそう",
+        "romaji": "ensou",
+        "english": "performance",
+        "category": "arts",
+        "level": "N4"
+      },
+      {
+        "kanji": "作品",
+        "hiragana": "さくひん",
+        "romaji": "sakuhin",
+        "english": "work, piece",
+        "category": "arts",
+        "level": "N4"
+      },
+      {
+        "kanji": "創作",
+        "hiragana": "そうさく",
+        "romaji": "sousaku",
+        "english": "creation",
+        "category": "arts",
+        "level": "N4"
+      },
+      {
+        "kanji": "表現",
+        "hiragana": "ひょうげん",
+        "romaji": "hyougen",
+        "english": "expression",
+        "category": "arts",
+        "level": "N4"
+      },
+      {
+        "kanji": "感動",
+        "hiragana": "かんどう",
+        "romaji": "kandou",
+        "english": "emotion, impression",
+        "category": "emotion",
+        "level": "N4"
+      },
+      {
+        "kanji": "美しい",
+        "hiragana": "うつくしい",
+        "romaji": "utsukushii",
+        "english": "beautiful",
+        "category": "emotion",
+        "level": "N4"
+      },
+      {
+        "kanji": "素晴らしい",
+        "hiragana": "すばらしい",
+        "romaji": "subarashii",
+        "english": "wonderful, amazing",
+        "category": "emotion",
+        "level": "N4"
+      },
+      {
+        "kanji": "面白い",
+        "hiragana": "おもしろい",
+        "romaji": "omoshiroi",
+        "english": "interesting, funny",
+        "category": "emotion",
+        "level": "N5"
+      },
+      {
+        "kanji": "楽しい",
+        "hiragana": "たのしい",
+        "romaji": "tanoshii",
+        "english": "fun, enjoyable",
+        "category": "emotion",
+        "level": "N5"
+      },
+      {
+        "kanji": "悲しい",
+        "hiragana": "かなしい",
+        "romaji": "kanashii",
+        "english": "sad",
+        "category": "emotion",
+        "level": "N5"
+      },
+      {
+        "kanji": "嬉しい",
+        "hiragana": "うれしい",
+        "romaji": "ureshii",
+        "english": "happy, glad",
+        "category": "emotion",
+        "level": "N5"
+      },
+      {
+        "kanji": "驚く",
+        "hiragana": "おどろく",
+        "romaji": "odoroku",
+        "english": "to be surprised",
+        "category": "emotion",
+        "level": "N4"
+      },
+      {
+        "kanji": "感動する",
+        "hiragana": "かんどうする",
+        "romaji": "kandou suru",
+        "english": "to be moved, impressed",
+        "category": "emotion",
+        "level": "N4"
+      }
+    ],
+    "total_learned": 20,
+    "category_focus": "arts"
+  },
+  "kanji": {
+    "new_kanji": [
+      {
+        "kanji": "芸",
+        "onyomi": "ゲイ",
+        "kunyomi": "う",
+        "meaning": "art, performance",
+        "vocabulary": [
+          "芸術(げいじゅつ)",
+          "芸(げい)"
+        ],
+        "strokes": 7
+      },
+      {
+        "kanji": "音",
+        "onyomi": "オン、イン",
+        "kunyomi": "おと、ね",
+        "meaning": "sound",
+        "vocabulary": [
+          "音楽(おんがく)",
+          "音(おと)"
+        ],
+        "strokes": 9
+      },
+      {
+        "kanji": "美",
+        "onyomi": "ビ",
+        "kunyomi": "うつく",
+        "meaning": "beautiful",
+        "vocabulary": [
+          "美術(びじゅつ)",
+          "美しい(うつくしい)"
+        ],
+        "strokes": 9
+      },
+      {
+        "kanji": "文",
+        "onyomi": "ブン、モン",
+        "kunyomi": "ふみ",
+        "meaning": "writing, literature",
+        "vocabulary": [
+          "文学(ぶんがく)",
+          "文(ふみ)"
+        ],
+        "strokes": 4
+      },
+      {
+        "kanji": "映",
+        "onyomi": "エイ",
+        "kunyomi": "うつ",
+        "meaning": "reflect, project",
+        "vocabulary": [
+          "映画(えいが)",
+          "映す(うつす)"
+        ],
+        "strokes": 9
+      },
+      {
+        "kanji": "画",
+        "onyomi": "ガ、カク",
+        "kunyomi": "え",
+        "meaning": "picture, drawing",
+        "vocabulary": [
+          "映画(えいが)",
+          "絵(え)"
+        ],
+        "strokes": 8
+      }
+    ],
+    "total_learned": 6,
+    "stroke_practice": [
+      "芸",
+      "音",
+      "美",
+      "文",
+      "映",
+      "画"
+    ]
+  },
+  "grammar": {
+    "new_points": [
+      {
+        "grammar": "～そうだ",
+        "meaning": "looks like, seems like",
+        "formation": "Adjective (stem) + そうだ",
+        "example_jp": "この映画は面白そうですね。",
+        "example_en": "This movie looks interesting.",
+        "level": "N4",
+        "category": "appearance"
+      },
+      {
+        "grammar": "～らしい",
+        "meaning": "seems like, typical of",
+        "formation": "Noun + らしい",
+        "example_jp": "彼は日本人らしいです。",
+        "example_en": "He seems like a typical Japanese person.",
+        "level": "N4",
+        "category": "characteristic"
+      },
+      {
+        "grammar": "～みたいだ",
+        "meaning": "looks like, seems like",
+        "formation": "Noun/Adjective + みたいだ",
+        "example_jp": "この絵は写真みたいですね。",
+        "example_en": "This painting looks like a photograph.",
+        "level": "N4",
+        "category": "appearance"
+      }
+    ],
+    "total_learned": 3,
+    "focus_category": "appearance"
+  },
+  "daily_quiz": {
+    "questions": [],
+    "total_questions": 0,
+    "estimated_time_minutes": 15,
+    "description": "Mixed review of vocabulary, kanji, and grammar from previous days"
+  },
+  "study_tips": {
+    "vocabulary": "Focus on arts and emotion vocabulary. Practice using these words in context about art and feelings.",
+    "kanji": "Learn the compound words that use these kanji. Practice writing them with proper stroke order.",
+    "grammar": "Understand the different ways to express appearance and characteristics in Japanese.",
+    "general": "Review previous days' content and practice using new vocabulary in sentences about art and emotions."
+  }
+}

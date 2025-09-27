@@ -12,6 +12,12 @@ class JLPTApp {
         this.wrongAnswers = [];
         this.vocabData = [];
         this.filteredVocabData = [];
+        this.totalStats = {
+            vocabulary: 0,
+            kanji: 0,
+            grammar: 0,
+            days: 36
+        };
         
         this.init();
     }
@@ -19,6 +25,7 @@ class JLPTApp {
     init() {
         this.setupEventListeners();
         this.loadDayData(this.currentDay);
+        this.calculateTotalStats();
         
         // Pre-load vocabulary data for faster access
         this.loadVocabularyFromAPI();
@@ -137,6 +144,7 @@ class JLPTApp {
                 }
             });
         }
+
     }
 
     showSection(sectionName) {
@@ -214,16 +222,120 @@ class JLPTApp {
             const data = await response.json();
             
             this.currentDayData = data;
-            this.renderVocabulary(data.vocabulary);
-            this.renderKanji(data.kanji);
-            this.renderGrammar(data.grammar);
+            
+            // Calculate cumulative totals
+            const cumulativeTotals = await this.calculateCumulativeTotals(day);
+            
+            this.renderVocabulary(data.vocabulary, cumulativeTotals.vocabulary);
+            this.renderKanji(data.kanji, cumulativeTotals.kanji);
+            this.renderGrammar(data.grammar, cumulativeTotals.grammar);
         } catch (error) {
             console.error('Error loading day data:', error);
             this.showError('Failed to load study data for day ' + day);
         }
     }
 
-    renderVocabulary(vocabulary) {
+    async calculateCumulativeTotals(day) {
+        let totalVocabulary = 0;
+        let totalKanji = 0;
+        let totalGrammar = 0;
+
+        for (let i = 1; i <= day; i++) {
+            try {
+                const response = await fetch(`jlpt_n5_day_${i.toString().padStart(2, '0')}.json`);
+                const data = await response.json();
+                
+                if (data.vocabulary && data.vocabulary.new_words) {
+                    totalVocabulary += data.vocabulary.new_words.length;
+                }
+                if (data.kanji && data.kanji.new_kanji) {
+                    totalKanji += data.kanji.new_kanji.length;
+                }
+                if (data.grammar && data.grammar.new_points) {
+                    totalGrammar += data.grammar.new_points.length;
+                }
+            } catch (error) {
+                console.warn(`Could not load day ${i} data for cumulative calculation`);
+            }
+        }
+
+        return {
+            vocabulary: totalVocabulary,
+            kanji: totalKanji,
+            grammar: totalGrammar
+        };
+    }
+
+    async calculateTotalStats() {
+        let totalVocabulary = 0;
+        let totalKanji = 0;
+        let totalGrammar = 0;
+
+        for (let i = 1; i <= 36; i++) {
+            try {
+                const response = await fetch(`jlpt_n5_day_${i.toString().padStart(2, '0')}.json`);
+                const data = await response.json();
+                
+                if (data.vocabulary && data.vocabulary.new_words) {
+                    totalVocabulary += data.vocabulary.new_words.length;
+                }
+                if (data.kanji && data.kanji.new_kanji) {
+                    totalKanji += data.kanji.new_kanji.length;
+                }
+                if (data.grammar && data.grammar.new_points) {
+                    totalGrammar += data.grammar.new_points.length;
+                }
+            } catch (error) {
+                console.warn(`Could not load day ${i} data for total calculation`);
+            }
+        }
+
+        this.totalStats = {
+            vocabulary: totalVocabulary,
+            kanji: totalKanji,
+            grammar: totalGrammar,
+            days: 36
+        };
+
+        this.updateDashboardStats();
+    }
+
+    updateDashboardStats() {
+        this.animateNumber('vocab-count', this.totalStats.vocabulary);
+        this.animateNumber('kanji-count', this.totalStats.kanji);
+        this.animateNumber('grammar-count', this.totalStats.grammar);
+        this.animateNumber('days-count', this.totalStats.days);
+    }
+
+    animateNumber(elementId, targetNumber) {
+        const element = document.getElementById(elementId);
+        if (!element) return;
+
+        const duration = 2000; // 2 seconds
+        const startTime = performance.now();
+        const startNumber = 0;
+
+        const animate = (currentTime) => {
+            const elapsed = currentTime - startTime;
+            const progress = Math.min(elapsed / duration, 1);
+            
+            // Easing function for smooth animation
+            const easeOutQuart = 1 - Math.pow(1 - progress, 4);
+            const currentNumber = Math.floor(startNumber + (targetNumber - startNumber) * easeOutQuart);
+            
+            element.textContent = currentNumber;
+            
+            if (progress < 1) {
+                requestAnimationFrame(animate);
+            } else {
+                element.textContent = targetNumber;
+            }
+        };
+
+        requestAnimationFrame(animate);
+    }
+
+    renderVocabulary(vocabulary, cumulativeTotal = null) {
         const container = document.getElementById('vocabularyList');
         const countElement = document.getElementById('vocabCount');
 
@@ -235,7 +347,7 @@ class JLPTApp {
         }
 
         if (countElement) {
-            countElement.textContent = vocabulary.total_learned || vocabulary.new_words.length;
+            countElement.textContent = cumulativeTotal || vocabulary.total_learned || vocabulary.new_words.length;
         }
 
         container.innerHTML = vocabulary.new_words.map(word => `
@@ -248,7 +360,7 @@ class JLPTApp {
         `).join('');
     }
 
-    renderKanji(kanji) {
+    renderKanji(kanji, cumulativeTotal = null) {
         const container = document.getElementById('kanjiList');
         const countElement = document.getElementById('kanjiCount');
 
@@ -260,7 +372,7 @@ class JLPTApp {
         }
 
         if (countElement) {
-            countElement.textContent = kanji.total_learned || kanji.new_kanji.length;
+            countElement.textContent = cumulativeTotal || kanji.total_learned || kanji.new_kanji.length;
         }
 
         container.innerHTML = kanji.new_kanji.map(char => `
@@ -279,7 +391,7 @@ class JLPTApp {
         `).join('');
     }
 
-    renderGrammar(grammar) {
+    renderGrammar(grammar, cumulativeTotal = null) {
         const container = document.getElementById('grammarList');
         const countElement = document.getElementById('grammarCount');
 
@@ -291,7 +403,7 @@ class JLPTApp {
         }
 
         if (countElement) {
-            countElement.textContent = grammar.total_learned || grammar.new_points.length;
+            countElement.textContent = cumulativeTotal || grammar.total_learned || grammar.new_points.length;
         }
 
         container.innerHTML = grammar.new_points.map(point => `
@@ -327,9 +439,6 @@ class JLPTApp {
             const data = await response.json();
             this.vocabData = data.vocabulary || [];
             this.filteredVocabData = [...this.vocabData];
-            
-            console.log('Loaded vocabulary data:', this.vocabData.length, 'words');
-            console.log('First few words:', this.vocabData.slice(0, 3));
             
             this.updateVocabStats();
             this.renderVocabularyTable();
@@ -396,8 +505,6 @@ class JLPTApp {
     }
 
     renderVocabularyTable() {
-        console.log('renderVocabularyTable called - filteredVocabData length:', this.filteredVocabData.length);
-        
         // Try multiple containers
         let container = document.getElementById('vocabularyDatabase');
         if (!container) {
@@ -416,8 +523,6 @@ class JLPTApp {
             container.innerHTML = '<div class="loading-message">No vocabulary found matching your search criteria.</div>';
             return;
         }
-        
-        console.log('Rendering table with', this.filteredVocabData.length, 'words');
         
         // Create clean table with all words (unlimited scrolling)
         const tableHTML = `
@@ -450,7 +555,6 @@ class JLPTApp {
         `;
         
         container.innerHTML = tableHTML;
-        console.log('Table rendered with', container.querySelectorAll('tbody tr').length, 'rows');
     }
 
     // Quiz functionality (simplified)

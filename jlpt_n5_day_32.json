@@ -1,0 +1,301 @@
+{
+  "day": 32,
+  "date": "2025-02-01",
+  "title": "JLPT N5 Study Plan - Day 32",
+  "daily_goal": {
+    "vocabulary_words": 20,
+    "kanji_characters": 6,
+    "grammar_points": 3,
+    "study_time_minutes": 60
+  },
+  "vocabulary": {
+    "new_words": [
+      {
+        "kanji": "環境",
+        "hiragana": "かんきょう",
+        "romaji": "kankyou",
+        "english": "environment",
+        "category": "nature",
+        "level": "N4"
+      },
+      {
+        "kanji": "自然",
+        "hiragana": "しぜん",
+        "romaji": "shizen",
+        "english": "nature",
+        "category": "nature",
+        "level": "N4"
+      },
+      {
+        "kanji": "汚染",
+        "hiragana": "おせん",
+        "romaji": "osen",
+        "english": "pollution",
+        "category": "environment",
+        "level": "N4"
+      },
+      {
+        "kanji": "保護",
+        "hiragana": "ほご",
+        "romaji": "hogo",
+        "english": "protection",
+        "category": "environment",
+        "level": "N4"
+      },
+      {
+        "kanji": "節約",
+        "hiragana": "せつやく",
+        "romaji": "setsuyaku",
+        "english": "saving, conservation",
+        "category": "environment",
+        "level": "N4"
+      },
+      {
+        "kanji": "資源",
+        "hiragana": "しげん",
+        "romaji": "shigen",
+        "english": "resources",
+        "category": "environment",
+        "level": "N4"
+      },
+      {
+        "kanji": "エネルギー",
+        "hiragana": "エネルギー",
+        "romaji": "enerugii",
+        "english": "energy",
+        "category": "environment",
+        "level": "N4"
+      },
+      {
+        "kanji": "地球",
+        "hiragana": "ちきゅう",
+        "romaji": "chikyuu",
+        "english": "Earth",
+        "category": "nature",
+        "level": "N4"
+      },
+      {
+        "kanji": "温暖化",
+        "hiragana": "おんだんか",
+        "romaji": "ondanka",
+        "english": "global warming",
+        "category": "environment",
+        "level": "N4"
+      },
+      {
+        "kanji": "森林",
+        "hiragana": "しんりん",
+        "romaji": "shinrin",
+        "english": "forest",
+        "category": "nature",
+        "level": "N4"
+      },
+      {
+        "kanji": "動物",
+        "hiragana": "どうぶつ",
+        "romaji": "doubutsu",
+        "english": "animal",
+        "category": "nature",
+        "level": "N5"
+      },
+      {
+        "kanji": "植物",
+        "hiragana": "しょくぶつ",
+        "romaji": "shokubutsu",
+        "english": "plant",
+        "category": "nature",
+        "level": "N4"
+      },
+      {
+        "kanji": "絶滅",
+        "hiragana": "ぜつめつ",
+        "romaji": "zetsumetsu",
+        "english": "extinction",
+        "category": "environment",
+        "level": "N4"
+      },
+      {
+        "kanji": "生物",
+        "hiragana": "せいぶつ",
+        "romaji": "seibutsu",
+        "english": "living thing",
+        "category": "nature",
+        "level": "N4"
+      },
+      {
+        "kanji": "生態系",
+        "hiragana": "せいたいけい",
+        "romaji": "seitaikei",
+        "english": "ecosystem",
+        "category": "environment",
+        "level": "N4"
+      },
+      {
+        "kanji": "循環",
+        "hiragana": "じゅんかん",
+        "romaji": "junkan",
+        "english": "circulation, cycle",
+        "category": "environment",
+        "level": "N4"
+      },
+      {
+        "kanji": "再利用",
+        "hiragana": "さいりよう",
+        "romaji": "sairiyou",
+        "english": "recycling",
+        "category": "environment",
+        "level": "N4"
+      },
+      {
+        "kanji": "廃棄物",
+        "hiragana": "はいきぶつ",
+        "romaji": "haikibutsu",
+        "english": "waste",
+        "category": "environment",
+        "level": "N4"
+      },
+      {
+        "kanji": "清潔",
+        "hiragana": "せいけつ",
+        "romaji": "seiketsu",
+        "english": "clean",
+        "category": "general",
+        "level": "N4"
+      },
+      {
+        "kanji": "健康",
+        "hiragana": "けんこう",
+        "romaji": "kenkou",
+        "english": "health",
+        "category": "health",
+        "level": "N5"
+      }
+    ],
+    "total_learned": 20,
+    "category_focus": "environment"
+  },
+  "kanji": {
+    "new_kanji": [
+      {
+        "kanji": "環",
+        "onyomi": "カン",
+        "kunyomi": "わ",
+        "meaning": "ring, circle",
+        "vocabulary": [
+          "環境(かんきょう)",
+          "環(わ)"
+        ],
+        "strokes": 17
+      },
+      {
+        "kanji": "境",
+        "onyomi": "キョウ、ケイ",
+        "kunyomi": "さかい",
+        "meaning": "boundary, environment",
+        "vocabulary": [
+          "環境(かんきょう)",
+          "境界(きょうかい)"
+        ],
+        "strokes": 14
+      },
+      {
+        "kanji": "自",
+        "onyomi": "ジ、シ",
+        "kunyomi": "みずか",
+        "meaning": "self, nature",
+        "vocabulary": [
+          "自然(しぜん)",
+          "自分(じぶん)"
+        ],
+        "strokes": 6
+      },
+      {
+        "kanji": "然",
+        "onyomi": "ゼン、ネン",
+        "kunyomi": "しか",
+        "meaning": "nature, so",
+        "vocabulary": [
+          "自然(しぜん)",
+          "当然(とうぜん)"
+        ],
+        "strokes": 12
+      },
+      {
+        "kanji": "汚",
+        "onyomi": "オ",
+        "kunyomi": "よご、きたな",
+        "meaning": "dirty, pollute",
+        "vocabulary": [
+          "汚染(おせん)",
+          "汚い(きたない)"
+        ],
+        "strokes": 6
+      },
+      {
+        "kanji": "染",
+        "onyomi": "セン",
+        "kunyomi": "そ、しみ",
+        "meaning": "dye, stain",
+        "vocabulary": [
+          "汚染(おせん)",
+          "染める(そめる)"
+        ],
+        "strokes": 9
+      }
+    ],
+    "total_learned": 6,
+    "stroke_practice": [
+      "環",
+      "境",
+      "自",
+      "然",
+      "汚",
+      "染"
+    ]
+  },
+  "grammar": {
+    "new_points": [
+      {
+        "grammar": "ばかり",
+        "meaning": "only, just, nothing but",
+        "formation": "Verb (te-form) + ばかり",
+        "example_jp": "テレビを見てばかりいます。",
+        "example_en": "I do nothing but watch TV.",
+        "level": "N4",
+        "category": "limitation"
+      },
+      {
+        "grammar": "しか～ない",
+        "meaning": "only, nothing but",
+        "formation": "Noun + しか + Verb (negative)",
+        "example_jp": "お金が100円しかありません。",
+        "example_en": "I only have 100 yen.",
+        "level": "N4",
+        "category": "limitation"
+      },
+      {
+        "grammar": "～てしまう",
+        "meaning": "to finish doing, to do completely",
+        "formation": "Verb (te-form) + しまう",
+        "example_jp": "宿題をしてしまいました。",
+        "example_en": "I finished my homework.",
+        "level": "N4",
+        "category": "completion"
+      }
+    ],
+    "total_learned": 3,
+    "focus_category": "limitation"
+  },
+  "daily_quiz": {
+    "questions": [],
+    "total_questions": 0,
+    "estimated_time_minutes": 15,
+    "description": "Mixed review of vocabulary, kanji, and grammar from previous days"
+  },
+  "study_tips": {
+    "vocabulary": "Focus on environmental vocabulary. Practice using these words in context about nature and conservation.",
+    "kanji": "Learn the compound words that use these kanji. Practice writing them with proper stroke order.",
+    "grammar": "Understand the different ways to express limitation and completion in Japanese.",
+    "general": "Review previous days' content and practice using new vocabulary in sentences about the environment."
+  }
+}

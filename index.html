@@ -26,72 +26,36 @@
         <main class="main-content">
             <!-- Dashboard Section -->
             <section id="dashboard" class="section active">
-                <div class="dashboard-header">
-                    <h2>JLPT N5 Study App</h2>
-                    <p class="subtitle">A simple tool for learning Japanese vocabulary, kanji, and grammar</p>
-                </div>
-                
-                <div class="app-info">
-                    <div class="info-card">
-                        <h3>About This App</h3>
-                        <p>This is a learning tool created for educational purposes only. It provides structured study materials for JLPT N5 preparation including vocabulary lists, kanji practice, and grammar exercises.</p>
+                <div class="dashboard-content">
+                    <div class="study-stats">
+                    <div class="stat-card">
+                        <div class="stat-number" id="vocab-count">0</div>
+                        <div class="stat-label">Vocabulary Words</div>
                     </div>
-                    
-                    <div class="info-card">
-                        <h3>Study Materials</h3>
-                        <div class="stats-grid">
-                            <div class="stat-item">
-                                <div class="stat-number">591</div>
-                                <div class="stat-label">Vocabulary Words</div>
-                            </div>
-                            <div class="stat-item">
-                                <div class="stat-number">205</div>
-                                <div class="stat-label">Kanji Characters</div>
-                            </div>
-                            <div class="stat-item">
-                                <div class="stat-number">80</div>
-                                <div class="stat-label">Grammar Points</div>
-                            </div>
-                            <div class="stat-item">
-                                <div class="stat-number">30</div>
-                                <div class="stat-label">Study Days</div>
-                            </div>
-                        </div>
-                        <p class="stats-description">Complete JLPT N5 curriculum with daily structured learning plan</p>
+                    <div class="stat-card">
+                        <div class="stat-number" id="kanji-count">0</div>
+                        <div class="stat-label">Kanji Characters</div>
                     </div>
-                    
-                    <div class="info-card">
-                        <h3>Quick Start</h3>
-                        <div class="quick-actions">
-                            <button class="action-btn primary" onclick="startDailyStudy()">
-                                <span class="btn-icon">📚</span>
-                                Daily Study
-                            </button>
-                            <button class="action-btn secondary" onclick="showVocabList()">
-                                <span class="btn-icon">📖</span>
-                                N5 Vocab List
-                            </button>
-                            <button class="action-btn secondary" onclick="takeQuiz()">
-                                <span class="btn-icon">📝</span>
-                                Take Quiz
-                            </button>
-                        </div>
+                    <div class="stat-card">
+                        <div class="stat-number" id="grammar-count">0</div>
+                        <div class="stat-label">Grammar Points</div>
                     </div>
-                    
-                    <div class="info-card">
-                        <h3>GitHub Repository</h3>
-                        <p>This project is open source and available on GitHub for educational purposes.</p>
-                        <div class="github-info">
-                            <a href="https://github.com/silent9669/JLPT_N5" target="_blank" class="github-link">
-                                <span class="btn-icon">🔗</span>
-                                View on GitHub
+                    <div class="stat-card">
+                        <div class="stat-number" id="days-count">0</div>
+                        <div class="stat-label">Study Days</div>
+                    </div>
+                    </div>
+
+
+                    <div class="advertisement">
+                        <div class="ad-content">
+                            <h3>⭐ Support This Project</h3>
+                            <p>If you find this app helpful for your JLPT N5 preparation, please consider starring the project on GitHub!</p>
+                            <a href="https://github.com/silent9669/JLPT_N5" class="github-link" target="_blank">
+                                🌟 Star on GitHub
                             </a>
+                            <p class="contact-info">For more details or questions, email: <a href="mailto:phuc.dangcs2007@hcmut.edu.vn">phuc.dangcs2007@hcmut.edu.vn</a></p>
                         </div>
-                    </div>
-                    
-                    <div class="disclaimer">
-                        <h4>Disclaimer</h4>
-                        <p><strong>Educational Purpose Only:</strong> This application is created solely for educational purposes to help students learn Japanese language fundamentals. It is not affiliated with the Japan Foundation or the official JLPT organization.</p>
                     </div>
                 </div>
             </section>
@@ -133,6 +97,12 @@
                             <option value="28">Day 28</option>
                             <option value="29">Day 29</option>
                             <option value="30">Day 30</option>
+                            <option value="31">Day 31</option>
+                            <option value="32">Day 32</option>
+                            <option value="33">Day 33</option>
+                            <option value="34">Day 34</option>
+                            <option value="35">Day 35</option>
+                            <option value="36">Day 36</option>
                         </select>
                     </div>
                 </div>
@@ -197,10 +167,6 @@
                     </div>
                 </div>
 
-                <div class="vocab-info">
-                    <span class="word-count">Total: <span id="totalVocabCount">0</span> words</span>
-                    <span class="word-count">Showing: <span id="filteredVocabCount">0</span> words</span>
-                </div>
 
                 <div id="vocabularyDatabase" class="vocab-scroll-container">
                     <div class="loading-message">
@@ -221,38 +187,44 @@
                         <p>Choose a day to take a 30-question mixed quiz covering vocabulary, kanji, and grammar from that day's content.</p>
                         <div class="setting-group">
                             <label for="quizDay">Select Day:</label>
-                            <select id="quizDay">
-                                <option value="1">Day 1</option>
-                                <option value="2">Day 2</option>
-                                <option value="3">Day 3</option>
-                                <option value="4">Day 4</option>
-                                <option value="5">Day 5</option>
-                                <option value="6">Day 6</option>
-                                <option value="7">Day 7</option>
-                                <option value="8">Day 8</option>
-                                <option value="9">Day 9</option>
-                                <option value="10">Day 10</option>
-                                <option value="11">Day 11</option>
-                                <option value="12">Day 12</option>
-                                <option value="13">Day 13</option>
-                                <option value="14">Day 14</option>
-                                <option value="15">Day 15</option>
-                                <option value="16">Day 16</option>
-                                <option value="17">Day 17</option>
-                                <option value="18">Day 18</option>
-                                <option value="19">Day 19</option>
-                                <option value="20">Day 20</option>
-                                <option value="21">Day 21</option>
-                                <option value="22">Day 22</option>
-                                <option value="23">Day 23</option>
-                                <option value="24">Day 24</option>
-                                <option value="25">Day 25</option>
-                                <option value="26">Day 26</option>
-                                <option value="27">Day 27</option>
-                                <option value="28">Day 28</option>
-                                <option value="29">Day 29</option>
-                                <option value="30">Day 30</option>
-                            </select>
+                        <select id="quizDay">
+                            <option value="1">Day 1</option>
+                            <option value="2">Day 2</option>
+                            <option value="3">Day 3</option>
+                            <option value="4">Day 4</option>
+                            <option value="5">Day 5</option>
+                            <option value="6">Day 6</option>
+                            <option value="7">Day 7</option>
+                            <option value="8">Day 8</option>
+                            <option value="9">Day 9</option>
+                            <option value="10">Day 10</option>
+                            <option value="11">Day 11</option>
+                            <option value="12">Day 12</option>
+                            <option value="13">Day 13</option>
+                            <option value="14">Day 14</option>
+                            <option value="15">Day 15</option>
+                            <option value="16">Day 16</option>
+                            <option value="17">Day 17</option>
+                            <option value="18">Day 18</option>
+                            <option value="19">Day 19</option>
+                            <option value="20">Day 20</option>
+                            <option value="21">Day 21</option>
+                            <option value="22">Day 22</option>
+                            <option value="23">Day 23</option>
+                            <option value="24">Day 24</option>
+                            <option value="25">Day 25</option>
+                            <option value="26">Day 26</option>
+                            <option value="27">Day 27</option>
+                            <option value="28">Day 28</option>
+                            <option value="29">Day 29</option>
+                            <option value="30">Day 30</option>
+                            <option value="31">Day 31</option>
+                            <option value="32">Day 32</option>
+                            <option value="33">Day 33</option>
+                            <option value="34">Day 34</option>
+                            <option value="35">Day 35</option>
+                            <option value="36">Day 36</option>
+                        </select>
                         </div>
                         <button class="btn primary" id="startQuizBtn">Start Quiz</button>
                     </div>

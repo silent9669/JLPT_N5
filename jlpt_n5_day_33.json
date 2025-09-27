@@ -1,0 +1,301 @@
+{
+  "day": 33,
+  "date": "2025-02-02",
+  "title": "JLPT N5 Study Plan - Day 33",
+  "daily_goal": {
+    "vocabulary_words": 20,
+    "kanji_characters": 6,
+    "grammar_points": 3,
+    "study_time_minutes": 60
+  },
+  "vocabulary": {
+    "new_words": [
+      {
+        "kanji": "文化",
+        "hiragana": "ぶんか",
+        "romaji": "bunka",
+        "english": "culture",
+        "category": "society",
+        "level": "N4"
+      },
+      {
+        "kanji": "伝統",
+        "hiragana": "でんとう",
+        "romaji": "dentou",
+        "english": "tradition",
+        "category": "society",
+        "level": "N4"
+      },
+      {
+        "kanji": "習慣",
+        "hiragana": "しゅうかん",
+        "romaji": "shuukan",
+        "english": "custom, habit",
+        "category": "society",
+        "level": "N4"
+      },
+      {
+        "kanji": "祭り",
+        "hiragana": "まつり",
+        "romaji": "matsuri",
+        "english": "festival",
+        "category": "society",
+        "level": "N4"
+      },
+      {
+        "kanji": "行事",
+        "hiragana": "ぎょうじ",
+        "romaji": "gyouji",
+        "english": "event, ceremony",
+        "category": "society",
+        "level": "N4"
+      },
+      {
+        "kanji": "歴史",
+        "hiragana": "れきし",
+        "romaji": "rekishi",
+        "english": "history",
+        "category": "academic",
+        "level": "N4"
+      },
+      {
+        "kanji": "時代",
+        "hiragana": "じだい",
+        "romaji": "jidai",
+        "english": "era, period",
+        "category": "academic",
+        "level": "N4"
+      },
+      {
+        "kanji": "古代",
+        "hiragana": "こだい",
+        "romaji": "kodai",
+        "english": "ancient times",
+        "category": "academic",
+        "level": "N4"
+      },
+      {
+        "kanji": "現代",
+        "hiragana": "げんだい",
+        "romaji": "gendai",
+        "english": "modern times",
+        "category": "academic",
+        "level": "N4"
+      },
+      {
+        "kanji": "未来",
+        "hiragana": "みらい",
+        "romaji": "mirai",
+        "english": "future",
+        "category": "general",
+        "level": "N4"
+      },
+      {
+        "kanji": "過去",
+        "hiragana": "かこ",
+        "romaji": "kako",
+        "english": "past",
+        "category": "general",
+        "level": "N4"
+      },
+      {
+        "kanji": "現在",
+        "hiragana": "げんざい",
+        "romaji": "genzai",
+        "english": "present, now",
+        "category": "general",
+        "level": "N4"
+      },
+      {
+        "kanji": "社会",
+        "hiragana": "しゃかい",
+        "romaji": "shakai",
+        "english": "society",
+        "category": "society",
+        "level": "N4"
+      },
+      {
+        "kanji": "政治",
+        "hiragana": "せいじ",
+        "romaji": "seiji",
+        "english": "politics",
+        "category": "society",
+        "level": "N4"
+      },
+      {
+        "kanji": "経済",
+        "hiragana": "けいざい",
+        "romaji": "keizai",
+        "english": "economy",
+        "category": "society",
+        "level": "N4"
+      },
+      {
+        "kanji": "法律",
+        "hiragana": "ほうりつ",
+        "romaji": "houritsu",
+        "english": "law",
+        "category": "society",
+        "level": "N4"
+      },
+      {
+        "kanji": "政府",
+        "hiragana": "せいふ",
+        "romaji": "seifu",
+        "english": "government",
+        "category": "society",
+        "level": "N4"
+      },
+      {
+        "kanji": "国民",
+        "hiragana": "こくみん",
+        "romaji": "kokumin",
+        "english": "citizen",
+        "category": "society",
+        "level": "N4"
+      },
+      {
+        "kanji": "国際",
+        "hiragana": "こくさい",
+        "romaji": "kokusai",
+        "english": "international",
+        "category": "society",
+        "level": "N4"
+      },
+      {
+        "kanji": "平和",
+        "hiragana": "へいわ",
+        "romaji": "heiwa",
+        "english": "peace",
+        "category": "society",
+        "level": "N4"
+      }
+    ],
+    "total_learned": 20,
+    "category_focus": "society"
+  },
+  "kanji": {
+    "new_kanji": [
+      {
+        "kanji": "文",
+        "onyomi": "ブン、モン",
+        "kunyomi": "ふみ",
+        "meaning": "writing, literature",
+        "vocabulary": [
+          "文化(ぶんか)",
+          "文(ふみ)"
+        ],
+        "strokes": 4
+      },
+      {
+        "kanji": "化",
+        "onyomi": "カ、ケ",
+        "kunyomi": "ば",
+        "meaning": "change, transform",
+        "vocabulary": [
+          "文化(ぶんか)",
+          "変化(へんか)"
+        ],
+        "strokes": 4
+      },
+      {
+        "kanji": "伝",
+        "onyomi": "デン、テン",
+        "kunyomi": "つた",
+        "meaning": "transmit, tradition",
+        "vocabulary": [
+          "伝統(でんとう)",
+          "伝える(つたえる)"
+        ],
+        "strokes": 6
+      },
+      {
+        "kanji": "統",
+        "onyomi": "トウ",
+        "kunyomi": "す",
+        "meaning": "unite, control",
+        "vocabulary": [
+          "伝統(でんとう)",
+          "統べる(すべる)"
+        ],
+        "strokes": 12
+      },
+      {
+        "kanji": "習",
+        "onyomi": "シュウ",
+        "kunyomi": "なら",
+        "meaning": "learn, practice",
+        "vocabulary": [
+          "習慣(しゅうかん)",
+          "習う(ならう)"
+        ],
+        "strokes": 11
+      },
+      {
+        "kanji": "慣",
+        "onyomi": "カン",
+        "kunyomi": "な",
+        "meaning": "get used to, custom",
+        "vocabulary": [
+          "習慣(しゅうかん)",
+          "慣れる(なれる)"
+        ],
+        "strokes": 14
+      }
+    ],
+    "total_learned": 6,
+    "stroke_practice": [
+      "文",
+      "化",
+      "伝",
+      "統",
+      "習",
+      "慣"
+    ]
+  },
+  "grammar": {
+    "new_points": [
+      {
+        "grammar": "～たことがある",
+        "meaning": "have done (experience)",
+        "formation": "Verb (ta-form) + ことがある",
+        "example_jp": "日本に行ったことがあります。",
+        "example_en": "I have been to Japan.",
+        "level": "N4",
+        "category": "experience"
+      },
+      {
+        "grammar": "～たばかり",
+        "meaning": "just did",
+        "formation": "Verb (ta-form) + ばかり",
+        "example_jp": "今、帰ったばかりです。",
+        "example_en": "I just came home.",
+        "level": "N4",
+        "category": "time"
+      },
+      {
+        "grammar": "～たところ",
+        "meaning": "just did",
+        "formation": "Verb (ta-form) + ところ",
+        "example_jp": "今、食べたところです。",
+        "example_en": "I just ate.",
+        "level": "N4",
+        "category": "time"
+      }
+    ],
+    "total_learned": 3,
+    "focus_category": "experience"
+  },
+  "daily_quiz": {
+    "questions": [],
+    "total_questions": 0,
+    "estimated_time_minutes": 15,
+    "description": "Mixed review of vocabulary, kanji, and grammar from previous days"
+  },
+  "study_tips": {
+    "vocabulary": "Focus on society and culture vocabulary. Practice using these words in context about Japanese culture and society.",
+    "kanji": "Learn the compound words that use these kanji. Practice writing them with proper stroke order.",
+    "grammar": "Understand the different ways to express experience and recent actions in Japanese.",
+    "general": "Review previous days' content and practice using new vocabulary in sentences about culture and society."
+  }
+}

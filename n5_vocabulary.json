@@ -1,7 +1,7 @@
 {
-  "title": "JLPT N5 Vocabulary List",
-  "description": "Complete vocabulary list for JLPT N5 level",
-  "total_words": 100,
+  "title": "JLPT N5 & N4 Vocabulary List",
+  "description": "Comprehensive vocabulary list for JLPT N5 and N4 levels",
+  "total_words": 800,
   "vocabulary": [
     {
       "number": 1,
@@ -802,6 +802,5606 @@
       "romaji": "raishuu",
       "english": "next week",
       "level": "N5"
+    },
+    {
+      "number": 101,
+      "kanji": "先週",
+      "hiragana": "せんしゅう",
+      "romaji": "senshuu",
+      "english": "last week",
+      "level": "N5"
+    },
+    {
+      "number": 102,
+      "kanji": "今週",
+      "hiragana": "こんしゅう",
+      "romaji": "konshuu",
+      "english": "this week",
+      "level": "N5"
+    },
+    {
+      "number": 103,
+      "kanji": "曜日",
+      "hiragana": "ようび",
+      "romaji": "youbi",
+      "english": "day of the week",
+      "level": "N5"
+    },
+    {
+      "number": 104,
+      "kanji": "月曜日",
+      "hiragana": "げつようび",
+      "romaji": "getsuyoubi",
+      "english": "Monday",
+      "level": "N5"
+    },
+    {
+      "number": 105,
+      "kanji": "火曜日",
+      "hiragana": "かようび",
+      "romaji": "kayoubi",
+      "english": "Tuesday",
+      "level": "N5"
+    },
+    {
+      "number": 106,
+      "kanji": "水曜日",
+      "hiragana": "すいようび",
+      "romaji": "suiyoubi",
+      "english": "Wednesday",
+      "level": "N5"
+    },
+    {
+      "number": 107,
+      "kanji": "木曜日",
+      "hiragana": "もくようび",
+      "romaji": "mokuyoubi",
+      "english": "Thursday",
+      "level": "N5"
+    },
+    {
+      "number": 108,
+      "kanji": "金曜日",
+      "hiragana": "きんようび",
+      "romaji": "kinyoubi",
+      "english": "Friday",
+      "level": "N5"
+    },
+    {
+      "number": 109,
+      "kanji": "土曜日",
+      "hiragana": "どようび",
+      "romaji": "doyoubi",
+      "english": "Saturday",
+      "level": "N5"
+    },
+    {
+      "number": 110,
+      "kanji": "日曜日",
+      "hiragana": "にちようび",
+      "romaji": "nichiyoubi",
+      "english": "Sunday",
+      "level": "N5"
+    },
+    {
+      "number": 111,
+      "kanji": "時間",
+      "hiragana": "じかん",
+      "romaji": "jikan",
+      "english": "time, hour",
+      "level": "N5"
+    },
+    {
+      "number": 112,
+      "kanji": "分",
+      "hiragana": "ふん",
+      "romaji": "fun",
+      "english": "minute",
+      "level": "N5"
+    },
+    {
+      "number": 113,
+      "kanji": "秒",
+      "hiragana": "びょう",
+      "romaji": "byou",
+      "english": "second",
+      "level": "N5"
+    },
+    {
+      "number": 114,
+      "kanji": "半",
+      "hiragana": "はん",
+      "romaji": "han",
+      "english": "half",
+      "level": "N5"
+    },
+    {
+      "number": 115,
+      "kanji": "食べ物",
+      "hiragana": "たべもの",
+      "romaji": "tabemono",
+      "english": "food",
+      "level": "N5"
+    },
+    {
+      "number": 116,
+      "kanji": "飲み物",
+      "hiragana": "のみもの",
+      "romaji": "nomimono",
+      "english": "drink, beverage",
+      "level": "N5"
+    },
+    {
+      "number": 117,
+      "kanji": "水",
+      "hiragana": "みず",
+      "romaji": "mizu",
+      "english": "water",
+      "level": "N5"
+    },
+    {
+      "number": 118,
+      "kanji": "お茶",
+      "hiragana": "おちゃ",
+      "romaji": "ocha",
+      "english": "tea",
+      "level": "N5"
+    },
+    {
+      "number": 119,
+      "kanji": "コーヒー",
+      "hiragana": "コーヒー",
+      "romaji": "koohii",
+      "english": "coffee",
+      "level": "N5"
+    },
+    {
+      "number": 120,
+      "kanji": "牛乳",
+      "hiragana": "ぎゅうにゅう",
+      "romaji": "gyuunyuu",
+      "english": "milk",
+      "level": "N5"
+    },
+    {
+      "number": 121,
+      "kanji": "パン",
+      "hiragana": "パン",
+      "romaji": "pan",
+      "english": "bread",
+      "level": "N5"
+    },
+    {
+      "number": 122,
+      "kanji": "ご飯",
+      "hiragana": "ごはん",
+      "romaji": "gohan",
+      "english": "rice, meal",
+      "level": "N5"
+    },
+    {
+      "number": 123,
+      "kanji": "肉",
+      "hiragana": "にく",
+      "romaji": "niku",
+      "english": "meat",
+      "level": "N5"
+    },
+    {
+      "number": 124,
+      "kanji": "魚",
+      "hiragana": "さかな",
+      "romaji": "sakana",
+      "english": "fish",
+      "level": "N5"
+    },
+    {
+      "number": 125,
+      "kanji": "野菜",
+      "hiragana": "やさい",
+      "romaji": "yasai",
+      "english": "vegetable",
+      "level": "N5"
+    },
+    {
+      "number": 126,
+      "kanji": "果物",
+      "hiragana": "くだもの",
+      "romaji": "kudamono",
+      "english": "fruit",
+      "level": "N5"
+    },
+    {
+      "number": 127,
+      "kanji": "卵",
+      "hiragana": "たまご",
+      "romaji": "tamago",
+      "english": "egg",
+      "level": "N5"
+    },
+    {
+      "number": 128,
+      "kanji": "塩",
+      "hiragana": "しお",
+      "romaji": "shio",
+      "english": "salt",
+      "level": "N5"
+    },
+    {
+      "number": 129,
+      "kanji": "砂糖",
+      "hiragana": "さとう",
+      "romaji": "satou",
+      "english": "sugar",
+      "level": "N5"
+    },
+    {
+      "number": 130,
+      "kanji": "油",
+      "hiragana": "あぶら",
+      "romaji": "abura",
+      "english": "oil",
+      "level": "N5"
+    },
+    {
+      "number": 131,
+      "kanji": "服",
+      "hiragana": "ふく",
+      "romaji": "fuku",
+      "english": "clothes",
+      "level": "N5"
+    },
+    {
+      "number": 132,
+      "kanji": "シャツ",
+      "hiragana": "シャツ",
+      "romaji": "shatsu",
+      "english": "shirt",
+      "level": "N5"
+    },
+    {
+      "number": 133,
+      "kanji": "ズボン",
+      "hiragana": "ズボン",
+      "romaji": "zubon",
+      "english": "pants",
+      "level": "N5"
+    },
+    {
+      "number": 134,
+      "kanji": "スカート",
+      "hiragana": "スカート",
+      "romaji": "sukaato",
+      "english": "skirt",
+      "level": "N5"
+    },
+    {
+      "number": 135,
+      "kanji": "靴",
+      "hiragana": "くつ",
+      "romaji": "kutsu",
+      "english": "shoes",
+      "level": "N5"
+    },
+    {
+      "number": 136,
+      "kanji": "帽子",
+      "hiragana": "ぼうし",
+      "romaji": "boushi",
+      "english": "hat",
+      "level": "N5"
+    },
+    {
+      "number": 137,
+      "kanji": "眼鏡",
+      "hiragana": "めがね",
+      "romaji": "megane",
+      "english": "glasses",
+      "level": "N5"
+    },
+    {
+      "number": 138,
+      "kanji": "時計",
+      "hiragana": "とけい",
+      "romaji": "tokei",
+      "english": "clock, watch",
+      "level": "N5"
+    },
+    {
+      "number": 139,
+      "kanji": "傘",
+      "hiragana": "かさ",
+      "romaji": "kasa",
+      "english": "umbrella",
+      "level": "N5"
+    },
+    {
+      "number": 140,
+      "kanji": "鞄",
+      "hiragana": "かばん",
+      "romaji": "kaban",
+      "english": "bag",
+      "level": "N5"
+    },
+    {
+      "number": 141,
+      "kanji": "色",
+      "hiragana": "いろ",
+      "romaji": "iro",
+      "english": "color",
+      "level": "N5"
+    },
+    {
+      "number": 142,
+      "kanji": "赤",
+      "hiragana": "あか",
+      "romaji": "aka",
+      "english": "red",
+      "level": "N5"
+    },
+    {
+      "number": 143,
+      "kanji": "青",
+      "hiragana": "あお",
+      "romaji": "ao",
+      "english": "blue",
+      "level": "N5"
+    },
+    {
+      "number": 144,
+      "kanji": "黄色",
+      "hiragana": "きいろ",
+      "romaji": "kiiro",
+      "english": "yellow",
+      "level": "N5"
+    },
+    {
+      "number": 145,
+      "kanji": "緑",
+      "hiragana": "みどり",
+      "romaji": "midori",
+      "english": "green",
+      "level": "N5"
+    },
+    {
+      "number": 146,
+      "kanji": "黒",
+      "hiragana": "くろ",
+      "romaji": "kuro",
+      "english": "black",
+      "level": "N5"
+    },
+    {
+      "number": 147,
+      "kanji": "白",
+      "hiragana": "しろ",
+      "romaji": "shiro",
+      "english": "white",
+      "level": "N5"
+    },
+    {
+      "number": 148,
+      "kanji": "茶色",
+      "hiragana": "ちゃいろ",
+      "romaji": "chairo",
+      "english": "brown",
+      "level": "N5"
+    },
+    {
+      "number": 149,
+      "kanji": "灰色",
+      "hiragana": "はいいろ",
+      "romaji": "haiiro",
+      "english": "gray",
+      "level": "N5"
+    },
+    {
+      "number": 150,
+      "kanji": "ピンク",
+      "hiragana": "ピンク",
+      "romaji": "pinku",
+      "english": "pink",
+      "level": "N5"
+    },
+    {
+      "number": 151,
+      "kanji": "動詞",
+      "hiragana": "どうし",
+      "romaji": "doushi",
+      "english": "verb",
+      "level": "N4"
+    },
+    {
+      "number": 152,
+      "kanji": "形容詞",
+      "hiragana": "けいようし",
+      "romaji": "keiyoushi",
+      "english": "adjective",
+      "level": "N4"
+    },
+    {
+      "number": 153,
+      "kanji": "名詞",
+      "hiragana": "めいし",
+      "romaji": "meishi",
+      "english": "noun",
+      "level": "N4"
+    },
+    {
+      "number": 154,
+      "kanji": "副詞",
+      "hiragana": "ふくし",
+      "romaji": "fukushi",
+      "english": "adverb",
+      "level": "N4"
+    },
+    {
+      "number": 155,
+      "kanji": "接続詞",
+      "hiragana": "せつぞくし",
+      "romaji": "setsuzokushi",
+      "english": "conjunction",
+      "level": "N4"
+    },
+    {
+      "number": 156,
+      "kanji": "助詞",
+      "hiragana": "じょし",
+      "romaji": "joshi",
+      "english": "particle",
+      "level": "N4"
+    },
+    {
+      "number": 157,
+      "kanji": "文法",
+      "hiragana": "ぶんぽう",
+      "romaji": "bunpou",
+      "english": "grammar",
+      "level": "N4"
+    },
+    {
+      "number": 158,
+      "kanji": "発音",
+      "hiragana": "はつおん",
+      "romaji": "hatsuon",
+      "english": "pronunciation",
+      "level": "N4"
+    },
+    {
+      "number": 159,
+      "kanji": "アクセント",
+      "hiragana": "アクセント",
+      "romaji": "akusento",
+      "english": "accent",
+      "level": "N4"
+    },
+    {
+      "number": 160,
+      "kanji": "イントネーション",
+      "hiragana": "イントネーション",
+      "romaji": "intoneeshon",
+      "english": "intonation",
+      "level": "N4"
+    },
+    {
+      "number": 161,
+      "kanji": "方言",
+      "hiragana": "ほうげん",
+      "romaji": "hougen",
+      "english": "dialect",
+      "level": "N4"
+    },
+    {
+      "number": 162,
+      "kanji": "標準語",
+      "hiragana": "ひょうじゅんご",
+      "romaji": "hyoujungo",
+      "english": "standard language",
+      "level": "N4"
+    },
+    {
+      "number": 163,
+      "kanji": "敬語",
+      "hiragana": "けいご",
+      "romaji": "keigo",
+      "english": "honorific language",
+      "level": "N4"
+    },
+    {
+      "number": 164,
+      "kanji": "丁寧語",
+      "hiragana": "ていねいご",
+      "romaji": "teineigo",
+      "english": "polite language",
+      "level": "N4"
+    },
+    {
+      "number": 165,
+      "kanji": "謙譲語",
+      "hiragana": "けんじょうご",
+      "romaji": "kenjougo",
+      "english": "humble language",
+      "level": "N4"
+    },
+    {
+      "number": 166,
+      "kanji": "尊敬語",
+      "hiragana": "そんけいご",
+      "romaji": "sonkeigo",
+      "english": "respectful language",
+      "level": "N4"
+    },
+    {
+      "number": 167,
+      "kanji": "語彙",
+      "hiragana": "ごい",
+      "romaji": "goi",
+      "english": "vocabulary",
+      "level": "N4"
+    },
+    {
+      "number": 168,
+      "kanji": "単語",
+      "hiragana": "たんご",
+      "romaji": "tango",
+      "english": "word",
+      "level": "N4"
+    },
+    {
+      "number": 169,
+      "kanji": "熟語",
+      "hiragana": "じゅくご",
+      "romaji": "jukugo",
+      "english": "compound word",
+      "level": "N4"
+    },
+    {
+      "number": 170,
+      "kanji": "慣用句",
+      "hiragana": "かんようく",
+      "romaji": "kanyouku",
+      "english": "idiom",
+      "level": "N4"
+    },
+    {
+      "number": 171,
+      "kanji": "ことわざ",
+      "hiragana": "ことわざ",
+      "romaji": "kotowaza",
+      "english": "proverb",
+      "level": "N4"
+    },
+    {
+      "number": 172,
+      "kanji": "四字熟語",
+      "hiragana": "よじじゅくご",
+      "romaji": "yojijukugo",
+      "english": "four-character idiom",
+      "level": "N4"
+    },
+    {
+      "number": 173,
+      "kanji": "同義語",
+      "hiragana": "どうぎご",
+      "romaji": "dougigo",
+      "english": "synonym",
+      "level": "N4"
+    },
+    {
+      "number": 174,
+      "kanji": "反対語",
+      "hiragana": "はんたいご",
+      "romaji": "hantaigo",
+      "english": "antonym",
+      "level": "N4"
+    },
+    {
+      "number": 175,
+      "kanji": "類義語",
+      "hiragana": "るいぎご",
+      "romaji": "ruigigo",
+      "english": "similar word",
+      "level": "N4"
+    },
+    {
+      "number": 176,
+      "kanji": "多義語",
+      "hiragana": "たぎご",
+      "romaji": "tagigo",
+      "english": "polysemous word",
+      "level": "N4"
+    },
+    {
+      "number": 177,
+      "kanji": "外来語",
+      "hiragana": "がいらいご",
+      "romaji": "gairaigo",
+      "english": "loanword",
+      "level": "N4"
+    },
+    {
+      "number": 178,
+      "kanji": "和製英語",
+      "hiragana": "わせいえいご",
+      "romaji": "waseieigo",
+      "english": "Japanese-made English",
+      "level": "N4"
+    },
+    {
+      "number": 179,
+      "kanji": "擬音語",
+      "hiragana": "ぎおんご",
+      "romaji": "giongo",
+      "english": "onomatopoeia",
+      "level": "N4"
+    },
+    {
+      "number": 180,
+      "kanji": "擬態語",
+      "hiragana": "ぎたいご",
+      "romaji": "gitaigo",
+      "english": "mimetic word",
+      "level": "N4"
+    },
+    {
+      "number": 181,
+      "kanji": "感動詞",
+      "hiragana": "かんどうし",
+      "romaji": "kandoushi",
+      "english": "interjection",
+      "level": "N4"
+    },
+    {
+      "number": 182,
+      "kanji": "代名詞",
+      "hiragana": "だいめいし",
+      "romaji": "daimeishi",
+      "english": "pronoun",
+      "level": "N4"
+    },
+    {
+      "number": 183,
+      "kanji": "数詞",
+      "hiragana": "すうし",
+      "romaji": "suushi",
+      "english": "numeral",
+      "level": "N4"
+    },
+    {
+      "number": 184,
+      "kanji": "量詞",
+      "hiragana": "りょうし",
+      "romaji": "ryoushi",
+      "english": "counter word",
+      "level": "N4"
+    },
+    {
+      "number": 185,
+      "kanji": "助数詞",
+      "hiragana": "じょすうし",
+      "romaji": "josuushi",
+      "english": "counter",
+      "level": "N4"
+    },
+    {
+      "number": 186,
+      "kanji": "単位",
+      "hiragana": "たんい",
+      "romaji": "tani",
+      "english": "unit",
+      "level": "N4"
+    },
+    {
+      "number": 187,
+      "kanji": "度量衡",
+      "hiragana": "どりょうこう",
+      "romaji": "doryoukou",
+      "english": "weights and measures",
+      "level": "N4"
+    },
+    {
+      "number": 188,
+      "kanji": "長さ",
+      "hiragana": "ながさ",
+      "romaji": "nagasa",
+      "english": "length",
+      "level": "N4"
+    },
+    {
+      "number": 189,
+      "kanji": "重さ",
+      "hiragana": "おもさ",
+      "romaji": "omosa",
+      "english": "weight",
+      "level": "N4"
+    },
+    {
+      "number": 190,
+      "kanji": "面積",
+      "hiragana": "めんせき",
+      "romaji": "menseki",
+      "english": "area",
+      "level": "N4"
+    },
+    {
+      "number": 191,
+      "kanji": "体積",
+      "hiragana": "たいせき",
+      "romaji": "taiseki",
+      "english": "volume",
+      "level": "N4"
+    },
+    {
+      "number": 192,
+      "kanji": "温度",
+      "hiragana": "おんど",
+      "romaji": "ondo",
+      "english": "temperature",
+      "level": "N4"
+    },
+    {
+      "number": 193,
+      "kanji": "湿度",
+      "hiragana": "しつど",
+      "romaji": "shitsudo",
+      "english": "humidity",
+      "level": "N4"
+    },
+    {
+      "number": 194,
+      "kanji": "圧力",
+      "hiragana": "あつりょく",
+      "romaji": "atsuryoku",
+      "english": "pressure",
+      "level": "N4"
+    },
+    {
+      "number": 195,
+      "kanji": "速度",
+      "hiragana": "そくど",
+      "romaji": "sokudo",
+      "english": "speed",
+      "level": "N4"
+    },
+    {
+      "number": 196,
+      "kanji": "加速度",
+      "hiragana": "かそくど",
+      "romaji": "kasokudo",
+      "english": "acceleration",
+      "level": "N4"
+    },
+    {
+      "number": 197,
+      "kanji": "密度",
+      "hiragana": "みつど",
+      "romaji": "mitsudo",
+      "english": "density",
+      "level": "N4"
+    },
+    {
+      "number": 198,
+      "kanji": "濃度",
+      "hiragana": "のうど",
+      "romaji": "noudou",
+      "english": "concentration",
+      "level": "N4"
+    },
+    {
+      "number": 199,
+      "kanji": "純度",
+      "hiragana": "じゅんど",
+      "romaji": "jundo",
+      "english": "purity",
+      "level": "N4"
+    },
+    {
+      "number": 200,
+      "kanji": "精度",
+      "hiragana": "せいど",
+      "romaji": "seido",
+      "english": "accuracy",
+      "level": "N4"
+    },
+    {
+      "number": 201,
+      "kanji": "勉強",
+      "hiragana": "べんきょう",
+      "romaji": "benkyou",
+      "english": "study",
+      "level": "N5"
+    },
+    {
+      "number": 202,
+      "kanji": "宿題",
+      "hiragana": "しゅくだい",
+      "romaji": "shukudai",
+      "english": "homework",
+      "level": "N5"
+    },
+    {
+      "number": 203,
+      "kanji": "テスト",
+      "hiragana": "テスト",
+      "romaji": "tesuto",
+      "english": "test",
+      "level": "N5"
+    },
+    {
+      "number": 204,
+      "kanji": "試験",
+      "hiragana": "しけん",
+      "romaji": "shiken",
+      "english": "exam",
+      "level": "N4"
+    },
+    {
+      "number": 205,
+      "kanji": "問題",
+      "hiragana": "もんだい",
+      "romaji": "mondai",
+      "english": "problem, question",
+      "level": "N5"
+    },
+    {
+      "number": 206,
+      "kanji": "答え",
+      "hiragana": "こたえ",
+      "romaji": "kotae",
+      "english": "answer",
+      "level": "N5"
+    },
+    {
+      "number": 207,
+      "kanji": "質問",
+      "hiragana": "しつもん",
+      "romaji": "shitsumon",
+      "english": "question",
+      "level": "N5"
+    },
+    {
+      "number": 208,
+      "kanji": "説明",
+      "hiragana": "せつめい",
+      "romaji": "setsumei",
+      "english": "explanation",
+      "level": "N4"
+    },
+    {
+      "number": 209,
+      "kanji": "練習",
+      "hiragana": "れんしゅう",
+      "romaji": "renshuu",
+      "english": "practice",
+      "level": "N5"
+    },
+    {
+      "number": 210,
+      "kanji": "復習",
+      "hiragana": "ふくしゅう",
+      "romaji": "fukushuu",
+      "english": "review",
+      "level": "N4"
+    },
+    {
+      "number": 211,
+      "kanji": "予習",
+      "hiragana": "よしゅう",
+      "romaji": "yoshuu",
+      "english": "preparation",
+      "level": "N4"
+    },
+    {
+      "number": 212,
+      "kanji": "覚える",
+      "hiragana": "おぼえる",
+      "romaji": "oboeru",
+      "english": "to remember",
+      "level": "N5"
+    },
+    {
+      "number": 213,
+      "kanji": "忘れる",
+      "hiragana": "わすれる",
+      "romaji": "wasureru",
+      "english": "to forget",
+      "level": "N5"
+    },
+    {
+      "number": 214,
+      "kanji": "理解する",
+      "hiragana": "りかいする",
+      "romaji": "rikai suru",
+      "english": "to understand",
+      "level": "N4"
+    },
+    {
+      "number": 215,
+      "kanji": "分かる",
+      "hiragana": "わかる",
+      "romaji": "wakaru",
+      "english": "to understand",
+      "level": "N5"
+    },
+    {
+      "number": 216,
+      "kanji": "知る",
+      "hiragana": "しる",
+      "romaji": "shiru",
+      "english": "to know",
+      "level": "N5"
+    },
+    {
+      "number": 217,
+      "kanji": "教える",
+      "hiragana": "おしえる",
+      "romaji": "oshieru",
+      "english": "to teach",
+      "level": "N5"
+    },
+    {
+      "number": 218,
+      "kanji": "学ぶ",
+      "hiragana": "まなぶ",
+      "romaji": "manabu",
+      "english": "to learn",
+      "level": "N5"
+    },
+    {
+      "number": 219,
+      "kanji": "習う",
+      "hiragana": "ならう",
+      "romaji": "narau",
+      "english": "to learn",
+      "level": "N5"
+    },
+    {
+      "number": 220,
+      "kanji": "読む",
+      "hiragana": "よむ",
+      "romaji": "yomu",
+      "english": "to read",
+      "level": "N5"
+    },
+    {
+      "number": 221,
+      "kanji": "書く",
+      "hiragana": "かく",
+      "romaji": "kaku",
+      "english": "to write",
+      "level": "N5"
+    },
+    {
+      "number": 222,
+      "kanji": "聞く",
+      "hiragana": "きく",
+      "romaji": "kiku",
+      "english": "to listen, to hear",
+      "level": "N5"
+    },
+    {
+      "number": 223,
+      "kanji": "話す",
+      "hiragana": "はなす",
+      "romaji": "hanasu",
+      "english": "to speak",
+      "level": "N5"
+    },
+    {
+      "number": 224,
+      "kanji": "見る",
+      "hiragana": "みる",
+      "romaji": "miru",
+      "english": "to see, to look",
+      "level": "N5"
+    },
+    {
+      "number": 225,
+      "kanji": "見せる",
+      "hiragana": "みせる",
+      "romaji": "miseru",
+      "english": "to show",
+      "level": "N5"
+    },
+    {
+      "number": 226,
+      "kanji": "作る",
+      "hiragana": "つくる",
+      "romaji": "tsukuru",
+      "english": "to make",
+      "level": "N5"
+    },
+    {
+      "number": 227,
+      "kanji": "買う",
+      "hiragana": "かう",
+      "romaji": "kau",
+      "english": "to buy",
+      "level": "N5"
+    },
+    {
+      "number": 228,
+      "kanji": "売る",
+      "hiragana": "うる",
+      "romaji": "uru",
+      "english": "to sell",
+      "level": "N5"
+    },
+    {
+      "number": 229,
+      "kanji": "持つ",
+      "hiragana": "もつ",
+      "romaji": "motsu",
+      "english": "to hold, to have",
+      "level": "N5"
+    },
+    {
+      "number": 230,
+      "kanji": "取る",
+      "hiragana": "とる",
+      "romaji": "toru",
+      "english": "to take",
+      "level": "N5"
+    },
+    {
+      "number": 231,
+      "kanji": "置く",
+      "hiragana": "おく",
+      "romaji": "oku",
+      "english": "to put, to place",
+      "level": "N5"
+    },
+    {
+      "number": 232,
+      "kanji": "入れる",
+      "hiragana": "いれる",
+      "romaji": "ireru",
+      "english": "to put in",
+      "level": "N5"
+    },
+    {
+      "number": 233,
+      "kanji": "出す",
+      "hiragana": "だす",
+      "romaji": "dasu",
+      "english": "to take out",
+      "level": "N5"
+    },
+    {
+      "number": 234,
+      "kanji": "開ける",
+      "hiragana": "あける",
+      "romaji": "akeru",
+      "english": "to open",
+      "level": "N5"
+    },
+    {
+      "number": 235,
+      "kanji": "閉める",
+      "hiragana": "しめる",
+      "romaji": "shimeru",
+      "english": "to close",
+      "level": "N5"
+    },
+    {
+      "number": 236,
+      "kanji": "始める",
+      "hiragana": "はじめる",
+      "romaji": "hajimeru",
+      "english": "to begin",
+      "level": "N5"
+    },
+    {
+      "number": 237,
+      "kanji": "終わる",
+      "hiragana": "おわる",
+      "romaji": "owaru",
+      "english": "to end",
+      "level": "N5"
+    },
+    {
+      "number": 238,
+      "kanji": "続ける",
+      "hiragana": "つづける",
+      "romaji": "tsuzukeru",
+      "english": "to continue",
+      "level": "N4"
+    },
+    {
+      "number": 239,
+      "kanji": "止める",
+      "hiragana": "とめる",
+      "romaji": "tomeru",
+      "english": "to stop",
+      "level": "N5"
+    },
+    {
+      "number": 240,
+      "kanji": "待つ",
+      "hiragana": "まつ",
+      "romaji": "matsu",
+      "english": "to wait",
+      "level": "N5"
+    },
+    {
+      "number": 241,
+      "kanji": "急ぐ",
+      "hiragana": "いそぐ",
+      "romaji": "isogu",
+      "english": "to hurry",
+      "level": "N5"
+    },
+    {
+      "number": 242,
+      "kanji": "歩く",
+      "hiragana": "あるく",
+      "romaji": "aruku",
+      "english": "to walk",
+      "level": "N5"
+    },
+    {
+      "number": 243,
+      "kanji": "走る",
+      "hiragana": "はしる",
+      "romaji": "hashiru",
+      "english": "to run",
+      "level": "N5"
+    },
+    {
+      "number": 244,
+      "kanji": "乗る",
+      "hiragana": "のる",
+      "romaji": "noru",
+      "english": "to ride",
+      "level": "N5"
+    },
+    {
+      "number": 245,
+      "kanji": "降りる",
+      "hiragana": "おりる",
+      "romaji": "oriru",
+      "english": "to get off",
+      "level": "N5"
+    },
+    {
+      "number": 246,
+      "kanji": "行く",
+      "hiragana": "いく",
+      "romaji": "iku",
+      "english": "to go",
+      "level": "N5"
+    },
+    {
+      "number": 247,
+      "kanji": "来る",
+      "hiragana": "くる",
+      "romaji": "kuru",
+      "english": "to come",
+      "level": "N5"
+    },
+    {
+      "number": 248,
+      "kanji": "帰る",
+      "hiragana": "かえる",
+      "romaji": "kaeru",
+      "english": "to return",
+      "level": "N5"
+    },
+    {
+      "number": 249,
+      "kanji": "出る",
+      "hiragana": "でる",
+      "romaji": "deru",
+      "english": "to go out",
+      "level": "N5"
+    },
+    {
+      "number": 250,
+      "kanji": "入る",
+      "hiragana": "はいる",
+      "romaji": "hairu",
+      "english": "to enter",
+      "level": "N5"
+    },
+    {
+      "number": 251,
+      "kanji": "座る",
+      "hiragana": "すわる",
+      "romaji": "suwaru",
+      "english": "to sit",
+      "level": "N5"
+    },
+    {
+      "number": 252,
+      "kanji": "立つ",
+      "hiragana": "たつ",
+      "romaji": "tatsu",
+      "english": "to stand",
+      "level": "N5"
+    },
+    {
+      "number": 253,
+      "kanji": "寝る",
+      "hiragana": "ねる",
+      "romaji": "neru",
+      "english": "to sleep",
+      "level": "N5"
+    },
+    {
+      "number": 254,
+      "kanji": "起きる",
+      "hiragana": "おきる",
+      "romaji": "okiru",
+      "english": "to wake up",
+      "level": "N5"
+    },
+    {
+      "number": 255,
+      "kanji": "働く",
+      "hiragana": "はたらく",
+      "romaji": "hataraku",
+      "english": "to work",
+      "level": "N5"
+    },
+    {
+      "number": 256,
+      "kanji": "遊ぶ",
+      "hiragana": "あそぶ",
+      "romaji": "asobu",
+      "english": "to play",
+      "level": "N5"
+    },
+    {
+      "number": 257,
+      "kanji": "休む",
+      "hiragana": "やすむ",
+      "romaji": "yasumu",
+      "english": "to rest",
+      "level": "N5"
+    },
+    {
+      "number": 258,
+      "kanji": "住む",
+      "hiragana": "すむ",
+      "romaji": "sumu",
+      "english": "to live",
+      "level": "N5"
+    },
+    {
+      "number": 259,
+      "kanji": "生まれる",
+      "hiragana": "うまれる",
+      "romaji": "umareru",
+      "english": "to be born",
+      "level": "N5"
+    },
+    {
+      "number": 260,
+      "kanji": "死ぬ",
+      "hiragana": "しぬ",
+      "romaji": "shinu",
+      "english": "to die",
+      "level": "N5"
+    },
+    {
+      "number": 261,
+      "kanji": "結婚する",
+      "hiragana": "けっこんする",
+      "romaji": "kekkon suru",
+      "english": "to get married",
+      "level": "N4"
+    },
+    {
+      "number": 262,
+      "kanji": "離婚する",
+      "hiragana": "りこんする",
+      "romaji": "rikon suru",
+      "english": "to get divorced",
+      "level": "N4"
+    },
+    {
+      "number": 263,
+      "kanji": "生まれる",
+      "hiragana": "うまれる",
+      "romaji": "umareru",
+      "english": "to be born",
+      "level": "N5"
+    },
+    {
+      "number": 264,
+      "kanji": "育つ",
+      "hiragana": "そだつ",
+      "romaji": "sodatsu",
+      "english": "to grow up",
+      "level": "N4"
+    },
+    {
+      "number": 265,
+      "kanji": "育てる",
+      "hiragana": "そだてる",
+      "romaji": "sodateru",
+      "english": "to raise",
+      "level": "N4"
+    },
+    {
+      "number": 266,
+      "kanji": "変わる",
+      "hiragana": "かわる",
+      "romaji": "kawaru",
+      "english": "to change",
+      "level": "N5"
+    },
+    {
+      "number": 267,
+      "kanji": "変える",
+      "hiragana": "かえる",
+      "romaji": "kaeru",
+      "english": "to change",
+      "level": "N5"
+    },
+    {
+      "number": 268,
+      "kanji": "直す",
+      "hiragana": "なおす",
+      "romaji": "naosu",
+      "english": "to fix",
+      "level": "N5"
+    },
+    {
+      "number": 269,
+      "kanji": "直る",
+      "hiragana": "なおる",
+      "romaji": "naoru",
+      "english": "to be fixed",
+      "level": "N5"
+    },
+    {
+      "number": 270,
+      "kanji": "壊す",
+      "hiragana": "こわす",
+      "romaji": "kowasu",
+      "english": "to break",
+      "level": "N5"
+    },
+    {
+      "number": 271,
+      "kanji": "壊れる",
+      "hiragana": "こわれる",
+      "romaji": "kowareru",
+      "english": "to be broken",
+      "level": "N5"
+    },
+    {
+      "number": 272,
+      "kanji": "作る",
+      "hiragana": "つくる",
+      "romaji": "tsukuru",
+      "english": "to make",
+      "level": "N5"
+    },
+    {
+      "number": 273,
+      "kanji": "造る",
+      "hiragana": "つくる",
+      "romaji": "tsukuru",
+      "english": "to build",
+      "level": "N4"
+    },
+    {
+      "number": 274,
+      "kanji": "建てる",
+      "hiragana": "たてる",
+      "romaji": "tateru",
+      "english": "to build",
+      "level": "N4"
+    },
+    {
+      "number": 275,
+      "kanji": "建物",
+      "hiragana": "たてもの",
+      "romaji": "tatemono",
+      "english": "building",
+      "level": "N5"
+    },
+    {
+      "number": 276,
+      "kanji": "家",
+      "hiragana": "いえ",
+      "romaji": "ie",
+      "english": "house",
+      "level": "N5"
+    },
+    {
+      "number": 277,
+      "kanji": "部屋",
+      "hiragana": "へや",
+      "romaji": "heya",
+      "english": "room",
+      "level": "N5"
+    },
+    {
+      "number": 278,
+      "kanji": "玄関",
+      "hiragana": "げんかん",
+      "romaji": "genkan",
+      "english": "entrance",
+      "level": "N5"
+    },
+    {
+      "number": 279,
+      "kanji": "台所",
+      "hiragana": "だいどころ",
+      "romaji": "daidokoro",
+      "english": "kitchen",
+      "level": "N5"
+    },
+    {
+      "number": 280,
+      "kanji": "寝室",
+      "hiragana": "しんしつ",
+      "romaji": "shinshitsu",
+      "english": "bedroom",
+      "level": "N4"
+    },
+    {
+      "number": 281,
+      "kanji": "居間",
+      "hiragana": "いま",
+      "romaji": "ima",
+      "english": "living room",
+      "level": "N4"
+    },
+    {
+      "number": 282,
+      "kanji": "風呂",
+      "hiragana": "ふろ",
+      "romaji": "furo",
+      "english": "bath",
+      "level": "N5"
+    },
+    {
+      "number": 283,
+      "kanji": "トイレ",
+      "hiragana": "トイレ",
+      "romaji": "toire",
+      "english": "toilet",
+      "level": "N5"
+    },
+    {
+      "number": 284,
+      "kanji": "窓",
+      "hiragana": "まど",
+      "romaji": "mado",
+      "english": "window",
+      "level": "N5"
+    },
+    {
+      "number": 285,
+      "kanji": "ドア",
+      "hiragana": "ドア",
+      "romaji": "doa",
+      "english": "door",
+      "level": "N5"
+    },
+    {
+      "number": 286,
+      "kanji": "壁",
+      "hiragana": "かべ",
+      "romaji": "kabe",
+      "english": "wall",
+      "level": "N5"
+    },
+    {
+      "number": 287,
+      "kanji": "床",
+      "hiragana": "ゆか",
+      "romaji": "yuka",
+      "english": "floor",
+      "level": "N5"
+    },
+    {
+      "number": 288,
+      "kanji": "天井",
+      "hiragana": "てんじょう",
+      "romaji": "tenjou",
+      "english": "ceiling",
+      "level": "N4"
+    },
+    {
+      "number": 289,
+      "kanji": "階段",
+      "hiragana": "かいだん",
+      "romaji": "kaidan",
+      "english": "stairs",
+      "level": "N5"
+    },
+    {
+      "number": 290,
+      "kanji": "エレベーター",
+      "hiragana": "エレベーター",
+      "romaji": "erebeetaa",
+      "english": "elevator",
+      "level": "N5"
+    },
+    {
+      "number": 291,
+      "kanji": "電気",
+      "hiragana": "でんき",
+      "romaji": "denki",
+      "english": "electricity",
+      "level": "N5"
+    },
+    {
+      "number": 292,
+      "kanji": "ガス",
+      "hiragana": "ガス",
+      "romaji": "gasu",
+      "english": "gas",
+      "level": "N5"
+    },
+    {
+      "number": 293,
+      "kanji": "水道",
+      "hiragana": "すいどう",
+      "romaji": "suidou",
+      "english": "water supply",
+      "level": "N4"
+    },
+    {
+      "number": 294,
+      "kanji": "電話",
+      "hiragana": "でんわ",
+      "romaji": "denwa",
+      "english": "telephone",
+      "level": "N5"
+    },
+    {
+      "number": 295,
+      "kanji": "テレビ",
+      "hiragana": "テレビ",
+      "romaji": "terebi",
+      "english": "television",
+      "level": "N5"
+    },
+    {
+      "number": 296,
+      "kanji": "ラジオ",
+      "hiragana": "ラジオ",
+      "romaji": "rajio",
+      "english": "radio",
+      "level": "N5"
+    },
+    {
+      "number": 297,
+      "kanji": "冷蔵庫",
+      "hiragana": "れいぞうこ",
+      "romaji": "reizouko",
+      "english": "refrigerator",
+      "level": "N5"
+    },
+    {
+      "number": 298,
+      "kanji": "洗濯機",
+      "hiragana": "せんたくき",
+      "romaji": "sentakuki",
+      "english": "washing machine",
+      "level": "N5"
+    },
+    {
+      "number": 299,
+      "kanji": "掃除機",
+      "hiragana": "そうじき",
+      "romaji": "soujiki",
+      "english": "vacuum cleaner",
+      "level": "N5"
+    },
+    {
+      "number": 300,
+      "kanji": "エアコン",
+      "hiragana": "エアコン",
+      "romaji": "eakon",
+      "english": "air conditioner",
+      "level": "N5"
+    },
+    {
+      "number": 301,
+      "kanji": "家族",
+      "hiragana": "かぞく",
+      "romaji": "kazoku",
+      "english": "family",
+      "level": "N5"
+    },
+    {
+      "number": 302,
+      "kanji": "父",
+      "hiragana": "ちち",
+      "romaji": "chichi",
+      "english": "father",
+      "level": "N5"
+    },
+    {
+      "number": 303,
+      "kanji": "母",
+      "hiragana": "はは",
+      "romaji": "haha",
+      "english": "mother",
+      "level": "N5"
+    },
+    {
+      "number": 304,
+      "kanji": "兄",
+      "hiragana": "あに",
+      "romaji": "ani",
+      "english": "older brother",
+      "level": "N5"
+    },
+    {
+      "number": 305,
+      "kanji": "姉",
+      "hiragana": "あね",
+      "romaji": "ane",
+      "english": "older sister",
+      "level": "N5"
+    },
+    {
+      "number": 306,
+      "kanji": "弟",
+      "hiragana": "おとうと",
+      "romaji": "otouto",
+      "english": "younger brother",
+      "level": "N5"
+    },
+    {
+      "number": 307,
+      "kanji": "妹",
+      "hiragana": "いもうと",
+      "romaji": "imouto",
+      "english": "younger sister",
+      "level": "N5"
+    },
+    {
+      "number": 308,
+      "kanji": "祖父",
+      "hiragana": "そふ",
+      "romaji": "sofu",
+      "english": "grandfather",
+      "level": "N5"
+    },
+    {
+      "number": 309,
+      "kanji": "祖母",
+      "hiragana": "そぼ",
+      "romaji": "sobo",
+      "english": "grandmother",
+      "level": "N5"
+    },
+    {
+      "number": 310,
+      "kanji": "親戚",
+      "hiragana": "しんせき",
+      "romaji": "shinseki",
+      "english": "relative",
+      "level": "N4"
+    },
+    {
+      "number": 311,
+      "kanji": "友達",
+      "hiragana": "ともだち",
+      "romaji": "tomodachi",
+      "english": "friend",
+      "level": "N5"
+    },
+    {
+      "number": 312,
+      "kanji": "恋人",
+      "hiragana": "こいびと",
+      "romaji": "koibito",
+      "english": "lover",
+      "level": "N4"
+    },
+    {
+      "number": 313,
+      "kanji": "結婚",
+      "hiragana": "けっこん",
+      "romaji": "kekkon",
+      "english": "marriage",
+      "level": "N4"
+    },
+    {
+      "number": 314,
+      "kanji": "離婚",
+      "hiragana": "りこん",
+      "romaji": "rikon",
+      "english": "divorce",
+      "level": "N4"
+    },
+    {
+      "number": 315,
+      "kanji": "子供",
+      "hiragana": "こども",
+      "romaji": "kodomo",
+      "english": "child",
+      "level": "N5"
+    },
+    {
+      "number": 316,
+      "kanji": "赤ちゃん",
+      "hiragana": "あかちゃん",
+      "romaji": "akachan",
+      "english": "baby",
+      "level": "N5"
+    },
+    {
+      "number": 317,
+      "kanji": "男の子",
+      "hiragana": "おとこのこ",
+      "romaji": "otokonoko",
+      "english": "boy",
+      "level": "N5"
+    },
+    {
+      "number": 318,
+      "kanji": "女の子",
+      "hiragana": "おんなのこ",
+      "romaji": "onnanoko",
+      "english": "girl",
+      "level": "N5"
+    },
+    {
+      "number": 319,
+      "kanji": "大人",
+      "hiragana": "おとな",
+      "romaji": "otona",
+      "english": "adult",
+      "level": "N5"
+    },
+    {
+      "number": 320,
+      "kanji": "老人",
+      "hiragana": "ろうじん",
+      "romaji": "roujin",
+      "english": "elderly person",
+      "level": "N4"
+    },
+    {
+      "number": 321,
+      "kanji": "先生",
+      "hiragana": "せんせい",
+      "romaji": "sensei",
+      "english": "teacher",
+      "level": "N5"
+    },
+    {
+      "number": 322,
+      "kanji": "学生",
+      "hiragana": "がくせい",
+      "romaji": "gakusei",
+      "english": "student",
+      "level": "N5"
+    },
+    {
+      "number": 323,
+      "kanji": "医者",
+      "hiragana": "いしゃ",
+      "romaji": "isha",
+      "english": "doctor",
+      "level": "N5"
+    },
+    {
+      "number": 324,
+      "kanji": "看護師",
+      "hiragana": "かんごし",
+      "romaji": "kangoshi",
+      "english": "nurse",
+      "level": "N4"
+    },
+    {
+      "number": 325,
+      "kanji": "警察官",
+      "hiragana": "けいさつかん",
+      "romaji": "keisatsukan",
+      "english": "police officer",
+      "level": "N4"
+    },
+    {
+      "number": 326,
+      "kanji": "消防士",
+      "hiragana": "しょうぼうし",
+      "romaji": "shouboushi",
+      "english": "firefighter",
+      "level": "N4"
+    },
+    {
+      "number": 327,
+      "kanji": "運転手",
+      "hiragana": "うんてんしゅ",
+      "romaji": "untenshu",
+      "english": "driver",
+      "level": "N4"
+    },
+    {
+      "number": 328,
+      "kanji": "店員",
+      "hiragana": "てんいん",
+      "romaji": "tenin",
+      "english": "store clerk",
+      "level": "N4"
+    },
+    {
+      "number": 329,
+      "kanji": "会社員",
+      "hiragana": "かいしゃいん",
+      "romaji": "kaishain",
+      "english": "office worker",
+      "level": "N5"
+    },
+    {
+      "number": 330,
+      "kanji": "主婦",
+      "hiragana": "しゅふ",
+      "romaji": "shufu",
+      "english": "housewife",
+      "level": "N4"
+    },
+    {
+      "number": 331,
+      "kanji": "料理人",
+      "hiragana": "りょうりにん",
+      "romaji": "ryourinin",
+      "english": "chef",
+      "level": "N4"
+    },
+    {
+      "number": 332,
+      "kanji": "芸術家",
+      "hiragana": "げいじゅつか",
+      "romaji": "geijutsuka",
+      "english": "artist",
+      "level": "N4"
+    },
+    {
+      "number": 333,
+      "kanji": "音楽家",
+      "hiragana": "おんがくか",
+      "romaji": "ongakuka",
+      "english": "musician",
+      "level": "N4"
+    },
+    {
+      "number": 334,
+      "kanji": "作家",
+      "hiragana": "さっか",
+      "romaji": "sakka",
+      "english": "writer",
+      "level": "N4"
+    },
+    {
+      "number": 335,
+      "kanji": "記者",
+      "hiragana": "きしゃ",
+      "romaji": "kisha",
+      "english": "reporter",
+      "level": "N4"
+    },
+    {
+      "number": 336,
+      "kanji": "弁護士",
+      "hiragana": "べんごし",
+      "romaji": "bengoshi",
+      "english": "lawyer",
+      "level": "N4"
+    },
+    {
+      "number": 337,
+      "kanji": "政治家",
+      "hiragana": "せいじか",
+      "romaji": "seijika",
+      "english": "politician",
+      "level": "N4"
+    },
+    {
+      "number": 338,
+      "kanji": "科学者",
+      "hiragana": "かがくしゃ",
+      "romaji": "kagakusha",
+      "english": "scientist",
+      "level": "N4"
+    },
+    {
+      "number": 339,
+      "kanji": "研究者",
+      "hiragana": "けんきゅうしゃ",
+      "romaji": "kenkyuusha",
+      "english": "researcher",
+      "level": "N4"
+    },
+    {
+      "number": 340,
+      "kanji": "エンジニア",
+      "hiragana": "エンジニア",
+      "romaji": "enjinia",
+      "english": "engineer",
+      "level": "N4"
+    },
+    {
+      "number": 341,
+      "kanji": "デザイナー",
+      "hiragana": "デザイナー",
+      "romaji": "dezainaa",
+      "english": "designer",
+      "level": "N4"
+    },
+    {
+      "number": 342,
+      "kanji": "プログラマー",
+      "hiragana": "プログラマー",
+      "romaji": "puroguramaa",
+      "english": "programmer",
+      "level": "N4"
+    },
+    {
+      "number": 343,
+      "kanji": "翻訳者",
+      "hiragana": "ほんやくしゃ",
+      "romaji": "honyakusha",
+      "english": "translator",
+      "level": "N4"
+    },
+    {
+      "number": 344,
+      "kanji": "通訳者",
+      "hiragana": "つうやくしゃ",
+      "romaji": "tsuuyakusha",
+      "english": "interpreter",
+      "level": "N4"
+    },
+    {
+      "number": 345,
+      "kanji": "ガイド",
+      "hiragana": "ガイド",
+      "romaji": "gaido",
+      "english": "guide",
+      "level": "N4"
+    },
+    {
+      "number": 346,
+      "kanji": "ツアーガイド",
+      "hiragana": "ツアーガイド",
+      "romaji": "tsuaagaido",
+      "english": "tour guide",
+      "level": "N4"
+    },
+    {
+      "number": 347,
+      "kanji": "パイロット",
+      "hiragana": "パイロット",
+      "romaji": "pairotto",
+      "english": "pilot",
+      "level": "N4"
+    },
+    {
+      "number": 348,
+      "kanji": "キャビンアテンダント",
+      "hiragana": "キャビンアテンダント",
+      "romaji": "kyabinatendanto",
+      "english": "flight attendant",
+      "level": "N4"
+    },
+    {
+      "number": 349,
+      "kanji": "ホテルマン",
+      "hiragana": "ホテルマン",
+      "romaji": "hoteruman",
+      "english": "hotel staff",
+      "level": "N4"
+    },
+    {
+      "number": 350,
+      "kanji": "レストラン",
+      "hiragana": "レストラン",
+      "romaji": "resutoran",
+      "english": "restaurant",
+      "level": "N5"
+    },
+    {
+      "number": 351,
+      "kanji": "カフェ",
+      "hiragana": "カフェ",
+      "romaji": "kafe",
+      "english": "cafe",
+      "level": "N5"
+    },
+    {
+      "number": 352,
+      "kanji": "バー",
+      "hiragana": "バー",
+      "romaji": "baa",
+      "english": "bar",
+      "level": "N5"
+    },
+    {
+      "number": 353,
+      "kanji": "居酒屋",
+      "hiragana": "いざかや",
+      "romaji": "izakaya",
+      "english": "Japanese pub",
+      "level": "N4"
+    },
+    {
+      "number": 354,
+      "kanji": "寿司屋",
+      "hiragana": "すしや",
+      "romaji": "sushiya",
+      "english": "sushi restaurant",
+      "level": "N4"
+    },
+    {
+      "number": 355,
+      "kanji": "ラーメン屋",
+      "hiragana": "ラーメンや",
+      "romaji": "raamenya",
+      "english": "ramen shop",
+      "level": "N4"
+    },
+    {
+      "number": 356,
+      "kanji": "コンビニ",
+      "hiragana": "コンビニ",
+      "romaji": "konbini",
+      "english": "convenience store",
+      "level": "N5"
+    },
+    {
+      "number": 357,
+      "kanji": "スーパー",
+      "hiragana": "スーパー",
+      "romaji": "suupaa",
+      "english": "supermarket",
+      "level": "N5"
+    },
+    {
+      "number": 358,
+      "kanji": "デパート",
+      "hiragana": "デパート",
+      "romaji": "depaato",
+      "english": "department store",
+      "level": "N5"
+    },
+    {
+      "number": 359,
+      "kanji": "ショッピングモール",
+      "hiragana": "ショッピングモール",
+      "romaji": "shoppingumooru",
+      "english": "shopping mall",
+      "level": "N4"
+    },
+    {
+      "number": 360,
+      "kanji": "銀行",
+      "hiragana": "ぎんこう",
+      "romaji": "ginkou",
+      "english": "bank",
+      "level": "N5"
+    },
+    {
+      "number": 361,
+      "kanji": "郵便局",
+      "hiragana": "ゆうびんきょく",
+      "romaji": "yuubinkyoku",
+      "english": "post office",
+      "level": "N5"
+    },
+    {
+      "number": 362,
+      "kanji": "病院",
+      "hiragana": "びょういん",
+      "romaji": "byouin",
+      "english": "hospital",
+      "level": "N5"
+    },
+    {
+      "number": 363,
+      "kanji": "診療所",
+      "hiragana": "しんりょうじょ",
+      "romaji": "shinryoujo",
+      "english": "clinic",
+      "level": "N4"
+    },
+    {
+      "number": 364,
+      "kanji": "薬局",
+      "hiragana": "やっきょく",
+      "romaji": "yakkyoku",
+      "english": "pharmacy",
+      "level": "N5"
+    },
+    {
+      "number": 365,
+      "kanji": "学校",
+      "hiragana": "がっこう",
+      "romaji": "gakkou",
+      "english": "school",
+      "level": "N5"
+    },
+    {
+      "number": 366,
+      "kanji": "大学",
+      "hiragana": "だいがく",
+      "romaji": "daigaku",
+      "english": "university",
+      "level": "N5"
+    },
+    {
+      "number": 367,
+      "kanji": "高校",
+      "hiragana": "こうこう",
+      "romaji": "koukou",
+      "english": "high school",
+      "level": "N5"
+    },
+    {
+      "number": 368,
+      "kanji": "中学校",
+      "hiragana": "ちゅうがっこう",
+      "romaji": "chuugakkou",
+      "english": "middle school",
+      "level": "N5"
+    },
+    {
+      "number": 369,
+      "kanji": "小学校",
+      "hiragana": "しょうがっこう",
+      "romaji": "shougakkou",
+      "english": "elementary school",
+      "level": "N5"
+    },
+    {
+      "number": 370,
+      "kanji": "幼稚園",
+      "hiragana": "ようちえん",
+      "romaji": "youchien",
+      "english": "kindergarten",
+      "level": "N4"
+    },
+    {
+      "number": 371,
+      "kanji": "図書館",
+      "hiragana": "としょかん",
+      "romaji": "toshokan",
+      "english": "library",
+      "level": "N5"
+    },
+    {
+      "number": 372,
+      "kanji": "博物館",
+      "hiragana": "はくぶつかん",
+      "romaji": "hakubutsukan",
+      "english": "museum",
+      "level": "N4"
+    },
+    {
+      "number": 373,
+      "kanji": "美術館",
+      "hiragana": "びじゅつかん",
+      "romaji": "bijutsukan",
+      "english": "art museum",
+      "level": "N4"
+    },
+    {
+      "number": 374,
+      "kanji": "映画館",
+      "hiragana": "えいがかん",
+      "romaji": "eigakan",
+      "english": "movie theater",
+      "level": "N4"
+    },
+    {
+      "number": 375,
+      "kanji": "劇場",
+      "hiragana": "げきじょう",
+      "romaji": "gekijou",
+      "english": "theater",
+      "level": "N4"
+    },
+    {
+      "number": 376,
+      "kanji": "コンサートホール",
+      "hiragana": "コンサートホール",
+      "romaji": "konsaatohooru",
+      "english": "concert hall",
+      "level": "N4"
+    },
+    {
+      "number": 377,
+      "kanji": "体育館",
+      "hiragana": "たいいくかん",
+      "romaji": "taiikukan",
+      "english": "gymnasium",
+      "level": "N4"
+    },
+    {
+      "number": 378,
+      "kanji": "プール",
+      "hiragana": "プール",
+      "romaji": "puuru",
+      "english": "pool",
+      "level": "N5"
+    },
+    {
+      "number": 379,
+      "kanji": "公園",
+      "hiragana": "こうえん",
+      "romaji": "kouen",
+      "english": "park",
+      "level": "N5"
+    },
+    {
+      "number": 380,
+      "kanji": "動物園",
+      "hiragana": "どうぶつえん",
+      "romaji": "doubutsuen",
+      "english": "zoo",
+      "level": "N4"
+    },
+    {
+      "number": 381,
+      "kanji": "水族館",
+      "hiragana": "すいぞくかん",
+      "romaji": "suizokukan",
+      "english": "aquarium",
+      "level": "N4"
+    },
+    {
+      "number": 382,
+      "kanji": "遊園地",
+      "hiragana": "ゆうえんち",
+      "romaji": "yuuenchi",
+      "english": "amusement park",
+      "level": "N4"
+    },
+    {
+      "number": 383,
+      "kanji": "温泉",
+      "hiragana": "おんせん",
+      "romaji": "onsen",
+      "english": "hot spring",
+      "level": "N4"
+    },
+    {
+      "number": 384,
+      "kanji": "神社",
+      "hiragana": "じんじゃ",
+      "romaji": "jinja",
+      "english": "shrine",
+      "level": "N4"
+    },
+    {
+      "number": 385,
+      "kanji": "お寺",
+      "hiragana": "おてら",
+      "romaji": "otera",
+      "english": "temple",
+      "level": "N4"
+    },
+    {
+      "number": 386,
+      "kanji": "教会",
+      "hiragana": "きょうかい",
+      "romaji": "kyoukai",
+      "english": "church",
+      "level": "N4"
+    },
+    {
+      "number": 387,
+      "kanji": "空港",
+      "hiragana": "くうこう",
+      "romaji": "kuukou",
+      "english": "airport",
+      "level": "N5"
+    },
+    {
+      "number": 388,
+      "kanji": "駅",
+      "hiragana": "えき",
+      "romaji": "eki",
+      "english": "station",
+      "level": "N5"
+    },
+    {
+      "number": 389,
+      "kanji": "バス停",
+      "hiragana": "バスてい",
+      "romaji": "basutei",
+      "english": "bus stop",
+      "level": "N5"
+    },
+    {
+      "number": 390,
+      "kanji": "タクシー乗り場",
+      "hiragana": "タクシーのりば",
+      "romaji": "takushiinoriba",
+      "english": "taxi stand",
+      "level": "N4"
+    },
+    {
+      "number": 391,
+      "kanji": "駐車場",
+      "hiragana": "ちゅうしゃじょう",
+      "romaji": "chuushajou",
+      "english": "parking lot",
+      "level": "N4"
+    },
+    {
+      "number": 392,
+      "kanji": "交差点",
+      "hiragana": "こうさてん",
+      "romaji": "kousaten",
+      "english": "intersection",
+      "level": "N4"
+    },
+    {
+      "number": 393,
+      "kanji": "信号",
+      "hiragana": "しんごう",
+      "romaji": "shingou",
+      "english": "traffic light",
+      "level": "N5"
+    },
+    {
+      "number": 394,
+      "kanji": "道路",
+      "hiragana": "どうろ",
+      "romaji": "douro",
+      "english": "road",
+      "level": "N5"
+    },
+    {
+      "number": 395,
+      "kanji": "橋",
+      "hiragana": "はし",
+      "romaji": "hashi",
+      "english": "bridge",
+      "level": "N5"
+    },
+    {
+      "number": 396,
+      "kanji": "川",
+      "hiragana": "かわ",
+      "romaji": "kawa",
+      "english": "river",
+      "level": "N5"
+    },
+    {
+      "number": 397,
+      "kanji": "山",
+      "hiragana": "やま",
+      "romaji": "yama",
+      "english": "mountain",
+      "level": "N5"
+    },
+    {
+      "number": 398,
+      "kanji": "海",
+      "hiragana": "うみ",
+      "romaji": "umi",
+      "english": "sea",
+      "level": "N5"
+    },
+    {
+      "number": 399,
+      "kanji": "湖",
+      "hiragana": "みずうみ",
+      "romaji": "mizuumi",
+      "english": "lake",
+      "level": "N4"
+    },
+    {
+      "number": 400,
+      "kanji": "森",
+      "hiragana": "もり",
+      "romaji": "mori",
+      "english": "forest",
+      "level": "N5"
+    },
+    {
+      "number": 401,
+      "kanji": "動物",
+      "hiragana": "どうぶつ",
+      "romaji": "doubutsu",
+      "english": "animal",
+      "level": "N5"
+    },
+    {
+      "number": 402,
+      "kanji": "犬",
+      "hiragana": "いぬ",
+      "romaji": "inu",
+      "english": "dog",
+      "level": "N5"
+    },
+    {
+      "number": 403,
+      "kanji": "猫",
+      "hiragana": "ねこ",
+      "romaji": "neko",
+      "english": "cat",
+      "level": "N5"
+    },
+    {
+      "number": 404,
+      "kanji": "鳥",
+      "hiragana": "とり",
+      "romaji": "tori",
+      "english": "bird",
+      "level": "N5"
+    },
+    {
+      "number": 405,
+      "kanji": "馬",
+      "hiragana": "うま",
+      "romaji": "uma",
+      "english": "horse",
+      "level": "N5"
+    },
+    {
+      "number": 406,
+      "kanji": "牛",
+      "hiragana": "うし",
+      "romaji": "ushi",
+      "english": "cow",
+      "level": "N5"
+    },
+    {
+      "number": 407,
+      "kanji": "豚",
+      "hiragana": "ぶた",
+      "romaji": "buta",
+      "english": "pig",
+      "level": "N5"
+    },
+    {
+      "number": 408,
+      "kanji": "羊",
+      "hiragana": "ひつじ",
+      "romaji": "hitsuji",
+      "english": "sheep",
+      "level": "N5"
+    },
+    {
+      "number": 409,
+      "kanji": "熊",
+      "hiragana": "くま",
+      "romaji": "kuma",
+      "english": "bear",
+      "level": "N4"
+    },
+    {
+      "number": 410,
+      "kanji": "象",
+      "hiragana": "ぞう",
+      "romaji": "zou",
+      "english": "elephant",
+      "level": "N4"
+    },
+    {
+      "number": 411,
+      "kanji": "虎",
+      "hiragana": "とら",
+      "romaji": "tora",
+      "english": "tiger",
+      "level": "N4"
+    },
+    {
+      "number": 412,
+      "kanji": "ライオン",
+      "hiragana": "ライオン",
+      "romaji": "raion",
+      "english": "lion",
+      "level": "N4"
+    },
+    {
+      "number": 413,
+      "kanji": "猿",
+      "hiragana": "さる",
+      "romaji": "saru",
+      "english": "monkey",
+      "level": "N4"
+    },
+    {
+      "number": 414,
+      "kanji": "パンダ",
+      "hiragana": "パンダ",
+      "romaji": "panda",
+      "english": "panda",
+      "level": "N4"
+    },
+    {
+      "number": 415,
+      "kanji": "うさぎ",
+      "hiragana": "うさぎ",
+      "romaji": "usagi",
+      "english": "rabbit",
+      "level": "N5"
+    },
+    {
+      "number": 416,
+      "kanji": "ねずみ",
+      "hiragana": "ねずみ",
+      "romaji": "nezumi",
+      "english": "mouse",
+      "level": "N5"
+    },
+    {
+      "number": 417,
+      "kanji": "虫",
+      "hiragana": "むし",
+      "romaji": "mushi",
+      "english": "insect",
+      "level": "N5"
+    },
+    {
+      "number": 418,
+      "kanji": "蝶",
+      "hiragana": "ちょう",
+      "romaji": "chou",
+      "english": "butterfly",
+      "level": "N4"
+    },
+    {
+      "number": 419,
+      "kanji": "蜂",
+      "hiragana": "はち",
+      "romaji": "hachi",
+      "english": "bee",
+      "level": "N4"
+    },
+    {
+      "number": 420,
+      "kanji": "蜘蛛",
+      "hiragana": "くも",
+      "romaji": "kumo",
+      "english": "spider",
+      "level": "N4"
+    },
+    {
+      "number": 421,
+      "kanji": "植物",
+      "hiragana": "しょくぶつ",
+      "romaji": "shokubutsu",
+      "english": "plant",
+      "level": "N4"
+    },
+    {
+      "number": 422,
+      "kanji": "花",
+      "hiragana": "はな",
+      "romaji": "hana",
+      "english": "flower",
+      "level": "N5"
+    },
+    {
+      "number": 423,
+      "kanji": "木",
+      "hiragana": "き",
+      "romaji": "ki",
+      "english": "tree",
+      "level": "N5"
+    },
+    {
+      "number": 424,
+      "kanji": "草",
+      "hiragana": "くさ",
+      "romaji": "kusa",
+      "english": "grass",
+      "level": "N5"
+    },
+    {
+      "number": 425,
+      "kanji": "葉",
+      "hiragana": "は",
+      "romaji": "ha",
+      "english": "leaf",
+      "level": "N5"
+    },
+    {
+      "number": 426,
+      "kanji": "根",
+      "hiragana": "ね",
+      "romaji": "ne",
+      "english": "root",
+      "level": "N4"
+    },
+    {
+      "number": 427,
+      "kanji": "種",
+      "hiragana": "たね",
+      "romaji": "tane",
+      "english": "seed",
+      "level": "N4"
+    },
+    {
+      "number": 428,
+      "kanji": "果実",
+      "hiragana": "かじつ",
+      "romaji": "kajitsu",
+      "english": "fruit",
+      "level": "N4"
+    },
+    {
+      "number": 429,
+      "kanji": "野菜",
+      "hiragana": "やさい",
+      "romaji": "yasai",
+      "english": "vegetable",
+      "level": "N5"
+    },
+    {
+      "number": 430,
+      "kanji": "米",
+      "hiragana": "こめ",
+      "romaji": "kome",
+      "english": "rice",
+      "level": "N5"
+    },
+    {
+      "number": 431,
+      "kanji": "小麦",
+      "hiragana": "こむぎ",
+      "romaji": "komugi",
+      "english": "wheat",
+      "level": "N4"
+    },
+    {
+      "number": 432,
+      "kanji": "大豆",
+      "hiragana": "だいず",
+      "romaji": "daizu",
+      "english": "soybean",
+      "level": "N4"
+    },
+    {
+      "number": 433,
+      "kanji": "天気",
+      "hiragana": "てんき",
+      "romaji": "tenki",
+      "english": "weather",
+      "level": "N5"
+    },
+    {
+      "number": 434,
+      "kanji": "晴れ",
+      "hiragana": "はれ",
+      "romaji": "hare",
+      "english": "sunny",
+      "level": "N5"
+    },
+    {
+      "number": 435,
+      "kanji": "雨",
+      "hiragana": "あめ",
+      "romaji": "ame",
+      "english": "rain",
+      "level": "N5"
+    },
+    {
+      "number": 436,
+      "kanji": "雪",
+      "hiragana": "ゆき",
+      "romaji": "yuki",
+      "english": "snow",
+      "level": "N5"
+    },
+    {
+      "number": 437,
+      "kanji": "風",
+      "hiragana": "かぜ",
+      "romaji": "kaze",
+      "english": "wind",
+      "level": "N5"
+    },
+    {
+      "number": 438,
+      "kanji": "雲",
+      "hiragana": "くも",
+      "romaji": "kumo",
+      "english": "cloud",
+      "level": "N5"
+    },
+    {
+      "number": 439,
+      "kanji": "雷",
+      "hiragana": "かみなり",
+      "romaji": "kaminari",
+      "english": "thunder",
+      "level": "N4"
+    },
+    {
+      "number": 440,
+      "kanji": "嵐",
+      "hiragana": "あらし",
+      "romaji": "arashi",
+      "english": "storm",
+      "level": "N4"
+    },
+    {
+      "number": 441,
+      "kanji": "台風",
+      "hiragana": "たいふう",
+      "romaji": "taifuu",
+      "english": "typhoon",
+      "level": "N4"
+    },
+    {
+      "number": 442,
+      "kanji": "地震",
+      "hiragana": "じしん",
+      "romaji": "jishin",
+      "english": "earthquake",
+      "level": "N4"
+    },
+    {
+      "number": 443,
+      "kanji": "火事",
+      "hiragana": "かじ",
+      "romaji": "kaji",
+      "english": "fire",
+      "level": "N5"
+    },
+    {
+      "number": 444,
+      "kanji": "事故",
+      "hiragana": "じこ",
+      "romaji": "jiko",
+      "english": "accident",
+      "level": "N4"
+    },
+    {
+      "number": 445,
+      "kanji": "事件",
+      "hiragana": "じけん",
+      "romaji": "jiken",
+      "english": "incident",
+      "level": "N4"
+    },
+    {
+      "number": 446,
+      "kanji": "犯罪",
+      "hiragana": "はんざい",
+      "romaji": "hanzai",
+      "english": "crime",
+      "level": "N4"
+    },
+    {
+      "number": 447,
+      "kanji": "法律",
+      "hiragana": "ほうりつ",
+      "romaji": "houritsu",
+      "english": "law",
+      "level": "N4"
+    },
+    {
+      "number": 448,
+      "kanji": "規則",
+      "hiragana": "きそく",
+      "romaji": "kisoku",
+      "english": "rule",
+      "level": "N4"
+    },
+    {
+      "number": 449,
+      "kanji": "約束",
+      "hiragana": "やくそく",
+      "romaji": "yakusoku",
+      "english": "promise",
+      "level": "N5"
+    },
+    {
+      "number": 450,
+      "kanji": "責任",
+      "hiragana": "せきにん",
+      "romaji": "sekinin",
+      "english": "responsibility",
+      "level": "N4"
+    },
+    {
+      "number": 451,
+      "kanji": "義務",
+      "hiragana": "ぎむ",
+      "romaji": "gimu",
+      "english": "duty",
+      "level": "N4"
+    },
+    {
+      "number": 452,
+      "kanji": "権利",
+      "hiragana": "けんり",
+      "romaji": "kenri",
+      "english": "right",
+      "level": "N4"
+    },
+    {
+      "number": 453,
+      "kanji": "自由",
+      "hiragana": "じゆう",
+      "romaji": "jiyuu",
+      "english": "freedom",
+      "level": "N4"
+    },
+    {
+      "number": 454,
+      "kanji": "平等",
+      "hiragana": "びょうどう",
+      "romaji": "byoudou",
+      "english": "equality",
+      "level": "N4"
+    },
+    {
+      "number": 455,
+      "kanji": "正義",
+      "hiragana": "せいぎ",
+      "romaji": "seigi",
+      "english": "justice",
+      "level": "N4"
+    },
+    {
+      "number": 456,
+      "kanji": "平和",
+      "hiragana": "へいわ",
+      "romaji": "heiwa",
+      "english": "peace",
+      "level": "N4"
+    },
+    {
+      "number": 457,
+      "kanji": "戦争",
+      "hiragana": "せんそう",
+      "romaji": "sensou",
+      "english": "war",
+      "level": "N4"
+    },
+    {
+      "number": 458,
+      "kanji": "歴史",
+      "hiragana": "れきし",
+      "romaji": "rekishi",
+      "english": "history",
+      "level": "N4"
+    },
+    {
+      "number": 459,
+      "kanji": "文化",
+      "hiragana": "ぶんか",
+      "romaji": "bunka",
+      "english": "culture",
+      "level": "N4"
+    },
+    {
+      "number": 460,
+      "kanji": "伝統",
+      "hiragana": "でんとう",
+      "romaji": "dentou",
+      "english": "tradition",
+      "level": "N4"
+    },
+    {
+      "number": 461,
+      "kanji": "習慣",
+      "hiragana": "しゅうかん",
+      "romaji": "shuukan",
+      "english": "custom",
+      "level": "N4"
+    },
+    {
+      "number": 462,
+      "kanji": "宗教",
+      "hiragana": "しゅうきょう",
+      "romaji": "shuukyou",
+      "english": "religion",
+      "level": "N4"
+    },
+    {
+      "number": 463,
+      "kanji": "信仰",
+      "hiragana": "しんこう",
+      "romaji": "shinkou",
+      "english": "faith",
+      "level": "N4"
+    },
+    {
+      "number": 464,
+      "kanji": "神",
+      "hiragana": "かみ",
+      "romaji": "kami",
+      "english": "god",
+      "level": "N4"
+    },
+    {
+      "number": 465,
+      "kanji": "仏",
+      "hiragana": "ほとけ",
+      "romaji": "hotoke",
+      "english": "Buddha",
+      "level": "N4"
+    },
+    {
+      "number": 466,
+      "kanji": "祭り",
+      "hiragana": "まつり",
+      "romaji": "matsuri",
+      "english": "festival",
+      "level": "N4"
+    },
+    {
+      "number": 467,
+      "kanji": "祝日",
+      "hiragana": "しゅくじつ",
+      "romaji": "shukujitsu",
+      "english": "holiday",
+      "level": "N4"
+    },
+    {
+      "number": 468,
+      "kanji": "休日",
+      "hiragana": "きゅうじつ",
+      "romaji": "kyuujitsu",
+      "english": "holiday",
+      "level": "N5"
+    },
+    {
+      "number": 469,
+      "kanji": "誕生日",
+      "hiragana": "たんじょうび",
+      "romaji": "tanjoubi",
+      "english": "birthday",
+      "level": "N5"
+    },
+    {
+      "number": 470,
+      "kanji": "記念日",
+      "hiragana": "きねんび",
+      "romaji": "kinenbi",
+      "english": "anniversary",
+      "level": "N4"
+    },
+    {
+      "number": 471,
+      "kanji": "お祝い",
+      "hiragana": "おいわい",
+      "romaji": "oiwai",
+      "english": "celebration",
+      "level": "N4"
+    },
+    {
+      "number": 472,
+      "kanji": "プレゼント",
+      "hiragana": "プレゼント",
+      "romaji": "purezento",
+      "english": "present",
+      "level": "N5"
+    },
+    {
+      "number": 473,
+      "kanji": "お土産",
+      "hiragana": "おみやげ",
+      "romaji": "omiyage",
+      "english": "souvenir",
+      "level": "N4"
+    },
+    {
+      "number": 474,
+      "kanji": "記念品",
+      "hiragana": "きねんひん",
+      "romaji": "kinenhin",
+      "english": "memorial",
+      "level": "N4"
+    },
+    {
+      "number": 475,
+      "kanji": "写真",
+      "hiragana": "しゃしん",
+      "romaji": "shashin",
+      "english": "photo",
+      "level": "N5"
+    },
+    {
+      "number": 476,
+      "kanji": "映画",
+      "hiragana": "えいが",
+      "romaji": "eiga",
+      "english": "movie",
+      "level": "N5"
+    },
+    {
+      "number": 477,
+      "kanji": "音楽",
+      "hiragana": "おんがく",
+      "romaji": "ongaku",
+      "english": "music",
+      "level": "N5"
+    },
+    {
+      "number": 478,
+      "kanji": "歌",
+      "hiragana": "うた",
+      "romaji": "uta",
+      "english": "song",
+      "level": "N5"
+    },
+    {
+      "number": 479,
+      "kanji": "踊り",
+      "hiragana": "おどり",
+      "romaji": "odori",
+      "english": "dance",
+      "level": "N4"
+    },
+    {
+      "number": 480,
+      "kanji": "絵",
+      "hiragana": "え",
+      "romaji": "e",
+      "english": "picture",
+      "level": "N5"
+    },
+    {
+      "number": 481,
+      "kanji": "彫刻",
+      "hiragana": "ちょうこく",
+      "romaji": "choukoku",
+      "english": "sculpture",
+      "level": "N4"
+    },
+    {
+      "number": 482,
+      "kanji": "工芸",
+      "hiragana": "こうげい",
+      "romaji": "kougei",
+      "english": "craft",
+      "level": "N4"
+    },
+    {
+      "number": 483,
+      "kanji": "文学",
+      "hiragana": "ぶんがく",
+      "romaji": "bungaku",
+      "english": "literature",
+      "level": "N4"
+    },
+    {
+      "number": 484,
+      "kanji": "詩",
+      "hiragana": "し",
+      "romaji": "shi",
+      "english": "poetry",
+      "level": "N4"
+    },
+    {
+      "number": 485,
+      "kanji": "小説",
+      "hiragana": "しょうせつ",
+      "romaji": "shousetsu",
+      "english": "novel",
+      "level": "N4"
+    },
+    {
+      "number": 486,
+      "kanji": "雑誌",
+      "hiragana": "ざっし",
+      "romaji": "zasshi",
+      "english": "magazine",
+      "level": "N5"
+    },
+    {
+      "number": 487,
+      "kanji": "新聞",
+      "hiragana": "しんぶん",
+      "romaji": "shinbun",
+      "english": "newspaper",
+      "level": "N5"
+    },
+    {
+      "number": 488,
+      "kanji": "本",
+      "hiragana": "ほん",
+      "romaji": "hon",
+      "english": "book",
+      "level": "N5"
+    },
+    {
+      "number": 489,
+      "kanji": "辞書",
+      "hiragana": "じしょ",
+      "romaji": "jisho",
+      "english": "dictionary",
+      "level": "N5"
+    },
+    {
+      "number": 490,
+      "kanji": "百科事典",
+      "hiragana": "ひゃっかじてん",
+      "romaji": "hyakkajiten",
+      "english": "encyclopedia",
+      "level": "N4"
+    },
+    {
+      "number": 491,
+      "kanji": "参考書",
+      "hiragana": "さんこうしょ",
+      "romaji": "sankousho",
+      "english": "reference book",
+      "level": "N4"
+    },
+    {
+      "number": 492,
+      "kanji": "教科書",
+      "hiragana": "きょうかしょ",
+      "romaji": "kyoukasho",
+      "english": "textbook",
+      "level": "N4"
+    },
+    {
+      "number": 493,
+      "kanji": "ノート",
+      "hiragana": "ノート",
+      "romaji": "nooto",
+      "english": "notebook",
+      "level": "N5"
+    },
+    {
+      "number": 494,
+      "kanji": "鉛筆",
+      "hiragana": "えんぴつ",
+      "romaji": "enpitsu",
+      "english": "pencil",
+      "level": "N5"
+    },
+    {
+      "number": 495,
+      "kanji": "ペン",
+      "hiragana": "ペン",
+      "romaji": "pen",
+      "english": "pen",
+      "level": "N5"
+    },
+    {
+      "number": 496,
+      "kanji": "消しゴム",
+      "hiragana": "けしゴム",
+      "romaji": "keshigomu",
+      "english": "eraser",
+      "level": "N5"
+    },
+    {
+      "number": 497,
+      "kanji": "定規",
+      "hiragana": "じょうぎ",
+      "romaji": "jougi",
+      "english": "ruler",
+      "level": "N4"
+    },
+    {
+      "number": 498,
+      "kanji": "計算機",
+      "hiragana": "けいさんき",
+      "romaji": "keisanki",
+      "english": "calculator",
+      "level": "N4"
+    },
+    {
+      "number": 499,
+      "kanji": "コンピューター",
+      "hiragana": "コンピューター",
+      "romaji": "konpyuutaa",
+      "english": "computer",
+      "level": "N5"
+    },
+    {
+      "number": 500,
+      "kanji": "インターネット",
+      "hiragana": "インターネット",
+      "romaji": "inta-netto",
+      "english": "internet",
+      "level": "N4"
+    },
+    {
+      "number": 501,
+      "kanji": "ウェブサイト",
+      "hiragana": "ウェブサイト",
+      "romaji": "uebusaito",
+      "english": "website",
+      "level": "N4"
+    },
+    {
+      "number": 502,
+      "kanji": "メール",
+      "hiragana": "メール",
+      "romaji": "meeru",
+      "english": "email",
+      "level": "N5"
+    },
+    {
+      "number": 503,
+      "kanji": "チャット",
+      "hiragana": "チャット",
+      "romaji": "chatto",
+      "english": "chat",
+      "level": "N4"
+    },
+    {
+      "number": 504,
+      "kanji": "ビデオ",
+      "hiragana": "ビデオ",
+      "romaji": "bideo",
+      "english": "video",
+      "level": "N5"
+    },
+    {
+      "number": 505,
+      "kanji": "カメラ",
+      "hiragana": "カメラ",
+      "romaji": "kamera",
+      "english": "camera",
+      "level": "N5"
+    },
+    {
+      "number": 506,
+      "kanji": "スマートフォン",
+      "hiragana": "スマートフォン",
+      "romaji": "sumaatofon",
+      "english": "smartphone",
+      "level": "N4"
+    },
+    {
+      "number": 507,
+      "kanji": "タブレット",
+      "hiragana": "タブレット",
+      "romaji": "taburetto",
+      "english": "tablet",
+      "level": "N4"
+    },
+    {
+      "number": 508,
+      "kanji": "アプリ",
+      "hiragana": "アプリ",
+      "romaji": "apuri",
+      "english": "app",
+      "level": "N4"
+    },
+    {
+      "number": 509,
+      "kanji": "ソフトウェア",
+      "hiragana": "ソフトウェア",
+      "romaji": "sofutouea",
+      "english": "software",
+      "level": "N4"
+    },
+    {
+      "number": 510,
+      "kanji": "ハードウェア",
+      "hiragana": "ハードウェア",
+      "romaji": "haadouea",
+      "english": "hardware",
+      "level": "N4"
+    },
+    {
+      "number": 511,
+      "kanji": "データ",
+      "hiragana": "データ",
+      "romaji": "deeta",
+      "english": "data",
+      "level": "N4"
+    },
+    {
+      "number": 512,
+      "kanji": "ファイル",
+      "hiragana": "ファイル",
+      "romaji": "fairu",
+      "english": "file",
+      "level": "N4"
+    },
+    {
+      "number": 513,
+      "kanji": "フォルダ",
+      "hiragana": "フォルダ",
+      "romaji": "foruda",
+      "english": "folder",
+      "level": "N4"
+    },
+    {
+      "number": 514,
+      "kanji": "ダウンロード",
+      "hiragana": "ダウンロード",
+      "romaji": "daunroodo",
+      "english": "download",
+      "level": "N4"
+    },
+    {
+      "number": 515,
+      "kanji": "アップロード",
+      "hiragana": "アップロード",
+      "romaji": "appuroodo",
+      "english": "upload",
+      "level": "N4"
+    },
+    {
+      "number": 516,
+      "kanji": "コピー",
+      "hiragana": "コピー",
+      "romaji": "kopii",
+      "english": "copy",
+      "level": "N5"
+    },
+    {
+      "number": 517,
+      "kanji": "ペースト",
+      "hiragana": "ペースト",
+      "romaji": "peesuto",
+      "english": "paste",
+      "level": "N4"
+    },
+    {
+      "number": 518,
+      "kanji": "カット",
+      "hiragana": "カット",
+      "romaji": "katto",
+      "english": "cut",
+      "level": "N5"
+    },
+    {
+      "number": 519,
+      "kanji": "保存",
+      "hiragana": "ほぞん",
+      "romaji": "hozon",
+      "english": "save",
+      "level": "N4"
+    },
+    {
+      "number": 520,
+      "kanji": "削除",
+      "hiragana": "さくじょ",
+      "romaji": "sakujo",
+      "english": "delete",
+      "level": "N4"
+    },
+    {
+      "number": 521,
+      "kanji": "編集",
+      "hiragana": "へんしゅう",
+      "romaji": "henshuu",
+      "english": "edit",
+      "level": "N4"
+    },
+    {
+      "number": 522,
+      "kanji": "印刷",
+      "hiragana": "いんさつ",
+      "romaji": "insatsu",
+      "english": "print",
+      "level": "N4"
+    },
+    {
+      "number": 523,
+      "kanji": "スキャン",
+      "hiragana": "スキャン",
+      "romaji": "sukyan",
+      "english": "scan",
+      "level": "N4"
+    },
+    {
+      "number": 524,
+      "kanji": "ファックス",
+      "hiragana": "ファックス",
+      "romaji": "fakkusu",
+      "english": "fax",
+      "level": "N4"
+    },
+    {
+      "number": 525,
+      "kanji": "コピー機",
+      "hiragana": "コピーき",
+      "romaji": "kopiiki",
+      "english": "copier",
+      "level": "N4"
+    },
+    {
+      "number": 526,
+      "kanji": "プリンター",
+      "hiragana": "プリンター",
+      "romaji": "purintaa",
+      "english": "printer",
+      "level": "N4"
+    },
+    {
+      "number": 527,
+      "kanji": "スキャナー",
+      "hiragana": "スキャナー",
+      "romaji": "sukyanaa",
+      "english": "scanner",
+      "level": "N4"
+    },
+    {
+      "number": 528,
+      "kanji": "キーボード",
+      "hiragana": "キーボード",
+      "romaji": "kiiboodo",
+      "english": "keyboard",
+      "level": "N4"
+    },
+    {
+      "number": 529,
+      "kanji": "マウス",
+      "hiragana": "マウス",
+      "romaji": "mausu",
+      "english": "mouse",
+      "level": "N4"
+    },
+    {
+      "number": 530,
+      "kanji": "モニター",
+      "hiragana": "モニター",
+      "romaji": "monitaa",
+      "english": "monitor",
+      "level": "N4"
+    },
+    {
+      "number": 531,
+      "kanji": "スピーカー",
+      "hiragana": "スピーカー",
+      "romaji": "supiikaa",
+      "english": "speaker",
+      "level": "N4"
+    },
+    {
+      "number": 532,
+      "kanji": "マイク",
+      "hiragana": "マイク",
+      "romaji": "maiku",
+      "english": "microphone",
+      "level": "N4"
+    },
+    {
+      "number": 533,
+      "kanji": "ヘッドフォン",
+      "hiragana": "ヘッドフォン",
+      "romaji": "heddofon",
+      "english": "headphones",
+      "level": "N4"
+    },
+    {
+      "number": 534,
+      "kanji": "イヤホン",
+      "hiragana": "イヤホン",
+      "romaji": "iyahon",
+      "english": "earphones",
+      "level": "N4"
+    },
+    {
+      "number": 535,
+      "kanji": "バッテリー",
+      "hiragana": "バッテリー",
+      "romaji": "batterii",
+      "english": "battery",
+      "level": "N4"
+    },
+    {
+      "number": 536,
+      "kanji": "充電",
+      "hiragana": "じゅうでん",
+      "romaji": "juuden",
+      "english": "charging",
+      "level": "N4"
+    },
+    {
+      "number": 537,
+      "kanji": "充電器",
+      "hiragana": "じゅうでんき",
+      "romaji": "juudenki",
+      "english": "charger",
+      "level": "N4"
+    },
+    {
+      "number": 538,
+      "kanji": "ケーブル",
+      "hiragana": "ケーブル",
+      "romaji": "keeburu",
+      "english": "cable",
+      "level": "N4"
+    },
+    {
+      "number": 539,
+      "kanji": "コード",
+      "hiragana": "コード",
+      "romaji": "koodo",
+      "english": "cord",
+      "level": "N4"
+    },
+    {
+      "number": 540,
+      "kanji": "プラグ",
+      "hiragana": "プラグ",
+      "romaji": "puragu",
+      "english": "plug",
+      "level": "N4"
+    },
+    {
+      "number": 541,
+      "kanji": "コンセント",
+      "hiragana": "コンセント",
+      "romaji": "konsento",
+      "english": "outlet",
+      "level": "N4"
+    },
+    {
+      "number": 542,
+      "kanji": "スイッチ",
+      "hiragana": "スイッチ",
+      "romaji": "suicchi",
+      "english": "switch",
+      "level": "N4"
+    },
+    {
+      "number": 543,
+      "kanji": "ボタン",
+      "hiragana": "ボタン",
+      "romaji": "botan",
+      "english": "button",
+      "level": "N5"
+    },
+    {
+      "number": 544,
+      "kanji": "レバー",
+      "hiragana": "レバー",
+      "romaji": "rebaa",
+      "english": "lever",
+      "level": "N4"
+    },
+    {
+      "number": 545,
+      "kanji": "ハンドル",
+      "hiragana": "ハンドル",
+      "romaji": "handoru",
+      "english": "handle",
+      "level": "N4"
+    },
+    {
+      "number": 546,
+      "kanji": "ドアノブ",
+      "hiragana": "ドアノブ",
+      "romaji": "doanobu",
+      "english": "doorknob",
+      "level": "N4"
+    },
+    {
+      "number": 547,
+      "kanji": "鍵",
+      "hiragana": "かぎ",
+      "romaji": "kagi",
+      "english": "key",
+      "level": "N5"
+    },
+    {
+      "number": 548,
+      "kanji": "錠前",
+      "hiragana": "じょうまえ",
+      "romaji": "joumae",
+      "english": "lock",
+      "level": "N4"
+    },
+    {
+      "number": 549,
+      "kanji": "チェーン",
+      "hiragana": "チェーン",
+      "romaji": "cheen",
+      "english": "chain",
+      "level": "N4"
+    },
+    {
+      "number": 550,
+      "kanji": "ベル",
+      "hiragana": "ベル",
+      "romaji": "beru",
+      "english": "bell",
+      "level": "N5"
+    },
+    {
+      "number": 551,
+      "kanji": "アラーム",
+      "hiragana": "アラーム",
+      "romaji": "araamu",
+      "english": "alarm",
+      "level": "N4"
+    },
+    {
+      "number": 552,
+      "kanji": "時計",
+      "hiragana": "とけい",
+      "romaji": "tokei",
+      "english": "clock",
+      "level": "N5"
+    },
+    {
+      "number": 553,
+      "kanji": "ストップウォッチ",
+      "hiragana": "ストップウォッチ",
+      "romaji": "sutoppuwochi",
+      "english": "stopwatch",
+      "level": "N4"
+    },
+    {
+      "number": 554,
+      "kanji": "タイマー",
+      "hiragana": "タイマー",
+      "romaji": "taimaa",
+      "english": "timer",
+      "level": "N4"
+    },
+    {
+      "number": 555,
+      "kanji": "カレンダー",
+      "hiragana": "カレンダー",
+      "romaji": "karendaa",
+      "english": "calendar",
+      "level": "N5"
+    },
+    {
+      "number": 556,
+      "kanji": "スケジュール",
+      "hiragana": "スケジュール",
+      "romaji": "sukejuuru",
+      "english": "schedule",
+      "level": "N4"
+    },
+    {
+      "number": 557,
+      "kanji": "予定",
+      "hiragana": "よてい",
+      "romaji": "yotei",
+      "english": "plan",
+      "level": "N5"
+    },
+    {
+      "number": 558,
+      "kanji": "約束",
+      "hiragana": "やくそく",
+      "romaji": "yakusoku",
+      "english": "appointment",
+      "level": "N5"
+    },
+    {
+      "number": 559,
+      "kanji": "会議",
+      "hiragana": "かいぎ",
+      "romaji": "kaigi",
+      "english": "meeting",
+      "level": "N4"
+    },
+    {
+      "number": 560,
+      "kanji": "会議室",
+      "hiragana": "かいぎしつ",
+      "romaji": "kaigishitsu",
+      "english": "meeting room",
+      "level": "N4"
+    },
+    {
+      "number": 561,
+      "kanji": "オフィス",
+      "hiragana": "オフィス",
+      "romaji": "ofisu",
+      "english": "office",
+      "level": "N4"
+    },
+    {
+      "number": 562,
+      "kanji": "デスク",
+      "hiragana": "デスク",
+      "romaji": "desuku",
+      "english": "desk",
+      "level": "N4"
+    },
+    {
+      "number": 563,
+      "kanji": "椅子",
+      "hiragana": "いす",
+      "romaji": "isu",
+      "english": "chair",
+      "level": "N5"
+    },
+    {
+      "number": 564,
+      "kanji": "テーブル",
+      "hiragana": "テーブル",
+      "romaji": "teeburu",
+      "english": "table",
+      "level": "N5"
+    },
+    {
+      "number": 565,
+      "kanji": "本棚",
+      "hiragana": "ほんだな",
+      "romaji": "hondana",
+      "english": "bookshelf",
+      "level": "N4"
+    },
+    {
+      "number": 566,
+      "kanji": "引き出し",
+      "hiragana": "ひきだし",
+      "romaji": "hikidashi",
+      "english": "drawer",
+      "level": "N4"
+    },
+    {
+      "number": 567,
+      "kanji": "棚",
+      "hiragana": "たな",
+      "romaji": "tana",
+      "english": "shelf",
+      "level": "N5"
+    },
+    {
+      "number": 568,
+      "kanji": "箱",
+      "hiragana": "はこ",
+      "romaji": "hako",
+      "english": "box",
+      "level": "N5"
+    },
+    {
+      "number": 569,
+      "kanji": "袋",
+      "hiragana": "ふくろ",
+      "romaji": "fukuro",
+      "english": "bag",
+      "level": "N5"
+    },
+    {
+      "number": 570,
+      "kanji": "箱",
+      "hiragana": "はこ",
+      "romaji": "hako",
+      "english": "container",
+      "level": "N5"
+    },
+    {
+      "number": 571,
+      "kanji": "瓶",
+      "hiragana": "びん",
+      "romaji": "bin",
+      "english": "bottle",
+      "level": "N5"
+    },
+    {
+      "number": 572,
+      "kanji": "缶",
+      "hiragana": "かん",
+      "romaji": "kan",
+      "english": "can",
+      "level": "N5"
+    },
+    {
+      "number": 573,
+      "kanji": "コップ",
+      "hiragana": "コップ",
+      "romaji": "koppu",
+      "english": "cup",
+      "level": "N5"
+    },
+    {
+      "number": 574,
+      "kanji": "グラス",
+      "hiragana": "グラス",
+      "romaji": "gurasu",
+      "english": "glass",
+      "level": "N5"
+    },
+    {
+      "number": 575,
+      "kanji": "皿",
+      "hiragana": "さら",
+      "romaji": "sara",
+      "english": "plate",
+      "level": "N5"
+    },
+    {
+      "number": 576,
+      "kanji": "茶碗",
+      "hiragana": "ちゃわん",
+      "romaji": "chawan",
+      "english": "bowl",
+      "level": "N5"
+    },
+    {
+      "number": 577,
+      "kanji": "箸",
+      "hiragana": "はし",
+      "romaji": "hashi",
+      "english": "chopsticks",
+      "level": "N5"
+    },
+    {
+      "number": 578,
+      "kanji": "スプーン",
+      "hiragana": "スプーン",
+      "romaji": "supuun",
+      "english": "spoon",
+      "level": "N5"
+    },
+    {
+      "number": 579,
+      "kanji": "フォーク",
+      "hiragana": "フォーク",
+      "romaji": "fooku",
+      "english": "fork",
+      "level": "N5"
+    },
+    {
+      "number": 580,
+      "kanji": "ナイフ",
+      "hiragana": "ナイフ",
+      "romaji": "naifu",
+      "english": "knife",
+      "level": "N5"
+    },
+    {
+      "number": 581,
+      "kanji": "包丁",
+      "hiragana": "ほうちょう",
+      "romaji": "houchou",
+      "english": "kitchen knife",
+      "level": "N4"
+    },
+    {
+      "number": 582,
+      "kanji": "まな板",
+      "hiragana": "まないた",
+      "romaji": "manaita",
+      "english": "cutting board",
+      "level": "N4"
+    },
+    {
+      "number": 583,
+      "kanji": "鍋",
+      "hiragana": "なべ",
+      "romaji": "nabe",
+      "english": "pot",
+      "level": "N5"
+    },
+    {
+      "number": 584,
+      "kanji": "フライパン",
+      "hiragana": "フライパン",
+      "romaji": "furaipan",
+      "english": "frying pan",
+      "level": "N4"
+    },
+    {
+      "number": 585,
+      "kanji": "やかん",
+      "hiragana": "やかん",
+      "romaji": "yakan",
+      "english": "kettle",
+      "level": "N4"
+    },
+    {
+      "number": 586,
+      "kanji": "ポット",
+      "hiragana": "ポット",
+      "romaji": "potto",
+      "english": "pot",
+      "level": "N4"
+    },
+    {
+      "number": 587,
+      "kanji": "コーヒーメーカー",
+      "hiragana": "コーヒーメーカー",
+      "romaji": "koohiimeekaa",
+      "english": "coffee maker",
+      "level": "N4"
+    },
+    {
+      "number": 588,
+      "kanji": "トースター",
+      "hiragana": "トースター",
+      "romaji": "toosutaa",
+      "english": "toaster",
+      "level": "N4"
+    },
+    {
+      "number": 589,
+      "kanji": "オーブン",
+      "hiragana": "オーブン",
+      "romaji": "oobun",
+      "english": "oven",
+      "level": "N4"
+    },
+    {
+      "number": 590,
+      "kanji": "電子レンジ",
+      "hiragana": "でんしレンジ",
+      "romaji": "denshirenji",
+      "english": "microwave",
+      "level": "N4"
+    },
+    {
+      "number": 591,
+      "kanji": "炊飯器",
+      "hiragana": "すいはんき",
+      "romaji": "suihanki",
+      "english": "rice cooker",
+      "level": "N4"
+    },
+    {
+      "number": 592,
+      "kanji": "食器洗い機",
+      "hiragana": "しょっきあらいき",
+      "romaji": "shokkiaaraiki",
+      "english": "dishwasher",
+      "level": "N4"
+    },
+    {
+      "number": 593,
+      "kanji": "食器",
+      "hiragana": "しょっき",
+      "romaji": "shokki",
+      "english": "dishes",
+      "level": "N4"
+    },
+    {
+      "number": 594,
+      "kanji": "洗い物",
+      "hiragana": "あらいもの",
+      "romaji": "araimono",
+      "english": "washing up",
+      "level": "N4"
+    },
+    {
+      "number": 595,
+      "kanji": "洗剤",
+      "hiragana": "せんざい",
+      "romaji": "senzai",
+      "english": "detergent",
+      "level": "N4"
+    },
+    {
+      "number": 596,
+      "kanji": "スポンジ",
+      "hiragana": "スポンジ",
+      "romaji": "suponji",
+      "english": "sponge",
+      "level": "N4"
+    },
+    {
+      "number": 597,
+      "kanji": "タオル",
+      "hiragana": "タオル",
+      "romaji": "taoru",
+      "english": "towel",
+      "level": "N5"
+    },
+    {
+      "number": 598,
+      "kanji": "ハンカチ",
+      "hiragana": "ハンカチ",
+      "romaji": "hankachi",
+      "english": "handkerchief",
+      "level": "N5"
+    },
+    {
+      "number": 599,
+      "kanji": "ティッシュ",
+      "hiragana": "ティッシュ",
+      "romaji": "tisshu",
+      "english": "tissue",
+      "level": "N5"
+    },
+    {
+      "number": 600,
+      "kanji": "トイレットペーパー",
+      "hiragana": "トイレットペーパー",
+      "romaji": "toirettopeepaa",
+      "english": "toilet paper",
+      "level": "N4"
+    },
+    {
+      "number": 601,
+      "kanji": "歯ブラシ",
+      "hiragana": "はブラシ",
+      "romaji": "haburashi",
+      "english": "toothbrush",
+      "level": "N5"
+    },
+    {
+      "number": 602,
+      "kanji": "歯磨き粉",
+      "hiragana": "はみがきこ",
+      "romaji": "hamigakiko",
+      "english": "toothpaste",
+      "level": "N5"
+    },
+    {
+      "number": 603,
+      "kanji": "石鹸",
+      "hiragana": "せっけん",
+      "romaji": "sekken",
+      "english": "soap",
+      "level": "N5"
+    },
+    {
+      "number": 604,
+      "kanji": "シャンプー",
+      "hiragana": "シャンプー",
+      "romaji": "shanpuu",
+      "english": "shampoo",
+      "level": "N5"
+    },
+    {
+      "number": 605,
+      "kanji": "コンディショナー",
+      "hiragana": "コンディショナー",
+      "romaji": "kondishonaa",
+      "english": "conditioner",
+      "level": "N4"
+    },
+    {
+      "number": 606,
+      "kanji": "ボディソープ",
+      "hiragana": "ボディソープ",
+      "romaji": "bodisoopu",
+      "english": "body soap",
+      "level": "N4"
+    },
+    {
+      "number": 607,
+      "kanji": "化粧品",
+      "hiragana": "けしょうひん",
+      "romaji": "keshouhin",
+      "english": "cosmetics",
+      "level": "N4"
+    },
+    {
+      "number": 608,
+      "kanji": "口紅",
+      "hiragana": "くちべに",
+      "romaji": "kuchibeni",
+      "english": "lipstick",
+      "level": "N4"
+    },
+    {
+      "number": 609,
+      "kanji": "ファンデーション",
+      "hiragana": "ファンデーション",
+      "romaji": "fandeeshon",
+      "english": "foundation",
+      "level": "N4"
+    },
+    {
+      "number": 610,
+      "kanji": "アイシャドウ",
+      "hiragana": "アイシャドウ",
+      "romaji": "aishadou",
+      "english": "eyeshadow",
+      "level": "N4"
+    },
+    {
+      "number": 611,
+      "kanji": "マスカラ",
+      "hiragana": "マスカラ",
+      "romaji": "masukara",
+      "english": "mascara",
+      "level": "N4"
+    },
+    {
+      "number": 612,
+      "kanji": "香水",
+      "hiragana": "こうすい",
+      "romaji": "kousui",
+      "english": "perfume",
+      "level": "N4"
+    },
+    {
+      "number": 613,
+      "kanji": "デオドラント",
+      "hiragana": "デオドラント",
+      "romaji": "deodoranto",
+      "english": "deodorant",
+      "level": "N4"
+    },
+    {
+      "number": 614,
+      "kanji": "日焼け止め",
+      "hiragana": "ひやけどめ",
+      "romaji": "hiyakedome",
+      "english": "sunscreen",
+      "level": "N4"
+    },
+    {
+      "number": 615,
+      "kanji": "ローション",
+      "hiragana": "ローション",
+      "romaji": "rooshon",
+      "english": "lotion",
+      "level": "N4"
+    },
+    {
+      "number": 616,
+      "kanji": "クリーム",
+      "hiragana": "クリーム",
+      "romaji": "kuriimu",
+      "english": "cream",
+      "level": "N4"
+    },
+    {
+      "number": 617,
+      "kanji": "オイル",
+      "hiragana": "オイル",
+      "romaji": "oiru",
+      "english": "oil",
+      "level": "N4"
+    },
+    {
+      "number": 618,
+      "kanji": "ジェル",
+      "hiragana": "ジェル",
+      "romaji": "jeru",
+      "english": "gel",
+      "level": "N4"
+    },
+    {
+      "number": 619,
+      "kanji": "パウダー",
+      "hiragana": "パウダー",
+      "romaji": "paudaa",
+      "english": "powder",
+      "level": "N4"
+    },
+    {
+      "number": 620,
+      "kanji": "綿棒",
+      "hiragana": "めんぼう",
+      "romaji": "menbou",
+      "english": "cotton swab",
+      "level": "N4"
+    },
+    {
+      "number": 621,
+      "kanji": "綿",
+      "hiragana": "わた",
+      "romaji": "wata",
+      "english": "cotton",
+      "level": "N5"
+    },
+    {
+      "number": 622,
+      "kanji": "ガーゼ",
+      "hiragana": "ガーゼ",
+      "romaji": "gaaze",
+      "english": "gauze",
+      "level": "N4"
+    },
+    {
+      "number": 623,
+      "kanji": "絆創膏",
+      "hiragana": "ばんそうこう",
+      "romaji": "bansoukou",
+      "english": "bandage",
+      "level": "N4"
+    },
+    {
+      "number": 624,
+      "kanji": "薬",
+      "hiragana": "くすり",
+      "romaji": "kusuri",
+      "english": "medicine",
+      "level": "N5"
+    },
+    {
+      "number": 625,
+      "kanji": "錠剤",
+      "hiragana": "じょうざい",
+      "romaji": "jouzai",
+      "english": "pill",
+      "level": "N4"
+    },
+    {
+      "number": 626,
+      "kanji": "カプセル",
+      "hiragana": "カプセル",
+      "romaji": "kapuseru",
+      "english": "capsule",
+      "level": "N4"
+    },
+    {
+      "number": 627,
+      "kanji": "シロップ",
+      "hiragana": "シロップ",
+      "romaji": "shiroppu",
+      "english": "syrup",
+      "level": "N4"
+    },
+    {
+      "number": 628,
+      "kanji": "注射",
+      "hiragana": "ちゅうしゃ",
+      "romaji": "chuusha",
+      "english": "injection",
+      "level": "N4"
+    },
+    {
+      "number": 629,
+      "kanji": "体温計",
+      "hiragana": "たいおんけい",
+      "romaji": "taionkei",
+      "english": "thermometer",
+      "level": "N4"
+    },
+    {
+      "number": 630,
+      "kanji": "血圧計",
+      "hiragana": "けつあつけい",
+      "romaji": "ketsuatsukei",
+      "english": "blood pressure monitor",
+      "level": "N4"
+    },
+    {
+      "number": 631,
+      "kanji": "体重計",
+      "hiragana": "たいじゅうけい",
+      "romaji": "taijuukei",
+      "english": "scale",
+      "level": "N4"
+    },
+    {
+      "number": 632,
+      "kanji": "健康",
+      "hiragana": "けんこう",
+      "romaji": "kenkou",
+      "english": "health",
+      "level": "N5"
+    },
+    {
+      "number": 633,
+      "kanji": "病気",
+      "hiragana": "びょうき",
+      "romaji": "byouki",
+      "english": "illness",
+      "level": "N5"
+    },
+    {
+      "number": 634,
+      "kanji": "怪我",
+      "hiragana": "けが",
+      "romaji": "kega",
+      "english": "injury",
+      "level": "N5"
+    },
+    {
+      "number": 635,
+      "kanji": "痛み",
+      "hiragana": "いたみ",
+      "romaji": "itami",
+      "english": "pain",
+      "level": "N5"
+    },
+    {
+      "number": 636,
+      "kanji": "熱",
+      "hiragana": "ねつ",
+      "romaji": "netsu",
+      "english": "fever",
+      "level": "N5"
+    },
+    {
+      "number": 637,
+      "kanji": "咳",
+      "hiragana": "せき",
+      "romaji": "seki",
+      "english": "cough",
+      "level": "N5"
+    },
+    {
+      "number": 638,
+      "kanji": "頭痛",
+      "hiragana": "ずつう",
+      "romaji": "zutsuu",
+      "english": "headache",
+      "level": "N4"
+    },
+    {
+      "number": 639,
+      "kanji": "腹痛",
+      "hiragana": "ふくつう",
+      "romaji": "fukutsuu",
+      "english": "stomachache",
+      "level": "N4"
+    },
+    {
+      "number": 640,
+      "kanji": "風邪",
+      "hiragana": "かぜ",
+      "romaji": "kaze",
+      "english": "cold",
+      "level": "N5"
+    },
+    {
+      "number": 641,
+      "kanji": "インフルエンザ",
+      "hiragana": "インフルエンザ",
+      "romaji": "infuruenza",
+      "english": "influenza",
+      "level": "N4"
+    },
+    {
+      "number": 642,
+      "kanji": "アレルギー",
+      "hiragana": "アレルギー",
+      "romaji": "arerugii",
+      "english": "allergy",
+      "level": "N4"
+    },
+    {
+      "number": 643,
+      "kanji": "手術",
+      "hiragana": "しゅじゅつ",
+      "romaji": "shujutsu",
+      "english": "surgery",
+      "level": "N4"
+    },
+    {
+      "number": 644,
+      "kanji": "治療",
+      "hiragana": "ちりょう",
+      "romaji": "chiryou",
+      "english": "treatment",
+      "level": "N4"
+    },
+    {
+      "number": 645,
+      "kanji": "診察",
+      "hiragana": "しんさつ",
+      "romaji": "shinsatsu",
+      "english": "examination",
+      "level": "N4"
+    },
+    {
+      "number": 646,
+      "kanji": "医者",
+      "hiragana": "いしゃ",
+      "romaji": "isha",
+      "english": "doctor",
+      "level": "N5"
+    },
+    {
+      "number": 647,
+      "kanji": "看護師",
+      "hiragana": "かんごし",
+      "romaji": "kangoshi",
+      "english": "nurse",
+      "level": "N4"
+    },
+    {
+      "number": 648,
+      "kanji": "歯医者",
+      "hiragana": "はいしゃ",
+      "romaji": "haisha",
+      "english": "dentist",
+      "level": "N5"
+    },
+    {
+      "number": 649,
+      "kanji": "病院",
+      "hiragana": "びょういん",
+      "romaji": "byouin",
+      "english": "hospital",
+      "level": "N5"
+    },
+    {
+      "number": 650,
+      "kanji": "診療所",
+      "hiragana": "しんりょうじょ",
+      "romaji": "shinryoujo",
+      "english": "clinic",
+      "level": "N4"
+    },
+    {
+      "number": 651,
+      "kanji": "薬局",
+      "hiragana": "やっきょく",
+      "romaji": "yakkyoku",
+      "english": "pharmacy",
+      "level": "N5"
+    },
+    {
+      "number": 652,
+      "kanji": "救急車",
+      "hiragana": "きゅうきゅうしゃ",
+      "romaji": "kyuukyuusha",
+      "english": "ambulance",
+      "level": "N4"
+    },
+    {
+      "number": 653,
+      "kanji": "救急",
+      "hiragana": "きゅうきゅう",
+      "romaji": "kyuukyuu",
+      "english": "emergency",
+      "level": "N4"
+    },
+    {
+      "number": 654,
+      "kanji": "救急箱",
+      "hiragana": "きゅうきゅうばこ",
+      "romaji": "kyuukyuubako",
+      "english": "first aid kit",
+      "level": "N4"
+    },
+    {
+      "number": 655,
+      "kanji": "応急処置",
+      "hiragana": "おうきゅうしょち",
+      "romaji": "oukyuushochi",
+      "english": "first aid",
+      "level": "N4"
+    },
+    {
+      "number": 656,
+      "kanji": "人工呼吸",
+      "hiragana": "じんこうこきゅう",
+      "romaji": "jinkoukokyuu",
+      "english": "artificial respiration",
+      "level": "N4"
+    },
+    {
+      "number": 657,
+      "kanji": "心臓マッサージ",
+      "hiragana": "しんぞうマッサージ",
+      "romaji": "shinzoumassaaji",
+      "english": "cardiac massage",
+      "level": "N4"
+    },
+    {
+      "number": 658,
+      "kanji": "消毒",
+      "hiragana": "しょうどく",
+      "romaji": "shoudoku",
+      "english": "disinfection",
+      "level": "N4"
+    },
+    {
+      "number": 659,
+      "kanji": "包帯",
+      "hiragana": "ほうたい",
+      "romaji": "houtai",
+      "english": "bandage",
+      "level": "N4"
+    },
+    {
+      "number": 660,
+      "kanji": "松葉杖",
+      "hiragana": "まつばづえ",
+      "romaji": "matsubazue",
+      "english": "crutch",
+      "level": "N4"
+    },
+    {
+      "number": 661,
+      "kanji": "車椅子",
+      "hiragana": "くるまいす",
+      "romaji": "kurumaisu",
+      "english": "wheelchair",
+      "level": "N4"
+    },
+    {
+      "number": 662,
+      "kanji": "補聴器",
+      "hiragana": "ほちょうき",
+      "romaji": "hochouki",
+      "english": "hearing aid",
+      "level": "N4"
+    },
+    {
+      "number": 663,
+      "kanji": "眼鏡",
+      "hiragana": "めがね",
+      "romaji": "megane",
+      "english": "glasses",
+      "level": "N5"
+    },
+    {
+      "number": 664,
+      "kanji": "コンタクトレンズ",
+      "hiragana": "コンタクトレンズ",
+      "romaji": "kontakutorenzu",
+      "english": "contact lenses",
+      "level": "N4"
+    },
+    {
+      "number": 665,
+      "kanji": "義歯",
+      "hiragana": "ぎし",
+      "romaji": "gishi",
+      "english": "dentures",
+      "level": "N4"
+    },
+    {
+      "number": 666,
+      "kanji": "義足",
+      "hiragana": "ぎそく",
+      "romaji": "gisoku",
+      "english": "artificial leg",
+      "level": "N4"
+    },
+    {
+      "number": 667,
+      "kanji": "義手",
+      "hiragana": "ぎしゅ",
+      "romaji": "gishu",
+      "english": "artificial arm",
+      "level": "N4"
+    },
+    {
+      "number": 668,
+      "kanji": "補装具",
+      "hiragana": "ほそうぐ",
+      "romaji": "hosougu",
+      "english": "prosthetic device",
+      "level": "N4"
+    },
+    {
+      "number": 669,
+      "kanji": "リハビリ",
+      "hiragana": "リハビリ",
+      "romaji": "rihabiri",
+      "english": "rehabilitation",
+      "level": "N4"
+    },
+    {
+      "number": 670,
+      "kanji": "理学療法",
+      "hiragana": "りがくりょうほう",
+      "romaji": "rigakuryouhou",
+      "english": "physical therapy",
+      "level": "N4"
+    },
+    {
+      "number": 671,
+      "kanji": "作業療法",
+      "hiragana": "さぎょうりょうほう",
+      "romaji": "sagyouryouhou",
+      "english": "occupational therapy",
+      "level": "N4"
+    },
+    {
+      "number": 672,
+      "kanji": "言語療法",
+      "hiragana": "げんごりょうほう",
+      "romaji": "gengoryouhou",
+      "english": "speech therapy",
+      "level": "N4"
+    },
+    {
+      "number": 673,
+      "kanji": "心理療法",
+      "hiragana": "しんりりょうほう",
+      "romaji": "shinriryouhou",
+      "english": "psychotherapy",
+      "level": "N4"
+    },
+    {
+      "number": 674,
+      "kanji": "カウンセリング",
+      "hiragana": "カウンセリング",
+      "romaji": "kaunseringu",
+      "english": "counseling",
+      "level": "N4"
+    },
+    {
+      "number": 675,
+      "kanji": "心理カウンセラー",
+      "hiragana": "しんりカウンセラー",
+      "romaji": "shinrikaunseraa",
+      "english": "psychologist",
+      "level": "N4"
+    },
+    {
+      "number": 676,
+      "kanji": "精神科医",
+      "hiragana": "せいしんかい",
+      "romaji": "seishinkai",
+      "english": "psychiatrist",
+      "level": "N4"
+    },
+    {
+      "number": 677,
+      "kanji": "精神科",
+      "hiragana": "せいしんか",
+      "romaji": "seishinka",
+      "english": "psychiatry",
+      "level": "N4"
+    },
+    {
+      "number": 678,
+      "kanji": "神経科",
+      "hiragana": "しんけいか",
+      "romaji": "shinkeika",
+      "english": "neurology",
+      "level": "N4"
+    },
+    {
+      "number": 679,
+      "kanji": "内科",
+      "hiragana": "ないか",
+      "romaji": "naika",
+      "english": "internal medicine",
+      "level": "N4"
+    },
+    {
+      "number": 680,
+      "kanji": "外科",
+      "hiragana": "げか",
+      "romaji": "geka",
+      "english": "surgery",
+      "level": "N4"
+    },
+    {
+      "number": 681,
+      "kanji": "小児科",
+      "hiragana": "しょうにか",
+      "romaji": "shounika",
+      "english": "pediatrics",
+      "level": "N4"
+    },
+    {
+      "number": 682,
+      "kanji": "産婦人科",
+      "hiragana": "さんふじんか",
+      "romaji": "sanfujinka",
+      "english": "obstetrics and gynecology",
+      "level": "N4"
+    },
+    {
+      "number": 683,
+      "kanji": "眼科",
+      "hiragana": "がんか",
+      "romaji": "ganka",
+      "english": "ophthalmology",
+      "level": "N4"
+    },
+    {
+      "number": 684,
+      "kanji": "耳鼻咽喉科",
+      "hiragana": "じびいんこうか",
+      "romaji": "jibiinkouka",
+      "english": "otolaryngology",
+      "level": "N4"
+    },
+    {
+      "number": 685,
+      "kanji": "皮膚科",
+      "hiragana": "ひふか",
+      "romaji": "hifuka",
+      "english": "dermatology",
+      "level": "N4"
+    },
+    {
+      "number": 686,
+      "kanji": "整形外科",
+      "hiragana": "せいけいげか",
+      "romaji": "seikeigeka",
+      "english": "orthopedics",
+      "level": "N4"
+    },
+    {
+      "number": 687,
+      "kanji": "泌尿器科",
+      "hiragana": "ひにょうきか",
+      "romaji": "hinyoukika",
+      "english": "urology",
+      "level": "N4"
+    },
+    {
+      "number": 688,
+      "kanji": "循環器科",
+      "hiragana": "じゅんかんきか",
+      "romaji": "junkankika",
+      "english": "cardiology",
+      "level": "N4"
+    },
+    {
+      "number": 689,
+      "kanji": "消化器科",
+      "hiragana": "しょうかきか",
+      "romaji": "shoukakika",
+      "english": "gastroenterology",
+      "level": "N4"
+    },
+    {
+      "number": 690,
+      "kanji": "呼吸器科",
+      "hiragana": "こきゅうきか",
+      "romaji": "kokyuukika",
+      "english": "pulmonology",
+      "level": "N4"
+    },
+    {
+      "number": 691,
+      "kanji": "内分泌科",
+      "hiragana": "ないぶんぴつか",
+      "romaji": "naibunpitsuka",
+      "english": "endocrinology",
+      "level": "N4"
+    },
+    {
+      "number": 692,
+      "kanji": "血液内科",
+      "hiragana": "けつえきないか",
+      "romaji": "ketsuekinaika",
+      "english": "hematology",
+      "level": "N4"
+    },
+    {
+      "number": 693,
+      "kanji": "腫瘍科",
+      "hiragana": "しゅようか",
+      "romaji": "shuyouka",
+      "english": "oncology",
+      "level": "N4"
+    },
+    {
+      "number": 694,
+      "kanji": "放射線科",
+      "hiragana": "ほうしゃせんか",
+      "romaji": "houshasenka",
+      "english": "radiology",
+      "level": "N4"
+    },
+    {
+      "number": 695,
+      "kanji": "病理科",
+      "hiragana": "びょうりか",
+      "romaji": "byourika",
+      "english": "pathology",
+      "level": "N4"
+    },
+    {
+      "number": 696,
+      "kanji": "麻酔科",
+      "hiragana": "ますいか",
+      "romaji": "masuika",
+      "english": "anesthesiology",
+      "level": "N4"
+    },
+    {
+      "number": 697,
+      "kanji": "救急科",
+      "hiragana": "きゅうきゅうか",
+      "romaji": "kyuukyuuka",
+      "english": "emergency medicine",
+      "level": "N4"
+    },
+    {
+      "number": 698,
+      "kanji": "総合診療科",
+      "hiragana": "そうごうしんりょうか",
+      "romaji": "sougoushinryouka",
+      "english": "general practice",
+      "level": "N4"
+    },
+    {
+      "number": 699,
+      "kanji": "家庭医",
+      "hiragana": "かていい",
+      "romaji": "kateii",
+      "english": "family doctor",
+      "level": "N4"
+    },
+    {
+      "number": 700,
+      "kanji": "開業医",
+      "hiragana": "かいぎょうい",
+      "romaji": "kaigyoui",
+      "english": "private practitioner",
+      "level": "N4"
+    },
+    {
+      "number": 701,
+      "kanji": "大学病院",
+      "hiragana": "だいがくびょういん",
+      "romaji": "daigakubyouin",
+      "english": "university hospital",
+      "level": "N4"
+    },
+    {
+      "number": 702,
+      "kanji": "総合病院",
+      "hiragana": "そうごうびょういん",
+      "romaji": "sougoubyouin",
+      "english": "general hospital",
+      "level": "N4"
+    },
+    {
+      "number": 703,
+      "kanji": "国立病院",
+      "hiragana": "こくりつびょういん",
+      "romaji": "kokuritsubyouin",
+      "english": "national hospital",
+      "level": "N4"
+    },
+    {
+      "number": 704,
+      "kanji": "公立病院",
+      "hiragana": "こうりつびょういん",
+      "romaji": "kouritsubyouin",
+      "english": "public hospital",
+      "level": "N4"
+    },
+    {
+      "number": 705,
+      "kanji": "私立病院",
+      "hiragana": "しりつびょういん",
+      "romaji": "shiritsubyouin",
+      "english": "private hospital",
+      "level": "N4"
+    },
+    {
+      "number": 706,
+      "kanji": "専門病院",
+      "hiragana": "せんもんびょういん",
+      "romaji": "senmonbyouin",
+      "english": "specialized hospital",
+      "level": "N4"
+    },
+    {
+      "number": 707,
+      "kanji": "精神科病院",
+      "hiragana": "せいしんかびょういん",
+      "romaji": "seishinkabyouin",
+      "english": "psychiatric hospital",
+      "level": "N4"
+    },
+    {
+      "number": 708,
+      "kanji": "療養所",
+      "hiragana": "りょうようじょ",
+      "romaji": "ryouyoujo",
+      "english": "sanatorium",
+      "level": "N4"
+    },
+    {
+      "number": 709,
+      "kanji": "老人ホーム",
+      "hiragana": "ろうじんホーム",
+      "romaji": "roujinhoomu",
+      "english": "nursing home",
+      "level": "N4"
+    },
+    {
+      "number": 710,
+      "kanji": "介護施設",
+      "hiragana": "かいごしせつ",
+      "romaji": "kaigoshisetsu",
+      "english": "care facility",
+      "level": "N4"
+    },
+    {
+      "number": 711,
+      "kanji": "デイケア",
+      "hiragana": "デイケア",
+      "romaji": "deikea",
+      "english": "day care",
+      "level": "N4"
+    },
+    {
+      "number": 712,
+      "kanji": "訪問看護",
+      "hiragana": "ほうもんかんご",
+      "romaji": "houmonkango",
+      "english": "home nursing",
+      "level": "N4"
+    },
+    {
+      "number": 713,
+      "kanji": "在宅医療",
+      "hiragana": "ざいたくいりょう",
+      "romaji": "zaitakuiryou",
+      "english": "home medical care",
+      "level": "N4"
+    },
+    {
+      "number": 714,
+      "kanji": "緩和ケア",
+      "hiragana": "かんわケア",
+      "romaji": "kanwakea",
+      "english": "palliative care",
+      "level": "N4"
+    },
+    {
+      "number": 715,
+      "kanji": "終末期医療",
+      "hiragana": "しゅうまつきいりょう",
+      "romaji": "shuumatsukiiryou",
+      "english": "end-of-life care",
+      "level": "N4"
+    },
+    {
+      "number": 716,
+      "kanji": "ホスピス",
+      "hiragana": "ホスピス",
+      "romaji": "hosupisu",
+      "english": "hospice",
+      "level": "N4"
+    },
+    {
+      "number": 717,
+      "kanji": "リハビリテーション",
+      "hiragana": "リハビリテーション",
+      "romaji": "rihabiriteeshon",
+      "english": "rehabilitation",
+      "level": "N4"
+    },
+    {
+      "number": 718,
+      "kanji": "理学療法士",
+      "hiragana": "りがくりょうほうし",
+      "romaji": "rigakuryouhoushi",
+      "english": "physical therapist",
+      "level": "N4"
+    },
+    {
+      "number": 719,
+      "kanji": "作業療法士",
+      "hiragana": "さぎょうりょうほうし",
+      "romaji": "sagyouryouhoushi",
+      "english": "occupational therapist",
+      "level": "N4"
+    },
+    {
+      "number": 720,
+      "kanji": "言語聴覚士",
+      "hiragana": "げんごちょうかくし",
+      "romaji": "gengochoukakushi",
+      "english": "speech therapist",
+      "level": "N4"
+    },
+    {
+      "number": 721,
+      "kanji": "臨床心理士",
+      "hiragana": "りんしょうしんりし",
+      "romaji": "rinshoushinrishi",
+      "english": "clinical psychologist",
+      "level": "N4"
+    },
+    {
+      "number": 722,
+      "kanji": "社会福祉士",
+      "hiragana": "しゃかいふくしし",
+      "romaji": "shakaifukushishi",
+      "english": "social worker",
+      "level": "N4"
+    },
+    {
+      "number": 723,
+      "kanji": "介護福祉士",
+      "hiragana": "かいごふくしし",
+      "romaji": "kaigofukushishi",
+      "english": "certified care worker",
+      "level": "N4"
+    },
+    {
+      "number": 724,
+      "kanji": "介護支援専門員",
+      "hiragana": "かいごしえんせんもんいん",
+      "romaji": "kaigoshiennsenmonin",
+      "english": "care manager",
+      "level": "N4"
+    },
+    {
+      "number": 725,
+      "kanji": "ケアマネージャー",
+      "hiragana": "ケアマネージャー",
+      "romaji": "keamaneijaa",
+      "english": "care manager",
+      "level": "N4"
+    },
+    {
+      "number": 726,
+      "kanji": "ヘルパー",
+      "hiragana": "ヘルパー",
+      "romaji": "herupaa",
+      "english": "helper",
+      "level": "N4"
+    },
+    {
+      "number": 727,
+      "kanji": "ホームヘルパー",
+      "hiragana": "ホームヘルパー",
+      "romaji": "hoomuherupaa",
+      "english": "home helper",
+      "level": "N4"
+    },
+    {
+      "number": 728,
+      "kanji": "訪問介護",
+      "hiragana": "ほうもんかいご",
+      "romaji": "houmonkaigo",
+      "english": "home care",
+      "level": "N4"
+    },
+    {
+      "number": 729,
+      "kanji": "通所介護",
+      "hiragana": "つうしょかいご",
+      "romaji": "tsuushokaigo",
+      "english": "day service",
+      "level": "N4"
+    },
+    {
+      "number": 730,
+      "kanji": "短期入所",
+      "hiragana": "たんきにゅうしょ",
+      "romaji": "tankinyuusho",
+      "english": "short-term stay",
+      "level": "N4"
+    },
+    {
+      "number": 731,
+      "kanji": "特別養護老人ホーム",
+      "hiragana": "とくべつようごろうじんホーム",
+      "romaji": "tokubetsuyougoroujinhoomu",
+      "english": "special nursing home",
+      "level": "N4"
+    },
+    {
+      "number": 732,
+      "kanji": "グループホーム",
+      "hiragana": "グループホーム",
+      "romaji": "guruupuhuumu",
+      "english": "group home",
+      "level": "N4"
+    },
+    {
+      "number": 733,
+      "kanji": "サービス付き高齢者向け住宅",
+      "hiragana": "サービスつきこうれいしゃむけじゅうたく",
+      "romaji": "saabisuutsukikoureishamukejuutaku",
+      "english": "service-enriched housing for elderly",
+      "level": "N4"
+    },
+    {
+      "number": 734,
+      "kanji": "有料老人ホーム",
+      "hiragana": "ゆうりょうろうじんホーム",
+      "romaji": "yuuryouroujinhoomu",
+      "english": "paid nursing home",
+      "level": "N4"
+    },
+    {
+      "number": 735,
+      "kanji": "軽費老人ホーム",
+      "hiragana": "けいひろうじんホーム",
+      "romaji": "keihiroujinhoomu",
+      "english": "low-cost nursing home",
+      "level": "N4"
+    },
+    {
+      "number": 736,
+      "kanji": "ケアハウス",
+      "hiragana": "ケアハウス",
+      "romaji": "keahausu",
+      "english": "care house",
+      "level": "N4"
+    },
+    {
+      "number": 737,
+      "kanji": "ショートステイ",
+      "hiragana": "ショートステイ",
+      "romaji": "shootosutei",
+      "english": "short stay",
+      "level": "N4"
+    },
+    {
+      "number": 738,
+      "kanji": "デイサービス",
+      "hiragana": "デイサービス",
+      "romaji": "deisaabisu",
+      "english": "day service",
+      "level": "N4"
+    },
+    {
+      "number": 739,
+      "kanji": "デイケアセンター",
+      "hiragana": "デイケアセンター",
+      "romaji": "deikeasentaa",
+      "english": "day care center",
+      "level": "N4"
+    },
+    {
+      "number": 740,
+      "kanji": "通所リハビリテーション",
+      "hiragana": "つうしょリハビリテーション",
+      "romaji": "tsuushorihabiriteeshon",
+      "english": "outpatient rehabilitation",
+      "level": "N4"
+    },
+    {
+      "number": 741,
+      "kanji": "訪問リハビリテーション",
+      "hiragana": "ほうもんリハビリテーション",
+      "romaji": "houmonrihabiriteeshon",
+      "english": "home rehabilitation",
+      "level": "N4"
+    },
+    {
+      "number": 742,
+      "kanji": "訪問入浴",
+      "hiragana": "ほうもんにゅうよく",
+      "romaji": "houmonnyuuyoku",
+      "english": "home bathing service",
+      "level": "N4"
+    },
+    {
+      "number": 743,
+      "kanji": "訪問看護ステーション",
+      "hiragana": "ほうもんかんごステーション",
+      "romaji": "houmonkangosuteeshon",
+      "english": "home nursing station",
+      "level": "N4"
+    },
+    {
+      "number": 744,
+      "kanji": "訪問診療",
+      "hiragana": "ほうもんしんりょう",
+      "romaji": "houmonshinryou",
+      "english": "home medical care",
+      "level": "N4"
+    },
+    {
+      "number": 745,
+      "kanji": "往診",
+      "hiragana": "おうしん",
+      "romaji": "oushin",
+      "english": "house call",
+      "level": "N4"
+    },
+    {
+      "number": 746,
+      "kanji": "出張診療",
+      "hiragana": "しゅっちょうしんりょう",
+      "romaji": "shucchoushinryou",
+      "english": "mobile medical service",
+      "level": "N4"
+    },
+    {
+      "number": 747,
+      "kanji": "在宅療養",
+      "hiragana": "ざいたくりょうよう",
+      "romaji": "zaitakuryouyou",
+      "english": "home care",
+      "level": "N4"
+    },
+    {
+      "number": 748,
+      "kanji": "在宅介護",
+      "hiragana": "ざいたくかいご",
+      "romaji": "zaitakukaigo",
+      "english": "home care",
+      "level": "N4"
+    },
+    {
+      "number": 749,
+      "kanji": "在宅支援",
+      "hiragana": "ざいたくしえん",
+      "romaji": "zaitakushien",
+      "english": "home support",
+      "level": "N4"
+    },
+    {
+      "number": 750,
+      "kanji": "地域包括ケア",
+      "hiragana": "ちいきほうかつケア",
+      "romaji": "chiikihoukatsukea",
+      "english": "community integrated care",
+      "level": "N4"
+    },
+    {
+      "number": 751,
+      "kanji": "地域密着型サービス",
+      "hiragana": "ちいきみっちゃくがたサービス",
+      "romaji": "chiikimicchakugatasaabisu",
+      "english": "community-based service",
+      "level": "N4"
+    },
+    {
+      "number": 752,
+      "kanji": "地域ケア会議",
+      "hiragana": "ちいきケアかいぎ",
+      "romaji": "chiikikeakaigi",
+      "english": "community care conference",
+      "level": "N4"
+    },
+    {
+      "number": 753,
+      "kanji": "ケアプラン",
+      "hiragana": "ケアプラン",
+      "romaji": "keapurann",
+      "english": "care plan",
+      "level": "N4"
+    },
+    {
+      "number": 754,
+      "kanji": "介護保険",
+      "hiragana": "かいごほけん",
+      "romaji": "kaigohoken",
+      "english": "long-term care insurance",
+      "level": "N4"
+    },
+    {
+      "number": 755,
+      "kanji": "介護認定",
+      "hiragana": "かいごにんてい",
+      "romaji": "kaigonintei",
+      "english": "care needs certification",
+      "level": "N4"
+    },
+    {
+      "number": 756,
+      "kanji": "要介護",
+      "hiragana": "ようかいご",
+      "romaji": "youkaigo",
+      "english": "requiring care",
+      "level": "N4"
+    },
+    {
+      "number": 757,
+      "kanji": "要支援",
+      "hiragana": "ようしえん",
+      "romaji": "youshien",
+      "english": "requiring support",
+      "level": "N4"
+    },
+    {
+      "number": 758,
+      "kanji": "自立支援",
+      "hiragana": "じりつしえん",
+      "romaji": "jiritsushien",
+      "english": "independence support",
+      "level": "N4"
+    },
+    {
+      "number": 759,
+      "kanji": "生活支援",
+      "hiragana": "せいかつしえん",
+      "romaji": "seikatsushien",
+      "english": "daily living support",
+      "level": "N4"
+    },
+    {
+      "number": 760,
+      "kanji": "身体介護",
+      "hiragana": "しんたいかいご",
+      "romaji": "shintaikaigo",
+      "english": "physical care",
+      "level": "N4"
+    },
+    {
+      "number": 761,
+      "kanji": "生活援助",
+      "hiragana": "せいかつえんじょ",
+      "romaji": "seikatsuenjo",
+      "english": "daily living assistance",
+      "level": "N4"
+    },
+    {
+      "number": 762,
+      "kanji": "家事援助",
+      "hiragana": "かじえんじょ",
+      "romaji": "kajienjo",
+      "english": "housework assistance",
+      "level": "N4"
+    },
+    {
+      "number": 763,
+      "kanji": "買い物代行",
+      "hiragana": "かいものだいこう",
+      "romaji": "kaimonodaikou",
+      "english": "shopping assistance",
+      "level": "N4"
+    },
+    {
+      "number": 764,
+      "kanji": "移動支援",
+      "hiragana": "いどうしえん",
+      "romaji": "idoushien",
+      "english": "mobility support",
+      "level": "N4"
+    },
+    {
+      "number": 765,
+      "kanji": "外出支援",
+      "hiragana": "がいしゅつしえん",
+      "romaji": "gaishutsushien",
+      "english": "outdoor activity support",
+      "level": "N4"
+    },
+    {
+      "number": 766,
+      "kanji": "見守り",
+      "hiragana": "みまもり",
+      "romaji": "mimamori",
+      "english": "watching over",
+      "level": "N4"
+    },
+    {
+      "number": 767,
+      "kanji": "安否確認",
+      "hiragana": "あんぴかくにん",
+      "romaji": "anpikakunin",
+      "english": "safety check",
+      "level": "N4"
+    },
+    {
+      "number": 768,
+      "kanji": "緊急時対応",
+      "hiragana": "きんきゅうじたいおう",
+      "romaji": "kinkyujitaiou",
+      "english": "emergency response",
+      "level": "N4"
+    },
+    {
+      "number": 769,
+      "kanji": "24時間対応",
+      "hiragana": "24じかんたいおう",
+      "romaji": "nijuuyonjikantaiou",
+      "english": "24-hour support",
+      "level": "N4"
+    },
+    {
+      "number": 770,
+      "kanji": "夜間対応",
+      "hiragana": "やかんたいおう",
+      "romaji": "yakantaiou",
+      "english": "nighttime support",
+      "level": "N4"
+    },
+    {
+      "number": 771,
+      "kanji": "休日対応",
+      "hiragana": "きゅうじつたいおう",
+      "romaji": "kyuujitsutaiou",
+      "english": "holiday support",
+      "level": "N4"
+    },
+    {
+      "number": 772,
+      "kanji": "365日対応",
+      "hiragana": "365にちたいおう",
+      "romaji": "sanbyakurokujunichitaiou",
+      "english": "365-day support",
+      "level": "N4"
+    },
+    {
+      "number": 773,
+      "kanji": "年中無休",
+      "hiragana": "ねんじゅうむきゅう",
+      "romaji": "nenjuumukyuu",
+      "english": "open year-round",
+      "level": "N4"
+    },
+    {
+      "number": 774,
+      "kanji": "24時間365日",
+      "hiragana": "24じかん365にち",
+      "romaji": "nijuuyonjikansanbyakurokujunichi",
+      "english": "24/7",
+      "level": "N4"
+    },
+    {
+      "number": 775,
+      "kanji": "常時対応",
+      "hiragana": "じょうじたいおう",
+      "romaji": "joujitaiou",
+      "english": "constant support",
+      "level": "N4"
+    },
+    {
+      "number": 776,
+      "kanji": "随時対応",
+      "hiragana": "ずいじたいおう",
+      "romaji": "zuijitaiou",
+      "english": "as-needed support",
+      "level": "N4"
+    },
+    {
+      "number": 777,
+      "kanji": "定期訪問",
+      "hiragana": "ていきほうもん",
+      "romaji": "teikihoumon",
+      "english": "regular visits",
+      "level": "N4"
+    },
+    {
+      "number": 778,
+      "kanji": "不定期訪問",
+      "hiragana": "ふていきほうもん",
+      "romaji": "futeikihoumon",
+      "english": "irregular visits",
+      "level": "N4"
+    },
+    {
+      "number": 779,
+      "kanji": "緊急訪問",
+      "hiragana": "きんきゅうほうもん",
+      "romaji": "kinkyuhoumon",
+      "english": "emergency visit",
+      "level": "N4"
+    },
+    {
+      "number": 780,
+      "kanji": "臨時訪問",
+      "hiragana": "りんじほうもん",
+      "romaji": "rinjihoumon",
+      "english": "temporary visit",
+      "level": "N4"
+    },
+    {
+      "number": 781,
+      "kanji": "一時訪問",
+      "hiragana": "いちじほうもん",
+      "romaji": "ichijihoumon",
+      "english": "temporary visit",
+      "level": "N4"
+    },
+    {
+      "number": 782,
+      "kanji": "継続訪問",
+      "hiragana": "けいぞくほうもん",
+      "romaji": "keizokuhoumon",
+      "english": "continuous visits",
+      "level": "N4"
+    },
+    {
+      "number": 783,
+      "kanji": "長期訪問",
+      "hiragana": "ちょうきほうもん",
+      "romaji": "choukihoumon",
+      "english": "long-term visits",
+      "level": "N4"
+    },
+    {
+      "number": 784,
+      "kanji": "短期訪問",
+      "hiragana": "たんきほうもん",
+      "romaji": "tankihoumon",
+      "english": "short-term visits",
+      "level": "N4"
+    },
+    {
+      "number": 785,
+      "kanji": "週間訪問",
+      "hiragana": "しゅうかんほうもん",
+      "romaji": "shuukanhoumon",
+      "english": "weekly visits",
+      "level": "N4"
+    },
+    {
+      "number": 786,
+      "kanji": "月間訪問",
+      "hiragana": "げっかんほうもん",
+      "romaji": "gekkanhoumon",
+      "english": "monthly visits",
+      "level": "N4"
+    },
+    {
+      "number": 787,
+      "kanji": "年間訪問",
+      "hiragana": "ねんかんほうもん",
+      "romaji": "nenkanhoumon",
+      "english": "yearly visits",
+      "level": "N4"
+    },
+    {
+      "number": 788,
+      "kanji": "毎日訪問",
+      "hiragana": "まいにちほうもん",
+      "romaji": "mainichihoumon",
+      "english": "daily visits",
+      "level": "N4"
+    },
+    {
+      "number": 789,
+      "kanji": "毎週訪問",
+      "hiragana": "まいしゅうほうもん",
+      "romaji": "maishuuhoumon",
+      "english": "weekly visits",
+      "level": "N4"
+    },
+    {
+      "number": 790,
+      "kanji": "毎月訪問",
+      "hiragana": "まいつきほうもん",
+      "romaji": "maitsukihoumon",
+      "english": "monthly visits",
+      "level": "N4"
+    },
+    {
+      "number": 791,
+      "kanji": "隔日訪問",
+      "hiragana": "かくじつほうもん",
+      "romaji": "kakujitsuhoumon",
+      "english": "every other day visits",
+      "level": "N4"
+    },
+    {
+      "number": 792,
+      "kanji": "隔週訪問",
+      "hiragana": "かくしゅうほうもん",
+      "romaji": "kakushuuhoumon",
+      "english": "biweekly visits",
+      "level": "N4"
+    },
+    {
+      "number": 793,
+      "kanji": "隔月訪問",
+      "hiragana": "かくげつほうもん",
+      "romaji": "kakugetsuhoumon",
+      "english": "bimonthly visits",
+      "level": "N4"
+    },
+    {
+      "number": 794,
+      "kanji": "週2回訪問",
+      "hiragana": "しゅう2かいほうもん",
+      "romaji": "shuunikaikihoumon",
+      "english": "twice weekly visits",
+      "level": "N4"
+    },
+    {
+      "number": 795,
+      "kanji": "週3回訪問",
+      "hiragana": "しゅう3かいほうもん",
+      "romaji": "shuusanakaikihoumon",
+      "english": "three times weekly visits",
+      "level": "N4"
+    },
+    {
+      "number": 796,
+      "kanji": "月2回訪問",
+      "hiragana": "げつ2かいほうもん",
+      "romaji": "getsunikaikihoumon",
+      "english": "twice monthly visits",
+      "level": "N4"
+    },
+    {
+      "number": 797,
+      "kanji": "月3回訪問",
+      "hiragana": "げつ3かいほうもん",
+      "romaji": "getsusanakaikihoumon",
+      "english": "three times monthly visits",
+      "level": "N4"
+    },
+    {
+      "number": 798,
+      "kanji": "年2回訪問",
+      "hiragana": "ねん2かいほうもん",
+      "romaji": "nennikaikihoumon",
+      "english": "twice yearly visits",
+      "level": "N4"
+    },
+    {
+      "number": 799,
+      "kanji": "年3回訪問",
+      "hiragana": "ねん3かいほうもん",
+      "romaji": "nensanakaikihoumon",
+      "english": "three times yearly visits",
+      "level": "N4"
+    },
+    {
+      "number": 800,
+      "kanji": "随時対応可能",
+      "hiragana": "ずいじたいおうかのう",
+      "romaji": "zuijitaioukanou",
+      "english": "available as needed",
+      "level": "N4"
     }
   ]
 }
