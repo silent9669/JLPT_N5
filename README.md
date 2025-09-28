@@ -2,7 +2,7 @@
 
 A comprehensive web application for JLPT N5 preparation featuring a 36-day structured study plan, interactive quizzes, practice tests with detailed statistics, and extensive vocabulary, kanji, and grammar resources.
 
-![JLPT N5 Study App](https://img.shields.io/badge/JLPT-N5-green) ![Version](https://img.shields.io/badge/version-3.0.0-blue) ![License](https://img.shields.io/badge/license-MIT-green) ![Status](https://img.shields.io/badge/status-production%20ready-brightgreen)
+![JLPT N5 Study App](https://img.shields.io/badge/JLPT-N5-green) ![Version](https://img.shields.io/badge/version-1.0.0-blue) ![License](https://img.shields.io/badge/license-MIT-green) ![Status](https://img.shields.io/badge/status-production%20ready-brightgreen)
 
 ## 🌟 Features
 
