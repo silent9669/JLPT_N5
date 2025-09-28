@@ -2290,3 +2290,217 @@ html, body {
     background: #e8f5e8;
     color: #2e7d32;
 }
+
+/* Reading Passage Styles */
+.reading-passage {
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.reading-passage h4 {
+    color: #495057;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.passage-text {
+    color: #2c3e50;
+    line-height: 1.6;
+    font-size: 0.95rem;
+    white-space: pre-line;
+}
+
+/* Section Visibility */
+.section {
+    display: none;
+}
+
+.section.active {
+    display: block;
+}
+
+/* Vocabulary Styles */
+.vocab-scroll-container {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    max-height: 70vh;
+    overflow-y: auto;
+    border: 1px solid #e0e0e0;
+    min-height: 400px;
+    padding: 0;
+}
+
+.vocab-scroll-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.vocab-scroll-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.vocab-scroll-container::-webkit-scrollbar-thumb {
+    background: #4CAF50;
+    border-radius: 4px;
+}
+
+.vocab-scroll-container::-webkit-scrollbar-thumb:hover {
+    background: #45a049;
+}
+
+.vocab-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    font-size: 0.9rem;
+    table-layout: fixed;
+}
+
+.vocab-table th {
+    background: #4CAF50;
+    color: white;
+    padding: 1rem 0.75rem;
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.85rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.vocab-table td {
+    padding: 0.75rem;
+    border-bottom: 1px solid #f0f0f0;
+    vertical-align: top;
+}
+
+.vocab-table tr:hover {
+    background-color: #f8f9fa;
+}
+
+.vocab-number {
+    width: 8%;
+    text-align: center;
+    font-weight: 600;
+    color: #666;
+}
+
+.vocab-kanji {
+    width: 15%;
+    font-weight: 600;
+    color: #2c3e50;
+    font-size: 1.1rem;
+}
+
+.vocab-hiragana {
+    width: 20%;
+    color: #7c4dff;
+    font-style: italic;
+}
+
+.vocab-romaji {
+    width: 25%;
+    color: #666;
+    font-family: 'Courier New', monospace;
+}
+
+.vocab-english {
+    width: 25%;
+    color: #333;
+}
+
+.vocab-level {
+    width: 7%;
+    text-align: center;
+}
+
+.vocab-level-badge {
+    background: #e3f2fd;
+    color: #1976d2;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* Grammar Styles */
+.grammar-scroll-container {
+    max-height: 70vh;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background: white;
+    min-height: 400px;
+    padding: 0;
+}
+
+.grammar-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+    background: white;
+}
+
+.grammar-table th {
+    background: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: left;
+    font-weight: 600;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.grammar-table td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #f0f0f0;
+    vertical-align: top;
+}
+
+.grammar-table tr:hover {
+    background-color: #f8f9fa;
+}
+
+.grammar-point {
+    font-weight: 600;
+    color: #2c3e50;
+    font-size: 1.1rem;
+}
+
+.grammar-meaning {
+    color: #333;
+}
+
+.grammar-formation {
+    color: #666;
+    font-family: 'Courier New', monospace;
+    font-size: 0.85rem;
+}
+
+.grammar-level-badge {
+    background: #e3f2fd;
+    color: #1976d2;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* Loading Message */
+.loading-message {
+    text-align: center;
+    padding: 2rem;
+    color: #666;
+}
+
+.loading-message p {
+    margin-bottom: 1rem;
+}
