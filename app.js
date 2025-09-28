@@ -101,16 +101,14 @@ class JLPTApp {
             });
         }
 
-        // Grammar search
-        const grammarSearchBtn = document.getElementById('grammarSearchBtn');
-        if (grammarSearchBtn) {
-            grammarSearchBtn.addEventListener('click', () => {
-                this.searchGrammar();
-            });
-        }
+        // Grammar search - removed button, now auto-filters
 
         const grammarSearchInput = document.getElementById('grammarSearch');
         if (grammarSearchInput) {
+            // Add real-time search on input
+            grammarSearchInput.addEventListener('input', () => {
+                this.searchGrammar();
+            });
             grammarSearchInput.addEventListener('keypress', (e) => {
                 if (e.key === 'Enter') {
                     this.searchGrammar();
@@ -140,6 +138,7 @@ class JLPTApp {
                 this.clearGrammarFilters();
             });
         }
+
 
         // Test controls
         const startTestBtn = document.getElementById('startTestBtn');
@@ -228,15 +227,14 @@ class JLPTApp {
             });
         }
 
-        const searchBtn = document.getElementById('searchBtn');
-        if (searchBtn) {
-            searchBtn.addEventListener('click', () => {
-                this.searchVocabulary();
-            });
-        }
+        // Vocabulary search - removed button, now auto-filters
 
         const vocabSearch = document.getElementById('vocabSearch');
         if (vocabSearch) {
+            // Add real-time search on input
+            vocabSearch.addEventListener('input', () => {
+                this.searchVocabulary();
+            });
             vocabSearch.addEventListener('keypress', (e) => {
                 if (e.key === 'Enter') {
                     this.searchVocabulary();
@@ -579,18 +577,28 @@ class JLPTApp {
                 if (word.number && word.number.toString().includes(searchTerm)) {
                     return true;
                 }
-                // Search by romaji
-                if (word.romaji && word.romaji.toLowerCase().includes(searchTerm)) {
-                    return true;
-                }
-                // Search by other fields as well
+                // Search by kanji (exact and partial matches)
                 if (word.kanji && word.kanji.toLowerCase().includes(searchTerm)) {
                     return true;
                 }
+                // Search by hiragana (exact and partial matches)
                 if (word.hiragana && word.hiragana.toLowerCase().includes(searchTerm)) {
                     return true;
                 }
+                // Search by romaji (exact and partial matches)
+                if (word.romaji && word.romaji.toLowerCase().includes(searchTerm)) {
+                    return true;
+                }
+                // Search by english meaning (word boundaries and partial matches)
                 if (word.english && word.english.toLowerCase().includes(searchTerm)) {
+                    return true;
+                }
+                // Search by level
+                if (word.level && word.level.toLowerCase().includes(searchTerm)) {
+                    return true;
+                }
+                // Search by category if it exists
+                if (word.category && word.category.toLowerCase().includes(searchTerm)) {
                     return true;
                 }
                 return false;
@@ -1011,138 +1019,9 @@ class JLPTApp {
         alert(message); // Simple error handling
     }
 
-    // Grammar Database Functions
-    async loadGrammarDatabase() {
-        try {
-            const container = document.getElementById('grammarDatabase');
-            if (!container) return;
+    // Grammar Database Functions - duplicates removed
 
-            container.innerHTML = '<div class="loading-message">Loading grammar database...</div>';
-            
-            console.log('Loading N5-N4 grammar database...');
-            const response = await fetch('data/tests/jlpt_n5_n4_complete_grammar_database.json');
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            
-            const data = await response.json();
-            console.log('Grammar data loaded:', data);
-            this.grammarData = data.grammar_points || [];
-            this.filteredGrammarData = [...this.grammarData];
-            
-            console.log('Grammar points count:', this.grammarData.length);
-            console.log('First grammar point:', this.grammarData[0]);
-            
-            this.renderGrammarTable();
-        } catch (error) {
-            console.error('Error loading grammar database:', error);
-            const container = document.getElementById('grammarDatabase');
-            if (container) {
-                container.innerHTML = `
-                    <div class="loading-message">
-                        <p>Unable to load grammar data. Please try again.</p>
-                        <button class="btn primary" onclick="window.jlptApp.loadGrammarDatabase()">Retry</button>
-                    </div>
-                `;
-            }
-        }
-    }
-
-    populateCategoryFilter() {
-        const categoryFilter = document.getElementById('categoryFilter');
-        if (!categoryFilter) return;
-
-        const categories = [...new Set(this.grammarData.map(item => item.category))].sort();
-        categories.forEach(category => {
-            const option = document.createElement('option');
-            option.value = category;
-            option.textContent = category.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
-            categoryFilter.appendChild(option);
-        });
-    }
-
-    renderGrammarTable() {
-        const container = document.getElementById('grammarDatabase');
-        if (!container) return;
-        if (this.filteredGrammarData.length === 0) {
-            container.innerHTML = '<div class="loading-message"><p>No grammar points found.</p></div>';
-            return;
-        }
-
-        const tableHTML = `
-            <table class="grammar-table">
-                <thead>
-                    <tr>
-                        <th>Grammar Point</th>
-                        <th>Meaning</th>
-                        <th>Formation</th>
-                        <th>Level</th>
-                        <th>Category</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    ${this.filteredGrammarData.map(item => `
-                        <tr>
-                            <td>
-                                <div class="grammar-point">${item.grammar}</div>
-                            </td>
-                            <td>
-                                <div class="grammar-meaning">${item.meaning}</div>
-                            </td>
-                            <td>
-                                <div class="grammar-formation">${item.formation}</div>
-                            </td>
-                            <td>
-                                <span class="grammar-level ${item.level.toLowerCase()}">${item.level}</span>
-                            </td>
-                            <td>${item.category.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}</td>
-                        </tr>
-                    `).join('')}
-                </tbody>
-            </table>
-        `;
-
-        container.innerHTML = tableHTML;
-    }
-
-    searchGrammar() {
-        const searchInput = document.getElementById('grammarSearch');
-        const levelFilter = document.getElementById('levelFilter');
-        const categoryFilter = document.getElementById('categoryFilter');
-        
-        if (!searchInput) return;
-
-        const searchTerm = searchInput.value.toLowerCase().trim();
-        const selectedLevel = levelFilter ? levelFilter.value : 'all';
-        const selectedCategory = categoryFilter ? categoryFilter.value : 'all';
-        
-        this.filteredGrammarData = this.grammarData.filter(item => {
-            const matchesSearch = !searchTerm || 
-                item.grammar.toLowerCase().includes(searchTerm) ||
-                item.meaning.toLowerCase().includes(searchTerm) ||
-                item.formation.toLowerCase().includes(searchTerm);
-            
-            const matchesLevel = selectedLevel === 'all' || item.level === selectedLevel;
-            const matchesCategory = selectedCategory === 'all' || item.category === selectedCategory;
-            
-            return matchesSearch && matchesLevel && matchesCategory;
-        });
-        
-        this.renderGrammarTable();
-    }
-
-    clearGrammarFilters() {
-        const searchInput = document.getElementById('grammarSearch');
-        const levelFilter = document.getElementById('levelFilter');
-        const categoryFilter = document.getElementById('categoryFilter');
-        
-        if (searchInput) searchInput.value = '';
-        if (levelFilter) levelFilter.value = 'all';
-        if (categoryFilter) categoryFilter.value = 'all';
-        
-        this.filteredGrammarData = [...this.grammarData];
-        this.renderGrammarTable();
-    }
+    // Duplicate functions removed - using the ones at the end of the class
 
     // Test Functions
     async loadTestList() {
@@ -1593,51 +1472,7 @@ class JLPTApp {
         document.getElementById('testResults').style.display = 'block';
     }
 
-    // Grammar Database Functions
-    async loadGrammarDatabase() {
-        try {
-            const container = document.getElementById('grammarDatabase');
-            if (!container) return;
-
-            container.innerHTML = '<div class="loading-message">Loading grammar database...</div>';
-            
-            const response = await fetch('data/tests/jlpt_n5_n4_complete_grammar_database.json');
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            
-            const data = await response.json();
-            this.grammarData = data.grammar_points || [];
-            this.filteredGrammarData = [...this.grammarData];
-            
-            this.populateCategoryFilter();
-            this.renderGrammarTable();
-        } catch (error) {
-            console.error('Error loading grammar database:', error);
-            const container = document.getElementById('grammarDatabase');
-            if (container) {
-                container.innerHTML = `
-                    <div class="loading-message">
-                        <p>Unable to load grammar data. Please try again.</p>
-                        <button class="btn primary" onclick="window.jlptApp.loadGrammarDatabase()">Retry</button>
-                    </div>
-                `;
-            }
-        }
-    }
-
-    populateCategoryFilter() {
-        const categoryFilter = document.getElementById('categoryFilter');
-        if (!categoryFilter) return;
-
-        const categories = [...new Set(this.grammarData.map(item => item.category))].sort();
-        categories.forEach(category => {
-            const option = document.createElement('option');
-            option.value = category;
-            option.textContent = category.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
-            categoryFilter.appendChild(option);
-        });
-    }
+    // Grammar Database Functions - second duplicate removed
 
     renderGrammarTable() {
         const container = document.getElementById('grammarDatabase');
@@ -1694,14 +1529,42 @@ class JLPTApp {
         const selectedLevel = levelFilter ? levelFilter.value : 'all';
         const selectedCategory = categoryFilter ? categoryFilter.value : 'all';
         
-        this.filteredGrammarData = this.grammarData.filter(item => {
-            const matchesSearch = !searchTerm || 
-                item.grammar.toLowerCase().includes(searchTerm) ||
-                item.meaning.toLowerCase().includes(searchTerm) ||
-                item.formation.toLowerCase().includes(searchTerm);
+        this.filteredGrammarData = this.grammarData.filter((item, index) => {
+            const rowNumber = (index + 1).toString();
             
-            const matchesLevel = selectedLevel === 'all' || item.level === selectedLevel;
-            const matchesCategory = selectedCategory === 'all' || item.category === selectedCategory;
+            const matchesSearch = !searchTerm || 
+                // Search by row number
+                rowNumber.includes(searchTerm) ||
+                // Search by grammar point
+                (item.grammar && item.grammar.toLowerCase().includes(searchTerm)) ||
+                // Search by meaning
+                (item.meaning && item.meaning.toLowerCase().includes(searchTerm)) ||
+                // Search by formation
+                (item.formation && item.formation.toLowerCase().includes(searchTerm)) ||
+                // Search by level (exact and partial matches)
+                (item.level && item.level.toLowerCase().includes(searchTerm)) ||
+                // Search by category (handle underscores and spaces)
+                (item.category && (
+                    item.category.toLowerCase().includes(searchTerm) ||
+                    item.category.replace(/_/g, ' ').toLowerCase().includes(searchTerm) ||
+                    item.category.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase()).toLowerCase().includes(searchTerm)
+                )) ||
+                // Search by example Japanese
+                (item.example_jp && item.example_jp.toLowerCase().includes(searchTerm)) ||
+                // Search by example English
+                (item.example_en && item.example_en.toLowerCase().includes(searchTerm)) ||
+                // Search by usage notes
+                (item.usage_notes && item.usage_notes.toLowerCase().includes(searchTerm)) ||
+                // Search by lesson
+                (item.lesson && item.lesson.toLowerCase().includes(searchTerm));
+            
+            // Level filter (case insensitive exact match)
+            const matchesLevel = selectedLevel === 'all' || 
+                (item.level && item.level.toLowerCase() === selectedLevel.toLowerCase());
+            
+            // Category filter (handle underscores)
+            const matchesCategory = selectedCategory === 'all' || 
+                (item.category && item.category === selectedCategory);
             
             return matchesSearch && matchesLevel && matchesCategory;
         });
@@ -1773,18 +1636,28 @@ class JLPTApp {
                 if (word.number && word.number.toString().includes(searchTerm)) {
                     return true;
                 }
-                // Search by romaji
-                if (word.romaji && word.romaji.toLowerCase().includes(searchTerm)) {
-                    return true;
-                }
-                // Search by other fields as well
+                // Search by kanji (exact and partial matches)
                 if (word.kanji && word.kanji.toLowerCase().includes(searchTerm)) {
                     return true;
                 }
+                // Search by hiragana (exact and partial matches)
                 if (word.hiragana && word.hiragana.toLowerCase().includes(searchTerm)) {
                     return true;
                 }
+                // Search by romaji (exact and partial matches)
+                if (word.romaji && word.romaji.toLowerCase().includes(searchTerm)) {
+                    return true;
+                }
+                // Search by english meaning (word boundaries and partial matches)
                 if (word.english && word.english.toLowerCase().includes(searchTerm)) {
+                    return true;
+                }
+                // Search by level
+                if (word.level && word.level.toLowerCase().includes(searchTerm)) {
+                    return true;
+                }
+                // Search by category if it exists
+                if (word.category && word.category.toLowerCase().includes(searchTerm)) {
                     return true;
                 }
                 return false;
@@ -1857,289 +1730,6 @@ class JLPTApp {
             </table>
         `;
         
-        container.innerHTML = tableHTML;
-    }
-
-    // Vocabulary Functions
-    async loadVocabularyFromAPI() {
-        try {
-            const container = document.getElementById('vocabularyDatabase');
-            if (!container) {
-                console.error('Vocabulary container not found');
-                return;
-            }
-
-            console.log('Loading vocabulary data...');
-            container.innerHTML = '<div class="loading-message">Loading N5 vocabulary list...</div>';
-            
-            // Load from local JSON file for faster loading
-            const response = await fetch('data/vocabulary/n5_vocabulary.json');
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            
-            const data = await response.json();
-            console.log('Vocabulary data loaded:', data);
-            this.vocabData = data.vocabulary || [];
-            this.filteredVocabData = [...this.vocabData];
-            
-            console.log('Vocabulary count:', this.vocabData.length);
-            this.updateVocabStats();
-            this.renderVocabularyTable();
-        } catch (error) {
-            console.error('Error loading vocabulary:', error);
-            const container = document.getElementById('vocabularyDatabase');
-            if (container) {
-                container.innerHTML = `
-                    <div class="loading-message">
-                        <p>Unable to load vocabulary data. Please try again.</p>
-                        <button class="btn primary" onclick="window.jlptApp.loadVocabularyFromAPI()">Retry</button>
-                    </div>
-                `;
-            }
-        }
-    }
-
-    searchVocabulary() {
-        const searchInput = document.getElementById('vocabSearch');
-        if (!searchInput) return;
-
-        const searchTerm = searchInput.value.toLowerCase().trim();
-        
-        if (!searchTerm) {
-            this.filteredVocabData = [...this.vocabData];
-        } else {
-            this.filteredVocabData = this.vocabData.filter(word => {
-                // Search by word number
-                if (word.number && word.number.toString().includes(searchTerm)) {
-                    return true;
-                }
-                // Search by romaji
-                if (word.romaji && word.romaji.toLowerCase().includes(searchTerm)) {
-                    return true;
-                }
-                // Search by other fields as well
-                if (word.kanji && word.kanji.toLowerCase().includes(searchTerm)) {
-                    return true;
-                }
-                if (word.hiragana && word.hiragana.toLowerCase().includes(searchTerm)) {
-                    return true;
-                }
-                if (word.english && word.english.toLowerCase().includes(searchTerm)) {
-                    return true;
-                }
-                return false;
-            });
-        }
-        
-        this.updateVocabStats();
-        this.renderVocabularyTable();
-    }
-
-    updateVocabStats() {
-        const totalCount = document.getElementById('totalVocabCount');
-        const filteredCount = document.getElementById('filteredVocabCount');
-        
-        if (totalCount) {
-            totalCount.textContent = this.vocabData.length;
-        }
-        if (filteredCount) {
-            filteredCount.textContent = this.filteredVocabData.length;
-        }
-    }
-
-    renderVocabularyTable() {
-        // Try multiple containers
-        let container = document.getElementById('vocabularyDatabase');
-        if (!container) {
-            container = document.getElementById('vocabularyList');
-        }
-        if (!container) {
-            container = document.getElementById('vocabulary-tab');
-        }
-        
-        if (!container) {
-            console.error('Vocabulary container not found!');
-            return;
-        }
-        
-        if (this.filteredVocabData.length === 0) {
-            container.innerHTML = '<div class="loading-message">No vocabulary found matching your search criteria.</div>';
-            return;
-        }
-        
-        // Create clean table with all words (unlimited scrolling)
-        const tableHTML = `
-            <table class="vocab-table">
-                <thead>
-                    <tr>
-                        <th class="vocab-number">#</th>
-                        <th class="vocab-kanji">Kanji</th>
-                        <th class="vocab-hiragana">Hiragana</th>
-                        <th class="vocab-romaji">Romaji</th>
-                        <th class="vocab-english">English</th>
-                        <th class="vocab-level">Level</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    ${this.filteredVocabData.map(word => `
-                        <tr>
-                            <td class="vocab-number">${word.number}</td>
-                            <td class="vocab-kanji">${word.kanji || '-'}</td>
-                            <td class="vocab-hiragana">${word.hiragana || '-'}</td>
-                            <td class="vocab-romaji">${word.romaji || '-'}</td>
-                            <td class="vocab-english">${word.english || '-'}</td>
-                            <td class="vocab-level">
-                                <span class="vocab-level-badge">${word.level || 'N5'}</span>
-                            </td>
-                        </tr>
-                    `).join('')}
-                </tbody>
-            </table>
-        `;
-        
-        container.innerHTML = tableHTML;
-    }
-
-    // Vocabulary Functions
-    async loadVocabularyFromAPI() {
-        try {
-            const container = document.getElementById('vocabularyDatabase');
-            if (!container) {
-                console.error('Vocabulary container not found');
-                return;
-            }
-
-            console.log('Loading vocabulary data...');
-            container.innerHTML = '<div class="loading-message">Loading N5 vocabulary list...</div>';
-            
-            // Load from local JSON file for faster loading
-            const response = await fetch('data/vocabulary/n5_vocabulary.json');
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            
-            const data = await response.json();
-            console.log('Vocabulary data loaded:', data);
-            this.vocabData = data.vocabulary || [];
-            this.filteredVocabData = [...this.vocabData];
-            
-            console.log('Vocabulary count:', this.vocabData.length);
-            this.updateVocabStats();
-            this.renderVocabularyTable();
-        } catch (error) {
-            console.error('Error loading vocabulary:', error);
-            const container = document.getElementById('vocabularyDatabase');
-            if (container) {
-                container.innerHTML = `
-                    <div class="loading-message">
-                        <p>Unable to load vocabulary data. Please try again.</p>
-                        <button class="btn primary" onclick="window.jlptApp.loadVocabularyFromAPI()">Retry</button>
-                    </div>
-                `;
-            }
-        }
-    }
-
-    searchVocabulary() {
-        const searchInput = document.getElementById('vocabSearch');
-        if (!searchInput) return;
-
-        const searchTerm = searchInput.value.toLowerCase().trim();
-        
-        if (!searchTerm) {
-            this.filteredVocabData = [...this.vocabData];
-        } else {
-            this.filteredVocabData = this.vocabData.filter(word => {
-                // Search by word number
-                if (word.number && word.number.toString().includes(searchTerm)) {
-                    return true;
-                }
-                // Search by romaji
-                if (word.romaji && word.romaji.toLowerCase().includes(searchTerm)) {
-                    return true;
-                }
-                // Search by other fields as well
-                if (word.kanji && word.kanji.toLowerCase().includes(searchTerm)) {
-                    return true;
-                }
-                if (word.hiragana && word.hiragana.toLowerCase().includes(searchTerm)) {
-                    return true;
-                }
-                if (word.english && word.english.toLowerCase().includes(searchTerm)) {
-                    return true;
-                }
-                return false;
-            });
-        }
-        
-        this.updateVocabStats();
-        this.renderVocabularyTable();
-    }
-
-    updateVocabStats() {
-        const totalCount = document.getElementById('totalVocabCount');
-        const filteredCount = document.getElementById('filteredVocabCount');
-        
-        if (totalCount) {
-            totalCount.textContent = this.vocabData.length;
-        }
-        if (filteredCount) {
-            filteredCount.textContent = this.filteredVocabData.length;
-        }
-    }
-
-    renderVocabularyTable() {
-        // Try multiple containers
-        let container = document.getElementById('vocabularyDatabase');
-        if (!container) {
-            container = document.getElementById('vocabularyList');
-        }
-        if (!container) {
-            container = document.getElementById('vocabulary-tab');
-        }
-        
-        if (!container) {
-            console.error('Vocabulary container not found!');
-            return;
-        }
-        
-        if (this.filteredVocabData.length === 0) {
-            container.innerHTML = '<div class="loading-message">No vocabulary found matching your search criteria.</div>';
-            return;
-        }
-        
-        // Create clean table with all words (unlimited scrolling)
-        const tableHTML = `
-            <table class="vocab-table">
-                <thead>
-                    <tr>
-                        <th class="vocab-number">#</th>
-                        <th class="vocab-kanji">Kanji</th>
-                        <th class="vocab-hiragana">Hiragana</th>
-                        <th class="vocab-romaji">Romaji</th>
-                        <th class="vocab-english">English</th>
-                        <th class="vocab-level">Level</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    ${this.filteredVocabData.map(word => `
-                        <tr>
-                            <td class="vocab-number">${word.number}</td>
-                            <td class="vocab-kanji">${word.kanji || '-'}</td>
-                            <td class="vocab-hiragana">${word.hiragana || '-'}</td>
-                            <td class="vocab-romaji">${word.romaji || '-'}</td>
-                            <td class="vocab-english">${word.english || '-'}</td>
-                            <td class="vocab-level">
-                                <span class="vocab-level-badge">${word.level || 'N5'}</span>
-                            </td>
-                        </tr>
-                    `).join('')}
-                </tbody>
-            </table>
-        `;
-        
-        console.log('Rendering vocabulary table...');
         container.innerHTML = tableHTML;
     }
 
@@ -2187,9 +1777,11 @@ class JLPTApp {
         if (!categoryFilter) return;
 
         const categories = [...new Set(this.grammarData.map(item => item.category).filter(Boolean))];
-        categoryFilter.innerHTML = '<option value="all">All Categories</option>' +
-            categories.map(category => `<option value="${category}">${category}</option>`).join('');
+        categoryFilter.innerHTML = '<option value="all">All</option>' +
+            categories.map(category => `<option value="${category}">${category.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}</option>`).join('');
     }
+
+
 
     renderGrammarTable() {
         const container = document.getElementById('grammarDatabase');
@@ -2202,7 +1794,7 @@ class JLPTApp {
         console.log('Grammar data length:', this.filteredGrammarData.length);
         
         if (this.filteredGrammarData.length === 0) {
-            container.innerHTML = '<div class="loading-message">No grammar points found matching your search criteria.</div>';
+            container.innerHTML = '<div class="loading-message"><p>No grammar points found matching your search criteria.</p></div>';
             return;
         }
         
@@ -2214,8 +1806,8 @@ class JLPTApp {
                         <th class="vocab-kanji">Grammar Point</th>
                         <th class="vocab-hiragana">Meaning</th>
                         <th class="vocab-romaji">Formation</th>
-                        <th class="vocab-english">Level</th>
                         <th class="vocab-category">Category</th>
+                        <th class="vocab-english">Level</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -2225,10 +1817,10 @@ class JLPTApp {
                             <td class="vocab-kanji">${item.grammar || 'N/A'}</td>
                             <td class="vocab-hiragana">${item.meaning || 'N/A'}</td>
                             <td class="vocab-romaji">${item.formation || 'N/A'}</td>
+                            <td class="vocab-category">${(item.category || 'N/A').replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}</td>
                             <td class="vocab-english">
                                 <span class="grammar-level-badge ${(item.level || 'N5').toLowerCase()}">${item.level || 'N5'}</span>
                             </td>
-                            <td class="vocab-category">${(item.category || 'N/A').replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}</td>
                         </tr>
                     `).join('')}
                 </tbody>
@@ -2240,47 +1832,7 @@ class JLPTApp {
         console.log('Grammar container updated');
     }
 
-    searchGrammar() {
-        const searchInput = document.getElementById('grammarSearch');
-        const levelFilter = document.getElementById('levelFilter');
-        const categoryFilter = document.getElementById('categoryFilter');
-        
-        if (!searchInput) return;
-
-        const searchTerm = searchInput.value.toLowerCase().trim();
-        const selectedLevel = levelFilter ? levelFilter.value : 'all';
-        const selectedCategory = categoryFilter ? categoryFilter.value : 'all';
-        
-        this.filteredGrammarData = this.grammarData.filter(item => {
-            const matchesSearch = !searchTerm || 
-                item.point.toLowerCase().includes(searchTerm) ||
-                item.meaning.toLowerCase().includes(searchTerm) ||
-                (item.formation && item.formation.toLowerCase().includes(searchTerm));
-            
-            const matchesLevel = selectedLevel === 'all' || 
-                (item.level && item.level.toLowerCase() === selectedLevel.toLowerCase());
-            
-            const matchesCategory = selectedCategory === 'all' || 
-                (item.category && item.category === selectedCategory);
-            
-            return matchesSearch && matchesLevel && matchesCategory;
-        });
-        
-        this.renderGrammarTable();
-    }
-
-    clearGrammarFilters() {
-        const searchInput = document.getElementById('grammarSearch');
-        const levelFilter = document.getElementById('levelFilter');
-        const categoryFilter = document.getElementById('categoryFilter');
-        
-        if (searchInput) searchInput.value = '';
-        if (levelFilter) levelFilter.value = 'all';
-        if (categoryFilter) categoryFilter.value = 'all';
-        
-        this.filteredGrammarData = [...this.grammarData];
-        this.renderGrammarTable();
-    }
+    // Duplicate searchGrammar function removed - using the one above
 }
 
 // Initialize the app when the page loads

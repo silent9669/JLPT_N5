@@ -156,8 +156,7 @@
                 <div class="vocab-header">
                     <h2>N5 Vocab List</h2>
                     <div class="search-bar">
-                        <input type="text" id="vocabSearch" placeholder="Search by word number or romaji..." />
-                        <button class="search-btn" id="searchBtn">Search</button>
+                        <input type="text" id="vocabSearch" placeholder="Search by word number, kanji, hiragana, romaji, english, level..." />
                     </div>
                 </div>
 
@@ -173,9 +172,21 @@
             <section id="grammar" class="section">
                 <div class="vocab-header">
                     <h2>Grammar Reference</h2>
-                    <div class="search-bar">
-                        <input type="text" id="grammarSearch" placeholder="Search grammar points, meanings, or formations..." />
-                        <button class="search-btn" id="grammarSearchBtn">Search</button>
+                    <div class="search-controls">
+                        <div class="search-bar">
+                            <input type="text" id="grammarSearch" placeholder="Search by #, grammar points, meanings, formations, level (N4/N5), category..." />
+                        </div>
+                        <div class="filter-controls">
+                            <select id="levelFilter" class="filter-select">
+                                <option value="all">All Levels</option>
+                                <option value="N5">N5</option>
+                                <option value="N4">N4</option>
+                            </select>
+                            <select id="categoryFilter" class="filter-select">
+                                <option value="all">All Categories</option>
+                            </select>
+                            <button id="clearFiltersBtn" class="clear-filters-btn">Clear Filters</button>
+                        </div>
                     </div>
                 </div>
 
