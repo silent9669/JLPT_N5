@@ -1,0 +1,790 @@
+{
+  "test_info": {
+    "test_name": "JLPT N5 Practice Test 4",
+    "level": "N5",
+    "sections": [
+      "Language Knowledge (Vocabulary)",
+      "Language Knowledge (Grammar) + Reading"
+    ],
+    "total_time_minutes": 60,
+    "vocabulary_time_minutes": 20,
+    "grammar_reading_time_minutes": 40,
+    "total_questions": 57,
+    "vocabulary_questions": 25,
+    "grammar_questions": 26,
+    "reading_questions": 6,
+    "passing_score": 80,
+    "sectional_pass_marks": {
+      "vocabulary_grammar_reading": 38,
+      "total": 80
+    }
+  },
+  "vocabulary_section": {
+    "section_name": "言語知識（文字・語彙）",
+    "time_minutes": 20,
+    "instructions": "以下の文の（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+    "questions": [
+      {
+        "id": 1,
+        "type": "kanji_reading",
+        "question": "昨日（　　）でサッカーをしました。",
+        "choices": [
+          "こうえん",
+          "がっこう",
+          "びょういん",
+          "ぎんこう"
+        ],
+        "correct_answer": 1,
+        "explanation": "公園 (kouen) = park"
+      },
+      {
+        "id": 2,
+        "type": "kanji_reading",
+        "question": "（　　）は今何時ですか。",
+        "choices": [
+          "いま",
+          "きょう",
+          "あした",
+          "きのう"
+        ],
+        "correct_answer": 1,
+        "explanation": "今 (ima) = now"
+      },
+      {
+        "id": 3,
+        "type": "kanji_reading",
+        "question": "弟は（　　）を飲みます。",
+        "choices": [
+          "ぎゅうにゅう",
+          "やさい",
+          "くだもの",
+          "にく"
+        ],
+        "correct_answer": 1,
+        "explanation": "牛乳 (gyuunyuu) = milk"
+      },
+      {
+        "id": 4,
+        "type": "kanji_reading",
+        "question": "Test 4 vocabulary question 4（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 4 explanation 4"
+      },
+      {
+        "id": 5,
+        "type": "kanji_reading",
+        "question": "Test 4 vocabulary question 5（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 4 explanation 5"
+      },
+      {
+        "id": 6,
+        "type": "kanji_reading",
+        "question": "Test 4 vocabulary question 6（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 4 explanation 6"
+      },
+      {
+        "id": 7,
+        "type": "kanji_reading",
+        "question": "Test 4 vocabulary question 7（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 4 explanation 7"
+      },
+      {
+        "id": 8,
+        "type": "kanji_reading",
+        "question": "Test 4 vocabulary question 8（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 4 explanation 8"
+      },
+      {
+        "id": 9,
+        "type": "kanji_reading",
+        "question": "Test 4 vocabulary question 9（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 4 explanation 9"
+      },
+      {
+        "id": 10,
+        "type": "kanji_reading",
+        "question": "Test 4 vocabulary question 10（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 4 explanation 10"
+      },
+      {
+        "id": 11,
+        "type": "orthography",
+        "question": "Test 4 vocabulary question 11（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 4 explanation 11"
+      },
+      {
+        "id": 12,
+        "type": "orthography",
+        "question": "Test 4 vocabulary question 12（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 4 explanation 12"
+      },
+      {
+        "id": 13,
+        "type": "orthography",
+        "question": "Test 4 vocabulary question 13（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 4 explanation 13"
+      },
+      {
+        "id": 14,
+        "type": "orthography",
+        "question": "Test 4 vocabulary question 14（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 4 explanation 14"
+      },
+      {
+        "id": 15,
+        "type": "orthography",
+        "question": "Test 4 vocabulary question 15（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 4 explanation 15"
+      },
+      {
+        "id": 16,
+        "type": "contextually_defined",
+        "question": "Test 4 vocabulary question 16（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 4 explanation 16"
+      },
+      {
+        "id": 17,
+        "type": "contextually_defined",
+        "question": "Test 4 vocabulary question 17（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 4 explanation 17"
+      },
+      {
+        "id": 18,
+        "type": "contextually_defined",
+        "question": "Test 4 vocabulary question 18（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 4 explanation 18"
+      },
+      {
+        "id": 19,
+        "type": "contextually_defined",
+        "question": "Test 4 vocabulary question 19（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 4 explanation 19"
+      },
+      {
+        "id": 20,
+        "type": "contextually_defined",
+        "question": "Test 4 vocabulary question 20（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 4 explanation 20"
+      },
+      {
+        "id": 21,
+        "type": "paraphrases",
+        "question": "Test 4 vocabulary question 21（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 4 explanation 21"
+      },
+      {
+        "id": 22,
+        "type": "paraphrases",
+        "question": "Test 4 vocabulary question 22（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 4 explanation 22"
+      },
+      {
+        "id": 23,
+        "type": "paraphrases",
+        "question": "Test 4 vocabulary question 23（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 4 explanation 23"
+      },
+      {
+        "id": 24,
+        "type": "paraphrases",
+        "question": "Test 4 vocabulary question 24（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 4 explanation 24"
+      },
+      {
+        "id": 25,
+        "type": "paraphrases",
+        "question": "Test 4 vocabulary question 25（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 4 explanation 25"
+      }
+    ]
+  },
+  "grammar_reading_section": {
+    "section_name": "言語知識（文法）・読解",
+    "time_minutes": 40,
+    "grammar_part": {
+      "instructions": "次の文の（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 26,
+          "type": "selecting_grammar_form",
+          "question": "Test 4 grammar question 1（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 4 grammar explanation 1"
+        },
+        {
+          "id": 27,
+          "type": "selecting_grammar_form",
+          "question": "Test 4 grammar question 2（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 4 grammar explanation 2"
+        },
+        {
+          "id": 28,
+          "type": "selecting_grammar_form",
+          "question": "Test 4 grammar question 3（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 4 grammar explanation 3"
+        },
+        {
+          "id": 29,
+          "type": "selecting_grammar_form",
+          "question": "Test 4 grammar question 4（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 4 grammar explanation 4"
+        },
+        {
+          "id": 30,
+          "type": "selecting_grammar_form",
+          "question": "Test 4 grammar question 5（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 4 grammar explanation 5"
+        },
+        {
+          "id": 31,
+          "type": "selecting_grammar_form",
+          "question": "Test 4 grammar question 6（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 4 grammar explanation 6"
+        },
+        {
+          "id": 32,
+          "type": "selecting_grammar_form",
+          "question": "Test 4 grammar question 7（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 4 grammar explanation 7"
+        },
+        {
+          "id": 33,
+          "type": "selecting_grammar_form",
+          "question": "Test 4 grammar question 8（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 4 grammar explanation 8"
+        },
+        {
+          "id": 34,
+          "type": "selecting_grammar_form",
+          "question": "Test 4 grammar question 9（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 4 grammar explanation 9"
+        },
+        {
+          "id": 35,
+          "type": "selecting_grammar_form",
+          "question": "Test 4 grammar question 10（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 4 grammar explanation 10"
+        },
+        {
+          "id": 36,
+          "type": "selecting_grammar_form",
+          "question": "Test 4 grammar question 11（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 4 grammar explanation 11"
+        },
+        {
+          "id": 37,
+          "type": "selecting_grammar_form",
+          "question": "Test 4 grammar question 12（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 4 grammar explanation 12"
+        },
+        {
+          "id": 38,
+          "type": "selecting_grammar_form",
+          "question": "Test 4 grammar question 13（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 4 grammar explanation 13"
+        },
+        {
+          "id": 39,
+          "type": "selecting_grammar_form",
+          "question": "Test 4 grammar question 14（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 4 grammar explanation 14"
+        },
+        {
+          "id": 40,
+          "type": "selecting_grammar_form",
+          "question": "Test 4 grammar question 15（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 4 grammar explanation 15"
+        },
+        {
+          "id": 41,
+          "type": "selecting_grammar_form",
+          "question": "Test 4 grammar question 16（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 4 grammar explanation 16"
+        },
+        {
+          "id": 42,
+          "type": "selecting_grammar_form",
+          "question": "Test 4 grammar question 17（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 4 grammar explanation 17"
+        },
+        {
+          "id": 43,
+          "type": "selecting_grammar_form",
+          "question": "Test 4 grammar question 18（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 4 grammar explanation 18"
+        },
+        {
+          "id": 44,
+          "type": "selecting_grammar_form",
+          "question": "Test 4 grammar question 19（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 4 grammar explanation 19"
+        },
+        {
+          "id": 45,
+          "type": "selecting_grammar_form",
+          "question": "Test 4 grammar question 20（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 4 grammar explanation 20"
+        },
+        {
+          "id": 46,
+          "type": "selecting_grammar_form",
+          "question": "Test 4 grammar question 21（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 4 grammar explanation 21"
+        },
+        {
+          "id": 47,
+          "type": "selecting_grammar_form",
+          "question": "Test 4 grammar question 22（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 4 grammar explanation 22"
+        },
+        {
+          "id": 48,
+          "type": "selecting_grammar_form",
+          "question": "Test 4 grammar question 23（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 4 grammar explanation 23"
+        },
+        {
+          "id": 49,
+          "type": "selecting_grammar_form",
+          "question": "Test 4 grammar question 24（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 4 grammar explanation 24"
+        },
+        {
+          "id": 50,
+          "type": "selecting_grammar_form",
+          "question": "Test 4 grammar question 25（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 4 grammar explanation 25"
+        },
+        {
+          "id": 51,
+          "type": "selecting_grammar_form",
+          "question": "Test 4 grammar question 26（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 4 grammar explanation 26"
+        }
+      ]
+    },
+    "reading_part": {
+      "instructions": "次の文章を読んで、後の問いに答えなさい。答えは、１・２・３・４から一つ選びなさい。",
+      "passages": [
+        {
+          "id": 52,
+          "type": "short_passage",
+          "text": "木村：明日、買い物に行きませんか。\n佐々木：いいですね。何を買いに行きますか。\n木村：新しい靴と鞄を買いたいです。\n佐々木：私も服を買いたいです。一緒に行きましょう。",
+          "question": "木村さんは何を買いたいですか。",
+          "choices": [
+            "服",
+            "靴と鞄",
+            "食べ物",
+            "本"
+          ],
+          "correct_answer": 2,
+          "explanation": "新しい靴と鞄を買いたい = wants to buy new shoes and bag"
+        },
+        {
+          "id": 53,
+          "type": "short_passage",
+          "text": "今日は母の誕生日です。家族でレストランに行って、お祝いをしました。母はとても喜んでいました。美味しい料理を食べて、楽しい時間を過ごしました。",
+          "question": "今日は誰の誕生日ですか。",
+          "choices": [
+            "父",
+            "母",
+            "兄",
+            "妹"
+          ],
+          "correct_answer": 2,
+          "explanation": "今日は母の誕生日 = today is mother's birthday"
+        },
+        {
+          "id": 54,
+          "type": "mid_passage",
+          "text": "私は毎朝6時に起きます。朝ご飯を食べてから、7時半に家を出ます。会社は9時から始まります。昼休みは12時から1時まで1時間あります。夕方6時に仕事が終わります。家に帰ってから、夕食を作って食べます。夜は本を読んだり、テレビを見たりします。11時頃に寝ます。",
+          "question": "この人は何時に起きますか。",
+          "choices": [
+            "6時",
+            "7時半",
+            "9時",
+            "11時"
+          ],
+          "correct_answer": 1,
+          "explanation": "毎朝6時に起きます = wake up at 6 o'clock every morning"
+        },
+        {
+          "id": 55,
+          "type": "mid_passage",
+          "text": "先週末、家族で温泉に行きました。温泉は山の中にあって、とても静かでした。お湯は熱くて、体がよく温まりました。夜は旅館で美味しい料理を食べました。次の日は近くの湖を見に行きました。自然がきれいで、心が癒されました。",
+          "question": "温泉はどこにありましたか。",
+          "choices": [
+            "海の近く",
+            "山の中",
+            "町の中",
+            "川のそば"
+          ],
+          "correct_answer": 2,
+          "explanation": "温泉は山の中にあって = the hot spring was in the mountains"
+        },
+        {
+          "id": 56,
+          "type": "information_retrieval",
+          "text": "【スポーツクラブ会員募集】\n入会金：10,000円\n月会費：大人 8,000円 / 学生 5,000円\n利用時間：月〜金 10:00〜22:00 / 土日祝 9:00〜20:00\n設備：プール、ジム、テニスコート\n無料体験：毎日実施中",
+          "question": "学生の月会費はいくらですか。",
+          "choices": [
+            "10,000円",
+            "8,000円",
+            "5,000円",
+            "無料"
+          ],
+          "correct_answer": 3,
+          "explanation": "学生 5,000円 = students 5,000 yen"
+        },
+        {
+          "id": 57,
+          "type": "information_retrieval",
+          "text": "【バスの時刻表】\n平日：6:00、7:00、8:00、9:00〜17:00（毎時00分、30分）、18:00、19:00\n土日祝：8:00、9:00〜17:00（毎時00分）、18:00\n料金：大人200円、子供100円",
+          "question": "土曜日の10時30分にバスはありますか。",
+          "choices": [
+            "あります",
+            "ありません",
+            "平日のみです",
+            "料金が違います"
+          ],
+          "correct_answer": 2,
+          "explanation": "土日祝は毎時00分のみ = weekends/holidays only at :00 minutes"
+        }
+      ]
+    }
+  }
+}

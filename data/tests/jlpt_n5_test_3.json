@@ -1,0 +1,790 @@
+{
+  "test_info": {
+    "test_name": "JLPT N5 Practice Test 3",
+    "level": "N5",
+    "sections": [
+      "Language Knowledge (Vocabulary)",
+      "Language Knowledge (Grammar) + Reading"
+    ],
+    "total_time_minutes": 60,
+    "vocabulary_time_minutes": 20,
+    "grammar_reading_time_minutes": 40,
+    "total_questions": 57,
+    "vocabulary_questions": 25,
+    "grammar_questions": 26,
+    "reading_questions": 6,
+    "passing_score": 80,
+    "sectional_pass_marks": {
+      "vocabulary_grammar_reading": 38,
+      "total": 80
+    }
+  },
+  "vocabulary_section": {
+    "section_name": "言語知識（文字・語彙）",
+    "time_minutes": 20,
+    "instructions": "以下の文の（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+    "questions": [
+      {
+        "id": 1,
+        "type": "kanji_reading",
+        "question": "兄は（　　）が好きです。",
+        "choices": [
+          "やきゅう",
+          "りょこう",
+          "べんきょう",
+          "しごと"
+        ],
+        "correct_answer": 1,
+        "explanation": "野球 (yakyuu) = baseball"
+      },
+      {
+        "id": 2,
+        "type": "kanji_reading",
+        "question": "（　　）で友だちに会いました。",
+        "choices": [
+          "ぎんこう",
+          "びょういん",
+          "がっこう",
+          "ゆうびんきょく"
+        ],
+        "correct_answer": 3,
+        "explanation": "学校 (gakkou) = school"
+      },
+      {
+        "id": 3,
+        "type": "kanji_reading",
+        "question": "今日は（　　）を食べました。",
+        "choices": [
+          "さかな",
+          "とり",
+          "ぶた",
+          "うし"
+        ],
+        "correct_answer": 1,
+        "explanation": "魚 (sakana) = fish"
+      },
+      {
+        "id": 4,
+        "type": "kanji_reading",
+        "question": "（　　）に手紙を出します。",
+        "choices": [
+          "ともだち",
+          "せんせい",
+          "かぞく",
+          "がくせい"
+        ],
+        "correct_answer": 1,
+        "explanation": "友達 (tomodachi) = friend"
+      },
+      {
+        "id": 5,
+        "type": "kanji_reading",
+        "question": "駅の（　　）にタクシーがあります。",
+        "choices": [
+          "まえ",
+          "うしろ",
+          "よこ",
+          "なか"
+        ],
+        "correct_answer": 1,
+        "explanation": "前 (mae) = front"
+      },
+      {
+        "id": 6,
+        "type": "kanji_reading",
+        "question": "（　　）は日本の首都です。",
+        "choices": [
+          "とうきょう",
+          "おおさか",
+          "きょうと",
+          "よこはま"
+        ],
+        "correct_answer": 1,
+        "explanation": "東京 (toukyou) = Tokyo"
+      },
+      {
+        "id": 7,
+        "type": "kanji_reading",
+        "question": "母は（　　）を作ります。",
+        "choices": [
+          "りょうり",
+          "しゅくだい",
+          "しごと",
+          "でんわ"
+        ],
+        "correct_answer": 1,
+        "explanation": "料理 (ryouri) = cooking"
+      },
+      {
+        "id": 8,
+        "type": "kanji_reading",
+        "question": "（　　）でテニスをします。",
+        "choices": [
+          "こうえん",
+          "えき",
+          "ぎんこう",
+          "びょういん"
+        ],
+        "correct_answer": 1,
+        "explanation": "公園 (kouen) = park"
+      },
+      {
+        "id": 9,
+        "type": "kanji_reading",
+        "question": "新しい（　　）を覚えました。",
+        "choices": [
+          "たんご",
+          "がっこう",
+          "ともだち",
+          "せんせい"
+        ],
+        "correct_answer": 1,
+        "explanation": "単語 (tango) = vocabulary"
+      },
+      {
+        "id": 10,
+        "type": "kanji_reading",
+        "question": "（　　）は8月です。",
+        "choices": [
+          "なつ",
+          "はる",
+          "あき",
+          "ふゆ"
+        ],
+        "correct_answer": 1,
+        "explanation": "夏 (natsu) = summer"
+      },
+      {
+        "id": 11,
+        "type": "orthography",
+        "question": "あにの（　　）は田中です。",
+        "choices": [
+          "名前",
+          "電話",
+          "住所",
+          "年齢"
+        ],
+        "correct_answer": 1,
+        "explanation": "名前 (namae) = name"
+      },
+      {
+        "id": 12,
+        "type": "orthography",
+        "question": "きのうは（　　）でした。",
+        "choices": [
+          "晴れ",
+          "雨",
+          "雪",
+          "風"
+        ],
+        "correct_answer": 1,
+        "explanation": "晴れ (hare) = sunny"
+      },
+      {
+        "id": 13,
+        "type": "orthography",
+        "question": "（　　）を飲みます。",
+        "choices": [
+          "水",
+          "食べ物",
+          "本",
+          "映画"
+        ],
+        "correct_answer": 1,
+        "explanation": "水 (mizu) = water"
+      },
+      {
+        "id": 14,
+        "type": "orthography",
+        "question": "あしたは（　　）です。",
+        "choices": [
+          "月曜日",
+          "火曜日",
+          "水曜日",
+          "木曜日"
+        ],
+        "correct_answer": 1,
+        "explanation": "月曜日 (getsuyoubi) = Monday"
+      },
+      {
+        "id": 15,
+        "type": "orthography",
+        "question": "いもうとは（　　）です。",
+        "choices": [
+          "高校生",
+          "会社員",
+          "先生",
+          "医者"
+        ],
+        "correct_answer": 1,
+        "explanation": "高校生 (koukousei) = high school student"
+      },
+      {
+        "id": 16,
+        "type": "contextually_defined",
+        "question": "A：「いらっしゃいませ。」\nB：「（　　）をください。」",
+        "choices": [
+          "コーヒー",
+          "こんにちは",
+          "ありがとう",
+          "すみません"
+        ],
+        "correct_answer": 1,
+        "explanation": "Ordering: コーヒー = coffee"
+      },
+      {
+        "id": 17,
+        "type": "contextually_defined",
+        "question": "A：「お仕事は？」\nB：「（　　）です。」",
+        "choices": [
+          "学生",
+          "元気",
+          "忙しい",
+          "楽しい"
+        ],
+        "correct_answer": 1,
+        "explanation": "職業: 学生 = student"
+      },
+      {
+        "id": 18,
+        "type": "contextually_defined",
+        "question": "A：「何時に起きますか。」\nB：「（　　）7時です。」",
+        "choices": [
+          "だいたい",
+          "とても",
+          "ぜんぜん",
+          "本当に"
+        ],
+        "correct_answer": 1,
+        "explanation": "だいたい = approximately"
+      },
+      {
+        "id": 19,
+        "type": "contextually_defined",
+        "question": "A：「日本語は難しいですか。」\nB：「（　　）難しいです。」",
+        "choices": [
+          "少し",
+          "ぜんぜん",
+          "あまり",
+          "全部"
+        ],
+        "correct_answer": 1,
+        "explanation": "少し = a little"
+      },
+      {
+        "id": 20,
+        "type": "contextually_defined",
+        "question": "A：「週末は何をしますか。」\nB：「（　　）します。」",
+        "choices": [
+          "買い物",
+          "仕事",
+          "学校",
+          "病院"
+        ],
+        "correct_answer": 1,
+        "explanation": "買い物 = shopping"
+      },
+      {
+        "id": 21,
+        "type": "paraphrases",
+        "question": "この服はとても高いです。",
+        "choices": [
+          "この服は安くないです。",
+          "この服は新しいです。",
+          "この服は古いです。",
+          "この服は小さいです。"
+        ],
+        "correct_answer": 1,
+        "explanation": "高い = expensive = 安くない = not cheap"
+      },
+      {
+        "id": 22,
+        "type": "paraphrases",
+        "question": "彼は日本語がとても上手です。",
+        "choices": [
+          "彼は日本語が得意です。",
+          "彼は日本語が下手です。",
+          "彼は日本語が嫌いです。",
+          "彼は日本語を知りません。"
+        ],
+        "correct_answer": 1,
+        "explanation": "上手 = skilled = 得意 = good at"
+      },
+      {
+        "id": 23,
+        "type": "paraphrases",
+        "question": "今日は気分がよくありません。",
+        "choices": [
+          "今日は元気がありません。",
+          "今日は天気がいいです。",
+          "今日は忙しいです。",
+          "今日は暇です。"
+        ],
+        "correct_answer": 1,
+        "explanation": "気分がよくない = not feeling well = 元気がない"
+      },
+      {
+        "id": 24,
+        "type": "paraphrases",
+        "question": "この部屋はとても静かです。",
+        "choices": [
+          "この部屋は音がしません。",
+          "この部屋はうるさいです。",
+          "この部屋は暗いです。",
+          "この部屋は明るいです。"
+        ],
+        "correct_answer": 1,
+        "explanation": "静か = quiet = 音がしない = no sound"
+      },
+      {
+        "id": 25,
+        "type": "paraphrases",
+        "question": "電車に乗り遅れました。",
+        "choices": [
+          "電車の時間に間に合いませんでした。",
+          "電車が早く来ました。",
+          "電車が遅れました。",
+          "電車が止まりました。"
+        ],
+        "correct_answer": 1,
+        "explanation": "乗り遅れる = miss (train) = 間に合わない = didn't make it in time"
+      }
+    ]
+  },
+  "grammar_reading_section": {
+    "section_name": "言語知識（文法）・読解",
+    "time_minutes": 40,
+    "grammar_part": {
+      "instructions": "次の文の（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 26,
+          "type": "selecting_grammar_form",
+          "question": "学校（　　）友だちに会いました。",
+          "choices": [
+            "が",
+            "を",
+            "に",
+            "で"
+          ],
+          "correct_answer": 4,
+          "explanation": "Location: 学校で = at school"
+        },
+        {
+          "id": 27,
+          "type": "selecting_grammar_form",
+          "question": "母（　　）プレゼントをもらいました。",
+          "choices": [
+            "が",
+            "を",
+            "に",
+            "から"
+          ],
+          "correct_answer": 4,
+          "explanation": "From: 母から = from mother"
+        },
+        {
+          "id": 28,
+          "type": "selecting_grammar_form",
+          "question": "公園（　　）散歩しました。",
+          "choices": [
+            "が",
+            "を",
+            "に",
+            "で"
+          ],
+          "correct_answer": 4,
+          "explanation": "Location of action: 公園で = in the park"
+        },
+        {
+          "id": 29,
+          "type": "selecting_grammar_form",
+          "question": "今度の日曜日（　　）映画を見ます。",
+          "choices": [
+            "は",
+            "が",
+            "に",
+            "を"
+          ],
+          "correct_answer": 3,
+          "explanation": "Time: 日曜日に = on Sunday"
+        },
+        {
+          "id": 30,
+          "type": "selecting_grammar_form",
+          "question": "田中さん（　　）歌が上手です。",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Topic: 田中さんは = as for Tanaka-san"
+        },
+        {
+          "id": 31,
+          "type": "selecting_grammar_form",
+          "question": "Sample grammar question 1（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Grammar explanation 1"
+        },
+        {
+          "id": 32,
+          "type": "selecting_grammar_form",
+          "question": "Sample grammar question 2（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Grammar explanation 2"
+        },
+        {
+          "id": 33,
+          "type": "selecting_grammar_form",
+          "question": "Sample grammar question 3（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Grammar explanation 3"
+        },
+        {
+          "id": 34,
+          "type": "selecting_grammar_form",
+          "question": "Sample grammar question 4（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Grammar explanation 4"
+        },
+        {
+          "id": 35,
+          "type": "selecting_grammar_form",
+          "question": "Sample grammar question 5（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Grammar explanation 5"
+        },
+        {
+          "id": 36,
+          "type": "selecting_grammar_form",
+          "question": "Sample grammar question 6（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Grammar explanation 6"
+        },
+        {
+          "id": 37,
+          "type": "selecting_grammar_form",
+          "question": "Sample grammar question 7（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Grammar explanation 7"
+        },
+        {
+          "id": 38,
+          "type": "selecting_grammar_form",
+          "question": "Sample grammar question 8（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Grammar explanation 8"
+        },
+        {
+          "id": 39,
+          "type": "selecting_grammar_form",
+          "question": "Sample grammar question 9（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Grammar explanation 9"
+        },
+        {
+          "id": 40,
+          "type": "selecting_grammar_form",
+          "question": "Sample grammar question 10（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Grammar explanation 10"
+        },
+        {
+          "id": 41,
+          "type": "selecting_grammar_form",
+          "question": "Sample grammar question 11（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Grammar explanation 11"
+        },
+        {
+          "id": 42,
+          "type": "selecting_grammar_form",
+          "question": "Sample grammar question 12（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Grammar explanation 12"
+        },
+        {
+          "id": 43,
+          "type": "selecting_grammar_form",
+          "question": "Sample grammar question 13（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Grammar explanation 13"
+        },
+        {
+          "id": 44,
+          "type": "selecting_grammar_form",
+          "question": "Sample grammar question 14（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Grammar explanation 14"
+        },
+        {
+          "id": 45,
+          "type": "selecting_grammar_form",
+          "question": "Sample grammar question 15（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Grammar explanation 15"
+        },
+        {
+          "id": 46,
+          "type": "selecting_grammar_form",
+          "question": "Sample grammar question 16（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Grammar explanation 16"
+        },
+        {
+          "id": 47,
+          "type": "selecting_grammar_form",
+          "question": "Sample grammar question 17（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Grammar explanation 17"
+        },
+        {
+          "id": 48,
+          "type": "selecting_grammar_form",
+          "question": "Sample grammar question 18（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Grammar explanation 18"
+        },
+        {
+          "id": 49,
+          "type": "selecting_grammar_form",
+          "question": "Sample grammar question 19（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Grammar explanation 19"
+        },
+        {
+          "id": 50,
+          "type": "selecting_grammar_form",
+          "question": "Sample grammar question 20（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Grammar explanation 20"
+        },
+        {
+          "id": 51,
+          "type": "selecting_grammar_form",
+          "question": "Sample grammar question 21（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Grammar explanation 21"
+        }
+      ]
+    },
+    "reading_part": {
+      "instructions": "次の文章を読んで、後の問いに答えなさい。答えは、１・２・３・４から一つ選びなさい。",
+      "passages": [
+        {
+          "id": 52,
+          "type": "short_passage",
+          "text": "高橋：来月、沖縄に旅行に行きます。\n中村：いいですね。何日間ですか。\n高橋：4日間です。海で泳いだり、美味しい物を食べたりする予定です。\n中村：楽しそうですね。写真を撮ってきてください。",
+          "question": "高橋さんは沖縄で何をする予定ですか。",
+          "choices": [
+            "仕事をします",
+            "海で泳ぎます",
+            "友だちに会います",
+            "買い物をします"
+          ],
+          "correct_answer": 2,
+          "explanation": "海で泳いだり = swim in the sea"
+        },
+        {
+          "id": 53,
+          "type": "short_passage",
+          "text": "A：「すみません、病院はどこですか。」\nB：「あの大きなビルの隣です。赤い看板が目印です。」\nA：「分かりました。ありがとうございます。」\nB：「どういたしまして。お大事に。」",
+          "question": "病院はどこにありますか。",
+          "choices": [
+            "大きなビルの中",
+            "大きなビルの隣",
+            "赤い看板の中",
+            "赤い看板の隣"
+          ],
+          "correct_answer": 2,
+          "explanation": "大きなビルの隣です = next to the big building"
+        },
+        {
+          "id": 54,
+          "type": "mid_passage",
+          "text": "私の趣味は料理です。毎週末、新しいレシピに挑戦します。特に和食が好きで、寿司や天ぷらを作ります。友人を招待して、一緒に食事をすることもあります。みんなが「美味しい」と言ってくれると、とても嬉しいです。料理を通じて、多くの人と交流できるのが楽しいです。",
+          "question": "この人の趣味は何ですか。",
+          "choices": [
+            "読書",
+            "料理",
+            "スポーツ",
+            "音楽"
+          ],
+          "correct_answer": 2,
+          "explanation": "私の趣味は料理です = my hobby is cooking"
+        },
+        {
+          "id": 55,
+          "type": "mid_passage",
+          "text": "昨日は友人の誕生日パーティーがありました。夜7時から始まって、10時頃まで続きました。20人ぐらいの人が参加しました。美味しいケーキとピザを食べて、楽しい時間を過ごしました。友人はプレゼントをもらって、とても喜んでいました。久しぶりに会う人もいて、懐かしかったです。",
+          "question": "パーティーは何時まで続きましたか。",
+          "choices": [
+            "7時まで",
+            "10時頃まで",
+            "20時まで",
+            "夜中まで"
+          ],
+          "correct_answer": 2,
+          "explanation": "10時頃まで続きました = continued until about 10 o'clock"
+        },
+        {
+          "id": 56,
+          "type": "information_retrieval",
+          "text": "【映画館シネマXX】\n上映時間：\n・午前の部：10:00～、12:30～\n・午後の部：15:00～、17:30～、20:00～\n\n料金：\n大人：1800円\n学生：1500円\n子供：1000円\n\nお得情報：\n毎月第1日曜日は半額",
+          "question": "学生が映画を見る場合、料金はいくらですか。",
+          "choices": [
+            "1000円",
+            "1500円",
+            "1800円",
+            "900円"
+          ],
+          "correct_answer": 2,
+          "explanation": "学生：1500円 = students: 1500 yen"
+        },
+        {
+          "id": 57,
+          "type": "information_retrieval",
+          "text": "【レンタカー料金表】\n軽自動車：1日 5,000円\n普通車：1日 8,000円\nワゴン車：1日 12,000円\n\n※保険料：1日 1,000円（必須）\n※ガソリン代は別途\n※返却時間：午後6時まで",
+          "question": "普通車を1日借りる場合、保険料を含めた料金はいくらですか。",
+          "choices": [
+            "8,000円",
+            "9,000円",
+            "12,000円",
+            "13,000円"
+          ],
+          "correct_answer": 2,
+          "explanation": "普通車8,000円 + 保険料1,000円 = 9,000円"
+        }
+      ]
+    }
+  }
+}

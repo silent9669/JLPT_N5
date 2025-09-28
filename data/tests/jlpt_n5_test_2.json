@@ -1,0 +1,790 @@
+{
+  "test_info": {
+    "test_name": "JLPT N5 Practice Test 2",
+    "level": "N5",
+    "sections": [
+      "Language Knowledge (Vocabulary)",
+      "Language Knowledge (Grammar) + Reading"
+    ],
+    "total_time_minutes": 60,
+    "vocabulary_time_minutes": 20,
+    "grammar_reading_time_minutes": 40,
+    "total_questions": 57,
+    "vocabulary_questions": 25,
+    "grammar_questions": 26,
+    "reading_questions": 6,
+    "passing_score": 80,
+    "sectional_pass_marks": {
+      "vocabulary_grammar_reading": 38,
+      "total": 80
+    }
+  },
+  "vocabulary_section": {
+    "section_name": "言語知識（文字・語彙）",
+    "time_minutes": 20,
+    "instructions": "以下の文の（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+    "questions": [
+      {
+        "id": 1,
+        "type": "kanji_reading",
+        "question": "母は毎日新聞を（　　）。",
+        "choices": [
+          "よみます",
+          "かきます",
+          "ききます",
+          "みます"
+        ],
+        "correct_answer": 1,
+        "explanation": "新聞を読みます (shinbun wo yomimasu) = to read newspaper"
+      },
+      {
+        "id": 2,
+        "type": "kanji_reading",
+        "question": "駅の前で友だちを（　　）。",
+        "choices": [
+          "まちます",
+          "いきます",
+          "きます",
+          "かえります"
+        ],
+        "correct_answer": 1,
+        "explanation": "待ちます (machimasu) = to wait"
+      },
+      {
+        "id": 3,
+        "type": "kanji_reading",
+        "question": "今日は（　　）がとても青いです。",
+        "choices": [
+          "そら",
+          "うみ",
+          "やま",
+          "かわ"
+        ],
+        "correct_answer": 1,
+        "explanation": "空 (sora) = sky"
+      },
+      {
+        "id": 4,
+        "type": "kanji_reading",
+        "question": "レストランで（　　）を注文しました。",
+        "choices": [
+          "りょうり",
+          "べんきょう",
+          "しごと",
+          "うんどう"
+        ],
+        "correct_answer": 1,
+        "explanation": "料理 (ryouri) = food/cooking"
+      },
+      {
+        "id": 5,
+        "type": "kanji_reading",
+        "question": "（　　）で泳ぐのは気持ちがいいです。",
+        "choices": [
+          "うみ",
+          "やま",
+          "そら",
+          "でんしゃ"
+        ],
+        "correct_answer": 1,
+        "explanation": "海 (umi) = sea/ocean"
+      },
+      {
+        "id": 6,
+        "type": "kanji_reading",
+        "question": "今日は（　　）が強いです。",
+        "choices": [
+          "かぜ",
+          "ひかり",
+          "おと",
+          "あじ"
+        ],
+        "correct_answer": 1,
+        "explanation": "風 (kaze) = wind"
+      },
+      {
+        "id": 7,
+        "type": "kanji_reading",
+        "question": "会社まで（　　）で30分かかります。",
+        "choices": [
+          "でんしゃ",
+          "そら",
+          "みず",
+          "やま"
+        ],
+        "correct_answer": 1,
+        "explanation": "電車 (densha) = train"
+      },
+      {
+        "id": 8,
+        "type": "kanji_reading",
+        "question": "昨日は（　　）が降りました。",
+        "choices": [
+          "あめ",
+          "ひ",
+          "つき",
+          "ほし"
+        ],
+        "correct_answer": 1,
+        "explanation": "雨 (ame) = rain"
+      },
+      {
+        "id": 9,
+        "type": "kanji_reading",
+        "question": "この（　　）はとても高いです。",
+        "choices": [
+          "やま",
+          "みず",
+          "かぜ",
+          "そら"
+        ],
+        "correct_answer": 1,
+        "explanation": "山 (yama) = mountain"
+      },
+      {
+        "id": 10,
+        "type": "kanji_reading",
+        "question": "夜は（　　）がきれいです。",
+        "choices": [
+          "つき",
+          "あめ",
+          "かぜ",
+          "やま"
+        ],
+        "correct_answer": 1,
+        "explanation": "月 (tsuki) = moon"
+      },
+      {
+        "id": 11,
+        "type": "orthography",
+        "question": "びょうきの友だちを（　　）しました。",
+        "choices": [
+          "心配",
+          "元気",
+          "病気",
+          "天気"
+        ],
+        "correct_answer": 1,
+        "explanation": "病気の友だちを心配 = worry about sick friend"
+      },
+      {
+        "id": 12,
+        "type": "orthography",
+        "question": "きょうはてんきが（　　）です。",
+        "choices": [
+          "悪い",
+          "いい",
+          "大きい",
+          "小さい"
+        ],
+        "correct_answer": 2,
+        "explanation": "天気がいい = nice weather"
+      },
+      {
+        "id": 13,
+        "type": "orthography",
+        "question": "あしたは（　　）です。",
+        "choices": [
+          "今日",
+          "明日",
+          "昨日",
+          "毎日"
+        ],
+        "correct_answer": 2,
+        "explanation": "あした = 明日 = tomorrow"
+      },
+      {
+        "id": 14,
+        "type": "orthography",
+        "question": "ちちはかいしゃいんです。",
+        "choices": [
+          "父",
+          "母",
+          "兄",
+          "姉"
+        ],
+        "correct_answer": 1,
+        "explanation": "ちち = 父 = father"
+      },
+      {
+        "id": 15,
+        "type": "orthography",
+        "question": "みずを（　　）ください。",
+        "choices": [
+          "飲んで",
+          "食べて",
+          "見て",
+          "聞いて"
+        ],
+        "correct_answer": 1,
+        "explanation": "水を飲んで = drink water"
+      },
+      {
+        "id": 16,
+        "type": "contextually_defined",
+        "question": "A：「お元気ですか。」\nB：「おかげさまで、（　　）です。」",
+        "choices": [
+          "病気",
+          "元気",
+          "心配",
+          "大変"
+        ],
+        "correct_answer": 2,
+        "explanation": "Standard response: 元気です = I'm fine"
+      },
+      {
+        "id": 17,
+        "type": "contextually_defined",
+        "question": "A：「今日は暑いですね。」\nB：「そうですね。（　　）暑いです。」",
+        "choices": [
+          "あまり",
+          "ぜんぜん",
+          "本当に",
+          "少し"
+        ],
+        "correct_answer": 3,
+        "explanation": "本当に暑い = really hot (agreeing)"
+      },
+      {
+        "id": 18,
+        "type": "contextually_defined",
+        "question": "A：「すみません、今何時ですか。」\nB：「（　　）5時半です。」",
+        "choices": [
+          "だいたい",
+          "ちょうど",
+          "もう",
+          "まだ"
+        ],
+        "correct_answer": 1,
+        "explanation": "だいたい5時半 = about 5:30"
+      },
+      {
+        "id": 19,
+        "type": "contextually_defined",
+        "question": "A：「試験はどうでしたか。」\nB：「（　　）難しかったです。」",
+        "choices": [
+          "とても",
+          "あまり",
+          "ぜんぜん",
+          "少し"
+        ],
+        "correct_answer": 1,
+        "explanation": "とても難しかった = very difficult"
+      },
+      {
+        "id": 20,
+        "type": "contextually_defined",
+        "question": "A：「コーヒーと紅茶、どちらがいいですか。」\nB：「（　　）でもいいです。」",
+        "choices": [
+          "どれ",
+          "どちら",
+          "なに",
+          "だれ"
+        ],
+        "correct_answer": 2,
+        "explanation": "どちらでもいい = either is fine"
+      },
+      {
+        "id": 21,
+        "type": "paraphrases",
+        "question": "この映画は全然面白くないです。",
+        "choices": [
+          "この映画は少し面白いです。",
+          "この映画はとても面白いです。",
+          "この映画は本当につまらないです。",
+          "この映画は新しいです。"
+        ],
+        "correct_answer": 3,
+        "explanation": "全然面白くない = not interesting at all = really boring"
+      },
+      {
+        "id": 22,
+        "type": "paraphrases",
+        "question": "毎日忙しくて、疲れています。",
+        "choices": [
+          "毎日暇で、元気です。",
+          "毎日大変で、しんどいです。",
+          "毎日楽しくて、嬉しいです。",
+          "毎日静かで、平和です。"
+        ],
+        "correct_answer": 2,
+        "explanation": "忙しくて疲れている = busy and tired = 大変でしんどい"
+      },
+      {
+        "id": 23,
+        "type": "paraphrases",
+        "question": "この料理はとても美味しいです。",
+        "choices": [
+          "この料理は少し美味しいです。",
+          "この料理はあまり美味しくないです。",
+          "この料理は本当に美味しいです。",
+          "この料理は新しいです。"
+        ],
+        "correct_answer": 3,
+        "explanation": "とても美味しい = very delicious = 本当に美味しい"
+      },
+      {
+        "id": 24,
+        "type": "paraphrases",
+        "question": "雨が降っているので、外出しません。",
+        "choices": [
+          "晴れているので、家にいます。",
+          "天気が悪いので、家にいます。",
+          "暖かいので、散歩します。",
+          "風が強いので、泳ぎます。"
+        ],
+        "correct_answer": 2,
+        "explanation": "雨が降っている = raining = 天気が悪い = bad weather"
+      },
+      {
+        "id": 25,
+        "type": "paraphrases",
+        "question": "この問題は簡単すぎます。",
+        "choices": [
+          "この問題は少し難しいです。",
+          "この問題は本当に易しいです。",
+          "この問題は複雑です。",
+          "この問題は新しいです。"
+        ],
+        "correct_answer": 2,
+        "explanation": "簡単すぎる = too easy = 本当に易しい = really easy"
+      }
+    ]
+  },
+  "grammar_reading_section": {
+    "section_name": "言語知識（文法）・読解",
+    "time_minutes": 40,
+    "grammar_part": {
+      "instructions": "次の文の（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 26,
+          "type": "selecting_grammar_form",
+          "question": "昨日友だち（　　）手紙をもらいました。",
+          "choices": [
+            "が",
+            "を",
+            "に",
+            "から"
+          ],
+          "correct_answer": 4,
+          "explanation": "から = from (友だちから = from a friend)"
+        },
+        {
+          "id": 27,
+          "type": "selecting_grammar_form",
+          "question": "毎朝公園（　　）散歩します。",
+          "choices": [
+            "が",
+            "を",
+            "に",
+            "で"
+          ],
+          "correct_answer": 4,
+          "explanation": "Location of action: 公園で = in the park"
+        },
+        {
+          "id": 28,
+          "type": "selecting_grammar_form",
+          "question": "今度の休み（　　）旅行に行きます。",
+          "choices": [
+            "は",
+            "が",
+            "に",
+            "を"
+          ],
+          "correct_answer": 3,
+          "explanation": "Time: 休みに = during the holiday"
+        },
+        {
+          "id": 29,
+          "type": "selecting_grammar_form",
+          "question": "田中さんの家（　　）車で行きました。",
+          "choices": [
+            "は",
+            "が",
+            "に",
+            "で"
+          ],
+          "correct_answer": 3,
+          "explanation": "Destination: 家に = to (someone's) house"
+        },
+        {
+          "id": 30,
+          "type": "selecting_grammar_form",
+          "question": "この本（　　）兄にもらいました。",
+          "choices": [
+            "は",
+            "が",
+            "に",
+            "を"
+          ],
+          "correct_answer": 1,
+          "explanation": "Topic marker: この本は = as for this book"
+        },
+        {
+          "id": 31,
+          "type": "selecting_grammar_form",
+          "question": "パン（　　）牛乳を買いました。",
+          "choices": [
+            "と",
+            "や",
+            "か",
+            "も"
+          ],
+          "correct_answer": 1,
+          "explanation": "Complete list: パンと牛乳 = bread and milk"
+        },
+        {
+          "id": 32,
+          "type": "selecting_grammar_form",
+          "question": "果物（　　）野菜をたくさん食べます。",
+          "choices": [
+            "と",
+            "や",
+            "の",
+            "に"
+          ],
+          "correct_answer": 2,
+          "explanation": "Partial list: 果物や野菜 = fruits, vegetables, etc."
+        },
+        {
+          "id": 33,
+          "type": "selecting_grammar_form",
+          "question": "私（　　）犬が好きです。",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Topic: 私は = as for me"
+        },
+        {
+          "id": 34,
+          "type": "selecting_grammar_form",
+          "question": "雨が降りそうです（　　）、傘を持ちましょう。",
+          "choices": [
+            "が",
+            "から",
+            "ので",
+            "でも"
+          ],
+          "correct_answer": 2,
+          "explanation": "Reason: から = because/so"
+        },
+        {
+          "id": 35,
+          "type": "selecting_grammar_form",
+          "question": "今日は忙しい（　　）、明日会いましょう。",
+          "choices": [
+            "が",
+            "から",
+            "ので",
+            "でも"
+          ],
+          "correct_answer": 3,
+          "explanation": "Polite reason: ので = because/so"
+        },
+        {
+          "id": 36,
+          "type": "sentence_composition",
+          "question": "次の語を並べ替えて、正しい文にしなさい。★の所に入る語句を選びなさい。\n\n私　は　毎朝　★　ジョギング　を　します　公園　で",
+          "choices": [
+            "で",
+            "を",
+            "に",
+            "が"
+          ],
+          "correct_answer": 1,
+          "explanation": "私は毎朝公園でジョギングをします = I jog in the park every morning"
+        },
+        {
+          "id": 37,
+          "type": "sentence_composition",
+          "question": "次の語を並べ替えて、正しい文にしなさい。★の所に入る語句を選びなさい。\n\n昨日　友だち　★　映画　を　見に　行きました　と",
+          "choices": [
+            "と",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "昨日友だちと映画を見に行きました = Yesterday I went to see a movie with a friend"
+        },
+        {
+          "id": 38,
+          "type": "sentence_composition",
+          "question": "次の語を並べ替えて、正しい文にしなさい。★の所に入る語句を選びなさい。\n\n母　★　手紙　を　書きました　に",
+          "choices": [
+            "に",
+            "が",
+            "を",
+            "は"
+          ],
+          "correct_answer": 1,
+          "explanation": "母に手紙を書きました = I wrote a letter to my mother"
+        },
+        {
+          "id": 39,
+          "type": "text_grammar",
+          "question": "A：「お疲れ様でした。」\nB：「（　　）。お先に失礼します。」",
+          "choices": [
+            "お疲れ様でした",
+            "ありがとうございました",
+            "すみませんでした",
+            "こんにちは"
+          ],
+          "correct_answer": 1,
+          "explanation": "Response to お疲れ様 is お疲れ様でした"
+        },
+        {
+          "id": 40,
+          "type": "text_grammar",
+          "question": "A：「今度、一緒に食事しませんか。」\nB：「（　　）。いつがいいですか。」",
+          "choices": [
+            "いいえ",
+            "はい、ぜひ",
+            "そうですね",
+            "すみません"
+          ],
+          "correct_answer": 2,
+          "explanation": "Accepting invitation: はい、ぜひ = Yes, definitely"
+        },
+        {
+          "id": 41,
+          "type": "text_grammar",
+          "question": "A：「すみません、ちょっと忙しくて。」\nB：「（　　）。また今度にしましょう。」",
+          "choices": [
+            "はい",
+            "いいえ",
+            "そうですか",
+            "ありがとうございます"
+          ],
+          "correct_answer": 3,
+          "explanation": "Understanding response: そうですか = I see"
+        },
+        {
+          "id": 42,
+          "type": "selecting_grammar_form",
+          "question": "来年の春（　　）日本に行く予定です。",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 4,
+          "explanation": "Time: 春に = in spring"
+        },
+        {
+          "id": 43,
+          "type": "selecting_grammar_form",
+          "question": "この料理は（　　）辛いです。",
+          "choices": [
+            "少し",
+            "ぜんぜん",
+            "あまり",
+            "全部"
+          ],
+          "correct_answer": 1,
+          "explanation": "Degree: 少し辛い = a little spicy"
+        },
+        {
+          "id": 44,
+          "type": "selecting_grammar_form",
+          "question": "日本語（　　）勉強しています。",
+          "choices": [
+            "を",
+            "が",
+            "に",
+            "で"
+          ],
+          "correct_answer": 1,
+          "explanation": "Object: 日本語を = Japanese (as object)"
+        },
+        {
+          "id": 45,
+          "type": "selecting_grammar_form",
+          "question": "先生（　　）質問しました。",
+          "choices": [
+            "は",
+            "が",
+            "に",
+            "を"
+          ],
+          "correct_answer": 3,
+          "explanation": "Indirect object: 先生に = to the teacher"
+        },
+        {
+          "id": 46,
+          "type": "selecting_grammar_form",
+          "question": "電車（　　）会社に通います。",
+          "choices": [
+            "は",
+            "が",
+            "に",
+            "で"
+          ],
+          "correct_answer": 4,
+          "explanation": "Means: 電車で = by train"
+        },
+        {
+          "id": 47,
+          "type": "selecting_grammar_form",
+          "question": "今度の土曜日（　　）買い物に行きます。",
+          "choices": [
+            "は",
+            "が",
+            "に",
+            "を"
+          ],
+          "correct_answer": 3,
+          "explanation": "Time: 土曜日に = on Saturday"
+        },
+        {
+          "id": 48,
+          "type": "selecting_grammar_form",
+          "question": "このケーキは（　　）甘くないです。",
+          "choices": [
+            "とても",
+            "あまり",
+            "ぜんぜん",
+            "少し"
+          ],
+          "correct_answer": 2,
+          "explanation": "With negative: あまり甘くない = not very sweet"
+        },
+        {
+          "id": 49,
+          "type": "selecting_grammar_form",
+          "question": "兄（　　）ピアノが上手です。",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Topic: 兄は = as for my older brother"
+        },
+        {
+          "id": 50,
+          "type": "selecting_grammar_form",
+          "question": "友だち（　　）プレゼントをあげました。",
+          "choices": [
+            "は",
+            "が",
+            "と",
+            "に"
+          ],
+          "correct_answer": 4,
+          "explanation": "Giving to: 友だちに = to a friend"
+        },
+        {
+          "id": 51,
+          "type": "selecting_grammar_form",
+          "question": "部屋（　　）机があります。",
+          "choices": [
+            "は",
+            "が",
+            "に",
+            "を"
+          ],
+          "correct_answer": 3,
+          "explanation": "Location: 部屋に机がある = there is a desk in the room"
+        }
+      ]
+    },
+    "reading_part": {
+      "instructions": "次の文章を読んで、後の問いに答えなさい。答えは、１・２・３・４から一つ選びなさい。",
+      "passages": [
+        {
+          "id": 52,
+          "type": "short_passage",
+          "text": "佐藤：来週の金曜日、コンサートがあります。一緒に行きませんか。\n鈴木：いいですね。何時からですか。\n佐藤：夜7時からです。6時半に会場の前で待ち合わせしましょう。\n鈴木：分かりました。楽しみです。",
+          "question": "二人はいつ会いますか。",
+          "choices": [
+            "夜7時",
+            "6時半",
+            "来週の金曜日",
+            "会場の中"
+          ],
+          "correct_answer": 2,
+          "explanation": "6時半に会場の前で待ち合わせ = meet at 6:30 in front of the venue"
+        },
+        {
+          "id": 53,
+          "type": "short_passage",
+          "text": "A：「すみません、銀行はどこにありますか。」\nB：「この通りを真っ直ぐ行って、3つ目の角を左に曲がってください。右側にあります。」\nA：「ありがとうございます。歩いてどのくらいかかりますか。」\nB：「10分ぐらいです。」",
+          "question": "銀行に行くには、どうすればいいですか。",
+          "choices": [
+            "真っ直ぐ行って、3つ目の角を右に曲がる",
+            "真っ直ぐ行って、3つ目の角を左に曲がる",
+            "真っ直ぐ行って、2つ目の角を左に曲がる",
+            "真っ直ぐ行って、2つ目の角を右に曲がる"
+          ],
+          "correct_answer": 2,
+          "explanation": "3つ目の角を左に曲がって = turn left at the 3rd corner"
+        },
+        {
+          "id": 54,
+          "type": "mid_passage",
+          "text": "私の名前は山田太郎です。会社員です。毎朝8時に家を出て、電車で会社に行きます。会社は東京にあります。仕事は午前9時から午後6時までです。昼休みは12時から1時までで、会社の食堂で昼食を食べます。仕事が終わってから、よく同僚と飲みに行きます。家に帰るのは大体夜の10時頃です。休みの日は友人と映画を見たり、スポーツをしたりします。",
+          "question": "山田さんの仕事は何時から何時までですか。",
+          "choices": [
+            "8時から6時まで",
+            "9時から6時まで",
+            "12時から1時まで",
+            "8時から10時まで"
+          ],
+          "correct_answer": 2,
+          "explanation": "仕事は午前9時から午後6時まで = work is from 9 AM to 6 PM"
+        },
+        {
+          "id": 55,
+          "type": "mid_passage",
+          "text": "今日は日曜日です。朝10時に起きました。朝ご飯はパンとコーヒーでした。午前中は部屋の掃除をしました。昼ご飯の後、友だちと公園に行きました。公園でバドミントンをして楽しかったです。夕方、友だちと別れて、スーパーで買い物をしました。野菜と肉と魚を買いました。夜は家族と一緒にテレビを見ました。とても充実した一日でした。",
+          "question": "午後は何をしましたか。",
+          "choices": [
+            "部屋の掃除をしました",
+            "友だちと公園に行きました",
+            "スーパーで買い物をしました",
+            "家族とテレビを見ました"
+          ],
+          "correct_answer": 2,
+          "explanation": "昼ご飯の後、友だちと公園に行った = went to park with friends after lunch (afternoon activity)"
+        },
+        {
+          "id": 56,
+          "type": "information_retrieval",
+          "text": "【市民プール利用案内】\n営業時間：\n平日：午前10時〜午後9時\n土日祝日：午前9時〜午後10時\n休館日：毎週火曜日\n\n利用料金：\n大人：500円\n子供：250円\n\n注意事項：\n・水着、水泳帽の着用必須\n・12歳以下は保護者同伴",
+          "question": "火曜日にプールで泳ぐことができますか。",
+          "choices": [
+            "できます。午前10時から",
+            "できます。午前9時から",
+            "できません。休館日です",
+            "できます。午後9時まで"
+          ],
+          "correct_answer": 3,
+          "explanation": "休館日：毎週火曜日 = closed every Tuesday"
+        },
+        {
+          "id": 57,
+          "type": "information_retrieval",
+          "text": "【カフェ「ひまわり」メニュー】\nコーヒー　　　300円\n紅茶　　　　　280円\nジュース　　　250円\nケーキセット　600円（飲み物付き）\nサンドイッチ　450円\n\n営業時間：午前8時〜午後6時\n定休日：日曜日",
+          "question": "ケーキセットを注文すると、いくらですか。",
+          "choices": [
+            "300円",
+            "600円",
+            "450円",
+            "850円"
+          ],
+          "correct_answer": 2,
+          "explanation": "ケーキセット　600円（飲み物付き）= cake set 600 yen (includes drink)"
+        }
+      ]
+    }
+  }
+}

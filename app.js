@@ -1032,15 +1032,15 @@ class JLPTApp {
             // Clear existing options
             testSelect.innerHTML = '<option value="">Select a Practice Test</option>';
 
-            // Load test list from the realtest_n_grammar folder
-            for (let i = 1; i <= 10; i++) {
+            // Load test list from the new 5 tests
+            for (let i = 1; i <= 5; i++) {
                 try {
-                    const response = await fetch(`data/tests/jlpt_n5_practice_test_${i.toString().padStart(2, '0')}.json`);
+                    const response = await fetch(`data/tests/jlpt_n5_test_${i}.json`);
                     if (response.ok) {
                         const data = await response.json();
                         const option = document.createElement('option');
                         option.value = i;
-                        option.textContent = `Practice Test ${i} - ${data.test_info.title}`;
+                        option.textContent = `Practice Test ${i} - ${data.test_info.test_name}`;
                         testSelect.appendChild(option);
                     }
                 } catch (error) {
@@ -1068,13 +1068,18 @@ class JLPTApp {
         if (!testNumber) return;
 
         try {
-            const response = await fetch(`data/tests/jlpt_n5_practice_test_${testNumber.padStart(2, '0')}.json`);
+            const response = await fetch(`data/tests/jlpt_n5_test_${testNumber}.json`);
             const testData = await response.json();
             
-            this.currentTest = testData;
-            this.testAnswers = [];
-            this.currentTestQuestion = 0;
-            this.testStartTime = Date.now();
+        this.currentTest = testData;
+        this.testAnswers = [];
+        this.currentTestQuestion = 0;
+        this.testStartTime = Date.now();
+        this.questionStats = {
+            vocabulary: { correct: 0, total: 0, questions: [] },
+            grammar: { correct: 0, total: 0, questions: [] },
+            reading: { correct: 0, total: 0, questions: [] }
+        };
             
             this.showTestArea();
             this.renderTestQuestion();
@@ -1131,7 +1136,14 @@ class JLPTApp {
         
         // Handle reading passages
         let passageHTML = '';
-        if (question.passage) {
+        if (question.text) {
+            passageHTML = `
+                <div class="reading-passage">
+                    <h4>Reading Passage:</h4>
+                    <div class="passage-text">${question.text}</div>
+                </div>
+            `;
+        } else if (question.passage) {
             passageHTML = `
                 <div class="reading-passage">
                     <h4>Reading Passage:</h4>
@@ -1144,7 +1156,7 @@ class JLPTApp {
             ${passageHTML}
             <div class="question-text">${questionText}</div>
             <div class="question-options">
-                ${question.options.map((option, index) => `
+                ${(question.choices || question.options || []).map((option, index) => `
                     <div class="option" data-option="${index + 1}">
                         <div class="option-number">${index + 1}</div>
                         <div class="option-text">${option}</div>
@@ -1198,13 +1210,20 @@ class JLPTApp {
             return this.currentTest.test_info.total_questions;
         }
         
-        // Fallback to calculating from sections
+        // Fallback to calculating from sections (new format)
         let total = 0;
-        if (this.currentTest.section_1_vocabulary) {
-            total += this.currentTest.section_1_vocabulary.total_questions;
+        if (this.currentTest.vocabulary_section && this.currentTest.vocabulary_section.questions) {
+            total += this.currentTest.vocabulary_section.questions.length;
         }
-        if (this.currentTest.section_2_grammar_reading) {
-            total += this.currentTest.section_2_grammar_reading.total_questions;
+        if (this.currentTest.grammar_reading_section) {
+            // Add grammar questions
+            if (this.currentTest.grammar_reading_section.grammar_part && this.currentTest.grammar_reading_section.grammar_part.questions) {
+                total += this.currentTest.grammar_reading_section.grammar_part.questions.length;
+            }
+            // Add reading questions
+            if (this.currentTest.grammar_reading_section.reading_part && this.currentTest.grammar_reading_section.reading_part.passages) {
+                total += this.currentTest.grammar_reading_section.reading_part.passages.length;
+            }
         }
         
         return total;
@@ -1215,24 +1234,31 @@ class JLPTApp {
         
         let questionIndex = this.currentTestQuestion;
         
-        // Check vocabulary section
-        if (this.currentTest.section_1_vocabulary) {
-            const vocabQuestions = this.getAllQuestionsFromSection(this.currentTest.section_1_vocabulary);
-            if (questionIndex < vocabQuestions.length) {
-                return vocabQuestions[questionIndex];
+        // Check vocabulary section (new format)
+        if (this.currentTest.vocabulary_section && this.currentTest.vocabulary_section.questions) {
+            if (questionIndex < this.currentTest.vocabulary_section.questions.length) {
+                return this.currentTest.vocabulary_section.questions[questionIndex];
             }
-            questionIndex -= vocabQuestions.length;
+            questionIndex -= this.currentTest.vocabulary_section.questions.length;
         }
         
-        // Check grammar section
-        if (this.currentTest.section_2_grammar_reading) {
-            const grammarQuestions = this.getAllQuestionsFromSection(this.currentTest.section_2_grammar_reading);
-            if (questionIndex < grammarQuestions.length) {
-                return grammarQuestions[questionIndex];
+        // Check grammar section (new format)
+        if (this.currentTest.grammar_reading_section) {
+            // Check grammar questions
+            if (this.currentTest.grammar_reading_section.grammar_part && this.currentTest.grammar_reading_section.grammar_part.questions) {
+                if (questionIndex < this.currentTest.grammar_reading_section.grammar_part.questions.length) {
+                    return this.currentTest.grammar_reading_section.grammar_part.questions[questionIndex];
+                }
+                questionIndex -= this.currentTest.grammar_reading_section.grammar_part.questions.length;
             }
-            questionIndex -= grammarQuestions.length;
+            
+            // Check reading questions
+            if (this.currentTest.grammar_reading_section.reading_part && this.currentTest.grammar_reading_section.reading_part.passages) {
+                if (questionIndex < this.currentTest.grammar_reading_section.reading_part.passages.length) {
+                    return this.currentTest.grammar_reading_section.reading_part.passages[questionIndex];
+                }
+            }
         }
-        
         
         return null;
     }
@@ -1327,41 +1353,114 @@ class JLPTApp {
         const totalQuestions = this.getTotalQuestions();
         let correctAnswers = 0;
         
-        // Calculate score
+        // Reset stats
+        this.questionStats = {
+            vocabulary: { correct: 0, total: 0, questions: [] },
+            grammar: { correct: 0, total: 0, questions: [] },
+            reading: { correct: 0, total: 0, questions: [] }
+        };
+        
+        // Calculate detailed statistics
         for (let i = 0; i < totalQuestions; i++) {
             const question = this.getQuestionByIndex(i);
-            if (question && this.testAnswers[i] === question.correct_answer) {
+            if (!question) continue;
+            
+            const isCorrect = this.testAnswers[i] === question.correct_answer;
+            const questionType = this.categorizeQuestion(question, i);
+            
+            // Add to appropriate category
+            if (this.questionStats[questionType]) {
+                this.questionStats[questionType].total++;
+                if (isCorrect) {
+                    this.questionStats[questionType].correct++;
+                }
+                this.questionStats[questionType].questions.push({
+                    questionNumber: i + 1,
+                    question: question.question || question.text || 'Reading question',
+                    userAnswer: this.testAnswers[i],
+                    correctAnswer: question.correct_answer,
+                    isCorrect: isCorrect,
+                    explanation: question.explanation || '',
+                    type: question.type || questionType
+                });
+            }
+            
+            if (isCorrect) {
                 correctAnswers++;
             }
         }
         
         const percentage = Math.round((correctAnswers / totalQuestions) * 100);
         
-        // Show results
+        // Show results with detailed statistics
         this.showTestResults(correctAnswers, totalQuestions, percentage, testTime);
+    }
+    
+    categorizeQuestion(question, questionIndex) {
+        // Check if it's a vocabulary question
+        if (this.currentTest.vocabulary_section && this.currentTest.vocabulary_section.questions) {
+            if (questionIndex < this.currentTest.vocabulary_section.questions.length) {
+                return 'vocabulary';
+            }
+        }
+        
+        // Check if it's a grammar question
+        if (this.currentTest.grammar_reading_section && this.currentTest.grammar_reading_section.grammar_part) {
+            const vocabCount = this.currentTest.vocabulary_section ? this.currentTest.vocabulary_section.questions.length : 0;
+            const grammarCount = this.currentTest.grammar_reading_section.grammar_part.questions ? this.currentTest.grammar_reading_section.grammar_part.questions.length : 0;
+            
+            if (questionIndex >= vocabCount && questionIndex < vocabCount + grammarCount) {
+                return 'grammar';
+            }
+        }
+        
+        // Check if it's a reading question
+        if (this.currentTest.grammar_reading_section && this.currentTest.grammar_reading_section.reading_part) {
+            return 'reading';
+        }
+        
+        // Default fallback based on question type
+        if (question.type) {
+            if (question.type.includes('kanji') || question.type.includes('vocabulary') || question.type.includes('orthography') || question.type.includes('contextually') || question.type.includes('paraphrases')) {
+                return 'vocabulary';
+            } else if (question.type.includes('grammar') || question.type.includes('sentence') || question.type.includes('text_grammar')) {
+                return 'grammar';
+            } else if (question.type.includes('reading') || question.type.includes('passage') || question.type.includes('information')) {
+                return 'reading';
+            }
+        }
+        
+        return 'vocabulary'; // Default fallback
     }
 
     getQuestionByIndex(index) {
         let questionIndex = index;
         
-        // Check vocabulary section
-        if (this.currentTest.section_1_vocabulary) {
-            const vocabQuestions = this.getAllQuestionsFromSection(this.currentTest.section_1_vocabulary);
-            if (questionIndex < vocabQuestions.length) {
-                return vocabQuestions[questionIndex];
+        // Check vocabulary section (new format)
+        if (this.currentTest.vocabulary_section && this.currentTest.vocabulary_section.questions) {
+            if (questionIndex < this.currentTest.vocabulary_section.questions.length) {
+                return this.currentTest.vocabulary_section.questions[questionIndex];
             }
-            questionIndex -= vocabQuestions.length;
+            questionIndex -= this.currentTest.vocabulary_section.questions.length;
         }
         
-        // Check grammar section
-        if (this.currentTest.section_2_grammar_reading) {
-            const grammarQuestions = this.getAllQuestionsFromSection(this.currentTest.section_2_grammar_reading);
-            if (questionIndex < grammarQuestions.length) {
-                return grammarQuestions[questionIndex];
+        // Check grammar section (new format)
+        if (this.currentTest.grammar_reading_section) {
+            // Check grammar questions
+            if (this.currentTest.grammar_reading_section.grammar_part && this.currentTest.grammar_reading_section.grammar_part.questions) {
+                if (questionIndex < this.currentTest.grammar_reading_section.grammar_part.questions.length) {
+                    return this.currentTest.grammar_reading_section.grammar_part.questions[questionIndex];
+                }
+                questionIndex -= this.currentTest.grammar_reading_section.grammar_part.questions.length;
             }
-            questionIndex -= grammarQuestions.length;
+            
+            // Check reading questions
+            if (this.currentTest.grammar_reading_section.reading_part && this.currentTest.grammar_reading_section.reading_part.passages) {
+                if (questionIndex < this.currentTest.grammar_reading_section.reading_part.passages.length) {
+                    return this.currentTest.grammar_reading_section.reading_part.passages[questionIndex];
+                }
+            }
         }
-        
         
         return null;
     }
@@ -1383,6 +1482,85 @@ class JLPTApp {
         } else {
             percentageElement.style.color = '#f44336';
         }
+        
+        // Add detailed statistics
+        this.renderDetailedStats();
+    }
+    
+    renderDetailedStats() {
+        const statsContainer = document.getElementById('detailedStats');
+        if (!statsContainer) return;
+        
+        let statsHTML = '<div class="detailed-stats"><h3>Detailed Statistics</h3>';
+        
+        // Overall performance
+        const totalCorrect = this.questionStats.vocabulary.correct + this.questionStats.grammar.correct + this.questionStats.reading.correct;
+        const totalQuestions = this.questionStats.vocabulary.total + this.questionStats.grammar.total + this.questionStats.reading.total;
+        const overallPercentage = totalQuestions > 0 ? Math.round((totalCorrect / totalQuestions) * 100) : 0;
+        
+        statsHTML += `
+            <div class="overall-stats">
+                <h4>Overall Performance: ${totalCorrect}/${totalQuestions} (${overallPercentage}%)</h4>
+            </div>
+        `;
+        
+        // Section-wise statistics
+        Object.keys(this.questionStats).forEach(section => {
+            const stats = this.questionStats[section];
+            if (stats.total > 0) {
+                const sectionPercentage = Math.round((stats.correct / stats.total) * 100);
+                const sectionName = section.charAt(0).toUpperCase() + section.slice(1);
+                
+                statsHTML += `
+                    <div class="section-stats">
+                        <h4>${sectionName}: ${stats.correct}/${stats.total} (${sectionPercentage}%)</h4>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: ${sectionPercentage}%"></div>
+                        </div>
+                    </div>
+                `;
+            }
+        });
+        
+        // Question type breakdown
+        statsHTML += '<div class="question-breakdown"><h4>Question Type Breakdown</h4>';
+        
+        Object.keys(this.questionStats).forEach(section => {
+            const stats = this.questionStats[section];
+            if (stats.total > 0) {
+                const sectionName = section.charAt(0).toUpperCase() + section.slice(1);
+                statsHTML += `
+                    <div class="breakdown-item">
+                        <strong>${sectionName}:</strong> ${stats.correct}/${stats.total} correct
+                        <div class="breakdown-details">
+                `;
+                
+                // Group by question type
+                const typeGroups = {};
+                stats.questions.forEach(q => {
+                    if (!typeGroups[q.type]) {
+                        typeGroups[q.type] = { correct: 0, total: 0 };
+                    }
+                    typeGroups[q.type].total++;
+                    if (q.isCorrect) {
+                        typeGroups[q.type].correct++;
+                    }
+                });
+                
+                Object.keys(typeGroups).forEach(type => {
+                    const typeStats = typeGroups[type];
+                    const typePercentage = Math.round((typeStats.correct / typeStats.total) * 100);
+                    const typeName = type.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+                    statsHTML += `<span class="type-item">${typeName}: ${typeStats.correct}/${typeStats.total} (${typePercentage}%)</span>`;
+                });
+                
+                statsHTML += '</div></div>';
+            }
+        });
+        
+        statsHTML += '</div></div>';
+        
+        statsContainer.innerHTML = statsHTML;
     }
 
     formatTime(seconds) {
@@ -1446,12 +1624,12 @@ class JLPTApp {
                             <div class="user-answer">
                                 <strong>Your Answer:</strong> 
                                 <span class="answer-text ${isCorrect ? 'correct' : 'incorrect'}">
-                                    ${userAnswer ? question.options[userAnswer - 1] : 'Not answered'}
+                                    ${userAnswer ? (question.choices || question.options || [])[userAnswer - 1] : 'Not answered'}
                                 </span>
                             </div>
                             <div class="correct-answer">
                                 <strong>Correct Answer:</strong> 
-                                <span class="answer-text correct">${question.options[question.correct_answer - 1]}</span>
+                                <span class="answer-text correct">${(question.choices || question.options || [])[question.correct_answer - 1]}</span>
                             </div>
                         </div>
                         ${question.explanation ? `<div class="explanation"><strong>Explanation:</strong> ${question.explanation}</div>` : ''}

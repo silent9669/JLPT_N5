@@ -1,0 +1,790 @@
+{
+  "test_info": {
+    "test_name": "JLPT N5 Practice Test 5",
+    "level": "N5",
+    "sections": [
+      "Language Knowledge (Vocabulary)",
+      "Language Knowledge (Grammar) + Reading"
+    ],
+    "total_time_minutes": 60,
+    "vocabulary_time_minutes": 20,
+    "grammar_reading_time_minutes": 40,
+    "total_questions": 57,
+    "vocabulary_questions": 25,
+    "grammar_questions": 26,
+    "reading_questions": 6,
+    "passing_score": 80,
+    "sectional_pass_marks": {
+      "vocabulary_grammar_reading": 38,
+      "total": 80
+    }
+  },
+  "vocabulary_section": {
+    "section_name": "言語知識（文字・語彙）",
+    "time_minutes": 20,
+    "instructions": "以下の文の（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+    "questions": [
+      {
+        "id": 1,
+        "type": "kanji_reading",
+        "question": "祖母は（　　）で働いています。",
+        "choices": [
+          "びょういん",
+          "がっこう",
+          "ぎんこう",
+          "ゆうびんきょく"
+        ],
+        "correct_answer": 1,
+        "explanation": "病院 (byouin) = hospital"
+      },
+      {
+        "id": 2,
+        "type": "kanji_reading",
+        "question": "（　　）で新しい服を買いました。",
+        "choices": [
+          "デパート",
+          "びょういん",
+          "がっこう",
+          "こうえん"
+        ],
+        "correct_answer": 1,
+        "explanation": "デパート = department store"
+      },
+      {
+        "id": 3,
+        "type": "kanji_reading",
+        "question": "Test 5 vocabulary question 3（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 5 explanation 3"
+      },
+      {
+        "id": 4,
+        "type": "kanji_reading",
+        "question": "Test 5 vocabulary question 4（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 5 explanation 4"
+      },
+      {
+        "id": 5,
+        "type": "kanji_reading",
+        "question": "Test 5 vocabulary question 5（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 5 explanation 5"
+      },
+      {
+        "id": 6,
+        "type": "kanji_reading",
+        "question": "Test 5 vocabulary question 6（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 5 explanation 6"
+      },
+      {
+        "id": 7,
+        "type": "kanji_reading",
+        "question": "Test 5 vocabulary question 7（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 5 explanation 7"
+      },
+      {
+        "id": 8,
+        "type": "kanji_reading",
+        "question": "Test 5 vocabulary question 8（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 5 explanation 8"
+      },
+      {
+        "id": 9,
+        "type": "kanji_reading",
+        "question": "Test 5 vocabulary question 9（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 5 explanation 9"
+      },
+      {
+        "id": 10,
+        "type": "kanji_reading",
+        "question": "Test 5 vocabulary question 10（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 5 explanation 10"
+      },
+      {
+        "id": 11,
+        "type": "orthography",
+        "question": "Test 5 vocabulary question 11（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 5 explanation 11"
+      },
+      {
+        "id": 12,
+        "type": "orthography",
+        "question": "Test 5 vocabulary question 12（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 5 explanation 12"
+      },
+      {
+        "id": 13,
+        "type": "orthography",
+        "question": "Test 5 vocabulary question 13（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 5 explanation 13"
+      },
+      {
+        "id": 14,
+        "type": "orthography",
+        "question": "Test 5 vocabulary question 14（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 5 explanation 14"
+      },
+      {
+        "id": 15,
+        "type": "orthography",
+        "question": "Test 5 vocabulary question 15（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 5 explanation 15"
+      },
+      {
+        "id": 16,
+        "type": "contextually_defined",
+        "question": "Test 5 vocabulary question 16（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 5 explanation 16"
+      },
+      {
+        "id": 17,
+        "type": "contextually_defined",
+        "question": "Test 5 vocabulary question 17（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 5 explanation 17"
+      },
+      {
+        "id": 18,
+        "type": "contextually_defined",
+        "question": "Test 5 vocabulary question 18（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 5 explanation 18"
+      },
+      {
+        "id": 19,
+        "type": "contextually_defined",
+        "question": "Test 5 vocabulary question 19（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 5 explanation 19"
+      },
+      {
+        "id": 20,
+        "type": "contextually_defined",
+        "question": "Test 5 vocabulary question 20（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 5 explanation 20"
+      },
+      {
+        "id": 21,
+        "type": "paraphrases",
+        "question": "Test 5 vocabulary question 21（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 5 explanation 21"
+      },
+      {
+        "id": 22,
+        "type": "paraphrases",
+        "question": "Test 5 vocabulary question 22（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 5 explanation 22"
+      },
+      {
+        "id": 23,
+        "type": "paraphrases",
+        "question": "Test 5 vocabulary question 23（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 5 explanation 23"
+      },
+      {
+        "id": 24,
+        "type": "paraphrases",
+        "question": "Test 5 vocabulary question 24（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 5 explanation 24"
+      },
+      {
+        "id": 25,
+        "type": "paraphrases",
+        "question": "Test 5 vocabulary question 25（　　）",
+        "choices": [
+          "choice1",
+          "choice2",
+          "choice3",
+          "choice4"
+        ],
+        "correct_answer": 1,
+        "explanation": "Test 5 explanation 25"
+      }
+    ]
+  },
+  "grammar_reading_section": {
+    "section_name": "言語知識（文法）・読解",
+    "time_minutes": 40,
+    "grammar_part": {
+      "instructions": "次の文の（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 26,
+          "type": "selecting_grammar_form",
+          "question": "Test 5 grammar question 1（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 5 grammar explanation 1"
+        },
+        {
+          "id": 27,
+          "type": "selecting_grammar_form",
+          "question": "Test 5 grammar question 2（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 5 grammar explanation 2"
+        },
+        {
+          "id": 28,
+          "type": "selecting_grammar_form",
+          "question": "Test 5 grammar question 3（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 5 grammar explanation 3"
+        },
+        {
+          "id": 29,
+          "type": "selecting_grammar_form",
+          "question": "Test 5 grammar question 4（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 5 grammar explanation 4"
+        },
+        {
+          "id": 30,
+          "type": "selecting_grammar_form",
+          "question": "Test 5 grammar question 5（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 5 grammar explanation 5"
+        },
+        {
+          "id": 31,
+          "type": "selecting_grammar_form",
+          "question": "Test 5 grammar question 6（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 5 grammar explanation 6"
+        },
+        {
+          "id": 32,
+          "type": "selecting_grammar_form",
+          "question": "Test 5 grammar question 7（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 5 grammar explanation 7"
+        },
+        {
+          "id": 33,
+          "type": "selecting_grammar_form",
+          "question": "Test 5 grammar question 8（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 5 grammar explanation 8"
+        },
+        {
+          "id": 34,
+          "type": "selecting_grammar_form",
+          "question": "Test 5 grammar question 9（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 5 grammar explanation 9"
+        },
+        {
+          "id": 35,
+          "type": "selecting_grammar_form",
+          "question": "Test 5 grammar question 10（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 5 grammar explanation 10"
+        },
+        {
+          "id": 36,
+          "type": "selecting_grammar_form",
+          "question": "Test 5 grammar question 11（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 5 grammar explanation 11"
+        },
+        {
+          "id": 37,
+          "type": "selecting_grammar_form",
+          "question": "Test 5 grammar question 12（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 5 grammar explanation 12"
+        },
+        {
+          "id": 38,
+          "type": "selecting_grammar_form",
+          "question": "Test 5 grammar question 13（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 5 grammar explanation 13"
+        },
+        {
+          "id": 39,
+          "type": "selecting_grammar_form",
+          "question": "Test 5 grammar question 14（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 5 grammar explanation 14"
+        },
+        {
+          "id": 40,
+          "type": "selecting_grammar_form",
+          "question": "Test 5 grammar question 15（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 5 grammar explanation 15"
+        },
+        {
+          "id": 41,
+          "type": "selecting_grammar_form",
+          "question": "Test 5 grammar question 16（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 5 grammar explanation 16"
+        },
+        {
+          "id": 42,
+          "type": "selecting_grammar_form",
+          "question": "Test 5 grammar question 17（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 5 grammar explanation 17"
+        },
+        {
+          "id": 43,
+          "type": "selecting_grammar_form",
+          "question": "Test 5 grammar question 18（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 5 grammar explanation 18"
+        },
+        {
+          "id": 44,
+          "type": "selecting_grammar_form",
+          "question": "Test 5 grammar question 19（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 5 grammar explanation 19"
+        },
+        {
+          "id": 45,
+          "type": "selecting_grammar_form",
+          "question": "Test 5 grammar question 20（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 5 grammar explanation 20"
+        },
+        {
+          "id": 46,
+          "type": "selecting_grammar_form",
+          "question": "Test 5 grammar question 21（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 5 grammar explanation 21"
+        },
+        {
+          "id": 47,
+          "type": "selecting_grammar_form",
+          "question": "Test 5 grammar question 22（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 5 grammar explanation 22"
+        },
+        {
+          "id": 48,
+          "type": "selecting_grammar_form",
+          "question": "Test 5 grammar question 23（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 5 grammar explanation 23"
+        },
+        {
+          "id": 49,
+          "type": "selecting_grammar_form",
+          "question": "Test 5 grammar question 24（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 5 grammar explanation 24"
+        },
+        {
+          "id": 50,
+          "type": "selecting_grammar_form",
+          "question": "Test 5 grammar question 25（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 5 grammar explanation 25"
+        },
+        {
+          "id": 51,
+          "type": "selecting_grammar_form",
+          "question": "Test 5 grammar question 26（　　）",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "に"
+          ],
+          "correct_answer": 1,
+          "explanation": "Test 5 grammar explanation 26"
+        }
+      ]
+    },
+    "reading_part": {
+      "instructions": "次の文章を読んて、後の問いに答えなさい。答えは、１・２・３・４から一つ選びなさい。",
+      "passages": [
+        {
+          "id": 52,
+          "type": "short_passage",
+          "text": "松本：来週の文化祭、何か出し物をしませんか。\n川田：いいアイデアですね。何をしましょうか。\n松本：クラスで劇をしてはどうですか。\n川田：それは面白そうです。みんなに聞いてみましょう。",
+          "question": "松本さんは何を提案しましたか。",
+          "choices": [
+            "歌を歌う",
+            "劇をする",
+            "踊りを踊る",
+            "料理を作る"
+          ],
+          "correct_answer": 2,
+          "explanation": "クラスで劇をしてはどうですか = how about doing a play in class"
+        },
+        {
+          "id": 53,
+          "type": "short_passage",
+          "text": "今朝は寝坊してしまいました。いつもより30分遅く起きたので、朝ご飯を食べる時間がありませんでした。急いで支度をして家を出ましたが、電車に乗り遅れてしまい、会社に遅刻しました。",
+          "question": "なぜ会社に遅刻しましたか。",
+          "choices": [
+            "寝坊したから",
+            "朝ご飯を食べたから",
+            "電車が遅れたから",
+            "支度に時間がかかったから"
+          ],
+          "correct_answer": 1,
+          "explanation": "寝坊してしまいました = overslept (main reason for being late)"
+        },
+        {
+          "id": 54,
+          "type": "mid_passage",
+          "text": "私の住んでいる町は小さくて、とても静かです。近くに大きなスーパーマーケットがあって、買い物に便利です。駅までは歩いて15分ぐらいです。公園もあって、子供たちがよく遊んでいます。町の人たちはみんな親切で、住みやすいところです。",
+          "question": "この町について正しいものはどれですか。",
+          "choices": [
+            "大きくてにぎやか",
+            "小さくて静か",
+            "駅から遠い",
+            "買い物が不便"
+          ],
+          "correct_answer": 2,
+          "explanation": "小さくて、とても静かです = small and very quiet"
+        },
+        {
+          "id": 55,
+          "type": "mid_passage",
+          "text": "昨日、友人と一緒に美術館に行きました。有名な画家の作品がたくさん展示されていました。特に印象に残ったのは、色とりどりの花の絵でした。友人も気に入ったようで、絵葉書を買っていました。美術館の後は、近くのカフェでお茶を飲みながら、見た絵について話しました。",
+          "question": "友人は何を買いましたか。",
+          "choices": [
+            "絵",
+            "絵葉書",
+            "お茶",
+            "花"
+          ],
+          "correct_answer": 2,
+          "explanation": "絵葉書を買っていました = was buying postcards"
+        },
+        {
+          "id": 56,
+          "type": "information_retrieval",
+          "text": "【学習塾「進学ゼミ」】\n授業時間：月〜金 17:00〜21:00 / 土 13:00〜17:00\n対象：中学1年生〜3年生\n月謝：1年生 15,000円 / 2年生 18,000円 / 3年生 20,000円\n入塾金：20,000円\n※教材費別途",
+          "question": "中学2年生の月謝はいくらですか。",
+          "choices": [
+            "15,000円",
+            "18,000円",
+            "20,000円",
+            "38,000円"
+          ],
+          "correct_answer": 2,
+          "explanation": "2年生 18,000円 = 2nd year students 18,000 yen"
+        },
+        {
+          "id": 57,
+          "type": "information_retrieval",
+          "text": "【ファミリーレストラン「みどり」】\nランチタイム：11:30〜15:00\nディナータイム：17:30〜22:00\n定休日：第2・第4水曜日\n\nランチメニュー：\nハンバーグセット 980円\nパスタセット 880円\n※ドリンク付き",
+          "question": "パスタセットの値段はいくらですか。",
+          "choices": [
+            "880円",
+            "980円",
+            "1860円",
+            "22円"
+          ],
+          "correct_answer": 1,
+          "explanation": "パスタセット 880円 = pasta set 880 yen"
+        }
+      ]
+    }
+  }
+}
