@@ -1,8 +1,8 @@
 # JLPT N5 Study App
 
-A comprehensive web application for JLPT N5 preparation featuring a 36-day structured study plan, interactive quizzes, practice tests, and extensive vocabulary, kanji, and grammar resources.
+A comprehensive web application for JLPT N5 preparation featuring a 36-day structured study plan, interactive quizzes, practice tests with detailed statistics, and extensive vocabulary, kanji, and grammar resources.
 
-![JLPT N5 Study App](https://img.shields.io/badge/JLPT-N5-green) ![Version](https://img.shields.io/badge/version-2.0.0-blue) ![License](https://img.shields.io/badge/license-MIT-green) ![Status](https://img.shields.io/badge/status-production%20ready-brightgreen)
+![JLPT N5 Study App](https://img.shields.io/badge/JLPT-N5-green) ![Version](https://img.shields.io/badge/version-3.0.0-blue) ![License](https://img.shields.io/badge/license-MIT-green) ![Status](https://img.shields.io/badge/status-production%20ready-brightgreen)
 
 ## 🌟 Features
 
@@ -14,7 +14,7 @@ A comprehensive web application for JLPT N5 preparation featuring a 36-day struc
 
 ### 📖 **Comprehensive Vocabulary System**
 - **800+ Words**: Mix of N5 and N4 vocabulary for thorough preparation
-- **Smart Search**: Search by word number, romaji, kanji, hiragana, or English
+- **Smart Search**: Real-time search by word number, romaji, kanji, hiragana, or English
 - **Auto-numbered List**: Easy navigation through extensive vocabulary
 - **Unlimited Scrolling**: Smooth browsing through all vocabulary
 
@@ -27,7 +27,7 @@ A comprehensive web application for JLPT N5 preparation featuring a 36-day struc
 - **80+ Grammar Points**: Complete N5 and N4 grammar coverage
 - **Category Filtering**: Organize by grammar categories
 - **Level Filtering**: Focus on N5 or N4 specific grammar
-- **Search Functionality**: Find specific grammar points quickly
+- **Real-time Search**: Find specific grammar points instantly
 
 ### 🧠 **Interactive Quizzes**
 - **30 Mixed Questions**: Vocabulary, kanji, and grammar combined
@@ -35,11 +35,20 @@ A comprehensive web application for JLPT N5 preparation featuring a 36-day struc
 - **Wrong Answer Review**: Learn from mistakes with detailed explanations
 - **Timer Support**: Practice under time pressure
 
-### 📋 **Practice Tests**
-- **10 Complete Tests**: Full-length JLPT N5 practice tests
-- **Comprehensive Review**: Detailed answer explanations
-- **Performance Tracking**: Score, percentage, and time tracking
-- **Question Types**: Multiple choice, reading comprehension, and grammar
+### 📋 **Advanced Practice Tests**
+- **5 Complete Tests**: Full-length JLPT N5 practice tests (57 questions each)
+- **Reading Comprehension**: Short passages, mid passages, and information retrieval
+- **Detailed Statistics**: Comprehensive performance analysis by section and question type
+- **Question Type Breakdown**: Track performance across kanji reading, grammar forms, reading passages
+- **Visual Progress Indicators**: Color-coded progress bars for each section
+- **Comprehensive Review**: Detailed answer explanations with question categorization
+
+### 📊 **Detailed Performance Analytics**
+- **Section-wise Performance**: Individual scores for Vocabulary, Grammar, and Reading
+- **Question Type Analysis**: Breakdown by specific question types (kanji reading, orthography, contextually defined, etc.)
+- **Visual Progress Bars**: Color-coded indicators for each section
+- **Overall Performance**: Total score with percentage and time tracking
+- **Question-by-Question Review**: See your answer vs correct answer for each question
 
 ## 🚀 Quick Start
 
@@ -59,7 +68,7 @@ A comprehensive web application for JLPT N5 preparation featuring a 36-day struc
    ```bash
    python -m http.server 8000
    # or
-   npm start
+   python3 -m http.server 8000
    ```
 
 3. **Open your browser**
@@ -78,8 +87,8 @@ A comprehensive web application for JLPT N5 preparation featuring a 36-day struc
 ```
 JLPT_N5/
 ├── index.html              # Main application file
-├── styles.css              # Application styling
-├── app.js                  # Core application logic
+├── styles.css              # Application styling with detailed statistics
+├── app.js                  # Core application logic with enhanced features
 ├── package.json            # Project configuration
 ├── LICENSE                 # MIT License
 ├── README.md              # This file
@@ -94,10 +103,13 @@ JLPT_N5/
 │   │   └── jlpt_n5_kanji_database.json
 │   ├── grammar/           # Grammar databases
 │   │   └── jlpt_n5_grammar_database.json
-│   └── tests/             # Practice test files
-│       ├── jlpt_n5_practice_test_01.json
-│       ├── jlpt_n5_practice_test_02.json
-│       └── ... (up to test 10)
+│   └── tests/             # Practice test files (5 comprehensive tests)
+│       ├── jlpt_n5_test_1.json
+│       ├── jlpt_n5_test_2.json
+│       ├── jlpt_n5_test_3.json
+│       ├── jlpt_n5_test_4.json
+│       ├── jlpt_n5_test_5.json
+│       └── jlpt_n5_master_practice_tests.json
 └── scripts/               # Utility scripts
     ├── chart_script.py
     └── ... (other scripts)
@@ -117,13 +129,13 @@ JLPT_N5/
 
 ### Vocabulary
 1. **Browse 800+ Words**: Scroll through comprehensive vocabulary list
-2. **Search Function**: Find words by number, romaji, kanji, or English
+2. **Real-time Search**: Find words instantly by number, romaji, kanji, or English
 3. **Auto-numbered**: Easy navigation with numbered entries
 
 ### Grammar
 1. **Filter by Level**: N5 or N4 grammar points
 2. **Filter by Category**: Organize by grammar categories
-3. **Search**: Find specific grammar points quickly
+3. **Real-time Search**: Find specific grammar points instantly
 
 ### Quiz
 1. **Select Day**: Choose which day's content to quiz
@@ -131,10 +143,33 @@ JLPT_N5/
 3. **Review Mistakes**: Learn from wrong answers with explanations
 
 ### Practice Tests
-1. **Select Test**: Choose from 10 available practice tests
-2. **Take Test**: Complete all questions with timer
-3. **View Results**: See score, percentage, and time
-4. **Review Answers**: Detailed review of all questions and answers
+1. **Select Test**: Choose from 5 comprehensive practice tests
+2. **Take Test**: Complete 57 questions with timer (60 minutes total)
+3. **View Results**: See detailed statistics including:
+   - Overall score and percentage
+   - Section-wise performance (Vocabulary, Grammar, Reading)
+   - Question type breakdown
+   - Visual progress indicators
+4. **Review Answers**: Detailed review of all questions with explanations
+
+## 🆕 New Features in v3.0
+
+### Enhanced Test System
+- **5 Comprehensive Tests**: Each test contains 57 questions (25 vocabulary + 26 grammar + 6 reading)
+- **Reading Comprehension**: Full support for short passages, mid passages, and information retrieval
+- **Official JLPT Format**: Tests follow the exact structure of real JLPT N5 exams
+
+### Detailed Performance Analytics
+- **Section Performance**: Track your progress in Vocabulary, Grammar, and Reading separately
+- **Question Type Analysis**: See how you perform on specific question types
+- **Visual Progress Bars**: Color-coded indicators for easy performance assessment
+- **Comprehensive Statistics**: Detailed breakdown of correct/incorrect answers
+
+### Improved User Experience
+- **Real-time Search**: Instant filtering for vocabulary and grammar
+- **Enhanced Reading Passages**: Properly formatted reading comprehension sections
+- **Mobile Responsive**: Optimized for all device sizes
+- **Better Navigation**: Improved test navigation and question flow
 
 ## 🛠️ Technical Details
 
@@ -162,8 +197,29 @@ JLPT_N5/
 - **Total Kanji**: 205+ characters
 - **Total Grammar**: 80+ points
 - **Study Days**: 36 days
-- **Practice Tests**: 10 complete tests
+- **Practice Tests**: 5 comprehensive tests (57 questions each)
 - **Quiz Questions**: 30 per quiz
+- **Question Types**: 8+ different question types across all sections
+
+## 🎯 Test Structure
+
+Each practice test includes:
+
+### Vocabulary Section (25 questions)
+- **Kanji Reading**: Read kanji in context
+- **Orthography**: Choose correct kanji for hiragana
+- **Contextually Defined**: Choose appropriate words for context
+- **Paraphrases**: Find equivalent expressions
+
+### Grammar Section (26 questions)
+- **Grammar Form Selection**: Choose correct particles and grammar forms
+- **Sentence Composition**: Arrange words in correct order
+- **Text Grammar**: Complete conversations and dialogues
+
+### Reading Section (6 questions)
+- **Short Passages**: Brief conversations and dialogues
+- **Mid Passages**: Longer descriptive texts
+- **Information Retrieval**: Charts, schedules, and notices
 
 ## 🤝 Contributing
 
@@ -181,6 +237,7 @@ We welcome contributions! Here's how you can help:
 - UI/UX improvements
 - Bug fixes
 - Documentation updates
+- Performance optimizations
 
 ## 📝 License
 
@@ -197,6 +254,7 @@ GitHub: [@silent9669](https://github.com/silent9669)
 - JLPT vocabulary data from various open sources
 - Japanese language learning community
 - Contributors and testers
+- Perplexity AI for test content research
 
 ## ⭐ Support
 
