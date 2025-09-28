@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JLPT N5 Study App - 30 Day Challenge</title>
+    <title>JLPT N5+</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
@@ -12,7 +12,7 @@
         <!-- Header -->
         <header class="header">
             <div class="header-content">
-                <h1 class="logo">JLPT N5</h1>
+                <h1 class="logo">JLPT N5+ </h1>
                 <nav class="nav">
                     <button class="nav-btn active" data-section="dashboard">Dashboard</button>
                     <button class="nav-btn" data-section="daily">Daily Study</button>
@@ -110,50 +110,42 @@
                 </div>
 
                 <div class="study-content">
-                    <div class="study-tabs">
-                        <button class="tab-btn active" data-tab="vocabulary">Vocabulary</button>
-                        <button class="tab-btn" data-tab="kanji">Kanji</button>
-                        <button class="tab-btn" data-tab="grammar">Grammar</button>
-                    </div>
-
-                    <div class="tab-content">
-                        <!-- Vocabulary Tab -->
-                        <div id="vocabulary" class="tab-panel active">
-                            <div class="study-header">
-                                <h3>Vocabulary</h3>
+                    <!-- Vocabulary Section -->
+                    <div class="study-section">
+                        <div class="study-header">
+                            <h3>Vocabulary</h3>
                             <div class="study-stats">
                                 <span class="stat">Words: <span id="vocabCount">0</span></span>
                             </div>
-                            </div>
-                            <div id="dailyVocabularyList" class="word-list">
-                                <!-- Vocabulary words will be loaded here -->
+                        </div>
+                        <div id="dailyVocabularyList" class="word-list">
+                            <!-- Vocabulary words will be loaded here -->
+                        </div>
+                    </div>
+
+                    <!-- Kanji Section -->
+                    <div class="study-section">
+                        <div class="study-header">
+                            <h3>Kanji</h3>
+                            <div class="study-stats">
+                                <span class="stat">Characters: <span id="kanjiCount">0</span></span>
                             </div>
                         </div>
-
-                        <!-- Kanji Tab -->
-                        <div id="kanji" class="tab-panel">
-                            <div class="study-header">
-                                <h3>Kanji</h3>
-                                <div class="study-stats">
-                                    <span class="stat">Characters: <span id="kanjiCount">0</span></span>
-                                </div>
-                            </div>
-                            <div id="kanjiList" class="kanji-list">
-                                <!-- Kanji characters will be loaded here -->
-                            </div>
+                        <div id="kanjiList" class="kanji-list">
+                            <!-- Kanji characters will be loaded here -->
                         </div>
+                    </div>
 
-                        <!-- Grammar Tab -->
-                        <div id="grammar" class="tab-panel">
-                            <div class="study-header">
-                                <h3>Grammar</h3>
+                    <!-- Grammar Section -->
+                    <div class="study-section">
+                        <div class="study-header">
+                            <h3>Grammar</h3>
                             <div class="study-stats">
                                 <span class="stat">Points: <span id="grammarCount">0</span></span>
                             </div>
-                            </div>
-                            <div id="grammarList" class="grammar-list">
-                                <!-- Grammar points will be loaded here -->
-                            </div>
+                        </div>
+                        <div id="grammarList" class="grammar-list">
+                            <!-- Grammar points will be loaded here -->
                         </div>
                     </div>
                 </div>
@@ -179,41 +171,15 @@
 
             <!-- Grammar Section -->
             <section id="grammar" class="section">
-                <div class="grammar-header">
+                <div class="vocab-header">
                     <h2>Grammar Reference</h2>
-                    <div class="grammar-controls">
-                        <div class="search-container">
-                            <div class="search-bar">
-                                <input type="text" id="grammarSearch" placeholder="Search grammar points, meanings, or formations..." />
-                                <button class="search-btn" id="grammarSearchBtn">
-                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                        <circle cx="11" cy="11" r="8"></circle>
-                                        <path d="m21 21-4.35-4.35"></path>
-                                    </svg>
-                                </button>
-                            </div>
-                            <div class="filter-controls">
-                                <div class="filter-group">
-                                    <label for="levelFilter">Level:</label>
-                                    <select id="levelFilter">
-                                        <option value="all">All Levels</option>
-                                        <option value="N5">N5 Only</option>
-                                        <option value="N4">N4 Only</option>
-                                    </select>
-                                </div>
-                                <div class="filter-group">
-                                    <label for="categoryFilter">Category:</label>
-                                    <select id="categoryFilter">
-                                        <option value="all">All Categories</option>
-                                    </select>
-                                </div>
-                                <button class="clear-filters-btn" id="clearFiltersBtn">Clear Filters</button>
-                            </div>
-                        </div>
+                    <div class="search-bar">
+                        <input type="text" id="grammarSearch" placeholder="Search grammar points, meanings, or formations..." />
+                        <button class="search-btn" id="grammarSearchBtn">Search</button>
                     </div>
                 </div>
 
-                <div id="grammarDatabase" class="grammar-scroll-container">
+                <div id="grammarDatabase" class="vocab-scroll-container">
                     <div class="loading-message">
                         <p>Loading grammar database...</p>
                     </div>

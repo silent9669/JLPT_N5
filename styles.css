@@ -95,7 +95,7 @@ html, body {
 
 /* Dashboard */
 .dashboard-header {
-    text-align: center;
+    text-align: left;
     margin-bottom: 2rem;
 }
 
@@ -138,7 +138,7 @@ html, body {
     color: white;
     padding: 2.5rem 2rem;
     border-radius: 20px;
-    text-align: center;
+    text-align: left;
     box-shadow: 0 10px 30px rgba(76, 175, 80, 0.25);
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     position: relative;
@@ -207,7 +207,7 @@ html, body {
     border: 3px solid #4CAF50;
     border-radius: 20px;
     padding: 2.5rem;
-    text-align: center;
+    text-align: left;
     margin: 1.5rem auto 0 auto;
     box-shadow: 0 8px 25px rgba(0,0,0,0.08);
     position: relative;
@@ -469,7 +469,7 @@ html, body {
     font-weight: 600;
     color: #4CAF50;
     min-width: 80px;
-    text-align: center;
+    text-align: left;
 }
 
 .test-question {
@@ -551,7 +551,7 @@ html, body {
     border-radius: 12px;
     padding: 2rem;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-    text-align: center;
+    text-align: left;
 }
 
 .result-stats {
@@ -620,7 +620,7 @@ html, body {
 
 /* Enhanced Test Review Styles */
 .review-header {
-    text-align: center;
+    text-align: left;
     margin-bottom: 2rem;
     padding: 1.5rem;
     background: linear-gradient(135deg, #4CAF50, #45a049);
@@ -890,7 +890,7 @@ html, body {
 }
 
 .stat-item {
-    text-align: center;
+    text-align: left;
     padding: 1rem;
     background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
     border-radius: 10px;
@@ -915,7 +915,7 @@ html, body {
 .stats-description {
     color: #666;
     font-size: 0.9rem;
-    text-align: center;
+    text-align: left;
     margin-top: 1rem;
     font-style: italic;
 }
@@ -1104,7 +1104,7 @@ html, body {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
     transition: transform 0.3s ease;
     border-left: 4px solid #2196F3;
-    text-align: center;
+    text-align: left;
 }
 
 .kanji-card:hover {
@@ -1452,7 +1452,7 @@ html, body {
     border-radius: 15px;
     padding: 2rem;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-    text-align: center;
+    text-align: left;
 }
 
 .quiz-results h3 {
@@ -1604,7 +1604,7 @@ html, body {
 }
 
 .loading-message {
-    text-align: center;
+    text-align: left;
     color: #666;
     font-style: italic;
     padding: 2rem;
@@ -1792,7 +1792,7 @@ html, body {
 
 .vocab-number {
     width: 8%;
-    text-align: center;
+    text-align: left;
     font-weight: 600;
     color: #4CAF50;
 }
@@ -1821,12 +1821,12 @@ html, body {
 
 .vocab-level {
     width: 7%;
-    text-align: center;
+    text-align: left;
 }
 
 .vocab-number {
     width: 60px;
-    text-align: center;
+    text-align: left;
     font-weight: 600;
     color: #4CAF50;
     font-size: 0.9rem;
@@ -1860,7 +1860,7 @@ html, body {
 
 .vocab-level {
     width: 60px;
-    text-align: center;
+    text-align: left;
 }
 
 .vocab-level-badge {
@@ -1979,7 +1979,7 @@ html, body {
 }
 
 .text-center {
-    text-align: center;
+    text-align: left;
 }
 
 .mb-1 { margin-bottom: 0.5rem; }
@@ -2385,7 +2385,7 @@ html, body {
 
 .vocab-number {
     width: 8%;
-    text-align: center;
+    text-align: left;
     font-weight: 600;
     color: #666;
 }
@@ -2416,7 +2416,7 @@ html, body {
 
 .vocab-level {
     width: 7%;
-    text-align: center;
+    text-align: left;
 }
 
 .vocab-level-badge {
@@ -2496,7 +2496,7 @@ html, body {
 
 /* Loading Message */
 .loading-message {
-    text-align: center;
+    text-align: left;
     padding: 2rem;
     color: #666;
 }
@@ -2504,3 +2504,476 @@ html, body {
 .loading-message p {
     margin-bottom: 1rem;
 }
+
+/* Daily Study Integrated Layout */
+.study-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.study-section {
+    margin-bottom: 3rem;
+}
+
+.study-section:last-child {
+    margin-bottom: 0;
+}
+
+.study-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #4CAF50;
+}
+
+.study-header h3 {
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.study-stats {
+    color: #666;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* Word Cards */
+.word-card {
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+    border: 2px solid #e9ecef;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1rem;
+    display: inline-block;
+    vertical-align: top;
+    width: 280px;
+    min-height: 160px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.word-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #4CAF50, #45a049);
+}
+
+.word-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    border-color: #4CAF50;
+}
+
+.word-kanji {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 0.75rem;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.word-hiragana {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    font-style: italic;
+    margin-bottom: 0.75rem;
+    font-weight: 500;
+}
+
+.word-romaji {
+    font-size: 1rem;
+    color: #95a5a6;
+    margin-bottom: 0.75rem;
+    font-family: 'Courier New', monospace;
+    background: #f8f9fa;
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+    text-align: left;
+    font-weight: 500;
+}
+
+.word-english {
+    font-size: 1.1rem;
+    color: #2c3e50;
+    font-weight: 600;
+    text-align: left;
+    line-height: 1.4;
+}
+
+/* Kanji Cards */
+.kanji-card {
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+    border: 2px solid #e9ecef;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1rem;
+    display: inline-block;
+    vertical-align: top;
+    width: 220px;
+    min-height: 200px;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.kanji-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #2196F3, #1976D2);
+}
+
+.kanji-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    border-color: #2196F3;
+}
+
+.kanji-strokes {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background: #2196F3;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 12px;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.kanji-character {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin: 1rem 0;
+    line-height: 1;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.kanji-meaning {
+    font-size: 1.1rem;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+}
+
+.kanji-readings {
+    margin-bottom: 0.5rem;
+}
+
+.kanji-reading {
+    font-size: 0.8rem;
+    color: #666;
+    margin-bottom: 0.25rem;
+}
+
+.kanji-vocabulary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    justify-content: center;
+}
+
+.kanji-vocab-item {
+    background: #e3f2fd;
+    color: #1976d2;
+    padding: 0.2rem 0.4rem;
+    border-radius: 8px;
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+/* Grammar Cards */
+.grammar-card {
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+    border: 2px solid #e9ecef;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1rem;
+    display: inline-block;
+    vertical-align: top;
+    width: 350px;
+    min-height: 180px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.grammar-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #FF9800, #F57C00);
+}
+
+.grammar-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    border-color: #FF9800;
+}
+
+.grammar-point {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #FF9800;
+    margin-bottom: 0.75rem;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.grammar-meaning {
+    font-size: 1.1rem;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    line-height: 1.4;
+}
+
+.grammar-formation {
+    background: #fff3e0;
+    color: #e65100;
+    padding: 0.5rem;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    border-left: 3px solid #FF9800;
+}
+
+.grammar-example {
+    background: #f8f9fa;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #e9ecef;
+}
+
+.grammar-example-jp {
+    font-size: 0.9rem;
+    color: #2c3e50;
+    margin-bottom: 0.25rem;
+    font-weight: 500;
+}
+
+.grammar-example-en {
+    font-size: 0.8rem;
+    color: #666;
+    font-style: italic;
+}
+
+/* Grammar Page Styles */
+.grammar-header {
+    text-align: left;
+    margin-bottom: 1.5rem;
+    padding: 0 1rem;
+}
+
+.grammar-header h2 {
+    color: #333;
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.grammar-search {
+    max-width: 800px;
+    margin: 0 auto 2rem auto;
+    padding: 0 1rem;
+}
+
+.grammar-search .search-bar {
+    display: flex;
+    background: #fff;
+    border: 3px solid #e0e0e0;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+    min-height: 60px;
+}
+
+.grammar-search .search-bar:focus-within {
+    border-color: #4CAF50;
+    box-shadow: 0 4px 12px rgba(76, 175, 80, 0.2);
+}
+
+.grammar-search .search-bar input {
+    flex: 1;
+    border: none;
+    padding: 1.25rem 1.75rem;
+    font-size: 1.1rem;
+    outline: none;
+    background: transparent;
+    font-weight: 500;
+}
+
+.grammar-search .search-bar button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 1.25rem 1.75rem;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 600;
+}
+
+.grammar-search .search-bar button:hover {
+    background: #45a049;
+}
+
+.grammar-search .search-bar .clear-btn {
+    background: #f44336;
+}
+
+.grammar-search .search-bar .clear-btn:hover {
+    background: #d32f2f;
+}
+
+.grammar-table-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 0 1rem;
+}
+
+.grammar-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1rem;
+    table-layout: fixed;
+}
+
+.grammar-table th {
+    background: linear-gradient(135deg, #4CAF50, #45a049);
+    color: white;
+    padding: 1rem 1.25rem;
+    text-align: left;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.grammar-table th:nth-child(1) { width: 18%; } /* Grammar Point */
+.grammar-table th:nth-child(2) { width: 32%; } /* Meaning */
+.grammar-table th:nth-child(3) { width: 22%; } /* Formation */
+.grammar-table th:nth-child(4) { width: 8%; } /* Level */
+.grammar-table th:nth-child(5) { width: 20%; } /* Category */
+
+.grammar-table td {
+    padding: 1rem 1.25rem;
+    border-bottom: 1px solid #e9ecef;
+    vertical-align: top;
+    word-wrap: break-word;
+}
+
+.grammar-table tbody tr:hover {
+    background: #f8f9fa;
+}
+
+.grammar-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.grammar-point {
+    font-weight: 700;
+    color: #2c3e50;
+    font-size: 1.1rem;
+}
+
+.grammar-meaning {
+    color: #333;
+    font-weight: 500;
+}
+
+.grammar-formation {
+    background: #e8f5e8;
+    color: #2e7d32;
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.grammar-level {
+    background: #e3f2fd;
+    color: #1976d2;
+    padding: 0.4rem 0.8rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.grammar-category {
+    background: #fff3e0;
+    color: #f57c00;
+    padding: 0.4rem 0.8rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.grammar-level-badge {
+    background: #e3f2fd;
+    color: #1976d2;
+    padding: 0.4rem 0.8rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.vocab-category {
+    width: 15%;
+    color: #f57c00;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+/* Grammar table specific column widths */
+.vocab-table th:nth-child(1),
+.vocab-table td:nth-child(1) { 
+    width: 8%; 
+    text-align: left; /* Left align numbers to match header */
+} /* # */
+.vocab-table th:nth-child(2),
+.vocab-table td:nth-child(2) { width: 15%; } /* Grammar Point */
+.vocab-table th:nth-child(3),
+.vocab-table td:nth-child(3) { width: 25%; } /* Meaning */
+.vocab-table th:nth-child(4),
+.vocab-table td:nth-child(4) { width: 22%; } /* Formation */
+.vocab-table th:nth-child(5),
+.vocab-table td:nth-child(5) { 
+    width: 10%; 
+    text-align: left; /* Left align level badges to match header */
+} /* Level */
+.vocab-table th:nth-child(6),
+.vocab-table td:nth-child(6) { width: 20%; } /* Category */

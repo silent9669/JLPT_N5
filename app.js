@@ -1014,21 +1014,25 @@ class JLPTApp {
     // Grammar Database Functions
     async loadGrammarDatabase() {
         try {
-        const container = document.getElementById('grammarDatabase');
-        if (!container) return;
+            const container = document.getElementById('grammarDatabase');
+            if (!container) return;
 
             container.innerHTML = '<div class="loading-message">Loading grammar database...</div>';
             
+            console.log('Loading N5-N4 grammar database...');
             const response = await fetch('data/tests/jlpt_n5_n4_complete_grammar_database.json');
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
             
             const data = await response.json();
+            console.log('Grammar data loaded:', data);
             this.grammarData = data.grammar_points || [];
             this.filteredGrammarData = [...this.grammarData];
             
-            this.populateCategoryFilter();
+            console.log('Grammar points count:', this.grammarData.length);
+            console.log('First grammar point:', this.grammarData[0]);
+            
             this.renderGrammarTable();
         } catch (error) {
             console.error('Error loading grammar database:', error);
@@ -2151,7 +2155,7 @@ class JLPTApp {
             console.log('Loading grammar database...');
             container.innerHTML = '<div class="loading-message">Loading grammar database...</div>';
             
-            const response = await fetch('data/grammar/jlpt_n5_grammar_database.json');
+            const response = await fetch('data/tests/jlpt_n5_n4_complete_grammar_database.json');
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
@@ -2203,24 +2207,28 @@ class JLPTApp {
         }
         
         const tableHTML = `
-            <table class="grammar-table">
+            <table class="vocab-table">
                 <thead>
                     <tr>
-                        <th class="grammar-point">Grammar Point</th>
-                        <th class="grammar-meaning">Meaning</th>
-                        <th class="grammar-formation">Formation</th>
-                        <th class="grammar-level">Level</th>
+                        <th class="vocab-number">#</th>
+                        <th class="vocab-kanji">Grammar Point</th>
+                        <th class="vocab-hiragana">Meaning</th>
+                        <th class="vocab-romaji">Formation</th>
+                        <th class="vocab-english">Level</th>
+                        <th class="vocab-category">Category</th>
                     </tr>
                 </thead>
                 <tbody>
-                    ${this.filteredGrammarData.map(item => `
+                    ${this.filteredGrammarData.map((item, index) => `
                         <tr>
-                            <td class="grammar-point">${item.point}</td>
-                            <td class="grammar-meaning">${item.meaning}</td>
-                            <td class="grammar-formation">${item.formation || '-'}</td>
-                            <td class="grammar-level">
-                                <span class="grammar-level-badge ${item.level?.toLowerCase() || 'n5'}">${item.level || 'N5'}</span>
+                            <td class="vocab-number">${index + 1}</td>
+                            <td class="vocab-kanji">${item.grammar || 'N/A'}</td>
+                            <td class="vocab-hiragana">${item.meaning || 'N/A'}</td>
+                            <td class="vocab-romaji">${item.formation || 'N/A'}</td>
+                            <td class="vocab-english">
+                                <span class="grammar-level-badge ${(item.level || 'N5').toLowerCase()}">${item.level || 'N5'}</span>
                             </td>
+                            <td class="vocab-category">${(item.category || 'N/A').replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}</td>
                         </tr>
                     `).join('')}
                 </tbody>
