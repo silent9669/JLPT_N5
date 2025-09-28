@@ -118,14 +118,14 @@
 
                     <div class="tab-content">
                         <!-- Vocabulary Tab -->
-                        <div id="vocabulary-tab" class="tab-panel active">
+                        <div id="vocabulary" class="tab-panel active">
                             <div class="study-header">
                                 <h3>Vocabulary</h3>
                             <div class="study-stats">
                                 <span class="stat">Words: <span id="vocabCount">0</span></span>
                             </div>
                             </div>
-                            <div id="vocabularyList" class="word-list">
+                            <div id="dailyVocabularyList" class="word-list">
                                 <!-- Vocabulary words will be loaded here -->
                             </div>
                         </div>
@@ -144,7 +144,7 @@
                         </div>
 
                         <!-- Grammar Tab -->
-                        <div id="grammar-tab" class="tab-panel">
+                        <div id="grammar" class="tab-panel">
                             <div class="study-header">
                                 <h3>Grammar</h3>
                             <div class="study-stats">
@@ -182,19 +182,33 @@
                 <div class="grammar-header">
                     <h2>Grammar Reference</h2>
                     <div class="grammar-controls">
-                        <div class="search-bar">
-                            <input type="text" id="grammarSearch" placeholder="Search grammar points..." />
-                            <button class="search-btn" id="grammarSearchBtn">Search</button>
-                        </div>
-                        <div class="filter-controls">
-                            <select id="levelFilter">
-                                <option value="all">All Levels</option>
-                                <option value="N5">N5 Only</option>
-                                <option value="N4">N4 Only</option>
-                            </select>
-                            <select id="categoryFilter">
-                                <option value="all">All Categories</option>
-                            </select>
+                        <div class="search-container">
+                            <div class="search-bar">
+                                <input type="text" id="grammarSearch" placeholder="Search grammar points, meanings, or formations..." />
+                                <button class="search-btn" id="grammarSearchBtn">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <circle cx="11" cy="11" r="8"></circle>
+                                        <path d="m21 21-4.35-4.35"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="filter-controls">
+                                <div class="filter-group">
+                                    <label for="levelFilter">Level:</label>
+                                    <select id="levelFilter">
+                                        <option value="all">All Levels</option>
+                                        <option value="N5">N5 Only</option>
+                                        <option value="N4">N4 Only</option>
+                                    </select>
+                                </div>
+                                <div class="filter-group">
+                                    <label for="categoryFilter">Category:</label>
+                                    <select id="categoryFilter">
+                                        <option value="all">All Categories</option>
+                                    </select>
+                                </div>
+                                <button class="clear-filters-btn" id="clearFiltersBtn">Clear Filters</button>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -131,6 +131,14 @@ class JLPTApp {
             });
         }
 
+        // Clear filters button
+        const clearFiltersBtn = document.getElementById('clearFiltersBtn');
+        if (clearFiltersBtn) {
+            clearFiltersBtn.addEventListener('click', () => {
+                this.clearGrammarFilters();
+            });
+        }
+
         // Test controls
         const startTestBtn = document.getElementById('startTestBtn');
         if (startTestBtn) {
@@ -264,6 +272,7 @@ class JLPTApp {
             this.loadDayData(this.currentDay);
         } else if (sectionName === 'vocabulary') {
             // Always load vocabulary when visiting the section
+            console.log('Loading vocabulary section, vocabData length:', this.vocabData.length);
             if (this.vocabData.length === 0) {
                 this.loadVocabularyFromAPI();
             } else {
@@ -429,7 +438,7 @@ class JLPTApp {
     }
 
     renderVocabulary(vocabulary, cumulativeTotal = null) {
-        const container = document.getElementById('vocabularyList');
+        const container = document.getElementById('dailyVocabularyList');
         const countElement = document.getElementById('vocabCount');
 
         if (!container) return;
@@ -1111,6 +1120,19 @@ class JLPTApp {
         this.renderGrammarTable();
     }
 
+    clearGrammarFilters() {
+        const searchInput = document.getElementById('grammarSearch');
+        const levelFilter = document.getElementById('levelFilter');
+        const categoryFilter = document.getElementById('categoryFilter');
+        
+        if (searchInput) searchInput.value = '';
+        if (levelFilter) levelFilter.value = 'all';
+        if (categoryFilter) categoryFilter.value = 'all';
+        
+        this.filteredGrammarData = [...this.grammarData];
+        this.renderGrammarTable();
+    }
+
     // Test Functions
     async loadTestList() {
         try {
@@ -1269,6 +1291,12 @@ class JLPTApp {
     getTotalQuestions() {
         if (!this.currentTest) return 0;
         
+        // Use test_info total_questions as the primary source
+        if (this.currentTest.test_info && this.currentTest.test_info.total_questions) {
+            return this.currentTest.test_info.total_questions;
+        }
+        
+        // Fallback to calculating from sections
         let total = 0;
         if (this.currentTest.section_1_vocabulary) {
             total += this.currentTest.section_1_vocabulary.total_questions;
@@ -1276,9 +1304,7 @@ class JLPTApp {
         if (this.currentTest.section_2_grammar_reading) {
             total += this.currentTest.section_2_grammar_reading.total_questions;
         }
-        if (this.currentTest.section_3_reading) {
-            total += this.currentTest.section_3_reading.total_questions;
-        }
+        
         return total;
     }
 
@@ -1305,13 +1331,7 @@ class JLPTApp {
             questionIndex -= grammarQuestions.length;
         }
         
-        // Check reading section
-        if (this.currentTest.section_3_reading) {
-            const readingQuestions = this.getAllQuestionsFromSection(this.currentTest.section_3_reading);
-            if (questionIndex < readingQuestions.length) {
-                return readingQuestions[questionIndex];
-            }
-        }
+        
         return null;
     }
 
@@ -1331,6 +1351,7 @@ class JLPTApp {
         if (section.subsections) {
             Object.keys(section.subsections).forEach(subsectionName => {
                 const subsection = section.subsections[subsectionName];
+                // Check for direct question_types in subsection
                 if (subsection.question_types) {
                     Object.keys(subsection.question_types).forEach(questionType => {
                         if (subsection.question_types[questionType].questions) {
@@ -1338,9 +1359,49 @@ class JLPTApp {
                         }
                     });
                 }
+                // Check for nested question types (like grammar_form_selection)
+                Object.keys(subsection).forEach(key => {
+                    if (key !== 'question_types' && subsection[key] && typeof subsection[key] === 'object') {
+                        if (subsection[key].questions) {
+                            questions.push(...subsection[key].questions);
+                        }
+                        // Handle reading passages (nested structure)
+                        if (subsection[key].passages) {
+                            subsection[key].passages.forEach(passage => {
+                                // Handle single question per passage (short_reading)
+                                if (passage.question) {
+                                    questions.push({
+                                        id: passage.id,
+                                        type: 'reading',
+                                        question: passage.question,
+                                        options: passage.options,
+                                        correct_answer: passage.correct_answer,
+                                        explanation: passage.explanation,
+                                        passage: passage.passage
+                                    });
+                                }
+                                // Handle multiple questions per passage (medium_reading, info_reading)
+                                if (passage.questions) {
+                                    passage.questions.forEach((question, index) => {
+                                        questions.push({
+                                            id: `${passage.id}_q${index + 1}`,
+                                            type: 'reading',
+                                            question: question.question,
+                                            options: question.options,
+                                            correct_answer: question.correct_answer,
+                                            explanation: question.explanation,
+                                            passage: passage.passage
+                                        });
+                                    });
+                                }
+                            });
+                        }
+                    }
+                });
             });
         }
         
+        console.log(`Section: ${section.title || 'Unknown'}, Questions found: ${questions.length}`);
         return questions;
     }
 
@@ -1399,13 +1460,6 @@ class JLPTApp {
             questionIndex -= grammarQuestions.length;
         }
         
-        // Check reading section
-        if (this.currentTest.section_3_reading) {
-            const readingQuestions = this.getAllQuestionsFromSection(this.currentTest.section_3_reading);
-            if (questionIndex < readingQuestions.length) {
-                return readingQuestions[questionIndex];
-            }
-        }
         
         return null;
     }
@@ -1514,6 +1568,414 @@ class JLPTApp {
     backToResults() {
         document.getElementById('testReview').style.display = 'none';
         document.getElementById('testResults').style.display = 'block';
+    }
+
+    // Grammar Database Functions
+    async loadGrammarDatabase() {
+        try {
+            const container = document.getElementById('grammarDatabase');
+            if (!container) return;
+
+            container.innerHTML = '<div class="loading-message">Loading grammar database...</div>';
+            
+            const response = await fetch('data/tests/jlpt_n5_n4_complete_grammar_database.json');
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            
+            const data = await response.json();
+            this.grammarData = data.grammar_points || [];
+            this.filteredGrammarData = [...this.grammarData];
+            
+            this.populateCategoryFilter();
+            this.renderGrammarTable();
+        } catch (error) {
+            console.error('Error loading grammar database:', error);
+            const container = document.getElementById('grammarDatabase');
+            if (container) {
+                container.innerHTML = `
+                    <div class="loading-message">
+                        <p>Unable to load grammar data. Please try again.</p>
+                        <button class="btn primary" onclick="window.jlptApp.loadGrammarDatabase()">Retry</button>
+                    </div>
+                `;
+            }
+        }
+    }
+
+    populateCategoryFilter() {
+        const categoryFilter = document.getElementById('categoryFilter');
+        if (!categoryFilter) return;
+
+        const categories = [...new Set(this.grammarData.map(item => item.category))].sort();
+        categories.forEach(category => {
+            const option = document.createElement('option');
+            option.value = category;
+            option.textContent = category.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+            categoryFilter.appendChild(option);
+        });
+    }
+
+    renderGrammarTable() {
+        const container = document.getElementById('grammarDatabase');
+        if (!container) return;
+        if (this.filteredGrammarData.length === 0) {
+            container.innerHTML = '<div class="loading-message"><p>No grammar points found.</p></div>';
+            return;
+        }
+
+        const tableHTML = `
+            <table class="grammar-table">
+                <thead>
+                    <tr>
+                        <th>Grammar Point</th>
+                        <th>Meaning</th>
+                        <th>Formation</th>
+                        <th>Level</th>
+                        <th>Category</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    ${this.filteredGrammarData.map(item => `
+                        <tr>
+                            <td>
+                                <div class="grammar-point">${item.grammar}</div>
+                            </td>
+                            <td>
+                                <div class="grammar-meaning">${item.meaning}</div>
+                            </td>
+                            <td>
+                                <div class="grammar-formation">${item.formation}</div>
+                            </td>
+                            <td>
+                                <span class="grammar-level ${item.level.toLowerCase()}">${item.level}</span>
+                            </td>
+                            <td>${item.category.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}</td>
+                        </tr>
+                    `).join('')}
+                </tbody>
+            </table>
+        `;
+
+        container.innerHTML = tableHTML;
+    }
+
+    searchGrammar() {
+        const searchInput = document.getElementById('grammarSearch');
+        const levelFilter = document.getElementById('levelFilter');
+        const categoryFilter = document.getElementById('categoryFilter');
+        
+        if (!searchInput) return;
+
+        const searchTerm = searchInput.value.toLowerCase().trim();
+        const selectedLevel = levelFilter ? levelFilter.value : 'all';
+        const selectedCategory = categoryFilter ? categoryFilter.value : 'all';
+        
+        this.filteredGrammarData = this.grammarData.filter(item => {
+            const matchesSearch = !searchTerm || 
+                item.grammar.toLowerCase().includes(searchTerm) ||
+                item.meaning.toLowerCase().includes(searchTerm) ||
+                item.formation.toLowerCase().includes(searchTerm);
+            
+            const matchesLevel = selectedLevel === 'all' || item.level === selectedLevel;
+            const matchesCategory = selectedCategory === 'all' || item.category === selectedCategory;
+            
+            return matchesSearch && matchesLevel && matchesCategory;
+        });
+        
+        this.renderGrammarTable();
+    }
+
+    clearGrammarFilters() {
+        const searchInput = document.getElementById('grammarSearch');
+        const levelFilter = document.getElementById('levelFilter');
+        const categoryFilter = document.getElementById('categoryFilter');
+        
+        if (searchInput) searchInput.value = '';
+        if (levelFilter) levelFilter.value = 'all';
+        if (categoryFilter) categoryFilter.value = 'all';
+        
+        this.filteredGrammarData = [...this.grammarData];
+        this.renderGrammarTable();
+    }
+
+    // Vocabulary Functions
+    async loadVocabularyFromAPI() {
+        try {
+            const container = document.getElementById('vocabularyDatabase');
+            if (!container) {
+                console.error('Vocabulary container not found');
+                return;
+            }
+
+            container.innerHTML = '<div class="loading-message">Loading N5 vocabulary list...</div>';
+            
+            // Load from local JSON file for faster loading
+            const response = await fetch('data/vocabulary/n5_vocabulary.json');
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            
+            const data = await response.json();
+            this.vocabData = data.vocabulary || [];
+            this.filteredVocabData = [...this.vocabData];
+            
+            this.updateVocabStats();
+            this.renderVocabularyTable();
+        } catch (error) {
+            console.error('Error loading vocabulary:', error);
+            const container = document.getElementById('vocabularyDatabase');
+            if (container) {
+                container.innerHTML = `
+                    <div class="loading-message">
+                        <p>Unable to load vocabulary data. Please try again.</p>
+                        <button class="btn primary" onclick="window.jlptApp.loadVocabularyFromAPI()">Retry</button>
+                    </div>
+                `;
+            }
+        }
+    }
+
+    searchVocabulary() {
+        const searchInput = document.getElementById('vocabSearch');
+        if (!searchInput) return;
+
+        const searchTerm = searchInput.value.toLowerCase().trim();
+        
+        if (!searchTerm) {
+            this.filteredVocabData = [...this.vocabData];
+        } else {
+            this.filteredVocabData = this.vocabData.filter(word => {
+                // Search by word number
+                if (word.number && word.number.toString().includes(searchTerm)) {
+                    return true;
+                }
+                // Search by romaji
+                if (word.romaji && word.romaji.toLowerCase().includes(searchTerm)) {
+                    return true;
+                }
+                // Search by other fields as well
+                if (word.kanji && word.kanji.toLowerCase().includes(searchTerm)) {
+                    return true;
+                }
+                if (word.hiragana && word.hiragana.toLowerCase().includes(searchTerm)) {
+                    return true;
+                }
+                if (word.english && word.english.toLowerCase().includes(searchTerm)) {
+                    return true;
+                }
+                return false;
+            });
+        }
+        
+        this.updateVocabStats();
+        this.renderVocabularyTable();
+    }
+
+    updateVocabStats() {
+        const totalCount = document.getElementById('totalVocabCount');
+        const filteredCount = document.getElementById('filteredVocabCount');
+        
+        if (totalCount) {
+            totalCount.textContent = this.vocabData.length;
+        }
+        if (filteredCount) {
+            filteredCount.textContent = this.filteredVocabData.length;
+        }
+    }
+
+    renderVocabularyTable() {
+        // Try multiple containers
+        let container = document.getElementById('vocabularyDatabase');
+        if (!container) {
+            container = document.getElementById('vocabularyList');
+        }
+        if (!container) {
+            container = document.getElementById('vocabulary-tab');
+        }
+        
+        if (!container) {
+            console.error('Vocabulary container not found!');
+            return;
+        }
+        
+        if (this.filteredVocabData.length === 0) {
+            container.innerHTML = '<div class="loading-message">No vocabulary found matching your search criteria.</div>';
+            return;
+        }
+        
+        // Create clean table with all words (unlimited scrolling)
+        const tableHTML = `
+            <table class="vocab-table">
+                <thead>
+                    <tr>
+                        <th class="vocab-number">#</th>
+                        <th class="vocab-kanji">Kanji</th>
+                        <th class="vocab-hiragana">Hiragana</th>
+                        <th class="vocab-romaji">Romaji</th>
+                        <th class="vocab-english">English</th>
+                        <th class="vocab-level">Level</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    ${this.filteredVocabData.map(word => `
+                        <tr>
+                            <td class="vocab-number">${word.number}</td>
+                            <td class="vocab-kanji">${word.kanji || '-'}</td>
+                            <td class="vocab-hiragana">${word.hiragana || '-'}</td>
+                            <td class="vocab-romaji">${word.romaji || '-'}</td>
+                            <td class="vocab-english">${word.english || '-'}</td>
+                            <td class="vocab-level">
+                                <span class="vocab-level-badge">${word.level || 'N5'}</span>
+                            </td>
+                        </tr>
+                    `).join('')}
+                </tbody>
+            </table>
+        `;
+        
+        container.innerHTML = tableHTML;
+    }
+
+    // Vocabulary Functions
+    async loadVocabularyFromAPI() {
+        try {
+            const container = document.getElementById('vocabularyDatabase');
+            if (!container) {
+                console.error('Vocabulary container not found');
+                return;
+            }
+
+            console.log('Loading vocabulary data...');
+            container.innerHTML = '<div class="loading-message">Loading N5 vocabulary list...</div>';
+            
+            // Load from local JSON file for faster loading
+            const response = await fetch('data/vocabulary/n5_vocabulary.json');
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            
+            const data = await response.json();
+            console.log('Vocabulary data loaded:', data);
+            this.vocabData = data.vocabulary || [];
+            this.filteredVocabData = [...this.vocabData];
+            
+            console.log('Vocabulary count:', this.vocabData.length);
+            this.updateVocabStats();
+            this.renderVocabularyTable();
+        } catch (error) {
+            console.error('Error loading vocabulary:', error);
+            const container = document.getElementById('vocabularyDatabase');
+            if (container) {
+                container.innerHTML = `
+                    <div class="loading-message">
+                        <p>Unable to load vocabulary data. Please try again.</p>
+                        <button class="btn primary" onclick="window.jlptApp.loadVocabularyFromAPI()">Retry</button>
+                    </div>
+                `;
+            }
+        }
+    }
+
+    searchVocabulary() {
+        const searchInput = document.getElementById('vocabSearch');
+        if (!searchInput) return;
+
+        const searchTerm = searchInput.value.toLowerCase().trim();
+        
+        if (!searchTerm) {
+            this.filteredVocabData = [...this.vocabData];
+        } else {
+            this.filteredVocabData = this.vocabData.filter(word => {
+                // Search by word number
+                if (word.number && word.number.toString().includes(searchTerm)) {
+                    return true;
+                }
+                // Search by romaji
+                if (word.romaji && word.romaji.toLowerCase().includes(searchTerm)) {
+                    return true;
+                }
+                // Search by other fields as well
+                if (word.kanji && word.kanji.toLowerCase().includes(searchTerm)) {
+                    return true;
+                }
+                if (word.hiragana && word.hiragana.toLowerCase().includes(searchTerm)) {
+                    return true;
+                }
+                if (word.english && word.english.toLowerCase().includes(searchTerm)) {
+                    return true;
+                }
+                return false;
+            });
+        }
+        
+        this.updateVocabStats();
+        this.renderVocabularyTable();
+    }
+
+    updateVocabStats() {
+        const totalCount = document.getElementById('totalVocabCount');
+        const filteredCount = document.getElementById('filteredVocabCount');
+        
+        if (totalCount) {
+            totalCount.textContent = this.vocabData.length;
+        }
+        if (filteredCount) {
+            filteredCount.textContent = this.filteredVocabData.length;
+        }
+    }
+
+    renderVocabularyTable() {
+        // Try multiple containers
+        let container = document.getElementById('vocabularyDatabase');
+        if (!container) {
+            container = document.getElementById('vocabularyList');
+        }
+        if (!container) {
+            container = document.getElementById('vocabulary-tab');
+        }
+        
+        if (!container) {
+            console.error('Vocabulary container not found!');
+            return;
+        }
+        
+        if (this.filteredVocabData.length === 0) {
+            container.innerHTML = '<div class="loading-message">No vocabulary found matching your search criteria.</div>';
+            return;
+        }
+        
+        // Create clean table with all words (unlimited scrolling)
+        const tableHTML = `
+            <table class="vocab-table">
+                <thead>
+                    <tr>
+                        <th class="vocab-number">#</th>
+                        <th class="vocab-kanji">Kanji</th>
+                        <th class="vocab-hiragana">Hiragana</th>
+                        <th class="vocab-romaji">Romaji</th>
+                        <th class="vocab-english">English</th>
+                        <th class="vocab-level">Level</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    ${this.filteredVocabData.map(word => `
+                        <tr>
+                            <td class="vocab-number">${word.number}</td>
+                            <td class="vocab-kanji">${word.kanji || '-'}</td>
+                            <td class="vocab-hiragana">${word.hiragana || '-'}</td>
+                            <td class="vocab-romaji">${word.romaji || '-'}</td>
+                            <td class="vocab-english">${word.english || '-'}</td>
+                            <td class="vocab-level">
+                                <span class="vocab-level-badge">${word.level || 'N5'}</span>
+                            </td>
+                        </tr>
+                    `).join('')}
+                </tbody>
+            </table>
+        `;
+        
+        container.innerHTML = tableHTML;
     }
 }
 
